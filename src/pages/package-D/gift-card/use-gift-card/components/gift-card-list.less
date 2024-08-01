@@ -1,0 +1,153 @@
+.use-gift-card {
+  .gift-card-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 216px;
+    bottom: 112px;
+    right: 0;
+    left: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    .card-list-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      margin-bottom: 24px;
+      .top-label {
+        margin: 24px 0 2px 42px;
+        font-size: 24px;
+        color: #333333;
+        line-height: 24px;
+      }
+      .gift-card-wrap-line {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        margin: 24px 24px 0 24px;
+        .gift-card-wrap {
+          display: flex;
+          flex-direction: column;
+          // width: 646px;
+          flex: 1;
+          padding-right: 24px;
+          .gift-card {
+            position: relative;
+            display: flex;
+            height: 344px;
+            background-size: 100% 100%;
+            border-radius: 24px;
+            .card-title {
+              font-size: 30px;
+              font-weight: 500;
+              color: #fff;
+              line-height: 42px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+            .card-value {
+              margin-top: 16px;
+              font-size: 24px;
+              color: rgba(255, 255, 255, 0.8);
+              line-height: 24px;
+            }
+            .card-balance {
+              margin-top: 24px;
+              display: flex;
+              flex-direction: row;
+              align-items: flex-end;
+              .balance-symbol {
+                margin-left: -4px;
+                font-size: 40px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 40px;
+                width: 36px;
+              }
+              .balance-num {
+                margin-right: 12px;
+                font-size: 40px;
+                font-weight: 500;
+                color: #fff;
+                line-height: 40px;
+              }
+              .balance-text {
+                font-size: 24px;
+                color: rgba(255, 255, 255, 0.8);
+                line-height: 24px;
+                margin-bottom: 4px;
+              }
+            }
+            .card-goods {
+              margin-top: 14px;
+              font-size: 24px;
+              color: rgba(255, 255, 255, 0.8);
+              line-height: 24px;
+            }
+            .card-bottom {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              .bottom-text {
+                font-size: 24px;
+                color: rgba(255, 255, 255, 0.8);
+                line-height: 24px;
+              }
+            }
+            .card-texture {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              background-size: 100% 100%;
+              padding: 32px;
+              border-radius: 24px;
+            }
+          }
+          .gift-card-tail {
+            background-color: #fff;
+            border-radius: 0 0 24px 24px;
+            padding: 24px 30px 0 30px;
+            margin-top: -24px;
+            height: 96px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .view-goods {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+            }
+            .tail-text {
+              font-size: 22px;
+              color: #333;
+              margin-right: 4px;
+            }
+            .tail-icon {
+              width: 24px;
+              height: 24px;
+              background-size: 100% 100%;
+            }
+          }
+        }
+        .gift-card-check-view {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    .card-invalid {
+      .gift-card-wrap-line {
+        flex-direction: column;
+        margin: 24px 40px 0 40px;
+        .gift-card-wrap {
+          padding-right: 0;
+          width: unset;
+        }
+      }
+    }
+  }
+}

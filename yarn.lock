@@ -14416,10 +14416,10 @@ taro-code@^3.3.0:
   dependencies:
     react-test-renderer "^17.0.2"
 
-taro-ui@3.0.0-alpha.3:
-  version "3.0.0-alpha.3"
-  resolved "https://registry.npmmirror.com/taro-ui/-/taro-ui-3.0.0-alpha.3.tgz#7ce26d71a47f7fbeed4aca6237696284787d3023"
-  integrity sha512-qLVP2/6zh01CbZFZUj2QuhbwtnOd7l1PSzd1Rjl1be1vyq819rFeHA1lApxYLXiw1zpM5v/Ywp7euB88LpQagg==
+taro-ui@3.0.0-alpha.4:
+  version "3.0.0-alpha.4"
+  resolved "https://registry.npmjs.org/taro-ui/-/taro-ui-3.0.0-alpha.4.tgz#80b9d6ca04179dafa0f5ad5a606ebe3a1f2a5554"
+  integrity sha512-Pb0okNKYlPeFMKyj2BTasHOiydSK3y8mHWQobnEv5h5AHPSFMUz1xPIJS/uhLXq4cGl8yv0obg4kVK8Ak+Xn9w==
   dependencies:
     classnames "^2.2.6"
     dayjs "^1.7.7"

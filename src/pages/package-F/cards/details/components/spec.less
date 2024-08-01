@@ -1,0 +1,121 @@
+.brandsDetails {
+    .spec {
+        margin-top: 24px;
+        background-color: #fff;
+        height: 96px;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+
+        .wrap {
+            justify-content: flex-start;
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            flex: 1;
+
+            .specName {
+                font-size: 28px;
+                color: rgba(0, 0, 0, 0.8);
+                font-weight: 500;
+            }
+
+            .available {
+                color: var(--themeColor);
+                background-color: var(--themeAlpha06);
+                font-size: 24px;
+                transform: scale(0.83);
+                transform-origin: center center;
+                display: flex;
+                padding: 4px;
+                border-radius: 4px;
+            }
+        }
+
+        .spu {
+            color: #333;
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        .goods {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .item {
+                margin: 24px 0 0 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 68px;
+                border-radius: 34px;
+                padding: 0 40px;
+                border: 1px solid #EBEBEB;
+                background-color: #fff;
+
+                &:first-child {
+                    margin-left: 0 !important;
+                }
+
+                .text {
+                    color: #333;
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+            }
+
+            .item2 {
+                height: unset;
+                border-radius: 16px;
+                padding: 40px 0;
+                width: calc((100vw - 96px - 40px) / 3);
+
+                .sku {
+                    font-size: 24px;
+                    color: #333;
+                    margin-top: 16px;
+                }
+
+                &:nth-child(3n+1) {
+                    margin-left: 0 !important;
+                }
+            }
+
+            .active {
+                border: 1px solid var(--themeColor);
+                background-color: var(--themeAlpha06);
+
+                .text {
+                    color: var(--themeColor);
+                }
+
+                .sku {
+                    color: var(--themeColor);
+
+                }
+            }
+        }
+
+        .more {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .top {
+        margin-top: 170px;
+    }
+
+    .clean {
+        flex-direction: column;
+        align-items: flex-start;
+        height: unset;
+        padding: 24px 24px;
+        margin-left: 24px;
+        border-radius: 16px;
+        margin-right: 24px;
+    }
+}

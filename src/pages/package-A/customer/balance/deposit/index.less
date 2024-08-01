@@ -1,0 +1,83 @@
+.packageACustomerBalanceDeposit {
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 24px;
+
+  .deposit {
+    &-con {
+      background: rgba(255, 255, 255, 1);
+      border-radius: 16px;
+    }
+
+    &-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 336px;
+
+      .icon {
+        height: 128px;
+        width: 128px;
+        border-radius: 8px;
+      }
+
+      .title {
+        padding-top: 24px;
+        font-size: 24px;
+      }
+    }
+
+    &-content {
+      display: flex;
+      padding: 0 32px;
+
+      .item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 108px;
+        border-bottom: 1px solid rgba(230, 230, 230, 0.8);
+
+        .input {
+          margin-left: 20px;
+          font-size: 28px;
+          text-align: left;
+          width: 100%;
+        }
+
+        .title {
+          width: 200px;
+          font-size: 28px;
+          font-weight: 500;
+        }
+
+        .check-all {
+          width: 200px;
+          font-size: 28px;
+          color: #ff6600;
+          font-weight: 600;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .commite-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 72px;
+    margin-top: 48px;
+    margin-bottom: 64px;
+    background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 36px;
+
+    .text {
+      color: #fff;
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+}

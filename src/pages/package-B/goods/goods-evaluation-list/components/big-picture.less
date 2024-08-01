@@ -1,0 +1,214 @@
+.bigPicture {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #000;
+  justify-content: space-between;
+
+  .up {
+    position: absolute;
+    top: 0;
+    top: env(safe-area-inset-top);
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // padding: 112px 32px 0;
+    padding: 30px 32px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+
+    .arrow {
+      position: absolute;
+      left: 32px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .title {
+      font-size: 24px;
+      color: #fff;
+      line-height: 36px;
+
+      .num {
+        font-size: 36px;
+        color: #fff;
+      }
+    }
+  }
+
+  .swiper-box {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    // top: 50%;
+    // margin-top: -160px;
+    div {
+      flex-direction: unset;
+    }
+
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        object-fit: contain;
+      }
+      width: 100%;
+      height: 100%;
+    }
+  }
+  // 评价
+  .eval-details {
+    position: absolute;
+    bottom: 0;
+    bottom: env(safe-area-inset-bottom);
+    left: 0;
+    width: 100%;
+    z-index: 400;
+    padding: 0 24px 32px;
+    // height: 80px;
+    justify-content: flex-end;
+    background: linear-gradient(360deg, #000000 50%, rgba(0, 0, 0, 0) 100%);
+
+    .open {
+      flex-direction: row;
+      align-items: center;
+
+      .text {
+        flex: 1;
+        color: rgba(255, 255, 255, 1);
+        line-height: 32px;
+        font-size: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-right: 24px;
+      }
+
+      .r-btn {
+        flex-direction: row;
+        align-items: center;
+
+        .open-text {
+          font-size: 24px;
+          color: #fff;
+        }
+
+        .up-arrow {
+          width: 24px;
+          height: 24px;
+          margin-left: 8px;
+        }
+      }
+    }
+    // 收起
+    .down {
+      // background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      .star {
+        margin-top: 48px;
+        flex-direction: row;
+        align-items: center;
+
+        .star-box {
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: -10px;
+
+          .star-click-area {
+            // width: 36px;
+            width: 20px !important;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px !important;
+            // border: 1px solid red;
+            .star-img {
+              width: 20px;
+              height: 20px;
+              // border: 1px solid red;
+            }
+
+            .star-img:first-child {
+              margin-left: 0 !important;
+            }
+
+            .star-img :last-child {
+              margin-right: 0 !important;
+            }
+          }
+        }
+
+        .mess {
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.6);
+          margin-left: 16px;
+        }
+      }
+
+      .content {
+        color: rgba(255, 255, 255, 1);
+        line-height: 32px;
+        font-size: 24px;
+        word-break: break-all;
+        max-height: 200px;
+        overflow: auto;
+        // display: -webkit-box;
+        // -webkit-box-orient: vertical;
+        // -webkit-line-clamp: 2;
+        // word-break: break-all;
+        // overflow: hidden;
+        margin-top: 24px;
+      }
+
+      .bottom-btn {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 28px;
+        justify-content: space-between;
+
+        .l-btn {
+          flex-direction: row;
+          align-items: center;
+
+          .num {
+            font-size: 20px;
+            color: #fff;
+            margin-left: 8px;
+          }
+
+          .zan {
+            width: 32px;
+            height: 32px;
+            margin-left: 8px;
+          }
+        }
+
+        .r-btn {
+          flex-direction: row;
+          align-items: center;
+
+          .open-text {
+            font-size: 24px;
+            color: #fff;
+          }
+
+          .down-arrow {
+            width: 24px;
+            height: 24px;
+            margin-left: 8px;
+            transform: rotateX(180deg);
+          }
+        }
+      }
+    }
+  }
+}

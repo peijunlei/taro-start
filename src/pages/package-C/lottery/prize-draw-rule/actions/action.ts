@@ -1,0 +1,24 @@
+import {Command} from '../constant';
+import {Dispatch} from 'typings';
+import {IAllReducerProps} from '../types';
+import {getReducerData} from '@/redux/store';
+import {extraPathsValue} from '@/redux/util';
+
+export default (dispatch: Dispatch) => {
+  return {
+    commonChange(...param: any) {
+      dispatch({
+        type: Command.commonChange,
+        payload: extraPathsValue(...arguments),
+      });
+    },
+  };
+};
+
+function getData(): IAllReducerProps {
+  return {
+    main: getReducerData('packageAPrizeRuleMain'),
+  };
+}
+
+//create by moon https://github.com/creasy2010/moon

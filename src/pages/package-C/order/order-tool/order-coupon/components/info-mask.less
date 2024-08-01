@@ -1,0 +1,52 @@
+.info-mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+
+  &-close {
+    margin-top: 20px;
+
+    &-img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+
+  &-content {
+    display: flex;
+
+    &-text {
+      font-size: 28px;
+      line-height: 50px;
+    }
+  }
+
+  &-con {
+    position: relative;
+    width: 640px;
+    height: 812px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-text {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 24px 0 36px;
+    }
+  }
+}

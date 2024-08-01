@@ -1,0 +1,267 @@
+.bigSpuList {
+  background: #f5f5f5;
+  flex: 1;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 24px 24px 0 24px;
+
+  .big-spu-item {
+    margin-bottom: 28px;
+    width: 340px;
+    overflow: hidden;
+    //商品图片
+    .img-box {
+      position: relative;
+      background-color: #fff;
+      overflow: hidden;
+      border-radius: 16px 16px 0 0;
+
+      .big-goods-img {
+        width: 340px;
+        height: 340px;
+      }
+
+      .preBuy {
+        position: absolute;
+        bottom: 0;
+        width: 340px;
+        height: 48px;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        line-height: 48px;
+        background: linear-gradient(90deg, #ff8400 0%, #ff4d00 100%);
+        display: inline;
+        // border-radius: 0 0 16px 16px;
+      }
+
+      .big-not-goods {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 340px;
+        height: 340px;
+        background: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+        // border-radius: 16px;
+        .big-not-goods-text {
+          width: 104px;
+          height: 104px;
+          background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(179, 179, 179, 0.4) 100%);
+          border-radius: 100%;
+          font-size: 28px;
+          color: #fff;
+          position: absolute;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    //图片下面的内容
+    .big-spu-content {
+      background: #fff;
+      padding: 20px;
+      justify-content: space-between;
+      min-height: 292px;
+      border-radius: 0 0 16px 16px;
+      //上半部分内容
+      .big-up-content {
+        //商品标题
+        .big-goods-title {
+          position: relative;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 12px;
+
+          .marketing {
+            position: static;
+            left: 0;
+            top: 0;
+            width: 56px;
+            height: 28px;
+            background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+            border-radius: 4px;
+            line-height: 28px;
+            text-align: center;
+
+            .market-text {
+              font-size: 24px;
+              font-weight: 500;
+              color: #fff;
+              transform: scale(0.83);
+              position: relative;
+              top: 1px;
+            }
+
+            .wm-label .text {
+              white-space: nowrap;
+            }
+          }
+          //商品标题
+          .title-view {
+            // margin-bottom: 12px;
+            flex: 1;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            // text-indent: 10px;
+            .words {
+              font-size: 24px;
+              line-height: 32px;
+              color: #333;
+              /*! autoprefixer: ignore next */
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 1;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              word-break: break-all;
+
+              .text {
+                font-size: 22px;
+                color: transparent;
+
+                width: 24px;
+              }
+            }
+          }
+        }
+        //商品规格
+        .big-goods-spec {
+          margin-bottom: 16px;
+          flex: 1;
+
+          .spec-text {
+            font-size: 20px;
+            color: #999;
+            // transform: scale(0.83);
+            // transform-origin: left;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            // width: 340px;
+            height: 30px;
+            line-height: normal;
+          }
+        }
+        //促销活动
+        .big-goods-active {
+          flex-direction: row;
+          align-items: center;
+
+          .active-item {
+            height: 28px;
+            border-radius: 4px;
+            border: 2px solid #ff6600;
+            padding: 0 8px;
+            white-space: nowrap;
+            margin-left: 0;
+            margin-right: 8px;
+
+            .active-text {
+              font-size: 24px;
+              color: #ff6600;
+              transform: scale(0.83);
+            }
+          }
+        }
+      }
+      //下半部分内容
+      .big-down-content {
+        //销量 评论数 好评率
+        .goods-price-box {
+          position: relative;
+          flex-direction: row;
+          align-items: center;
+          margin-top: 16px;
+          white-space: nowrap;
+          // 自营
+          .marketing {
+            margin-left: 10px;
+            width: 76px;
+            height: 28px;
+            background: #ff3333;
+            border-radius: 4px;
+            align-items: center;
+            justify-content: center;
+
+            .market-text {
+              font-size: 24px;
+              color: #fff;
+              transform: scale(0.83);
+            }
+          }
+        }
+
+        .big-goods-statics {
+          flex-direction: row;
+          align-items: center;
+          margin-top: 16px;
+
+          .texts {
+            font-size: 24px;
+            color: #999;
+            transform: scale(0.83);
+            transform-origin: left;
+            white-space: nowrap;
+          }
+        }
+        //步进器
+        .cart-count {
+          // margin-top: 20px;
+          align-items: flex-end;
+          justify-content: flex-end;
+
+          .goods-add-cart {
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+          }
+        }
+        //发圈素材 分享赚
+        .big-right-tools {
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          margin-top: 20px;
+
+          .mater-btn {
+            background: rgba(255, 102, 0, 0.06);
+            border-radius: 24px;
+            padding: 10px 16px;
+            align-items: center;
+
+            .mater-text {
+              font-size: 24px;
+              font-weight: 500;
+              color: #ff6600;
+              transform: scale(0.83);
+            }
+          }
+
+          .share-btn {
+            background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+            border-radius: 20px;
+            padding: 10px 14px;
+            align-items: center;
+            margin-left: 8px;
+
+            .share-text {
+              font-size: 24px;
+              color: #fff;
+              transform: scale(0.83);
+              white-space: nowrap;
+              // width: 124px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+    }
+  }
+}

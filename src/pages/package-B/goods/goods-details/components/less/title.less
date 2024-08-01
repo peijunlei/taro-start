@@ -1,0 +1,78 @@
+//标题 副标题
+.title-box {
+  flex-shrink: 0;
+  .marketing {
+    display: inline-block;
+    height: 28px;
+    width: 56px;
+    background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 4px;
+    margin-right: 3pt;
+    text-align: center;
+
+    .market-text {
+      display: block;
+      white-space: nowrap;
+      height: 24px;
+      width: 52px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #fff;
+      transform: scale(0.83);
+      margin-top: 2px;
+    }
+  }
+  // margin-top: 16px;
+  .title {
+    font-size: 32px;
+    color: #333;
+    line-height: 48px;
+    display: -webkit-box;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    // -webkit-line-clamp: 2;
+    /*! autoprefixer: on */
+    word-break: break-all;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  .sub-title {
+    font-size: 28px;
+    color: #999;
+    line-height: 44px;
+    margin-top: 8px;
+    display: -webkit-box;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /*! autoprefixer: on */
+    word-break: break-all;
+    overflow: hidden;
+  }
+
+  .pre-sale {
+    padding: 36px 48px;
+    background-image: url('../../img/pre-sale-bg.png');
+    background-position: center;
+    background-size: 100%;
+    flex-direction: row;
+    align-items: center;
+
+    .text {
+      color: #333;
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    .time {
+      height: 36px;
+      background: #fff0e7;
+      border-radius: 8px;
+      border: 1px solid #ffffff;
+      color: #333;
+      font-size: 24px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.combination-item {
+  padding: 32px 24px;
+  background-color: #ffffff;
+  margin-bottom: 24px;
+
+  .cb-main {
+    flex-direction: row;
+    align-items: center;
+
+    .cb-block {
+      flex-direction: row;
+      flex: 1;
+      width: 1px;
+
+      .cb-img {
+        width: 144px;
+        height: 144px;
+        border-radius: 6px;
+        margin-right: 24px;
+      }
+
+      .cb-info {
+        flex: 1;
+        justify-content: space-between;
+
+        .cb-info-name {
+          font-weight: 500;
+          font-size: 24px;
+          margin-bottom: 16px;
+          line-height: 32px;
+          .text-overflow(2);
+        }
+
+        .priceTwo {
+          .bottom-price {
+            font-size: 20px;
+            columns: #808080;
+            margin-top: 8px;
+
+            .yellow {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .arrow {
+      width: 48px;
+      height: 48px;
+      margin-left: 24px;
+    }
+  }
+
+  .close-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .main-img {
+      width: 144px;
+      height: 144px;
+      border-radius: 8px;
+      margin-top: 32px;
+    }
+
+    .plus-img {
+      width: 24px;
+      height: 24px;
+      margin: 0 8px;
+      margin-top: 32px;
+    }
+  }
+
+  .open-list {
+    .cb-main {
+      margin-top: 32px;
+
+      .cb-info-spec {
+        color: #999999;
+        font-size: 20px;
+      }
+
+      .cb-info-num {
+        color: #999999;
+        font-size: 20px;
+        // align-items: flex-end;
+        text-align: right;
+        margin-top: 20px;
+      }
+    }
+
+    .bug-btn {
+      width: 100%;
+      height: 72px;
+      margin-top: 32px;
+      background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 36px;
+      font-size: 28px;
+      color: #ffffff;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

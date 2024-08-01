@@ -1,0 +1,113 @@
+.brandsDetails {
+    .mask {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 10000000000;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+
+        .maskbody {
+            transition: all ease .3s;
+            position: relative;
+            background-color: #fff;
+            width: 100%;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            padding: 100px 0 60px 0;
+            padding-bottom: calc(60px + env(safe-area-inset-bottom));
+
+            .close {
+                position: absolute;
+                right: 24px;
+                top: 20px;
+            }
+
+            .name {
+                margin-left: 24px;
+                font-size: 28px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.8);
+            }
+
+            .list {
+                margin: 0 24px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .disable {
+                        background-color: #ebebeb !important;
+                        border-color: #ebebeb !important;
+                
+                        .item {
+                            color: #999 !important;
+                        }
+                    }
+                .itemWrap {
+                    margin-top: 16px;
+                    margin-right: 16px;
+                    height: 56px;
+                    min-width: 120px;
+                    border-radius: 28px;
+                    background-color: #F5F5F5;
+                    border: 1px solid #F5F5F5;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .item {
+                        font-size: 24px;
+                        font-weight: 500;
+                        color: rgba(0, 0, 0, 0.8);
+                    }
+                }
+
+                .active {
+                    background-color: var(--themeAlpha06);
+                    border-color: var(--themeColor);
+
+                    .item {
+                        color: var(--themeColor);
+                    }
+                }
+            }
+
+            .buywrap {
+                margin: 60px 24px 0 24px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                .buylabel {
+                    font-size: 28px;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.8);
+                }
+            }
+
+            .footerx {
+                border-top: 1px solid #EBEBEB;
+                margin-top: 52px;
+                padding: 20px 24px 30px 24px;
+
+                .btn {
+                    background: linear-gradient(270deg, var(--linearTo), var(--linearFrom));
+                    display: flex;
+                    height: 72px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 28px;
+                    color: #fff;
+                    font-weight: 500;
+                    border-radius: 36px;
+                }
+            }
+        }
+    }
+}

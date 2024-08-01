@@ -1,0 +1,31 @@
+.use-gift-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: hidden;
+  .card-exchange {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+    .exchange-button {
+      display: flex;
+      height: 72px;
+      margin: 20px 24px;
+      background: linear-gradient(90deg, var(--linearFrom) 0%, var(--linearTo) 100%);
+      border-radius: 36px;
+      justify-content: center;
+      align-items: center;
+      .exchange-text {
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 28px;
+      }
+    }
+  }
+}

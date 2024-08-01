@@ -1,0 +1,46 @@
+.gift_card_tool {
+  width: 100%;
+  &_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 24px;
+    background: #fff;
+    margin-bottom: 24px;
+    &_left {
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    &_right {
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      max-width: 70%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      &_text {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        flex: 1;
+      }
+      &_img {
+        width: 24px;
+        height: 24px;
+        margin-left: 4px;
+      }
+    }
+  }
+  &_info {
+    background-color: #fff;
+    padding: 32px 24px;
+    padding-bottom: calc(env(safe-area-inset-bottom) + 42px);
+  }
+}

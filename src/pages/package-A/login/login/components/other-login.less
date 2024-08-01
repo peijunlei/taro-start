@@ -1,0 +1,122 @@
+.loginLogin-otherLogin {
+  width: 690px;
+  flex: 1;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+
+  &.login-x-bottom {
+    padding-bottom: 80px;
+  }
+
+  .title {
+    flex-direction: row;
+    align-items: center;
+
+    .line {
+      flex: 1;
+      height: 2px;
+      background: #d8d8d8;
+    }
+
+    .text {
+      font-size: 24px;
+      color: #999;
+      margin: 0 8px;
+    }
+
+    .text-X {
+      margin-bottom: 40px;
+    }
+  }
+  //三种登录方式
+  .three-login {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+
+    .login-item {
+      align-items: center;
+      position: relative;
+
+      .icon {
+        width: 96px;
+        height: 96px;
+      }
+
+      .text {
+        font-size: 24px;
+        color: #999;
+        margin-top: 14px;
+      }
+    }
+
+    .mar-lr {
+      margin: 0 112px;
+    }
+  }
+
+  .componey-info {
+    align-items: center;
+    margin-top: 80px;
+
+    .text {
+      font-size: 24px;
+      transform: scale(0.833);
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  //按钮样式
+  .submit-btn {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    font-size: 20;
+    opacity: 0;
+  }
+
+  .green-btn {
+    background: linear-gradient(90deg, rgba(107, 230, 83, 1) 0%, rgba(0, 194, 90, 1) 100%);
+  }
+
+  .gray-btn {
+    color: #333;
+    border: 2px solid #e6e6e6;
+  }
+
+  .use-wechat {
+    font-size: 32px;
+    color: #36b336;
+    background: transparent;
+  }
+
+  .use-wechat::after {
+    border: 0;
+  }
+
+  .mobile_number_authorization_login {
+    height: 88px;
+    border-radius: 46px;
+    border: 2px solid #EBEBEB;
+    padding: 20px 40px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &__icon {
+      width: 48px;
+      height: 48px;
+      margin-right: 16px;
+    }
+    &__text {
+      font-size: 28px;
+      font-weight: 400;
+      color: #999999;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 999;
+
+  .mask-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 74.67%;
+
+    .mask-content {
+      width: 100%;
+      height: calc(100vw * 1.17);
+
+      .myCanvas1 {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .mask-close {
+      align-items: center;
+      justify-content: center;
+
+      .mask-close-img {
+        height: 80px;
+        width: 80px;
+        margin-top: 40px;
+      }
+    }
+  }
+}

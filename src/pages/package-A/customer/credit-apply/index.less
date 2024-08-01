@@ -1,0 +1,41 @@
+@import url('assets/style/theme.less');
+
+.creditApply {
+  background-color: #fff;
+  //overflow-y: scroll;
+  display: flex;
+  height: 100vh;
+
+  .credit-submit {
+    position: fixed;
+    bottom: 20px;
+    width: 702px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 20px;
+    padding-bottom: calc(20px + constant(safe-area-inset-bottom)); /* 兼容 iOS < 11.2 */
+    padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* 兼容 iOS >= 11.2 */
+
+    .credit-submit-btn {
+      width: 100%;
+      border: none;
+      height: 72px;
+      background: linear-gradient(90deg, #ff8400 0%, #ff4d00 100%);
+      border-radius: 36px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 28px;
+    }
+
+    .credit-submit-btn-disable {
+      width: 100%;
+      border: none;
+      height: 72px;
+      background: linear-gradient(90deg, #d8d8d8 0%, #b3b3b3 100%);
+      border-radius: 36px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 28px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.shipRecord {
+  height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+
+  .status {
+    font-size: 24px;
+    color: #a3a3a3;
+    text-align: center;
+    padding: 24px 0 30px 0;
+  }
+
+  .top_2 {
+    background-color: #ffffff;
+    padding: 20px 24px calc(20px + env(safe-area-inset-bottom));
+    box-sizing: border-box;
+    height: calc(112px + env(safe-area-inset-bottom));
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+
+    .wan_sh {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(90deg, rgb(255, 132, 0) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 36px;
+      height: 72px;
+      color: white;
+
+      .img {
+        width: 32px;
+        height: 32px;
+        margin-right: 16px;
+      }
+
+      .text_img {
+        font-size: 28px;
+        color: white;
+
+        // font-size: 24px;
+        // color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}

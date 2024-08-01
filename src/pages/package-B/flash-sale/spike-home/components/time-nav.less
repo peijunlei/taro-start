@@ -1,0 +1,63 @@
+.timeNav {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 40px 0 40px 32px;
+  align-items: center;
+  justify-content: center;
+
+  .item {
+    padding-right: 24px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+
+    .time {
+      line-height: 1;
+      font-size: 36px !important;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding: 0 4px;
+      color: #000000;
+    }
+  }
+
+  .logo {
+    flex-basis: 64px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .scrollView {
+    flex-direction: row;
+    flex: 1;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    .sale-time {
+      color: #ff6600 !important;
+    }
+
+    .sale {
+      min-width: 76px;
+      height: 28px;
+      line-height: 28px;
+      padding: 0 8px;
+      background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 17px;
+      font-size: 20px;
+      color: #fff;
+      white-space: nowrap;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .info {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 20px;
+      white-space: nowrap;
+      padding-top: 0;
+    }
+  }
+}

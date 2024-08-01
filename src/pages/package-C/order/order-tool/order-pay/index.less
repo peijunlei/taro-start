@@ -1,0 +1,45 @@
+.packageCOrderOrderToolOrderPay {
+  flex: 1;
+  height: 100vh;
+  background: rgba(245, 245, 245, 1);
+
+  .paying-modal {
+    .at-modal__container {
+      background-color: transparent;
+      align-items: center;
+    }
+  }
+
+  .service-mask {
+    .pass-btn {
+      height: auto;
+
+      .btn {
+        padding: 28px 0;
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(8, 8, 8, 0.8);
+        line-height: 32px;
+      }
+    }
+
+    .cell {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+
+      .label,
+      .val {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        line-height: 44px;
+      }
+
+      .val.price {
+        color: var(--themeColor);
+      }
+    }
+  }
+}

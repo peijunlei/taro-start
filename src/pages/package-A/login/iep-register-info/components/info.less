@@ -1,0 +1,131 @@
+.form-item {
+  display: flex;
+  font-size: 26px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  width: 94%;
+  margin-left: 4%;
+  flex-direction: initial;
+  height: 90px;
+  line-height: 90px;
+
+  .from-item-input {
+    margin-top: 26px;
+    margin-left: 20px;
+
+    input {
+      width: 280px;
+    }
+  }
+}
+
+.iep-picker-view {
+  // position: relative;
+  margin-top: 24px;
+
+  .iep-text {
+    font-size: 24px;
+    color: #333;
+    line-height: normal;
+  }
+
+  .iep-graytext {
+    font-size: 24px;
+    color: #999;
+    line-height: normal;
+  }
+}
+
+.form-item-img {
+  font-size: 26px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  width: 94%;
+  margin-left: 4%;
+  line-height: 90px;
+  padding-bottom: 10px;
+
+  .uploadState {
+    display: block;
+    float: left;
+
+    .uploadImage {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .uploadDesc {
+    color: #e6e6e6;
+    line-height: 35px;
+  }
+}
+
+.pic-img {
+  width: 88px;
+  height: 88px;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.deleteImg {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  z-index: 100;
+}
+
+.fileList {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: initial;
+  margin-top: -30px;
+
+  .fileList-state {
+    position: relative;
+  }
+}
+
+.int {
+  color: #000;
+}
+
+.enclosure {
+  position: relative;
+  margin-right: 16px;
+  width: 112px;
+  height: 112px;
+
+  &-con-box {
+    margin-bottom: 40px;
+  }
+
+  &-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &-tips {
+    font-size: 24px;
+    padding-top: 10px;
+    color: #999;
+    line-height: 32px;
+  }
+
+  .pic {
+    min-width: 112px;
+    min-height: 112px;
+    width: 112px;
+    height: 112px;
+    border-radius: 8px;
+  }
+
+  .close-pic {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+  }
+}

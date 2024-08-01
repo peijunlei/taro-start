@@ -1,0 +1,97 @@
+.detailBottom {
+  margin-top: 24px;
+  width: 100vw;
+  min-height: 320px;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+
+  .join-people {
+    flex-direction: row;
+    // width: calc(100vw - 15vw);
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .leader {
+      position: absolute;
+      bottom: 30px;
+      left: 27px;
+      width: 80px;
+      height: 28px;
+      border-radius: 14px;
+      background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .avatar-container {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      // margin-right: 36px;
+      margin: 0 18px;
+      margin-bottom: 36px;
+      border: 2px solid transparent;
+      // overflow: hidden;
+      &-last {
+        margin-right: 0 !important;
+      }
+
+      .avatar {
+        width: 96px;
+        height: 96px;
+        border-radius: 48px;
+      }
+
+      .leader-tag {
+        width: 80px;
+        height: 28px;
+        background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 14px;
+        top: 90px;
+        position: absolute;
+        left: 16px;
+        align-items: center;
+        justify-content: center;
+
+        .tag-text {
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+    }
+
+    .first-item {
+      border: 2px solid #ff6600;
+    }
+  }
+
+  .info {
+    flex-direction: row;
+    align-items: center;
+
+    .info-text {
+      font-size: 24px;
+    }
+  }
+
+  .button {
+    width: auto;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 28px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    .btn-text {
+      font-size: 24px;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}

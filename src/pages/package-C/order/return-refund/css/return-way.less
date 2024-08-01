@@ -1,0 +1,38 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.mySet__info {
+  margin-top: 24px;
+  .set-item1 {
+    height: 92px;
+    background-color: #fff;
+    padding: 0 24px;
+    align-items: center;
+    flex-direction: row;
+
+    .set-title {
+      flex: 1;
+      flex-direction: row;
+      align-items: center;
+
+      .new-v {
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 14px;
+        color: #fff;
+        font-size: 16px;
+        padding: 6px 8px;
+        margin-left: 16px;
+      }
+    }
+    .set-arrow {
+      width: 24px !important;
+      height: 24px !important;
+    }
+
+    .return-ins {
+      flex: auto;
+      color: rgba(170, 170, 170, 100);
+      text-align: right;
+    }
+  }
+}

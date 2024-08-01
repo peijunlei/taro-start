@@ -1,0 +1,75 @@
+.playWay {
+  margin-top: 24px;
+  background-color: #fff;
+  padding: 32px 32px 56px 54px;
+  height: 304px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+
+  .pic {
+    background-image: url('~@/assets/image/common/play.png');
+    background-size: contain;
+    width: 268px;
+    height: 56px;
+    align-items: center;
+    justify-content: flex-end;
+
+    .text-weight {
+      font-size: 28px;
+      font-weight: 500;
+      color: #000000;
+    }
+  }
+
+  .number-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100vw - 100px);
+
+    .way-number-box {
+      width: 160px;
+      justify-content: center;
+      align-items: center;
+
+      .number {
+        font-size: 36px;
+        color: #ff6600;
+      }
+    }
+
+    .step-box {
+      width: 160px;
+      height: 56px;
+      justify-content: center;
+      align-items: center;
+
+      .step-text {
+        font-size: 20px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+
+  .long-line {
+    width: calc(100vw - 242px);
+    flex-direction: row;
+    height: 28px;
+    align-items: center;
+
+    .dot {
+      width: 28px;
+      height: 28px;
+      background-color: #ff6600;
+      border-radius: 14px;
+    }
+
+    .short-line {
+      width: 226px;
+      height: 12px;
+      background-color: #ff6600;
+      margin: 0 -4px 0 -4px;
+    }
+  }
+}

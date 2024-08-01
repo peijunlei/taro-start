@@ -1,0 +1,320 @@
+.memberCenter__details {
+  align-items: center;
+  position: relative;
+
+  .tim {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+  }
+
+  .memberCenter__back {
+    width: 750px;
+    height: 336px;
+    background: linear-gradient(90deg, rgba(255, 133, 10, 1) 0%, rgba(250, 92, 0, 1) 100%);
+    border-radius: 0 0 50px 50px;
+  }
+
+  .info_box {
+    width: 702px;
+    background: linear-gradient(90deg, rgba(255, 238, 219, 1) 0%, rgba(255, 223, 199, 1) 100%);
+    border-radius: 16px;
+    padding: 30px 0 32px 30px;
+    position: absolute;
+    top: 230px;
+    left: 24px;
+    z-index: 98;
+    // height: 310px;
+  }
+
+  .info_box_top {
+    padding-right: 32px;
+
+    .info_box_1 {
+      font-size: 32px;
+      font-weight: 500;
+      color: rgba(152, 91, 49, 1);
+      margin-bottom: 32px;
+    }
+
+    .info_box_2 {
+      margin-top: 16px;
+      font-size: 56px;
+      font-weight: 500;
+      color: rgba(255, 102, 0, 1);
+    }
+  }
+
+  .info_box_bottom {
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .info_box_bottom_ {
+      width: 50%;
+    }
+
+    .info_box_3 {
+      font-size: 24px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.4);
+    }
+
+    .info_box_4 {
+      margin-top: 16px;
+      font-size: 32px;
+      font-weight: 500;
+      color: rgba(51, 51, 51, 1);
+    }
+  }
+
+  .info_box2 {
+    flex-direction: row;
+    margin-top: 24px;
+    width: 702px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .infos {
+    margin-top: 130px;
+  }
+
+  .imgs {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+
+  .memberCenter__userInfo {
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+    width: 702px;
+    height: 180px;
+    padding: 30px 0;
+    position: absolute;
+    top: 25px;
+
+    .user-img-box {
+      margin-right: 24px;
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+
+      .user-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid #fff;
+      }
+    }
+
+    .user-bug-container {
+      width: calc(100% - 152px); //128+24
+      flex-direction: row;
+      justify-content: space-between;
+
+      .user-account {
+        max-width: calc(100% - 136px);
+        flex: 1;
+        justify-content: space-between;
+
+        .account-box {
+          flex-direction: row;
+          overflow: hidden;
+          align-items: center;
+          justify-content: flex-start;
+
+          .user-name {
+            max-width: calc(100% - 136px);
+            margin-right: 16px;
+
+            .user-name-text {
+              font-size: 36px;
+              color: #fff;
+              font-weight: 500;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+            }
+          }
+
+          .user-warrow {
+            border-radius: 18px;
+            flex-direction: row;
+            align-items: center;
+            height: 36px;
+
+            .warrow-img {
+              width: 23px;
+              height: 23px;
+              margin-right: 4px;
+            }
+          }
+
+          .user-level {
+            padding: 0 16px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 18px;
+            flex-direction: row;
+            align-items: center;
+            height: 36px;
+
+            .level-img {
+              width: 23px;
+              height: 23px;
+              margin-right: 4px;
+            }
+
+            .level-name {
+              font-size: 20px;
+              font-weight: 500;
+              color: #fff;
+              white-space: nowrap;
+            }
+          }
+        }
+
+        .noLogin {
+          font-size: 24px;
+          color: #fff;
+        }
+      }
+
+      .body_bt {
+        width: 128px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, 1);
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+      }
+    }
+
+    .account-text {
+      font-size: 24px;
+      color: #fff;
+      margin: 12px 0;
+    }
+
+    .user-gp {
+      flex-direction: row;
+    }
+
+    .user-growup {
+      align-items: center;
+      // width                : 136px;
+      // justify-content      : center;
+      flex-direction: row;
+      height: 36px;
+      border-radius: 20px;
+      border: 2px solid rgba(255, 255, 255, 1);
+      margin-right: 16px;
+      padding: 0 12px;
+
+      .user-value {
+        font-size: 20px;
+        color: #fff;
+        height: 36px;
+        line-height: 36px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        max-width: 20vw;
+      }
+    }
+  }
+
+  .left {
+    margin-right: 8px;
+  }
+
+  .text-color {
+    font-size: 20px;
+    color: rgba(152, 91, 49, 1);
+  }
+
+  .mo_texts {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-left: 8px;
+  }
+
+  .progress-text {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+
+  .dropShadow {
+    opacity: 0.4;
+  }
+
+  .img-box {
+    align-items: center;
+    margin-right: 24px;
+    position: relative;
+
+    .img-lo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 10px;
+    }
+
+    .img-text {
+      width: 120px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: rgba(152, 91, 49, 1);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+    }
+  }
+
+  .body_button {
+    margin-bottom: 32px;
+    margin-right: 32px;
+
+    .weui-progress__bar {
+      width: 100%;
+
+      .img-lo {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 14px;
+      }
+
+      .scroll {
+        flex-direction: row;
+        position: relative;
+      }
+
+      .img-lo2 {
+        opacity: 0.3;
+      }
+
+      .img-text2 {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .member__scrollView {
+    flex-direction: row;
+    height: 125px;
+
+    .scroll__inner {
+      flex-direction: row;
+    }
+  }
+}

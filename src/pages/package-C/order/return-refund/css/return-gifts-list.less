@@ -1,0 +1,68 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.return-box-item {
+  padding: 0 24px;
+  margin-bottom: 24px;
+  flex-direction: row;
+  align-items: center;
+
+  .right-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+
+    .goods-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+      margin-right: 24px;
+    }
+
+    .goods-info {
+      width: calc(100vw - 290px);
+
+      .name {
+        .text-overflow(@lines: 2);
+        font-size: 24px;
+        line-height: 1.2;
+        height: 58px;
+
+        .gift-label {
+          width: 56px;
+          background: linear-gradient(90deg, rgba(92, 184, 255, 1) 0%, rgba(61, 126, 255, 1) 100%);
+          border-radius: 4px;
+          font-size: 20px;
+          color: #ffffff;
+          padding: 0 6px;
+          margin-right: 6px;
+        }
+      }
+
+      .goods-spec {
+        font-size: 20px;
+        color: #999999;
+        margin-top: 8px;
+      }
+
+      .info-bottom {
+        flex-direction: row;
+        margin-top: 28px;
+
+        .cart-count-con {
+          .valid-text {
+            color: #ff6600;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 5px;
+          }
+        }
+
+        .gift-num {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

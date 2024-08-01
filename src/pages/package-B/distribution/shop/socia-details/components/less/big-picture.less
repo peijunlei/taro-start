@@ -1,0 +1,159 @@
+.bigPicture {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #000;
+  justify-content: space-between;
+
+  .up {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 112px 32px 0;
+
+    .arrow {
+      position: absolute;
+      left: 32px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .title {
+      font-size: 24px;
+      color: #fff;
+      line-height: 36px;
+
+      .num {
+        font-size: 36px;
+        color: #fff;
+      }
+    }
+  }
+
+  .swiper-box {
+    width: 100%;
+    min-height: 325px;
+    position: absolute;
+    top: 50%;
+    margin-top: -160px;
+
+    div {
+      flex-direction: unset;
+    }
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  // 评价
+  .eval-details {
+    padding: 0 24px 32px;
+    // height: 80px;
+    justify-content: flex-end;
+
+    .open {
+      flex-direction: row;
+      align-items: center;
+
+      .text {
+        flex: 1;
+        color: rgba(255, 255, 255, 1);
+        line-height: 32px;
+        font-size: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-right: 24px;
+      }
+
+      .r-btn {
+        flex-direction: row;
+        align-items: center;
+
+        .open-text {
+          font-size: 24px;
+          color: #fff;
+        }
+
+        .up-arrow {
+          width: 24px;
+          height: 24px;
+          margin-left: 8px;
+        }
+      }
+    }
+    // 收起
+    .down {
+      .star {
+        flex-direction: row;
+        align-items: center;
+
+        .mess {
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.6);
+          margin-left: 16px;
+        }
+      }
+
+      .content {
+        color: rgba(255, 255, 255, 1);
+        line-height: 32px;
+        font-size: 24px;
+        word-break: break-all;
+        max-height: 200px;
+        overflow: auto;
+        // display: -webkit-box;
+        // -webkit-box-orient: vertical;
+        // -webkit-line-clamp: 2;
+        // word-break: break-all;
+        // overflow: hidden;
+        margin-top: 12px;
+      }
+
+      .bottom-btn {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 28px;
+        justify-content: space-between;
+
+        .l-btn {
+          flex-direction: row;
+          align-items: center;
+
+          .num {
+            font-size: 20px;
+            color: #fff;
+            margin-left: 8px;
+          }
+
+          .zan {
+            width: 32px;
+            height: 32px;
+            margin-left: 8px;
+          }
+        }
+
+        .r-btn {
+          flex-direction: row;
+          align-items: center;
+
+          .open-text {
+            font-size: 24px;
+            color: #fff;
+          }
+
+          .down-arrow {
+            width: 24px;
+            height: 24px;
+            margin-left: 8px;
+            transform: rotateX(180deg);
+          }
+        }
+      }
+    }
+  }
+}

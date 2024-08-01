@@ -1,0 +1,131 @@
+.goods-item {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 16px;
+  height: 288px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  .img-content {
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    margin-right: 16px;
+    position: relative;
+    .goodsImg {
+      width: 240px;
+      height: 240px;
+      border-radius: 8px;
+    }
+    .goods-no-stock {
+      width: 240px;
+      height: 240px;
+      position: absolute;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      .no-stock-text {
+        width: 160px;
+        height: 160px;
+        border-radius: 80px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(179, 179, 179, 0.4) 100%);
+        line-height: 160px;
+        text-align: center;
+        font-size: 24px;
+        color: #FFFFFF;
+      }
+    }
+  }
+  
+  .goods-content {
+    flex: 1;
+    min-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    .goods-top {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      .goods-name {
+        width: 100%;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0,0,0,0.8);
+        line-height: 36px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* 这里是超出几行省略 */
+      }
+      .goods-num {
+        min-width: 48px;
+        height: 40px;
+        background: #FFF3EB;
+        border-radius: 4px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #FF6600;
+        line-height: 40px;
+        padding: 0 4px;
+        text-align: center;
+      }
+    }
+    .goods-desc {
+      width: 46vw;
+      font-size: 20px;
+      font-weight: 400;
+      color: rgba(0,0,0,0.4);
+      line-height: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 12px;
+    }
+    .goods-title {
+      width: 46vw;
+      height: 28px;
+      background: #FFF3EB;
+      border-radius: 4px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #FF6600;
+      line-height: 28px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 16px;
+    }
+    .goods-price {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .goods-pre {
+      // width: 46vw;
+      // height: 32px;
+      // background: #F5F5F5;
+      border-radius: 4px;
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--themeColor);
+      line-height: 32px;
+      margin-top: 8px;
+      // 2行省略
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  }
+  
+}

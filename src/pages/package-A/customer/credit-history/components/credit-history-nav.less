@@ -1,0 +1,48 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.CreditHistoryNav {
+  height: 88px;
+  padding-top: 32px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+
+  .credit-history-nav-box {
+    align-items: center;
+    justify-content: space-between;
+
+    .text {
+      font-size: 24px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+    }
+
+    .text-active {
+      font-size: 24px;
+      font-weight: 500;
+      color: @primary-color;
+      text-align: center;
+    }
+
+    .bottom-line-active {
+      height: 4px;
+      width: 48px;
+      background: linear-gradient(90deg, #ff8400 0%, #ff4d00 100%);
+      border-radius: 2px;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    .bottom-line {
+      height: 4px;
+      width: 48px;
+      background-color: #fff;
+      border-radius: 2px;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+  }
+}

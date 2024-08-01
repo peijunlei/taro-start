@@ -1,0 +1,131 @@
+.form-item {
+  display: flex;
+  font-size: 26px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  width: 94%;
+  margin-left: 4%;
+  flex-direction: initial;
+  height: 90px;
+  line-height: 90px;
+
+  .from-item-input {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+}
+
+.form-item-img {
+  font-size: 26px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  width: 94%;
+  margin-left: 4%;
+  line-height: 90px;
+  padding-bottom: 10px;
+
+  .uploadState {
+    display: block;
+    float: left;
+
+    .uploadImage {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .uploadDesc {
+    color: #e6e6e6;
+    line-height: 35px;
+  }
+}
+
+.tipBox {
+  margin: 50px auto;
+  text-align: center;
+
+  .imageStatus {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .messageStatus {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .resetInfo {
+    color: #a1a1a1;
+    font-size: 28px;
+    margin-top: 10px;
+  }
+
+  .resetReason span {
+    color: #a1a1a1;
+    font-size: 28px;
+    display: contents;
+    margin-top: 10px;
+  }
+
+  .showRed {
+    color: #ff1e50 !important;
+    font-weight: 500;
+  }
+}
+
+.pic-img {
+  width: 88px;
+  height: 88px;
+}
+
+.fileList {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: initial;
+
+  div {
+    width: 18%;
+    margin-top: 10px;
+    margin-left: 1%;
+  }
+}
+
+.enclosure {
+  position: relative;
+  margin-right: 16px;
+  width: 112px;
+  height: 112px;
+
+  &-con-box {
+    margin-bottom: 40px;
+  }
+
+  &-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &-tips {
+    font-size: 24px;
+    padding-top: 10px;
+    color: #999;
+    line-height: 32px;
+  }
+
+  .pic {
+    min-width: 112px;
+    min-height: 112px;
+    width: 112px;
+    height: 112px;
+    border-radius: 8px;
+  }
+
+  .close-pic {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+  }
+}

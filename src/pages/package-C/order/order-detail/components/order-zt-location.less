@@ -1,0 +1,129 @@
+.zt-location-cover {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px 0;
+
+  .location-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 24px;
+
+    .pickupLocaiton {
+      line-height: 1.2;
+      margin-right: 24px;
+      font-size: 28px;
+    }
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+
+    .location-address {
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 28px;
+      font-weight: 500;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: calc(100vw - 178px);
+      // margin-bottom: 16px;
+    }
+
+    .location-distance {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 24px;
+    }
+
+    .location-phone-cover {
+      justify-content: center;
+      align-items: center;
+
+      .location-phone {
+        width: 32px;
+        height: 32px;
+      }
+      .location-number {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    .location-title {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.8);
+      margin-right: 8px;
+    }
+
+    .location-detail {
+      .location-title;
+      text-align: left;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      max-width: calc(100vw - 320px);
+    }
+    .location-detail2 {
+      .location-detail;
+      width: calc(100vw - 280px);
+    }
+    .orange {
+      color: var(--themeColor);
+    }
+    .location-arrow {
+      width: 30px;
+      height: 30px;
+    }
+    .time-detail {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.8);
+      text-align: start;
+      display: -webkit-box;
+      word-break: break-all;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      overflow: hidden;
+      line-height: 32px;
+      /*! autoprefixer: ignore next */
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2; /* 设置超出2行进行隐藏 */
+      flex: 1;
+    }
+  }
+  .location-time-box {
+    align-items: flex-start;
+  }
+
+  .location-address-row {
+    justify-content: space-between;
+  }
+  .location-row-box-address {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+
+    .location-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px 24px;
+    }
+
+    .distance-detail {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      text-align: end;
+      line-height: 32px;
+      white-space: nowrap;
+    }
+  }
+}

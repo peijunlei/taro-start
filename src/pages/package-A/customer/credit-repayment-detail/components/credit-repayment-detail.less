@@ -1,0 +1,71 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.credit-repayment-detail {
+  background-color: #f4f4f4;
+  padding-top: 24px;
+
+  .credit-repayment-status {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 32px 24px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    color: @black-opcity-8;
+  }
+  .credit-repayment-font {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .credit-repayment-status-font {
+    color: @primary-color;
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  .credit-repayment-right {
+    font-weight: 500;
+  }
+
+  .credit-repayment-detail-order {
+    background-color: #fff;
+    margin-top: 24px;
+    padding: 0 24px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    color: @black-opcity-8;
+
+    .credit-repayment-row {
+      flex-direction: row;
+      margin: 32px 0;
+      justify-content: space-between;
+    }
+
+    .credit-repayment-img {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .credit-repayment-explain {
+      margin-top: 32px;
+      font-size: 28px;
+    }
+
+    .credit-repayment-explain-detail {
+      margin-top: 32px;
+      width: 100%;
+      line-height: 44px;
+      max-height: 132px;
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      margin-bottom: 32px;
+      overflow: scroll;
+      word-break: break-all;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.searchHistory {
+  .searchTop {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .searchTitle {
+      font-size: 24px;
+      color: #999;
+      flex: 1;
+    }
+
+    .delImg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .historyList {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .item {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      padding: 0 24px;
+      margin-right: 16px;
+      margin-bottom: 16px;
+      border-radius: 28px;
+      background-color: #f5f5f5;
+
+      .text {
+        max-width: 168px;
+        color: #333;
+        font-size: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .no-more {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 24px 0;
+  }
+}

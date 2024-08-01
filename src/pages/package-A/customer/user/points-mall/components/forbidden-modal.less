@@ -1,0 +1,193 @@
+.ForbiddenModal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+
+  .modalBox {
+    width: 560px;
+    min-height: 528px;
+    background-color: #fff;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+
+    .normal {
+      padding: 0 40px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+      padding: 64px 0 32px 0;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    .jiFen {
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      flex-direction: row;
+      margin-top: 32px;
+      margin-bottom: 64px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .jiFenNumber {
+      font-size: 28px;
+      font-weight: 500;
+      color: rgba(255, 102, 0, 1);
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .btBox {
+      height: 88px;
+      width: 100%;
+      background: rgba(255, 255, 255, 1);
+      border-top: 2px solid rgba(230, 230, 230, 1);
+      flex-direction: row;
+      border-radius: 0 0 16px 16px;
+
+      .bt {
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.8);
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .btn {
+        color: rgba(255, 102, 0, 1);
+        border-left: 2px solid rgba(230, 230, 230, 1);
+      }
+    }
+  }
+
+  .goods-info1 {
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    width: 480px;
+    // border: 2px solid rgba(230, 230, 230, 1);
+    .left {
+      width: 176px;
+      height: 184px;
+      background-size: 100% 100%;
+      background-image: url('../img/coupon.png');
+      border-radius: 12px 0 0 12px;
+      align-items: center;
+      justify-content: center;
+
+      //background:linear-gradient(90deg,rgba(255,136,0,1) 0%,rgba(255,77,0,1) 100%);
+      .left1 {
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      .left2 {
+        font-size: 48px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      .left3 {
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 16px;
+      }
+    }
+
+    .right {
+      flex-direction: row;
+      justify-content: space-between;
+      height: 184px;
+      padding: 24px;
+
+      .right_left {
+        flex-direction: row;
+        margin-bottom: 16px;
+      }
+
+      .coupon {
+        width: 76px;
+        height: 28px;
+        background-size: 100% 100%;
+        background-image: url('../img/youhui.png');
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+        justify-content: center;
+      }
+
+      .coupons {
+        width: 76px;
+        height: 28px;
+        background-size: 100% 100%;
+        background-image: url('../img/youhuiCheng.png');
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+        justify-content: center;
+      }
+
+      .couponT {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        margin-left: 8px;
+      }
+
+      .couponText {
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.4);
+        // margin-bottom: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .couponFen {
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(255, 102, 0, 1);
+        margin-right: 4px;
+        margin-top: 5px;
+      }
+
+      .couponFens {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .couponDui {
+        width: 112px;
+        height: 40px;
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        align-items: center;
+        justify-content: center;
+        margin-top: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.orderListTopHeights {
+  height: 80px;
+  position: relative;
+  z-index: 99;
+}
+
+.orderListTopHeights .orderListTop {
+  //position: fixed;
+  height: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.searchBar1 {
+  padding: 12px 32px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // border-bottom: 1px #f5f5f5 solid;
+  //position: fixed;
+  //left: 0;
+  width: 100%;
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #f5f5f5;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    .searchImg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .searchText {
+      width: 90%;
+      margin-left: 16px;
+      font-size: 24px;
+    }
+  }
+}
+
+.box {
+  //height: 80px;
+  .container {
+    height: 80px;
+    background-color: #fff;
+    position: relative;
+    //left: 0;
+    width: 100%;
+    //top: 80px;
+    //z-index: 999;
+    .bar {
+      // width: 1000px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 90%;
+
+      .nav {
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .order-list-top-item {
+          color: #000;
+          font-size: 24px;
+          margin-top: 22px;
+        }
+
+        .itemSelected {
+          color: var(--themeColor);
+          font-weight: 500;
+        }
+
+        .active {
+          margin-top: 20px;
+          margin-bottom: 6px;
+          width: 100%;
+          align-items: center;
+        }
+
+        .activeLine {
+          width: 48px;
+          height: 4px;
+          background-color: var(--themeColor);
+          border-radius: 2px;
+        }
+
+        .noActiveLine {
+          width: 48px;
+          height: 4px;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .tab-right {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 16px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    // top: 5px;
+    .curr-text {
+      font-weight: 500;
+      color: var(--themeColor);
+    }
+
+    .down-img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

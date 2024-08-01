@@ -1,0 +1,49 @@
+.packageBDistributionMyCustomerTab {
+  background-color: #ffffff;
+
+  flex-direction: row;
+  height: 88px;
+  align-items: center;
+  padding: 8px 0;
+
+  .my-customer-tab-item {
+    font-size: 24px;
+    flex: 1;
+    text-align: center;
+    position: relative;
+
+    &.curr {
+      color: #ff6600;
+
+      .line {
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 2px;
+      }
+    }
+
+    .line {
+      width: 65px;
+      height: 4px;
+      background: #ffffff;
+      border-radius: 2px;
+      position: absolute;
+      bottom: -12px;
+      left: 37%;
+    }
+  }
+}
+
+.packageBDistributionMyCustomer-curr-content {
+  height: 156px;
+  background: linear-gradient(90deg, rgba(255, 133, 10, 1) 0%, rgba(250, 92, 0, 1) 100%);
+  font-size: 20px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+
+  .curr-num {
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 16px;
+  }
+}

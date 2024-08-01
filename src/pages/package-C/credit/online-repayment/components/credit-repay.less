@@ -1,0 +1,71 @@
+@import url('assets/style/theme.less');
+
+.online {
+  background-color: #f4f4f4;
+  overflow-y: scroll;
+  display: block;
+  height: 100vh;
+
+  .online-state {
+    margin-top: 24px;
+    background: #ffffff;
+
+    .Repayment-instructions {
+      padding: 0 24px;
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      line-height: 44px;
+      margin-bottom: 24px;
+
+      .mess-text {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 44px;
+      }
+    }
+  }
+
+  .bottom {
+    padding: 20px 24px calc(20px + env(safe-area-inset-bottom)) 24px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+
+    .bottom-center {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 72px;
+      line-height: 28px;
+
+      .left {
+        width: 342px;
+        border-radius: 36px;
+        border: 2px solid #ff6600;
+        color: #ff6600;
+        line-height: 28px;
+
+        .wm-button {
+          .text {
+            font-size: 28px;
+          }
+        }
+      }
+
+      .right {
+        width: 342px;
+        font-weight: 500;
+        color: #ffffff;
+
+        .wm-button {
+          .text {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+}

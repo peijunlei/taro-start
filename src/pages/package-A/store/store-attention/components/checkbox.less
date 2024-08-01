@@ -1,0 +1,31 @@
+.check {
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  &-img {
+    width: 32px;
+    height: 32px;
+    //兼容小程序cover-img样式
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &-label {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 24px;
+    font-weight: 500;
+  }
+}
+
+.check::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+}

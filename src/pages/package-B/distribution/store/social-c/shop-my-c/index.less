@@ -1,0 +1,82 @@
+.panels {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  padding: 40px 32px;
+
+  .title {
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    .title-name {
+      color: #333;
+      flex: 1;
+      font-weight: 500;
+    }
+
+    .title-arrow {
+      flex-direction: row;
+      align-items: center;
+
+      .click-text {
+        color: #999;
+        font-size: 24px;
+      }
+
+      .arrow-img {
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .panels-list {
+    flex-direction: row;
+    justify-content: space-between;
+
+    .panels-item {
+      align-items: center;
+      width: calc(100vw / 3 - 40px);
+
+      .item-img {
+        width: 48px;
+        height: 48px;
+      }
+
+      .item-text {
+        color: #999;
+        font-size: 24px;
+        margin-top: 20px;
+      }
+
+      .item-badge {
+        height: 32px;
+        border-radius: 16px;
+        background: linear-gradient(90deg, rgba(255, 102, 102, 1) 0%, rgba(255, 10, 10, 1) 100%);
+        position: absolute;
+        padding: 8px 10px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: -20px;
+
+        .item-badge-value {
+          color: rgba(255, 255, 255, 1);
+          font-size: 20px;
+          text-align: left;
+          justify-content: center;
+          align-items: center;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.index {
+  .userCenterBox {
+    width: 100vw;
+    height: calc(100vh - 100px - env(safe-area-inset-bottom));
+  }
+}

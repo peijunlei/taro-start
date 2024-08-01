@@ -1,0 +1,40 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+// @import '../../../../common/theme.less';
+// @import '../../../../common/mixin.less';
+.searchTab {
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .tabItem {
+    width: 50%;
+    position: relative;
+    align-items: center;
+
+    .tabText {
+      font-size: 24px;
+      width: 100%;
+      line-height: 88px;
+      text-align: center;
+    }
+
+    &.active {
+      .tabText {
+        font-weight: 600;
+        color: @primary-color;
+      }
+
+      .line {
+        width: 48px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: @primary-color;
+        position: absolute;
+        bottom: 8px;
+      }
+    }
+  }
+}

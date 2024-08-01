@@ -1,0 +1,135 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+:host {
+  flex: 1;
+}
+
+.search-store-item {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 24px 0 24px;
+  width: calc(100vw);
+
+  .left {
+    flex-direction: row;
+    align-items: center;
+    width: calc(100% - 150px);
+  }
+
+  .left-wrap {
+    width: 128px;
+    height: 128px;
+    min-width: 128px;
+    min-height: 128px;
+    position: relative;
+
+    .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-status {
+        text-align: center;
+        color: #fff;
+        .fs(24px);
+      }
+    }
+
+    .store-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+    }
+  }
+
+  .center-wrap {
+    padding-left: 16px;
+    overflow: hidden;
+
+    .title {
+      flex-direction: row;
+      align-items: center;
+
+      .ziyingBox {
+        .primary-back();
+        padding: 4px 8px;
+        border-radius: 4px;
+        margin-right: 8px;
+        height: 28px;
+        align-items: center;
+        justify-content: center;
+
+        .ziying {
+          .fs(24px);
+          color: #fff;
+          transform: scale(0.83);
+        }
+      }
+
+      .store-name {
+        font-weight: 500;
+        .fs(28px);
+        .text-overflow(1);
+      }
+    }
+
+    .info {
+      margin: 12px 0 16px 0;
+      color: @black-opcity-4;
+      .fs(24px);
+      .text-overflow(1);
+    }
+
+    .type {
+      flex-direction: row;
+      align-items: self-start;
+
+      .sell {
+        margin-right: 24px;
+        flex-direction: row;
+        align-items: center;
+
+        .selling-point {
+          padding: 0 4px;
+          margin-right: 8px;
+          border-radius: 4px;
+          color: @primary-color;
+          .fs(20px);
+          .border(@color: @primary-color);
+        }
+      }
+
+      .address {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+      }
+
+      .address-name {
+        .fs(24px);
+        color: @black-opcity-4;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .right-wrap {
+    width: 100;
+    // min-width: 100px;
+    .wm-btn-mini {
+      padding: 0 24px;
+      height: 48px;
+    }
+  }
+}

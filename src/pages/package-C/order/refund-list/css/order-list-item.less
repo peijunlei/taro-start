@@ -1,0 +1,180 @@
+.orderListTopbox {
+  height: 88px;
+
+  .container {
+    height: 88px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    // z-index: 999;
+    .bar {
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 24px;
+
+      .nav {
+        height: 88px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .refund-list-top-item {
+          color: rgba(0, 0, 0, 0.8);
+          font-size: 24px;
+          margin-top: 30px;
+        }
+
+        .itemSelected {
+          color: #ff6600;
+          font-weight: 500;
+        }
+
+        .active {
+          margin-top: 12px;
+          width: 100%;
+          align-items: center;
+        }
+
+        .activeLine {
+          width: 48px;
+          height: 4px;
+          border-radius: 2px;
+          background-color: #ff6600;
+        }
+
+        .noActiveLine {
+          width: 48px;
+          height: 4px;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.user-box {
+  width: 100%;
+  padding: 24px 24px 0 24px;
+  /* 列表项 */
+  .user-order-item {
+    width: 100%;
+    padding: 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    .icon {
+      width: 34px;
+      height: 32px;
+    }
+
+    .user-order-item-link {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .ziying {
+        padding: 0 8px;
+        background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+        border-radius: 4px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+      }
+
+      .dinapu {
+        margin-left: 8px;
+        flex: 1;
+        overflow: hidden;
+        max-width: 400px;
+
+        .name {
+          color: rgba(0, 0, 0, 0.8);
+          font-size: 28px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          word-break: break-all;
+        }
+      }
+
+      .status {
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+
+    .middle {
+      flex-direction: row;
+      padding: 26px 0;
+      justify-content: space-between;
+
+      .pic {
+        flex-direction: row;
+        align-items: center;
+
+        .img-item {
+          width: 112px;
+          height: 112px;
+          margin-right: 20px;
+          border-radius: 5px;
+        }
+      }
+
+      .right {
+        flex-direction: row;
+        font-size: 24px;
+        align-items: center;
+      }
+    }
+
+    .bottom {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .price {
+        .price2 {
+          color: #ff6600;
+          font-size: 20px;
+        }
+
+        .price1 {
+          font-size: 32px;
+          color: #ff6600;
+          font-weight: 500;
+        }
+
+        view {
+          flex-direction: row;
+        }
+
+        .doajishi {
+          font-size: 22px;
+          margin-top: 10px;
+          align-items: center;
+        }
+      }
+
+      .btn {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+        padding: 14px 24px;
+        border: 2px solid #e6e6e6;
+        margin-right: 10px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        &.btn-warning {
+          background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+          color: #fff;
+          border: none;
+        }
+      }
+    }
+  }
+}

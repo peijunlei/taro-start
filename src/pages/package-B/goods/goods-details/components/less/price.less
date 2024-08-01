@@ -1,0 +1,77 @@
+// 价格
+.goods-detail-price {
+  flex-direction: row;
+  align-items: flex-end;
+  flex-shrink: 0;
+  white-space: nowrap;
+
+  .now-price {
+    font-size: 48px;
+    color: #ff6600;
+    // margin-right: 8px;
+    font-weight: 500;
+    letter-spacing: -2px;
+
+    .unit {
+      font-size: 20px;
+      color: #ff6600;
+    }
+
+    .price-point {
+      font-size: 20px;
+      color: #ff6600;
+      font-weight: 400;
+      margin-left: 0;
+    }
+
+    .unitPlus {
+      font-size: 40px;
+      color: #ff6600;
+      // margin-left: 10px;
+    }
+  }
+
+  .old-price {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+  }
+
+  .make {
+    font-size: 20px;
+    color: #ff6600;
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+}
+
+.goods-retail-box {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-left: 8px;
+
+  // 自营
+  .marketing {
+    margin-left: 10px;
+    width: 76px;
+    height: 28px;
+    background: #ff3333;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+
+    .marketing-text {
+      font-size: 24px;
+      color: #fff;
+      transform: scale(0.83);
+    }
+  }
+
+  .enterPrisePrice {
+    color: #333;
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+  }
+}

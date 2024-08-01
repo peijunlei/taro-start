@@ -1,0 +1,55 @@
+.list {
+  padding: 24px;
+
+  .cate-list {
+    margin-top: 24px;
+  }
+}
+
+.parent {
+  display: block;
+
+  .title {
+    flex-direction: row;
+    font-weight: 500;
+    justify-content: space-between;
+    font-size: 28px;
+
+    .arrow {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 24px 0;
+
+    .wm-btn-small {
+      padding: 16px 32px;
+    }
+
+    .wmbtn-box {
+      width: 224px;
+      margin-bottom: 16px;
+      margin-right: 14px;
+
+      &:nth-child(3n + 3) {
+        margin-right: 0;
+      }
+
+      .elis　 {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: center;
+        font-size: 24px;
+        line-height: 57px;
+        text-align: center;
+      }
+    }
+  }
+}

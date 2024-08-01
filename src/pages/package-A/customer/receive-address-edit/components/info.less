@@ -1,0 +1,68 @@
+.edit_info {
+  background-color: #ffffff;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 9px 0;
+}
+
+.edit_item {
+  position: relative;
+  z-index: 99;
+}
+
+.info2 {
+  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: space-between;
+  //border-bottom: 1px solid #e6e6e6;
+  .top-select-add {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.top-select-add {
+  &::after {
+    content: '';
+    width: 200%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+    border-radius: 1px;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}
+
+.info3 {
+  align-items: center;
+  margin-left: 24px;
+  // padding: 0 0 10px 0;
+  .at-switch::after {
+    border: 0;
+  }
+
+  .wm-form-btn-box {
+    position: relative;
+    width: calc(100vw - 48px);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.weui-picker__hd,
+.weui-picker__bd {
+  display: flex;
+  flex-direction: row;
+}
+
+.wm-form-item .form__input {
+  text-align: left;
+}

@@ -1,0 +1,65 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.mySet__info {
+  margin-top: 24px;
+  .set-item2 {
+    height: 108px;
+    background-color: #fff;
+    padding: 0 24px;
+    align-items: center;
+    flex-direction: row;
+    .set-arrow {
+      width: 48px !important;
+      height: 48px !important;
+    }
+  }
+  .item-des {
+    height: 108px;
+    background-color: #fff;
+    padding: 0 24px;
+    justify-content: center;
+    .set-item-des {
+      flex-direction: row;
+      align-items: center;
+    }
+    .refund-num-des {
+      align-items: center;
+      color: rgba(170, 170, 170, 100);
+      margin-top: 8px;
+    }
+    .set-arrow {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  .set-title {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+
+    .new-v {
+      background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 14px;
+      color: #fff;
+      font-size: 16px;
+      padding: 6px 8px;
+      margin-left: 16px;
+    }
+  }
+  .return-ins {
+    flex: auto;
+    color: rgba(170, 170, 170, 100);
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    width: 56%;
+  }
+  .refund-num {
+    color: #ff6600;
+    height: 24px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,86 @@
+.footer1-cls {
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 24px;
+  padding-bottom: calc(20px + constant(safe-area-inset-bottom)); /* 兼容 iOS < 11.2 */
+  padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* 兼容 iOS >= 11.2 */
+
+  .price-key {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .price-left {
+font-size: 24px;
+font-weight: 400;
+color: #999999;
+line-height: 24px;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: row;
+    .left-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(90deg, #FF8800 0%, #FF4D00 100%);
+      border-radius: 50%;
+      margin-right: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+.img {
+  height: 40px;
+  width: 40px;
+
+}
+    }
+    .left-desc {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .left-desc1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  .confirm {
+    display: flex;
+
+    &-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 176px;
+      height: 72px;
+      background: linear-gradient(90deg, var(--linearFrom) 0%, var(--linearTo) 100%);
+      border-radius: 36px;
+
+      &-disable {
+        background: linear-gradient(90deg, rgba(230, 230, 230, 1) 0%, rgba(204, 204, 204, 1) 100%);
+      }
+    }
+
+    &-text {
+      font-size: 28px;
+      color: var(--textColor);
+      font-weight: 500;
+    }
+  }
+}

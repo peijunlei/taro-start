@@ -1,0 +1,38 @@
+.brand_info {
+  flex-direction: row;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #fff;
+  &_logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+  }
+  &_name {
+    display: block;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 32px;
+    padding-left: 24px;
+  }
+  &_more {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    .all {
+      font-size: 24px;
+      font-weight: 400;
+      color: #999999;
+      line-height: 24px;
+    }
+    .arrow {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

@@ -22,7 +22,9 @@ import Price from '@/pages/common/goods/price';
 import down from '@/assets/image/shop-cart/down2x.png';
 import { Const } from 'config';
 import Restriction from '../restriction';
+
 var isBetween = require('dayjs/plugin/isBetween');
+
 moment.extend(isBetween);
 type ISkuSimpleItemProps = T.IProps & T.ISkuSimpleItemProps;
 @connect<Partial<ISkuSimpleItemProps>, T.ISkuSimpleItemState>(store2Props, actions)
@@ -156,14 +158,14 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
         options={WMkit.isShop() ? shopOptions : options}
       // isOpened={activedItem === goodsInfoId}
       >
-        <View className="skuItem sku-simple-item cart-skuItem">
-          <View className="goods-item">
+        <View className='skuItem sku-simple-item cart-skuItem'>
+          <View className='goods-item'>
             {
               //失效商品
               type !== 2 && (
-                <View className="check-view">
+                <View className='check-view'>
                   <Checkbox
-                    className="wanmi-checkbox"
+                    className='wanmi-checkbox'
                     disabled={(isClick || [1,4,99].includes(type)) && !isEdit}
                     checked={checkSku.includes(goodsInfoId)}
                     onClick={(checked) => {
@@ -196,7 +198,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
             }
 
             <View style={{ flex: 1 }}>
-              <View className="cart-to-good">
+              <View className='cart-to-good'>
                 {/*商品图片*/}
                 <PictureCom
                   type={type}
@@ -223,7 +225,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                   <View>
                     <View>
                       <Text
-                        className="goods-text"
+                        className='goods-text'
                         onClick={() => {
                           // 小c通过小B的店铺内分享链接进来加购的商品
                           if (WMkit.inviteeId() && WMkit.channelType() == '2' && sku.distributionGoodsAudit == '2') {
@@ -240,23 +242,23 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                         }}
                       >
                         {sku.thirdPlatformType != null && (
-                          <View className="marketing">
-                            <Text className="market-text">{Const.thirdPlatformTypeList[sku.thirdPlatformType]}</Text>
+                          <View className='marketing'>
+                            <Text className='market-text'>{Const.thirdPlatformTypeList[sku.thirdPlatformType]}</Text>
                           </View>
                         )}{sku.goodsInfoName}
                       </Text>
                     </View>
-                    <View className="goods-spec">
+                    <View className='goods-spec'>
                       {sku.specText ? (
                         <View>
                           {/* 单规格不可点击 */}
                           {singleSpecFlag ? (
-                            <View className="spec-text-box">
-                              <Text className="spec-text">{sku.specText}</Text>
+                            <View className='spec-text-box'>
+                              <Text className='spec-text'>{sku.specText}</Text>
                             </View>
                           ) : (
                               <View
-                                className="spec-text-box"
+                                className='spec-text-box'
                                 style={{ display: 'flex', flexDirection: 'row', height: '16px', alignItems: 'center' }}
                                 onClick={() => {
                                   if (!isFromC) {
@@ -265,7 +267,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                                   }
                                 }}
                               >
-                                <Text className="spec-text">{sku.specText}</Text>
+                                <Text className='spec-text'>{sku.specText}</Text>
                                 {!isFromC && <Image src={down} style={{ width: '13px', height: '15px' }} />}
                               </View>
                             )}
@@ -275,7 +277,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                         )}
                       {hasManyMarketing && (
                         <View
-                          className="spec-text-box"
+                          className='spec-text-box'
                           style={{ display: 'flex', flexDirection: 'row', height: '16px', alignItems: 'center' }}
                           onClick={async (e) => {
                             e.stopPropagation();
@@ -289,15 +291,15 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                             }, 300);
                           }}
                         >
-                          <Text className="spec-text">换促销</Text>
-                          <Image src={down} className="marketing-icons" style={{ width: '13px', height: '15px' }} />
+                          <Text className='spec-text'>换促销</Text>
+                          <Image src={down} className='marketing-icons' style={{ width: '13px', height: '15px' }} />
                         </View>
                       )}
                     </View>
                   </View>
 
-                  <View className="goods-prices">
-                    <View className="price-goods">
+                  <View className='goods-prices'>
+                    <View className='price-goods'>
                       {/* 预约 */}
                       {isAppointmentArry.length > 0 && (
                         <Price
@@ -320,7 +322,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
 
                       {social && sku.distributionCommission > 0 && (
                         <Text>
-                          <Text className="price-line" decode>
+                          <Text className='price-line' decode>
                             返利￥
                           </Text>
                           {sku.distributionCommission.length > 6 ? (
@@ -339,7 +341,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                     {
                       //失效商品  编辑模式下不展示
                       goodsStatus !== 2 && !isEdit && (
-                        <View className="cart-count-con">
+                        <View className='cart-count-con'>
                           <CartCount
                             min={1}
                             count={noStock ? 0 : sku.buyCount}
@@ -353,7 +355,7 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
                               await action.loadingWML(type);
                             }}
                           />
-                          <Text className="valid-text">{actions._validSku(sku, checkSku)}</Text>
+                          <Text className='valid-text'>{actions._validSku(sku, checkSku)}</Text>
                         </View>
                       )
                     }
@@ -370,20 +372,6 @@ export default class SkuSimpleItem extends Component<Partial<ISkuSimpleItemProps
       </AtSwipeAction>
     );
   }
-
-  onTap = (e, goodsInfoId) => {
-    const {
-      actions: {
-        action: { _deleteSku, _addFollow },
-      },
-    } = this.props;
-    if (e.text === '删除') {
-      _deleteSku(goodsInfoId);
-    } else if (e.text === '移入收藏') {
-      _addFollow([goodsInfoId]);
-    }
-  };
-
   //判断当前的预约状态
   isBuyStatus = (status) => {
     if (!status) return;

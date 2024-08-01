@@ -1,0 +1,158 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+:host {
+  flex: 1;
+}
+
+.user-collection-spu-item {
+  width: -webkit-fill-available;
+
+  :host {
+    flex: 1;
+  }
+
+  .goods-img {
+    width: 256px;
+    height: 256px;
+    border-radius: 10px;
+  }
+
+  .right-content {
+    overflow: hidden;
+
+    .goods-title {
+      .text-overflow(2);
+      margin-bottom: 12px;
+
+      // 自营
+      .marketing {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 56px;
+        height: 28px;
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        margin: 2px 8px 0 0;
+
+        .market-text {
+          font-size: 24px;
+          color: #fff;
+          transform: scale(0.83);
+          white-space: nowrap;
+        }
+      }
+
+      //商品标题
+      .title-view {
+        margin-bottom: 12px;
+
+        .words {
+          font-size: 24px;
+          line-height: 32px;
+          color: #333;
+          display: -webkit-box;
+          /*! autoprefixer: ignore next */
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          word-break: break-all;
+          overflow: hidden;
+
+          .text {
+            font-size: 24px;
+            color: #fff;
+          }
+        }
+      }
+    }
+    //发圈素材 分享赚
+    .user-collection-right-tools {
+      flex-direction: row;
+      align-items: center;
+      position: absolute;
+      right: 0;
+
+      .mater-btn {
+        background: rgba(255, 102, 0, 0.06);
+        border-radius: 24px;
+        padding: 5px 8px;
+        align-items: center;
+        height: 40px;
+        justify-content: center;
+
+        .mater-text {
+          font-size: 24px;
+          font-weight: 500;
+          color: #ff6600;
+          transform: scale(0.83);
+        }
+      }
+
+      .share-btn {
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 20px;
+        padding: 5px 8px;
+        align-items: center;
+        // margin-left: 8px;
+        height: 40px;
+        justify-content: center;
+
+        .share-text {
+          font-size: 24px;
+          color: #fff;
+          transform: scale(0.83);
+        }
+      }
+    }
+  }
+
+  .img-wrap {
+    position: relative;
+    border-radius: 10px;
+
+    .cover {
+      width: 256px;
+      height: 256px;
+      background: @black-opcity-8;
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+
+      .status {
+        align-items: center;
+        justify-content: center;
+        width: 104px;
+        height: 104px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.7);
+
+        &-text {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+
+    .preBuy {
+      position: absolute;
+      bottom: 0;
+      width: 256px;
+      height: 48px;
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      line-height: 48px;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      background: linear-gradient(90deg, #ff8400 0%, #ff4d00 100%);
+    }
+  }
+}

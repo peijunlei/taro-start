@@ -1,0 +1,330 @@
+.points-box {
+  height: 88px;
+
+  .container {
+    height: 88px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    .bar {
+      width: 750px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .nav {
+        height: 88px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .points-order-list-top-item {
+          color: #000;
+          font-size: 24px;
+          margin-top: 30px;
+        }
+
+        .itemSelected {
+          color: #ff6600;
+        }
+
+        .active {
+          margin-top: 12px;
+          width: 100%;
+          align-items: center;
+        }
+
+        .activeLine {
+          width: 48px;
+          height: 4px;
+          border-radius: 2px;
+          background-color: #ff6600;
+        }
+
+        .noActiveLine {
+          width: 48px;
+          height: 4px;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.user-box {
+  width: 100%;
+  padding: 24px 24px 0 24px;
+
+  /* 列表项 */
+  .user-order-item {
+    width: 100%;
+    padding: 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .user-order-item-link {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .ziying {
+        padding: 0 8px;
+        background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+        border-radius: 4px;
+        font-size: 20px;
+        color: #fff;
+      }
+
+      .dinapu {
+        margin-left: 8px;
+        flex: 1;
+        overflow: hidden;
+        max-width: 420px;
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        flex-direction: row;
+        align-items: center;
+        flex-direction: row;
+
+        .points-num {
+          font-size: 24px;
+          font-weight: 500;
+          color: rgba(255, 102, 0, 1);
+          margin-left: 8px;
+        }
+      }
+
+      .status {
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+
+    .middle {
+      flex-direction: row;
+      padding: 26px 0;
+      justify-content: space-between;
+
+      .pic {
+        flex-direction: row;
+        align-items: center;
+
+        .img-item {
+          width: 112px;
+          height: 112px;
+          margin-right: 20px;
+          border-radius: 12px;
+        }
+      }
+
+      .right {
+        flex-direction: row;
+        font-size: 24px;
+        align-items: center;
+      }
+    }
+
+    .bottom {
+      flex-direction: row;
+      align-items: center;
+      width: calc(100vw - 72px);
+      justify-content: flex-end;
+
+      .price {
+        .price2 {
+          color: #ff6600;
+          font-size: 20px;
+        }
+
+        .price1 {
+          font-size: 32px;
+          color: #ff6600;
+          font-weight: 500;
+        }
+
+        view {
+          flex-direction: row;
+        }
+
+        .doajishi {
+          font-size: 22px;
+          margin-top: 10px;
+          align-items: center;
+        }
+      }
+
+      .btn-delivery {
+        font-size: 20px;
+        color: #fff;
+        border-radius: 30px;
+        padding: 14px 24px;
+        background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        &.btn-warning {
+          background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+          color: #fff;
+          border: none;
+        }
+      }
+
+      .btn {
+        font-size: 20px;
+        color: #000;
+        border-radius: 30px;
+        padding: 14px 24px;
+        border: 1px solid #e6e6e6;
+        margin-right: 10px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        &.btn-warning {
+          background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+          color: #fff;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.normal {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.goods-info1 {
+  flex-direction: row;
+  align-items: center;
+  border-radius: 12px;
+  width: 100%;
+  // border: 2px solid rgba(230, 230, 230, 1);
+  .left {
+    width: 176px;
+    height: 184px;
+    background-size: 100% 100%;
+    background-image: url('../img/coupon.png');
+    border-radius: 12px 0 0 12px;
+    align-items: center;
+    justify-content: center;
+
+    //background:linear-gradient(90deg,rgba(255,136,0,1) 0%,rgba(255,77,0,1) 100%);
+    .left1 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .left2 {
+      font-size: 48px;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .left3 {
+      font-size: 24px;
+      font-weight: 400;
+      color: #fff;
+      margin-top: 16px;
+    }
+  }
+
+  .right {
+    width: calc(100% - 176px);
+    flex-direction: row;
+    justify-content: space-between;
+    height: 184px;
+    padding: 24px;
+    border: 2px solid rgba(230, 230, 230, 1);
+    border-left: none;
+    border-radius: 0 12px 12px 0;
+
+    .right_left {
+      flex-direction: row;
+      margin-bottom: 28px;
+    }
+
+    .coupon {
+      width: 76px;
+      height: 28px;
+      background-size: 100% 100%;
+      background-image: url('../img/youhui.png');
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .coupons {
+      width: 76px;
+      height: 28px;
+      background-size: 100% 100%;
+      background-image: url('../img/youhuiCheng.png');
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .couponT {
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      margin-left: 8px;
+    }
+
+    .couponText {
+      font-size: 24px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.4);
+      margin-bottom: 10px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .couponFen {
+      font-size: 28px;
+      font-weight: 500;
+      color: rgba(255, 102, 0, 1);
+      margin-right: 4px;
+      margin-top: 5px;
+    }
+
+    .couponFens {
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .couponDui {
+      width: 112px;
+      height: 40px;
+      background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+    }
+  }
+}

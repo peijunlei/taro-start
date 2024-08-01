@@ -1,0 +1,71 @@
+.packageACustomerAccountDetail {
+  background-color: #ffffff;
+  height: 100vh;
+  overflow: scroll;
+
+  .bar {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 112px;
+
+    .nav {
+      height: 88px;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 20vw;
+
+      .deposit-records-item {
+        color: #000;
+        font-size: 24px;
+        margin-top: 30px;
+        white-space: nowrap;
+      }
+
+      .itemSelected {
+        color: #ff6600;
+        font-weight: bold;
+      }
+
+      .active {
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+      }
+
+      .activeLine {
+        width: 48px;
+        height: 4px;
+        background-color: #ff6600;
+      }
+
+      .noActiveLine {
+        width: 48px;
+        height: 4px;
+        background-color: #ffffff;
+      }
+    }
+  }
+  .account-detail-list {
+  }
+
+  .scroll {
+    height: 100vh;
+  }
+
+  .status {
+    font-size: 24px;
+    color: #a3a3a3;
+    text-align: center;
+    padding: 24px 0 30px 0;
+  }
+}
+
+._page{
+  height: 100vh;
+  &_body{
+    height: 100%;
+  }
+}

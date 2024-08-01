@@ -1,0 +1,76 @@
+/* 底部 */
+.member-footer-box {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 12;
+  padding-bottom: env(safe-area-inset-bottom);
+  /* 兼容 iOS >= 11.2 */
+  background-color: #fff;
+}
+
+.ios-bottom {
+  padding-bottom: 92px;
+}
+
+.member-footer {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 85px;
+  background: #fff;
+
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      font-size: 20px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.4);
+    }
+
+    .text.active {
+      color: #ff6600;
+    }
+
+    .l-icon1 {
+      width: 40px;
+      height: 40px;
+      background: url('./img/bottom-left.png') no-repeat;
+      background-size: 40px 40px;
+    }
+
+    .l-icon1.active {
+      background: url('./img/bottom-left2.png') no-repeat;
+      background-size: 40px 40px;
+    }
+
+    .l-icon2 {
+      width: 40px;
+      height: 40px;
+      background: url('./img/bottom-middle.png') no-repeat;
+      background-size: 40px 40px;
+    }
+
+    .l-icon2.active {
+      background: url('./img/bottom-middle2.png') no-repeat;
+      background-size: 40px 40px;
+    }
+
+    .l-icon3 {
+      width: 40px;
+      height: 40px;
+      background: url('./img/bottom-right.png') no-repeat;
+      background-size: 40px 40px;
+    }
+
+    .l-icon3.active {
+      background: url('./img/bottom-right2.png') no-repeat;
+      background-size: 40px 40px;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+.goodsInfo {
+  padding: 40px 24px 32px;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 24px;
+
+  .price-collect {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // 秒杀 已抢
+  .seckill {
+    flex-direction: row;
+    align-items: center;
+    margin: 16px 0;
+
+    .text {
+      font-size: 24px;
+      color: #999;
+
+      .num {
+        font-size: 24px;
+        color: #ff6600;
+      }
+    }
+
+    .progress {
+      width: 192px;
+      height: 16px;
+      background: rgba(255, 231, 215, 1);
+      border-radius: 8px;
+      position: relative;
+      margin-left: 16px;
+
+      .high {
+        height: 16px;
+        background: linear-gradient(359deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 8px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  //阶梯价 折扣
+  .vip-content {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+
+    .l-tag {
+      height: 28px;
+      background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 4px;
+      padding: 0 8px;
+      margin-right: 8px;
+
+      .tag-text {
+        color: #fff;
+        font-size: 24px;
+        transform: scale(0.833);
+      }
+    }
+
+    .vip-info {
+      flex-direction: row;
+      align-items: center;
+
+      .svip {
+        height: 28px;
+        background: #333;
+        border-radius: 4px 0 0 4px;
+        padding: 0 8px;
+
+        .svip-text {
+          color: #fff;
+          font-size: 24px;
+          transform: scale(0.833);
+        }
+      }
+
+      .dist {
+        height: 28px;
+        background: #ffc934;
+        border-radius: 4px;
+        padding: 0 8px;
+
+        .dist-text {
+          color: #333;
+          font-size: 24px;
+          transform: scale(0.833);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.order-button {
+  padding: 24px 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  // z-index: 9;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+
+  .order-button-wrap {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .btn {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 60px;
+    padding: 14px 30px;
+    border: 2px solid #ff6600;
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &.btn-warning {
+      font-size: 28px;
+      font-weight: 500;
+      color: #ff6600;
+    }
+  }
+}

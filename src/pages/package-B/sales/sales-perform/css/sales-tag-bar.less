@@ -1,0 +1,67 @@
+.salesTagBar {
+  background-color: #ffffff;
+
+  .tag-bar {
+    flex-direction: row;
+    height: 88px;
+    align-items: center;
+    padding: 8px 0;
+
+    .tag-bar-item {
+      font-size: 24px;
+      flex: 1;
+      text-align: center;
+      position: relative;
+
+      &.curr {
+        color: #ff6600;
+
+        .line {
+          background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        }
+      }
+
+      .line {
+        width: 65px;
+        height: 4px;
+        background: #ffffff;
+        border-radius: 2px;
+        position: absolute;
+        bottom: -21px;
+        left: 43%;
+      }
+    }
+  }
+
+  .day-tag-bar {
+    flex-direction: row;
+    margin: 24px 0;
+    justify-content: center;
+
+    .day-item {
+      background-color: #f5f5f5;
+      border-radius: 28px;
+      // width: 148px;
+      height: 56px;
+      font-size: 24px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 8px;
+      padding: 0 32px;
+
+      &.month {
+        flex-direction: row;
+      }
+
+      &.curr {
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        color: #ffffff;
+      }
+
+      .arrow {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

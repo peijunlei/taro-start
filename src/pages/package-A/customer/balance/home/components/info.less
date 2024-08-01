@@ -1,0 +1,118 @@
+.home_detail {
+  align-items: center;
+  z-index: 0;
+  position: relative;
+
+  .deposit-btn {
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .deposit-btn::after {
+    border: none;
+  }
+
+  .balance_content {
+    width: 100vw;
+    height: 240px;
+    background: linear-gradient(90deg, rgba(255, 133, 10, 1) 0%, rgba(250, 92, 0, 1) 100%);
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .balance_info {
+    width: 750px;
+    // height: 240px;
+    // background: linear-gradient(90deg, rgba(255, 133, 10, 1) 0%, rgba(250, 92, 0, 1) 100%);
+    // border-radius: 0 0 50px 50px;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 65px;
+
+    .info_box {
+      width: 702px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 16px;
+      padding: 40px 32px;
+      // position: absolute;
+      // top: 65px;
+    }
+
+    .info_box_top {
+      .info_box_1 {
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      .info_box_2 {
+        margin-top: 16px;
+        font-size: 56px;
+        font-weight: 500;
+        color: rgba(255, 102, 0, 1);
+      }
+    }
+
+    .info_box_bottom {
+      margin-top: 40px;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .info_box_bottom_ {
+        width: 50%;
+      }
+
+      .info_box_3 {
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      .info_box_4 {
+        margin-top: 16px;
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+      }
+    }
+  }
+
+  .info_box2 {
+    flex-direction: row;
+    margin-top: 24px;
+    width: 702px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    align-items: center;
+    padding: 10px 20px;
+    &.entry{
+      padding: 0;
+      .img{
+        height: 200px;
+        width: 100%;
+      }
+    }
+  }
+  
+
+  .infos {
+    margin-top: 130px;
+  }
+
+  .imgs {
+    width: 42px;
+    height: 40px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,91 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.signHeader {
+  padding: 48px 24px;
+
+  .rule {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  view,
+  text,
+  div,
+  span {
+    color: #fff;
+  }
+
+  .item {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: flex-end;
+  }
+
+  .small-wrap {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .large-text {
+    font-size: 56px;
+    padding: 0 16px;
+  }
+
+  .rules {
+    .fs(24px);
+    width: 128px;
+    height: 40px;
+    padding: 4px 16px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 1);
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .left {
+    margin-right: 24px;
+  }
+
+  .item-next {
+    flex-direction: row;
+    align-items: flex-end;
+
+    .right-big {
+      font-size: 40px !important;
+      margin: 0 6px;
+    }
+
+    text {
+      .fs(28px);
+    }
+
+    .sign__days {
+      .fs(40rpx);
+      font-weight: 500;
+    }
+
+    taro-text-core {
+      color: #fff;
+    }
+  }
+
+  .body_bt {
+    width: 128px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+  }
+}

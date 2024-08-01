@@ -1,0 +1,46 @@
+.reducePrice {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  padding: 0 24px;
+  background: #fff;
+
+  .l-content {
+    flex-direction: row;
+    align-items: center;
+    // 标题
+    .label {
+      font-size: 28px;
+      color: rgba(0, 0, 0, 0.8);
+      margin-right: 24px;
+      font-weight: 500;
+    }
+    //优惠券
+    .coupon-box {
+      flex-direction: row;
+      align-items: center;
+
+      .coupon-item {
+        justify-content: center;
+        padding: 0 24px;
+        height: 40px;
+        position: relative;
+        border: 2px solid #ff6600;
+        margin-right: 16px;
+
+        .text {
+          font-size: 20px;
+          color: #ff6600;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  //更多
+  .more {
+    width: 48px;
+    height: 48px;
+  }
+}

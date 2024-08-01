@@ -1,0 +1,150 @@
+.prizeModal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  .close-img {
+    width: 80px;
+    height: 80px;
+    margin-top: 32px;
+  }
+  .PrizeResultText {
+    white-space: nowrap;
+    position: absolute;
+    bottom: 56px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .prize-arrow-right{
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .pm-bottom {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 48px;
+
+    .pm-bottom-item {
+      width: 360px;
+      height: 80px;
+      background: linear-gradient(315deg, #ff8852 0%, #fe4747 100%);
+      border-radius: 40px;
+      font-size: 32px;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .pm-bottom-btn {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 360px;
+    height: 88px;
+  }
+  .pm-body {
+    position: relative;
+    width: 564px;
+    height: 688px;
+    z-index: 9999;
+    .drawBg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 564px;
+      height: 688px;
+    }
+    .pm-body-in {
+      background: linear-gradient(360deg, #faeadd 0%, #fef8f5 100%);
+      height: 580px;
+      box-shadow: 0 8px 16px 0 #df4339;
+      border-radius: 24px;
+    }
+    .pd-body-title {
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 440px;
+
+      .body-title-img {
+        width: 100%;
+        height: 92px;
+      }
+
+      .body-title-text {
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        top: 10px;
+        font-size: 40px;
+        font-weight: 500;
+      }
+    }
+
+    .pm-content {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin: 128px auto 0 auto;
+      .pm-body-coupon {
+        width: 240px;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .pm-body-bg {
+        width: 482px;
+        height: 288px;
+      }
+
+      .pm-body-box {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 60px;
+
+        .pm-body-coupon {
+          width: 192px;
+          height: 192px;
+        }
+
+        .pm-body-text {
+          position: absolute;
+          color: #fff;
+          font-size: 54px;
+
+          .pm-body-icon {
+            font-size: 32px;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .pm-info-text {
+      font-size: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+    }
+  }
+}

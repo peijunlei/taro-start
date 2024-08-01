@@ -1,0 +1,226 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.box {
+  height: 88px;
+
+  .container {
+    height: 88px;
+    background-color: #fff;
+    //position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    .barPromote {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .nav {
+        height: 88px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .itemPromote {
+          color: #000;
+          font-size: 24px;
+          margin-top: 30px;
+        }
+
+        .itemSelected {
+          color: #ff6600;
+          font-weight: 500;
+        }
+
+        .active {
+          margin-top: 12px;
+          width: 100%;
+          align-items: center;
+        }
+
+        .activeLine {
+          width: 48px;
+          height: 4px;
+          border-radius: 2px;
+          background-color: #ff6600;
+        }
+
+        .noActiveLine {
+          width: 48px;
+          height: 4px;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.promote-order-list_user-box {
+  width: 100%;
+  padding: 24px 24px 0 24px;
+  /* 列表项 */
+  .user-order-item {
+    width: 100%;
+    padding: 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .user-order-item-link {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .ziying {
+        padding: 0 8px;
+        background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+        border-radius: 4px;
+        font-size: 20px;
+        color: #fff;
+      }
+
+      .dinapu {
+        margin-left: 8px;
+        flex: 1;
+        overflow: hidden;
+        max-width: 420px;
+
+        .name {
+          color: #000;
+          font-size: 28px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          word-break: break-all;
+        }
+      }
+
+      .status {
+        font-size: 24px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      .status2 {
+        font-size: 24px;
+        font-weight: 500;
+        color: @primary-color;
+      }
+    }
+
+    .middle {
+      flex-direction: row;
+      padding: 26px 0;
+      justify-content: space-between;
+
+      .pic {
+        flex-direction: row;
+        align-items: center;
+
+        .img-item {
+          width: 112px;
+          height: 112px;
+          margin-right: 20px;
+          border-radius: 12px;
+          overflow: hidden;
+        }
+      }
+
+      .right {
+        flex-direction: row;
+        font-size: 24px;
+        align-items: center;
+        font-weight: 500;
+      }
+    }
+
+    .bottom {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .price {
+        flex-direction: row;
+        align-items: flex-end;
+
+        .price-box {
+          flex-direction: row;
+          align-items: flex-end;
+        }
+
+        .price2 {
+          color: #ff6600;
+          font-size: 20px;
+          transform: scale(0.83);
+          transform-origin: left;
+        }
+
+        .price1 {
+          font-size: 32px;
+          color: #ff6600;
+          font-weight: 500;
+        }
+
+        view {
+          flex-direction: row;
+        }
+
+        .doajishi {
+          font-size: 22px;
+          margin-top: 10px;
+          align-items: center;
+        }
+      }
+
+      .promote-btn {
+        display: flex;
+        font-size: 20px;
+        color: #000;
+        padding: 14px 24px;
+        margin-right: 10px;
+        margin-top: 16px;
+        width: 160px;
+        height: 56px;
+        justify-content: center;
+        align-items: center;
+        .border(@color: #e6e6e6; @width: 2px; @radius: 60px);
+        background: rgba(255, 255, 255, 1);
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        &.btn-warning {
+          background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+          color: #fff;
+          border: none;
+        }
+      }
+    }
+  }
+
+  .commission {
+    margin-left: 8px;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+
+  .money {
+    margin-left: 5px;
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .money2 {
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

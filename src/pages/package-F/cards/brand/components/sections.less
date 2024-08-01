@@ -1,0 +1,73 @@
+.brands {
+    .wrap {
+        background-color: #fff;
+        padding-bottom: 24px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 999;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            height: 88px;
+
+            .item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+                flex-direction: column;
+
+                .text {
+                    font-size: 28px;
+                    font-weight: 500;
+                    color: #666;
+                }
+
+                .line {
+                    width: 50px;
+                    height: 4px;
+                    background-color: transparent;
+                    border-radius: 2px;
+                    margin-top: 18px;
+                    margin-bottom: 8px;
+                }
+            }
+
+            .active {
+                .text {
+                    color: var(--themeColor) !important;
+                }
+
+                .line {
+                    background-color: var(--themeColor) !important;
+                }
+            }
+        }
+
+        .search {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #F5F5F5;
+            height: 64px;
+            border-radius: 32px;
+            overflow: hidden;
+            padding: 0 34px;
+            margin: 8px 24px 0 24px;
+
+            .search-input {
+                margin-left: 14px;
+                font-size: 24px;
+                color: #333;
+            }
+
+            .search-holder {
+                color: rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+}

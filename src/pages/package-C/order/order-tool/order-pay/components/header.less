@@ -1,0 +1,94 @@
+.header {
+  .invoice {
+    display: flex;
+
+    &-header {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 24px;
+      height: 88px;
+      background: #fff6f0;
+    }
+
+    &-icon {
+      height: 32px;
+      width: 32px;
+    }
+
+    &-tips {
+      font-size: 24px;
+      padding-left: 16px;
+      color: #ff6600;
+    }
+  }
+
+  .price {
+    display: flex;
+
+    &-icon {
+      font-size: 24px;
+      color: #ff6600;
+      font-weight: bold;
+    }
+
+    &-num {
+      font-size: 48px;
+      color: #ff6600;
+      font-weight: bold;
+    }
+
+    &-con {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 184px;
+      background-color: #fff;
+      .service {
+        width: 224px;
+        height: 56px;
+        background: #F5F5F5;
+        font-size: 24px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 24px;
+        border-radius: 28px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+      }
+    }
+
+    &-title {
+      font-size: 24px;
+      color: #333;
+    }
+
+    &-num-con {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      margin-top: 20px;
+      .detail {
+        margin-left: 8px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 8px;
+        height: 40px;
+        background: rgba(255, 102, 0, .1);
+        border-radius: 12px 12px 12px 0px;
+
+        .text {
+          font-size: 24px;
+          font-weight: 400;
+          color: #FF6600;
+          line-height: 24px;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}

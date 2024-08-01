@@ -1,0 +1,53 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.repayment-item {
+  height: 148px;
+  padding: 40px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 24px;
+
+  .repayment-up {
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+
+    .repayment-font {
+      font-size: 28px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.8);
+      line-height: 28px;
+    }
+
+    .repayment-status {
+      font-size: 24px;
+      font-weight: 500;
+      color: @primary-color;
+      line-height: 24px;
+    }
+
+    .repayment-status-ending {
+      font-size: 24px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.4);
+      line-height: 24px;
+    }
+  }
+
+  .repayment-time {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 24px;
+    margin-top: 16px;
+  }
+
+  .repayment-orderId {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 24px;
+    margin-top: 16px;
+  }
+}

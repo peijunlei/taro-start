@@ -1,0 +1,151 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+:host {
+  flex: 1;
+}
+
+.prebuy-list-spu-item {
+  :host {
+    flex: 1;
+  }
+
+  .goods-img {
+    width: 256px;
+    height: 256px;
+    border-radius: 10px;
+  }
+
+  .right-content {
+    overflow: hidden;
+
+    .goods-title {
+      .text-overflow(2);
+      margin-bottom: 12px;
+
+      // 自营
+      .marketing {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 56px;
+        height: 28px;
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        margin: 2px 8px 0 0;
+
+        .market-text {
+          font-size: 24px;
+          color: #fff;
+          transform: scale(0.83);
+        }
+      }
+
+      //商品标题
+      .title-view {
+        padding-right: 12px;
+        margin-bottom: 12px;
+
+        .words {
+          font-size: 24px;
+          line-height: 32px;
+          color: #333;
+          display: -webkit-box;
+          /*! autoprefixer: ignore next */
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          word-break: break-all;
+          overflow: hidden;
+
+          .text {
+            font-size: 24px;
+            color: #fff;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  .timeprelist {
+    color: #ff4d00;
+    font-size: 24px;
+    position: relative;
+    top: 4px;
+  }
+
+  .timeFlex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -15px;
+    align-items: center;
+  }
+
+  .img-wrap {
+    position: relative;
+    border-radius: 10px;
+    width: 256px;
+    height: 256px;
+
+    .preBuylist {
+      position: absolute;
+      bottom: 0;
+      width: 256px;
+      height: 48px;
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      line-height: 48px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      background: linear-gradient(90deg, #ff8400 0%, #ff4d00 100%);
+    }
+
+    .preBuylistGray {
+      background: #e2e2e2;
+    }
+
+    .cover {
+      width: 256px;
+      height: 256px;
+      background: @black-opcity-8;
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+
+      .status {
+        align-items: center;
+        justify-content: center;
+        width: 104px;
+        height: 104px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.7);
+
+        &-text {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .preBuystatus {
+    display: flex;
+    flex-direction: row;
+
+    .saleType {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      position: relative;
+      // top: 14px;
+      padding-right: 15px;
+    }
+  }
+}

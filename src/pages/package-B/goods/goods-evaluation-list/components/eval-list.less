@@ -1,0 +1,185 @@
+.evalList {
+  .eval-item {
+    padding: 32px 24px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 24px;
+    background: #fff;
+    // 评价用户信息
+    .eval-user-info {
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      .left {
+        flex-direction: row;
+        align-items: center;
+
+        .head {
+          width: 72px;
+          height: 72px;
+          border-radius: 100%;
+          margin-right: 16px;
+        }
+
+        .info {
+          .name {
+            font-size: 28px;
+            color: #333;
+            font-weight: bold;
+          }
+
+          .star-box {
+            .star-click-area {
+              width: 28px;
+              height: 20px;
+
+              .star-img {
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+              }
+
+              .star-img:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+
+        .iepBox {
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 12px;
+        }
+      }
+
+      .time {
+        font-size: 20px;
+        color: #999;
+        margin-bottom: 5px;
+      }
+    }
+    //标题
+    .eval-title {
+      font-size: 24px;
+      color: #333;
+      line-height: 32px;
+      // display: -webkit-box;
+      // -webkit-box-orient: vertical;
+      // -webkit-line-clamp: 2;
+      word-break: break-all;
+      // overflow: hidden;
+      margin: 28px 0 0;
+      // max-height: 64px;
+    }
+
+    .height64 {
+      max-height: 64px;
+      overflow: hidden;
+    }
+
+    .all-title {
+      // -webkit-line-clamp: 1000;
+      overflow: unset;
+      max-height: none;
+    }
+
+    .open-words {
+      font-size: 24px;
+      color: #999;
+    }
+    //评价图片
+    .eval-pictures {
+      flex-direction: row;
+      align-items: center;
+      margin-top: 16px;
+      flex-wrap: wrap;
+
+      .imgBox {
+        width: 33.3%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+
+        .picture {
+          min-width: 224px;
+          min-height: 224px;
+          width: 224px;
+          height: 224px;
+          border-radius: 12px;
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .dian-zan {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .l-content {
+        .text {
+          font-size: 20px;
+          color: #999;
+        }
+      }
+
+      .r-content {
+        flex-direction: row;
+        align-items: center;
+        padding: 24px 24px 0 100px;
+        margin-right: -24px;
+
+        .num {
+          font-size: 20px;
+          color: #333;
+        }
+
+        .zan {
+          width: 32px;
+          height: 32px;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  .iepCustomerName {
+    border-radius: 6px;
+    max-width: 100%;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 214, 132);
+    font-size: 20px;
+    flex-direction: row;
+    height: 32px;
+    padding: 0 8px;
+    margin-left: 20px;
+
+    .picture {
+      width: 22px;
+      height: 22px;
+      margin-right: 6px;
+    }
+  }
+
+  .evaluateAnswer {
+    font-size: 24px;
+    color: #999;
+    margin: 32px 0;
+    word-break: break-all;
+  }
+
+  .eval-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.no-more {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 24px;
+  text-align: center;
+}

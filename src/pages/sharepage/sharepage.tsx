@@ -80,9 +80,6 @@ export default class SharePage extends Component {
     if (decodeURI && decodeURI.indexOf('store-main') > -1) {
       //Todo 跳转至店铺首页
       return
-      Taro.redirectTo({
-        url: `/pages/package-A/store/store-main/index?storeId=${decodeURI.split('/')[2]}`,
-      });
     }
     //分销场景相关的,积分共用
     if (scene && scene.indexOf('FX') > -1) {

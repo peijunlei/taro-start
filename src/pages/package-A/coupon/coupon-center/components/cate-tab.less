@@ -1,0 +1,86 @@
+.coupon__cateTab {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  background-color: #fff;
+  z-index: 100;
+  top: 0;
+
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+  }
+
+  .tab-left {
+    flex-direction: row;
+    flex: 1;
+    white-space: nowrap;
+    height: 88px;
+    // margin-left: 24px;
+    // padding-left: 24px;
+    overflow: scroll;
+    margin-right: 150px;
+
+    .tab-text {
+      font-size: 24px;
+      margin-right: 32px;
+      display: inline-block;
+      line-height: 88px;
+      border-bottom: 2px solid transparent;
+
+      &.curr {
+        position: relative;
+        color: #ff6600;
+        font-weight: 500;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 8px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 48px;
+          height: 4px;
+          background-color: #ff6600;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+
+  .tab-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: row;
+    height: 88px;
+    z-index: 200;
+
+    .back {
+      background-color: #fff;
+      flex: 1;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 32px;
+    }
+
+    .curr-text {
+      font-weight: 500;
+      color: #ff6600;
+    }
+
+    .down-img {
+      width: 24px;
+      height: 24px;
+      margin-left: 4px;
+    }
+
+    .tab-right__linear {
+      width: 100px;
+      height: 72px;
+      background: linear-gradient(270deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
+    }
+  }
+}

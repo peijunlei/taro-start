@@ -1,0 +1,118 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.calendar {
+  background: linear-gradient(90deg, rgba(255, 238, 219, 1) 0%, rgba(255, 223, 199, 1) 100%);
+  border-radius: 16px;
+  padding: 32px 18px 32px 18px;
+  margin: 0 24px 24px;
+
+  .calender-content {
+    justify-content: space-between;
+  }
+
+  .calendar-point {
+    font-size: 32px;
+    align-items: flex-end;
+    line-height: normal;
+    word-break: keep-all;
+    white-space: nowrap;
+
+    .calendar-point-points-big {
+      font-size: 44px !important;
+      font-weight: bold;
+    }
+  }
+
+  &-point {
+    color: @primary-color;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &-points {
+      color: @primary-color;
+      font-size: 36px;
+
+      &-big {
+        font-size: 64px !important;
+      }
+    }
+  }
+
+  &-title {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 26px 26px 20px;
+
+    &-item {
+      color: #985b31;
+      .fs(24px);
+    }
+  }
+
+  &-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    // justify-content: space-between;
+    &-item {
+      .fs();
+      // width: 83px;
+      height: 86px;
+      background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 100%);
+      border-radius: 12px;
+      // padding: 16px 0;
+      align-items: center;
+      // margin: 0 12px 12px 0;
+      margin: 6px;
+      color: #985b31;
+      font-size: 20px;
+
+      justify-content: center;
+
+      &-empty {
+        // width: 83px;
+        width: 14.28%;
+        height: 86px;
+        // margin: 0 12px 12px 0;
+      }
+
+      .point-img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  .signed {
+    .primary-back();
+
+    .small-text {
+      .fs(20px);
+      color: #fff;
+
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+    }
+  }
+
+  .modal {
+    text,
+    span {
+      line-height: 1.5;
+    }
+  }
+
+  .calendar-content-seven {
+    width: 14.28%;
+  }
+
+  .wm-btn-wrap {
+    .wm-btn-disabled {
+      background: linear-gradient(90deg, rgba(219, 206, 197, 1) 0%, rgba(194, 173, 167, 1) 100%);
+    }
+  }
+}

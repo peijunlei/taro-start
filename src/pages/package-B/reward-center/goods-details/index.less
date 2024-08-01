@@ -1,0 +1,59 @@
+.reward-goods-details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+
+  .up-box {
+    width: 100%;
+    height: calc(100% - 112px);
+    height: calc(100% - 112px - env(safe-area-inset-bottom));
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.GoodsDetails {
+  flex-shrink: 0;
+  background: #f5f5f5;
+
+  .spuSpecModal .spec-container {
+    padding-bottom: 25px !important;
+  }
+
+  .mb-24 {
+    margin-bottom: 24px;
+    flex-shrink: 0;
+  }
+
+  .buy-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 112px;
+    width: 100vw;
+    padding-bottom: env(safe-area-inset-bottom);
+    background-color: #fff;
+    box-sizing: content-box;
+
+    .buy-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: calc(100vw - 48px);
+      height: 72px;
+      background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 36px;
+
+      .buy-text {
+        font-size: 28px;
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+  }
+}

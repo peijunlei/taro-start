@@ -1,0 +1,58 @@
+.priceWholesale {
+  //不允许独立设价
+  .scroll-view {
+    display: flex;
+    flex-direction: row;
+
+    .no-price-box {
+      flex-direction: row;
+      align-items: center;
+
+      .no-goods-price {
+        .up-price {
+          flex-direction: row;
+          align-items: flex-end;
+          margin-right: 24px;
+
+          .unit1 {
+            color: #ff6600;
+            font-size: 20px;
+          }
+
+          .price1 {
+            color: #ff6600;
+            font-size: 36px;
+          }
+        }
+
+        .down-nums {
+          color: #999;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  // 允许独立设价
+  .price {
+    flex-direction: row;
+    align-items: flex-end;
+
+    .now-price {
+      font-size: 48px;
+      color: #ff6600;
+      margin-right: 8px;
+      font-weight: bold;
+
+      .unit {
+        font-size: 20px;
+        color: #ff6600;
+      }
+    }
+
+    .old-price {
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.4);
+      text-decoration: line-through;
+    }
+  }
+}

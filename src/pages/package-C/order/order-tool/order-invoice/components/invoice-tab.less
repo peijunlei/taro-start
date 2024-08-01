@@ -1,0 +1,39 @@
+.invoiceTab {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  height: 112px;
+  padding: 8px;
+
+  .invoice {
+    display: flex;
+
+    &-tab-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 224px;
+      height: 64px;
+      background: #ffffff;
+      margin-left: 16px;
+      border-radius: 12px;
+      border: 2px solid #e6e6e6;
+
+      &-text {
+        font-size: 24px;
+
+        &-active {
+          color: #ff6600;
+          font-weight: 500;
+        }
+      }
+
+      &-active {
+        border: 2px solid #ff6600 !important;
+        font-weight: 500;
+      }
+    }
+  }
+}

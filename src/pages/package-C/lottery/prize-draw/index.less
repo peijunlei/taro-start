@@ -1,0 +1,94 @@
+.packageAPrizeDrawMain {
+  background: linear-gradient(137deg, #fe603a 0%, #fc3566 100%);
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  // flex: 1;
+
+  .prize-draw-no {
+    align-items: center;
+    padding-top: 240px;
+
+    .img {
+      width: 208px;
+      height: 208px;
+      margin-bottom: 8px;
+    }
+
+    .prize-draw-not-text {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      align-items: center;
+      justify-content: center;
+    }
+
+    .prize-draw-btn {
+      flex-direction: row;
+      margin-top: 24px;
+      width: 240px;
+      height: 72px;
+      border: 1px solid #ff6600;
+      border-radius: 36px;
+      align-items: center;
+      justify-content: center;
+
+      .prize-draw-text {
+        font-size: 24px;
+        color: #ff6600;
+      }
+
+      .prize-draw-img {
+        margin-right: 8px;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  .pd-block {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    .pd-block-title {
+      width: calc(100vw * 0.7);
+      height: calc(100vw * 0.7 * 0.413);
+      margin: 50px auto 50px;
+    }
+  }
+
+  .pd-container-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    width: 100vw;
+    //height: 100vh;
+    //background-image: url('@/assets/image/prize-draw/draw-bg.png');
+    //object-fit: cover;
+  }
+}
+
+.draw_to_home {
+  position: absolute;
+  z-index: 1;
+  padding: 24px 0 0 24px;
+  flex-direction: row;
+  align-items: center;
+
+  .draw_to_home_title {
+    font-size: 28px;
+    color: #fff;
+  }
+  .draw-arrow-left{
+    width: 32px;
+    height: 32px;
+    transform:rotate(180deg)
+  }
+
+  .draw_to_home_img {
+    margin-right: 8px;
+  }
+}

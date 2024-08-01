@@ -1,0 +1,80 @@
+.promotion__bottom {
+  position: fixed;
+  bottom: 0;
+  padding: 0 24px;
+  border-top: 1px solid #e6e6e6;
+  height: calc(112px + env(safe-area-inset-bottom));
+  padding-bottom: calc(env(safe-area-inset-bottom));
+  background-color: #fff;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .l-content {
+    display: flex;
+    flex-direction: column;
+
+    .up-box {
+      display: flex;
+      flex-direction: row;
+
+      .up-text {
+        font-size: 24px;
+        color: #999;
+        margin-bottom: 12px;
+      }
+
+      .nums {
+        font-size: 24px;
+        color: #ff6600;
+        font-weight: bold;
+      }
+
+      .price {
+        font-size: 32px;
+        color: #ff6600;
+        font-weight: bold;
+        top: -6px;
+        position: relative;
+      }
+    }
+
+    .down-text {
+      flex-direction: row;
+      align-items: center;
+
+      .dh {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+
+      .text {
+        font-size: 20px;
+        color: #999;
+
+        .price {
+          font-size: 20px;
+          color: #ff6600;
+          font-weight: bold;
+        }
+
+        .price-gift {
+          color: rgba(0, 0, 0, 0.4);
+        }
+      }
+    }
+  }
+
+  .r-go-btn {
+    height: 72px;
+    background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 36px;
+    padding: 0 32px;
+    font-size: 28px;
+    color: #fff;
+    justify-content: center;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,130 @@
+.goods_list {
+  border-radius: 12px;
+  padding: 0 24px 32px;
+  background-color: #ffffff;
+}
+
+.orderSkuItem {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 32px;
+
+  .Img {
+    width: 160px;
+    height: 160px;
+    margin-right: 24px;
+    border-radius: 12px;
+  }
+
+  .right_box {
+    flex: 1;
+
+    .right_box_top {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .right_top {
+      font-size: 24px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+      max-width: 80%;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+
+      .zen {
+        background: linear-gradient(90deg, rgba(92, 184, 255, 1) 0%, rgba(61, 126, 255, 1) 100%);
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        padding: 4px 8px;
+        margin-right: 10px;
+      }
+    }
+
+    .isAccountStatus {
+      font-size: 22px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    .right_middle {
+      margin-top: 8px;
+      font-size: 20px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.4);
+      margin-bottom: 22px;
+    }
+
+    .right_bottom {
+      flex-direction: row;
+      justify-content: space-between;
+      line-height: 40px;
+
+      .bottom_left {
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 102, 0, 1);
+        flex-direction: row;
+
+        .bottom_right {
+          font-size: 32px;
+          color: rgba(255, 102, 0, 1);
+        }
+      }
+
+      .bottom_b {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: 500;
+
+        .bottom_a {
+          font-size: 24px;
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
+    }
+  }
+
+  .marketing {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+
+    .self-sales {
+      align-items: center;
+      background: linear-gradient(90deg, rgba(254, 154, 41, 1) 0%, rgba(254, 90, 20, 1) 100%);
+      color: #fff;
+      margin-right: 8px;
+      padding: 3px 8px;
+      font-size: 20px;
+      border-radius: 9px;
+      height: 34px;
+    }
+
+    .rebate {
+      flex-direction: row;
+      align-items: center;
+
+      .rebate-bg {
+        background-color: #ff1f4e;
+        color: #fff;
+        width: 36px;
+        height: 36px;
+        border-radius: 18px;
+        transform: scale(0.66667);
+        font-size: 20px;
+        text-align: center;
+        line-height: 36px;
+      }
+
+      .price_zh {
+        font-size: 20px;
+      }
+    }
+  }
+}

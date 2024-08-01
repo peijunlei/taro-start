@@ -1,0 +1,128 @@
+//评价列表
+.eval-box {
+  display: block;
+  flex-shrink: 0;
+
+  .eval-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    // 评价用户信息
+    .eval-user-info {
+      flex-direction: row;
+      align-items: center;
+      padding: 0 24px;
+
+      .head {
+        width: 72px;
+        height: 72px;
+        border-radius: 100%;
+        margin-right: 16px;
+      }
+
+      .infoEvaluation {
+        .name {
+          font-size: 28px;
+          color: #333;
+          font-weight: bold;
+        }
+      }
+
+      .iepBox {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+    }
+    //标题
+    .eval-title {
+      font-size: 24px;
+      line-height: 32px;
+      color: #333;
+      // line-height: 36px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      word-break: break-all;
+      overflow: hidden;
+      margin-top: 24px;
+      padding: 0 24px;
+    }
+    //评价图片
+    .scroll-view1 {
+      flex-direction: row;
+      flex: 1;
+      width: 100%;
+      // padding: 0 32px;
+      margin-top: 24px;
+      max-height: 188px;
+
+      .eval-pictures {
+        flex-direction: row;
+        flex: 1;
+        padding: 0 24px;
+
+        .picture {
+          min-width: 188px;
+          min-height: 188px;
+          width: 188px;
+          height: 188px;
+          border-radius: 12px;
+          margin-right: 16px;
+        }
+      }
+
+      .picture-last {
+        height: 188px;
+        flex-shrink: 0;
+      }
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+
+  .iepCustomerName {
+    border-radius: 6px;
+    max-width: 100%;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 214, 132);
+    font-size: 20px;
+    flex-direction: row;
+    height: 32px;
+    padding: 0 8px;
+    margin-left: 20px;
+
+    .picture {
+      width: 22px;
+      height: 22px;
+      margin-right: 6px;
+    }
+  }
+}
+
+.infoEvaluation {
+  .star-box {
+    .star-click-area {
+      width: 28px;
+      height: 20px;
+
+      .star-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+
+      .star-img:last-child {
+        margin-right: 0;
+      }
+    }
+    // .star-click-area:last-child {
+    //   width: 20px;
+    // }
+  }
+}

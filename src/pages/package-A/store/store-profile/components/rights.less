@@ -1,0 +1,199 @@
+.rights {
+  background-color: #f5f5f5;
+  height: 100vh;
+
+  .main {
+    position: relative;
+    padding: 24px 24px 150px 24px;
+  }
+
+  .back {
+    width: 702px;
+    height: 240px;
+  }
+
+  .customer-info-box {
+    position: relative;
+
+    .customer-info {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-top: 0;
+    }
+  }
+
+  .card {
+    width: 702px;
+    padding: 0 32px;
+    margin-top: 24px;
+    border-radius: 12px;
+
+    view,
+    text {
+      color: #fff;
+    }
+
+    .name {
+      font-size: 28px;
+      color: #fff;
+    }
+
+    .info {
+      flex-direction: row;
+      align-items: flex-start;
+      margin: 12px 0;
+
+      .discount {
+        padding-right: 16px;
+        display: block;
+
+        .num {
+          font-size: 56px;
+          color: #fff;
+        }
+
+        .suffix {
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+
+      .level {
+        padding: 4px 12px;
+        font-size: 20px;
+        color: #ff6600;
+        background-color: #fff;
+        // position: relative;
+        border-radius: 12px;
+
+        .tip {
+          position: absolute;
+          top: 37px;
+          left: 10px;
+          border-top: 4px solid #fff;
+          border-right: 4px solid #ff6600;
+          border-bottom: 4px solid #ff6600;
+          border-left: 4px solid #fff;
+        }
+      }
+    }
+  }
+
+  .customer-rights {
+    margin: 24px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: linear-gradient(90deg, rgba(255, 238, 219, 1) 0%, rgba(255, 216, 194, 1) 100%);
+
+    view,
+    text,
+    div,
+    span {
+      color: #985b31;
+    }
+
+    .title {
+      flex-direction: row;
+      margin-bottom: 16px;
+      font-size: 32px;
+
+      .icon-medal {
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .content {
+      font-size: 28px;
+    }
+  }
+
+  .table {
+    margin-bottom: 24px;
+
+    .thead {
+      flex-direction: row;
+      background: linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(230, 230, 230, 1) 100%);
+      border-radius: 12px 12px 0 0;
+      height: 76px;
+      line-height: 76px;
+      padding: 0 32px;
+
+      .td {
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.4);
+        width: 25%;
+        text-align: center;
+      }
+
+      .td:last-child {
+        flex: 1;
+        text-align: right;
+      }
+    }
+
+    .tbody {
+      background-color: #fff;
+      border-radius: 0 0 12px 12px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .tr {
+        padding: 0 32px;
+        flex-direction: row;
+        line-height: 66px;
+
+        .td {
+          font-size: 28px;
+          text-align: center;
+          width: 25%;
+        }
+
+        .td:last-child {
+          flex: 1;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .rights-bottom {
+    background-color: #fff;
+    margin-top: 24px;
+    padding: 20px 24px 72px 24px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .contact {
+    height: 72px;
+    border-radius: 36px;
+    background-image: linear-gradient(90deg, #ff8800, #ff4d00);
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+
+  .white {
+    color: #fff;
+  }
+
+  .fs56 {
+    font-size: 56px;
+    color: #fff;
+  }
+
+  .fs28 {
+    color: #fff;
+  }
+
+  .noMember {
+    font-size: 24px;
+    padding: 0 32px;
+    line-height: 66px;
+    font-weight: 400;
+  }
+}

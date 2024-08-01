@@ -6,7 +6,6 @@ import prodConfig from "./prod";
 import config from "./config";
 
 const __TARO_ENV = JSON.stringify(process.env.TARO_ENV);
-const __HOST_EN = process.env.HOST_ENV;
 const WEB_SITE = "/mobile";
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
 export default defineConfig(async (merge, { command, mode }) => {
@@ -110,7 +109,7 @@ export default defineConfig(async (merge, { command, mode }) => {
       },
       publicPath: WEB_SITE,
       staticDirectory: "static",
-      esnextModules: [ '@wanmi/ui-taro', '@wanmi'],
+      esnextModules: ['taro-ui', '@wanmi/ui-taro', '@wanmi'],
       output: {
         filename: "js/[name].[hash:8].js",
         chunkFilename: "js/[name].[chunkhash:8].js",

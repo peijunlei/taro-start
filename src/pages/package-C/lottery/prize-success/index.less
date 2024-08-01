@@ -1,0 +1,160 @@
+.prize-success {
+  padding: 80px 0 0;
+  background-color: #f5f5f5;
+  height: 100vh;
+
+  .store {
+    display: flex;
+
+    &-type {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 56px;
+      height: 28px;
+      background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 4px;
+
+      &-text {
+        color: #fff;
+        font-size: 20px;
+      }
+    }
+
+    &-name {
+      font-size: 28px;
+      color: #000000;
+      width: 600px;
+      font-weight: 600;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding-left: 8px;
+    }
+  }
+
+  .returnS-info {
+    align-items: center;
+
+    .success {
+      width: 96px;
+      height: 96px;
+      margin-bottom: 24px;
+    }
+
+    .stext {
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+
+    .stips {
+      color: #999;
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .slist-item {
+    background-color: #fff;
+    padding: 25px 0;
+    border-radius: 16px;
+    margin: 72px 24px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slist-btn {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 256px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(90deg, #ff8533 0%, #ff6600 100%);
+    border-radius: 36px;
+    margin-right: 15px;
+  }
+  .slist {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 24px 32px 24px;
+    border-bottom: 2px dashed #e6e6e6;
+    .prize-img {
+      width: 120px;
+      height: 120px;
+    }
+
+    .price-info {
+      padding-left: 28px;
+      display: flex;
+      justify-content: center;
+
+      .sitem-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #999999;
+        font-size: 28px;
+
+        &.sitem {
+          flex-direction: row;
+          align-items: center;
+          // margin-top: 24px;
+        }
+
+        .price {
+          font-size: 28px;
+          color: #ff6600;
+        }
+      }
+
+      .no-bottom {
+        margin-bottom: 8px;
+      }
+
+      .sitem-text.has-top {
+        margin-top: 12px;
+      }
+
+      .price-name {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      .price-value {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+
+  .bt-box {
+    position: fixed;
+    bottom: 0;
+    padding: 20px 17px;
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+    flex-direction: row;
+    width: 100%;
+
+    background-color: #fff;
+
+    .bt-item {
+      margin: 0 7px;
+      height: 72px;
+      flex: 1;
+      border-radius: 36px;
+      border: 2px solid #ff6600;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: #ff6600;
+    }
+  }
+}

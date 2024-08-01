@@ -1,0 +1,31 @@
+.address-container{
+  margin: 0 32px;
+  padding: 26px 0;
+  border-bottom: 1px solid #E0E0E0;
+  .address-name{
+    font-size: 28px;
+    color: #000000;
+    flex-direction: row;
+    align-items: center;
+  }
+  .address-address{
+    font-size: 24px;
+    color: #939497;
+    white-space:nowrap;
+    overflow:hidden;
+   text-overflow:ellipsis;
+  }
+}
+// 地址信息列表的高度 100vh - 搜索框高度 - 地图高度
+.address-list {
+  background-color: #fff;
+  z-index: 999;
+  &.map{
+    height: calc(100vh - 94px - 640px);
+  }
+  &.search{
+    position: absolute;
+    top: 94px;
+    height: calc(100vh - 94px);
+  }
+}

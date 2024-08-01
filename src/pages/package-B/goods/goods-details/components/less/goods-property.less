@@ -1,0 +1,64 @@
+.goodsProperty {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 128px;
+  padding: 0 24px;
+  margin-bottom: 24px;
+  background: #fff;
+  flex-shrink: 0;
+
+  .left-box {
+    padding: 50px 0;
+    align-items: center;
+    .text-title {
+      min-width: 66px;
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+  .middle-box {
+    width: 595px;
+    flex-direction: row;
+    .character-box {
+      //width: calc(595px / 3);
+      padding-left: 24px;
+    }
+    .character_split {
+      width: 1px;
+      height: 14px;
+      background: #b7b7b7;
+      border-right: 1px solid #b7b7b7;
+    }
+    .character-title {
+      font-size: 24px;
+      font-weight: 500;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .character-value-box {
+      margin-top: 10px;
+      border-right: 1px solid #b7b7b7;
+      padding-right: 24px;
+    }
+
+    .character-last-value {
+      border: none;
+    }
+    .character-value {
+      font-size: 20px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  //更多
+  .more {
+    width: 48px;
+    height: 48px;
+  }
+}

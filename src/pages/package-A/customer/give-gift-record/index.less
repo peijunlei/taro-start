@@ -1,0 +1,106 @@
+.give-gift-record {
+  background-color: #F5F5F5;
+  position: relative;
+  .scroll-view {
+    height: 100vh;
+    padding: 24px 20px;
+
+    .list {
+      // position:relative;
+      .list-item {
+        margin-bottom: 24px;
+        padding: 40px 32px;
+        background-color: #fff;
+        border-radius: 16px;
+
+        .time {
+          font-size: 28px;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.4);
+          line-height: 32px;
+          margin-bottom: 24px;
+        }
+
+        .container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .logo {
+          margin-right: 20px;
+          width: 96px;
+          height: 96px;
+
+          .img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .info {
+          flex: 1;
+
+          .info-top {
+            flex-direction: row;
+
+            .title {
+              font-size: 28px;
+              font-weight: 400;
+              color: rgba(0, 0, 0, 0.8);
+              line-height: 32px;
+              margin-right: 20px;
+            }
+
+            .no-receive {
+              align-items: center;
+              justify-content: center;
+            line-height: 1;
+
+              width: 76px;
+              height: 32px;
+              background: linear-gradient(90deg, #FF8400 0%, #FF4D00 100%);
+              border-radius: 8px 8px 8px 0px;
+              font-size: 20px;
+              color: #fff;
+            }
+
+          }
+
+          .info-bottom {
+            font-size: 40px;
+            font-weight: 500;
+            color: var(--themeColor);
+            line-height: 56px;
+          }
+        }
+
+        .action {
+          width: 160px;
+
+          .give-other {
+            width: 160px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, var(--linearFrom) 0%, var(--linearTo) 100%);
+            border-radius: 32px;
+            font-size: 24px;
+            color: #fff;
+            line-height: 1;
+          }
+
+          .img {
+            width: 128px;
+            height: 128px;
+          }
+        }
+      }
+      .status {
+        font-size: 24px;
+        color: #999;
+      }
+    }
+  }
+}

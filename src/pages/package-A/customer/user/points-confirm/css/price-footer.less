@@ -1,0 +1,57 @@
+.priceFooter {
+  z-index: 9;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 24px;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: calc(112px + env(safe-area-inset-bottom));
+  padding-bottom: calc(24px + env(safe-area-inset-bottom));
+
+  .points-icon {
+    font-size: 40px;
+    color: #ff6600;
+    font-weight: bold;
+  }
+  .point-test-bug{
+    margin-left: 5px;
+    font-size: 28px;
+    color: #ff6600;
+    font-weight: bold;
+  }
+
+  .price-key {
+    font-size: 28px;
+  }
+
+  .price-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .confirm {
+    display: flex;
+
+    &-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 176px;
+      height: 72px;
+      background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+      border-radius: 36px;
+    }
+
+    &-text {
+      font-size: 28px;
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+}

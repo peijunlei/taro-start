@@ -1,0 +1,96 @@
+.give-gift-red-packet {
+  padding: 120px 80px 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #FFE9D9 0%, #FFFBF9 100%);
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    box-shadow: inset 0px 2px 4px 0px #FFD9CC;
+    border-radius: 64px;
+    background-image: url('./img/red-packet.png');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding: 60px 68px 0;
+
+    .head {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+
+      .img {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        margin-right: 16px;
+      }
+
+      .nickName {
+        font-size: 32px;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 44px;
+      }
+    }
+
+    .remark {
+      font-size: 28px;
+      font-weight: 400;
+      color: #FFFFFF;
+      line-height: 40px;
+    }
+
+    .balance {
+      position: absolute;
+      top: 380px;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: center;
+      .amount {
+        font-size: 56px;
+        font-weight: 500;
+        color: var(--themeColor);
+        margin-right: 8px;
+      }
+      .unit {
+        font-size: 24px;
+        font-weight: 500;
+        color: var(--themeColor);
+      }
+
+    }
+  }
+
+  .btn-status {
+    margin-top: 20px;
+
+    .btn {
+      margin: auto;
+      width: 470px;
+      height: 96px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 48px;
+      font-size: 32px;
+      background: transparent;
+      color: #fff;
+
+      &.receive {
+        background: linear-gradient(90deg, var(--linearFrom) 0%, var(--linearTo) 100%);
+      }
+
+      &.received {
+        color: var(--themeColor);
+        border: 2px solid currentColor;
+      }
+
+      &.expired {
+        color: #666;
+        border: 2px solid #E4E4E4;
+      }
+    }
+  }
+}

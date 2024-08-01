@@ -1,0 +1,72 @@
+//评价列表
+.eval-box {
+  display: block;
+  flex-shrink: 0;
+
+  .eval-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    // 评价用户信息
+    .eval-user-info {
+      flex-direction: row;
+      align-items: center;
+      padding: 0 24px;
+
+      .head {
+        width: 72px;
+        height: 72px;
+        border-radius: 100%;
+        margin-right: 16px;
+      }
+
+      .info {
+        .name {
+          font-size: 28px;
+          color: #333;
+          margin-bottom: 12px;
+        }
+      }
+    }
+    //标题
+    .eval-title {
+      font-size: 32px;
+      color: #333;
+      // line-height: 36px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      word-break: break-all;
+      overflow: hidden;
+      margin-top: 32px;
+      padding: 0 24px;
+    }
+    //评价图片
+    .scroll-view {
+      flex-direction: row;
+      flex: 1;
+      width: 100%;
+      padding: 0 32px;
+      margin-top: 32px;
+      height: 188px;
+
+      .eval-pictures {
+        flex-direction: row;
+
+        .picture {
+          min-width: 188px;
+          min-height: 188px;
+          width: 188px;
+          height: 188px;
+          border-radius: 12px;
+          margin-right: 16px;
+        }
+      }
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+}

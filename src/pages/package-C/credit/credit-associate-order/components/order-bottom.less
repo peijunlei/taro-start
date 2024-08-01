@@ -1,0 +1,52 @@
+.OrderBottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 16px;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 16px);
+  width: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .OrderBottomName {
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 28px;
+    margin-left: 24px;
+  }
+
+  .OrderBottomAmount {
+    font-size: 28px;
+    font-weight: 500;
+    color: #f60;
+    line-height: 28px;
+  }
+
+  .check-view-all {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+
+    .check-view-txt {
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .confirmBtn {
+    margin-right: 24px;
+    .confirm-text {
+      font-size: 28px;
+    }
+    .wm-button-large .text {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}

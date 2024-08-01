@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import '../../../wmkit/variable.css';
+
+.r-coupon {
+  width: calc(100vw * 0.9);
+  color: #000;
+  position: relative;
+
+  .r-header {
+    text-align: center;
+    padding: 0.4rem 0;
+    font-size: 0.26rem;
+    width: calc(100vw * 0.9);
+    height: calc(100vw * 0.9 * 0.34286);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+
+    .r-title {
+      font-size: 0.48rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .r-tips {
+      font-size: 0.28rem;
+    }
+  }
+
+  .r-content {
+    background-color: #008deb;
+    padding: 0.2rem 0.2rem 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: 5.4rem;
+    padding: 0.2rem;
+  }
+
+  .r-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.2rem;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0.28rem 0.2rem 0.28rem 0;
+
+    .left {
+      width: 1.84rem;
+      height: 0.8rem;
+      text-align: center;
+      color: #f51b1b;
+      font-size: 0.28rem;
+      border-right: 1px solid #ebebeb;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 0.8rem;
+      padding: 0 0.1rem;
+
+      span {
+        font-size: 0.44rem;
+      }
+    }
+
+    .right {
+      flex: 1;
+      font-size: 0.28rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 0.2rem;
+
+      .rules {
+        display: flex;
+        justify-content: space-between;
+        color: #333;
+      }
+
+      .time {
+        margin-top: 0.12rem;
+        color: #a3a3a3;
+      }
+    }
+  }
+
+  .r-bottom {
+    .r-bottom-box {
+      background-image: url('../img/button.png');
+      width: calc(100vw * 0.9);
+      height: calc(100vw * 0.9 * 0.2143);
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #f51b1b;
+      font-size: 0.28rem;
+    }
+  }
+}
+
+.r-close-img {
+  width: 0.86rem;
+  height: 0.86rem;
+  position: absolute;
+  top: -1.2rem;
+  right: 0;
+}

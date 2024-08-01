@@ -1,0 +1,373 @@
+.pointsMall__hot_wrapper {
+  background-color: #ffffff;
+  margin-top: 100px;
+
+  .pointsMall__hot {
+    padding: 32px 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .scrollSviper {
+    width: 100%;
+    overflow-x: hidden;
+    flex-shrink: 0;
+  }
+
+  .scrollHot {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 32px 0;
+  }
+
+  .swiper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .last-swiper-item {
+    min-width: 8px;
+    width: 8px;
+    height: 24px;
+    background: #fff;
+  }
+
+  .first-swiper-item {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+  }
+
+  .hot-city {
+    flex-direction: row;
+    padding: 18px 32px;
+    background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+
+    .img {
+      margin-left: 10px;
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  .hot-text2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .hot-text {
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 24px;
+  }
+
+  .swiper-item {
+    width: 208px;
+    min-width: 208px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    margin-right: 16px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    .top-left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 12px 0 0 0;
+      width: 48px;
+      height: 48px;
+      z-index: 99;
+    }
+
+    .top-left-img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .top-left-hot {
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      position: absolute;
+      top: 9px;
+      left: 9px;
+    }
+
+    .swiper-img {
+      width: 205px;
+      height: 205px;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    .swiper-box {
+      padding: 20px;
+      width: 100%;
+
+      .text1 {
+        width: 100%;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 14px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+      }
+
+      .text2 {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.4);
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .text3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: rgba(255, 102, 0, 1);
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .list {
+    padding: 24px;
+    margin-bottom: 90px;
+  }
+
+  .big-not-goods {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 340px;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+    .big-not-goods-text {
+      width: 104px;
+      height: 104px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(179, 179, 179, 0.4) 100%);
+      border-radius: 100%;
+      font-size: 28px;
+      color: #fff;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .bigSpuList {
+    flex: 1;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .big-spu-item {
+      margin-bottom: 28px;
+      width: 340px;
+      border-radius: 12px;
+      background-color: #ffffff;
+
+      //商品图片
+      .img-box {
+        position: relative;
+
+        .big-goods-img {
+          width: 340px;
+          height: 340px;
+          border-radius: 16px 16px 0 0;
+        }
+      }
+
+      //图片下面的内容
+      .big-spu-content {
+        padding: 20px;
+        justify-content: space-between;
+        height: 280px;
+
+        //上半部分内容
+        .big-up-content {
+          //商品标题
+          .big-goods-title {
+            position: relative;
+
+            .marketing {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 56px;
+              height: 28px;
+              background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+              border-radius: 4px;
+              line-height: 28px;
+              text-align: center;
+
+              .market-text {
+                font-size: 24px;
+                color: #fff;
+                transform: scale(0.83);
+              }
+            }
+
+            //商品标题
+            .title-view {
+              margin-bottom: 12px;
+              margin-left: 4px;
+
+              .words {
+                font-size: 24px;
+                line-height: 32px;
+                color: #333;
+                display: -webkit-box;
+                /*! autoprefixer: ignore next */
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                word-break: break-all;
+                overflow: hidden;
+
+                .text {
+                  font-size: 24px;
+                  color: #fff;
+                }
+              }
+            }
+          }
+
+          //商品规格
+          .big-goods-spec {
+            margin-bottom: 16px;
+            flex: 1;
+
+            .spec-text {
+              font-size: 20px;
+              color: #999;
+              // transform: scale(0.83);
+              // transform-origin: left;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              width: 340px;
+            }
+          }
+
+          //促销活动
+          .big-goods-active {
+            flex-direction: row;
+            align-items: center;
+
+            .active-item {
+              height: 28px;
+              border-radius: 4px;
+              border: 1px solid #ff6600;
+              padding: 0 8px;
+              margin-right: 8px;
+
+              .active-text {
+                font-size: 24px;
+                color: #ff6600;
+                transform: scale(0.83);
+              }
+            }
+          }
+        }
+
+        //下半部分内容
+        .big-down-content {
+          //销量 评论数 好评率
+          .big-goods-statics {
+            flex-direction: row;
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 16px;
+
+            .texts {
+              font-size: 24px;
+              color: #999;
+              transform: scale(0.83);
+              transform-origin: left;
+              white-space: nowrap;
+            }
+          }
+
+          //步进器
+          .cart-count {
+            margin-top: 20px;
+            align-items: flex-end;
+
+            .goods-add-cart {
+              width: 40px;
+              height: 40px;
+            }
+          }
+
+          //发圈素材 分享赚
+          .big-right-tools {
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 20px;
+
+            .mater-btn {
+              background: rgba(255, 102, 0, 0.06);
+              border-radius: 24px;
+              padding: 10px 16px;
+              align-items: center;
+
+              .mater-text {
+                font-size: 24px;
+                font-weight: 500;
+                color: #ff6600;
+                transform: scale(0.83);
+              }
+            }
+
+            .share-btn {
+              background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+              border-radius: 20px;
+              padding: 10px 16px;
+              align-items: center;
+              margin-left: 8px;
+
+              .share-text {
+                font-size: 24px;
+                color: #fff;
+                transform: scale(0.83);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cart-count-con {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .valid-text {
+      visibility: hidden;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.wm-progress {
+  background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+  border-radius: 12px;
+  font-size: 24px;
+  flex-shrink: 0;
+  padding: 12px 20px 12px 20px;
+  margin-right: 24px;
+  color: #fff;
+
+  view,
+  div {
+    color: #fff;
+  }
+
+  .operation {
+    line-height: 1;
+    font-size: 24px;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .item {
+    flex-direction: row;
+    align-items: center;
+
+    .pro-bar {
+      width: 84px;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 4px;
+      position: relative;
+      margin-top: 12px;
+
+      .active {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 8px;
+        background: #fff;
+        border-radius: 4px;
+      }
+    }
+
+    .percent {
+      line-height: 1;
+      font-size: 16px;
+      padding-left: 4px;
+      margin-top: 8px;
+    }
+  }
+}
+
+.disabled {
+  background: linear-gradient(90deg, rgba(224, 224, 224, 1) 0%, rgba(179, 179, 179, 1) 100%);
+
+  .operation {
+    padding: 8px 0;
+  }
+}

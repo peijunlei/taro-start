@@ -1,0 +1,123 @@
+.picker-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.7);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+
+  .picker-contents {
+    position: absolute;
+    width: 560px;
+
+    .img_zeng {
+      width: 560px;
+      height: 222px;
+    }
+
+    .picker-view-wrap {
+      align-items: center;
+      width: 100%;
+      background: linear-gradient(90deg, rgba(255, 133, 10, 1) 0%, rgba(250, 92, 0, 1) 100%);
+      border-radius: 0 0 16px 16px;
+
+      .view-wrap {
+        align-items: center;
+      }
+
+      .top_name {
+        font-size: 40px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        line-height: 40px;
+        background: linear-gradient(180deg, rgba(254, 248, 214, 1) 0%, rgba(255, 238, 148, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 15px;
+        margin-bottom: 16px;
+      }
+
+      .top_fen {
+        font-size: 24px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        line-height: 24px;
+      }
+
+      .View-wrap-box {
+        flex-direction: row;
+        padding: 10px 72px;
+        margin-top: 24px;
+
+        .box_ {
+          background-color: #ffffff;
+          width: 200px;
+          align-items: center;
+          border-radius: 12px;
+        }
+
+        .img_box {
+          width: 200px;
+          height: 144px;
+        }
+
+        .content_box {
+          padding: 24px 0;
+          align-items: center;
+
+          .text_1 {
+            font-size: 40px;
+            font-weight: 500;
+            color: rgba(255, 102, 0, 1);
+          }
+
+          .text_2 {
+            margin-top: 8px;
+            font-size: 22px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+
+      .botton_ {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 480px;
+        height: 72px;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, rgba(255, 235, 102, 1) 0%, rgba(255, 195, 77, 1) 100%);
+        border-radius: 40px;
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(189, 64, 19, 1);
+      }
+    }
+  }
+
+  .cancel {
+    margin-top: 32px;
+    align-items: center;
+
+    .close {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+
+.show-picker {
+  visibility: visible;
+
+  .picker-content {
+    transform: translateY(0);
+    transition: all 0.4s ease;
+  }
+}

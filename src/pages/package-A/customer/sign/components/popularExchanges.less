@@ -1,0 +1,99 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+
+.popularExchanges {
+  padding: 24px;
+
+  .arrow-icon {
+    width: 8px;
+    height: 8px;
+    padding-left: 10px;
+  }
+
+  .title {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    .fs(28px);
+  }
+
+  .exchange-list {
+    flex-direction: row;
+    width: calc(100vw - 48px);
+  }
+
+  .list {
+    flex-direction: row;
+  }
+
+  .item {
+    width: 208px;
+    flex: 1;
+    margin-right: 16px;
+
+    .img-wrap {
+      width: 208px;
+      height: 208px;
+      border-radius: 5px;
+      position: relative;
+      background-color: #f5f5f5;
+
+      .img {
+        width: 208px;
+        height: 208px;
+      }
+
+      .ranking {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48px;
+        height: 48px;
+        z-index: 5;
+      }
+
+      .hot {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+
+      .hot {
+        color: #fff;
+        .fs(16px);
+        padding: 10px 10px;
+      }
+    }
+
+    .bottom-wrap {
+      padding: 20px 20px 10px 20px;
+      border: 1px solid #e6e6e6;
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+
+      .name {
+        .text-overflow(1);
+        .fs(28px);
+      }
+
+      .info {
+        flex-direction: row;
+        padding: 12px 0;
+        align-items: flex-end;
+
+        .grey {
+          .fs();
+          color: #999;
+        }
+
+        .num {
+          .fs(24px);
+          color: @primary-color;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

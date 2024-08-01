@@ -1,0 +1,43 @@
+.couponTypeMask {
+  position        : fixed;
+  left            : 0;
+  top             : 74px;
+  width           : 100%;
+  height          : 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index         : 9999;
+
+  .coupon-cate-box {
+    width         : 100%;
+    display       : flex;
+    flex-direction: column;
+
+    .coupon-top {
+      background-color: #ffffff;
+      width           : 100%;
+      height          : 136px;
+      display         : flex;
+      align-items     : center;
+      justify-content : space-around;
+      padding         : 0 54px;
+      flex-direction  : row;
+
+      .coupon-type-text {
+        background-color: #F5F5F5;
+        padding         : 12px 32px;
+        border-radius   : 32px;
+        font-size       : 24px;
+
+        &.actived {
+          background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+          color     : #fff;
+        }
+      }
+    }
+
+    .coupon-bottom {
+      width : 100%;
+      height: 100vh;
+    }
+  }
+}

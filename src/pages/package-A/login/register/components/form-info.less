@@ -1,0 +1,161 @@
+.loginRegister-formInfo {
+  padding: 24px 40px 40px;
+  // flex: 1;
+  .invite-per {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    height: 100px;
+  }
+
+  .regis-info {
+    // 表单样式
+    .form-input {
+      flex-direction: row;
+      padding: 28px 0;
+      border-bottom: 1px solid #e6e6e6;
+      align-items: center;
+
+      .l-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+      }
+
+      .int {
+        flex: 1;
+        color: #333;
+        font-size: 28px;
+      }
+
+      .r-btn {
+        align-items: center;
+        justify-content: center;
+
+        .text {
+          font-size: 28px;
+          color: #ff6600;
+        }
+
+        .icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+    //注册协议样式
+    .regis-word {
+      margin-left: -20px;
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      flex-direction: row;
+      align-items: center;
+
+      .change-color {
+        color: var(--themeColor);
+        font-size: 24px;
+      }
+    }
+    .regis-word-text{
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.4);
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  //按钮样式
+  .submit-btn {
+    // flex: 1;
+    height: 72px;
+    background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 36px;
+    font-size: 28px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0 40px;
+    font-weight: bold;
+  }
+
+  //已有账号样式
+  .go-login,
+  .iep-register {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .l-text {
+      //按钮样式
+      .submit-btn {
+        // flex: 1;
+        height: 72px;
+        background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+        border-radius: 36px;
+        font-size: 28px;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        margin: 80px 0 40px;
+        font-weight: bold;
+      }
+
+      //已有账号样式
+      .go-login {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .l-text {
+          font-size: 28px;
+          color: #333;
+        }
+
+        .r-icon {
+          width: 24px;
+          height: 24px;
+          margin-left: 16px;
+        }
+      }
+    }
+
+    .l-text-register {
+      color: #ff6600 !important;
+    }
+
+    .go-login {
+      margin-top: 20px;
+    }
+  }
+
+  .r-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 1px;
+  }
+}
+
+.register-state {
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+.register-font {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.placeholderColor {
+  color: rgba(0, 0, 0, 0.4);
+}

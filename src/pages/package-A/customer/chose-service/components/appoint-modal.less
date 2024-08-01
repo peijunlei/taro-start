@@ -1,0 +1,61 @@
+.AppointModal {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(000, 000, 000, 0.4);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .whiteBox {
+    width: 560px;
+    height: 360px;
+    border-radius: 16px;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+
+    .topBox {
+      flex-direction: column;
+      align-items: center;
+      width: 480px;
+
+      .icon {
+        width: 48px;
+        height: 48px;
+      }
+
+      .title {
+        font-size: 32px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 24px;
+        font-weight: 400;
+      }
+
+      .tips {
+        font-size: 28px;
+        color: #333;
+        padding: 0 40px;
+        text-align: center;
+        margin-top: 30px;
+      }
+    }
+
+    .btn {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 88px;
+      font-size: 32px;
+      color: #333;
+      font-weight: 500;
+      border-top: 2px solid #ebebeb;
+      width: 560px;
+    }
+  }
+}

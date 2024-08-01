@@ -1,0 +1,105 @@
+@import url('assets/style/theme.less');
+@import url('assets/style/mixin.less');
+@item-width: calc((100vw - 200px) / 6);
+
+.userPay__info {
+  .info {
+    margin-top: 20px;
+    padding: 32px 20px;
+  }
+
+  .register-tips {
+    margin-top: 20px;
+    padding: 0 24px;
+
+    .tishi {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .massage {
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 24px;
+    }
+  }
+
+  .send {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .send-Text {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 24px;
+      margin-left: 10px;
+    }
+
+    .r-btn {
+      align-items: center;
+      justify-content: center;
+
+      .text {
+        font-size: 28px;
+        color: #ff6600;
+      }
+
+      .icon {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .input_main {
+    position: relative;
+    left: 0;
+    width: 100%;
+
+    .input_row {
+      width: 690px;
+      margin: 0 auto;
+      height: 80px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      background-color: #fff;
+      border-radius: 12px;
+      .border(@radius: 24px);
+
+      .pwd_item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        position: relative;
+        border-right: 2px solid #e6e6e6;
+        .border-right();
+
+        .pwd_itemtext {
+          width: 20px;
+          height: 20px;
+          border-radius: 30px;
+          background-color: #555;
+        }
+      }
+
+      .pwd_item_bottom {
+        border-right: 0;
+      }
+    }
+
+    .input_control {
+      position: absolute;
+      height: @item-width;
+      width: 1700px;
+      top: 0;
+      left: -1000px;
+      opacity: 0;
+      background-color: #ff6600;
+    }
+  }
+}

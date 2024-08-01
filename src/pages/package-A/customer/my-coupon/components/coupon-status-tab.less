@@ -1,0 +1,39 @@
+.couponStatusTab {
+  width: 100%;
+  padding: 8px 32px;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  top: 72px;
+  justify-content: space-around;
+
+  .tab-text {
+    font-size: 24px;
+    margin-right: 32px;
+    display: inline-block;
+    line-height: 70px;
+    border-bottom: 5px solid transparent;
+
+    &.curr {
+      position: relative;
+      color: #ff6600;
+      font-weight: 500;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 48px;
+        height: 4px;
+        background-color: #ff6600;
+        border-radius: 2px;
+      }
+    }
+  }
+}
