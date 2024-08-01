@@ -1,0 +1,111 @@
+{
+  "ConsultImageDataAddResponse": {
+    "consultImageDataVO": {
+      "consultRecordId": "cillum commodo exercitation consequat",
+      "createTime": "1958-07-03T01:47:32.785Z",
+      "imageDataDesc": "ex dolor ut dol",
+      "imageDataId": -18001166,
+      "imageDataUrl": "in aliqua enim mollit"
+    }
+  },
+  "ConsultImageDataListResponse": {
+    "consultImageDataVOList": [
+      {
+        "consultRecordId": "labore Duis qui",
+        "createTime": "1972-06-15T07:21:54.734Z",
+        "imageDataDesc": "pariatur adipisicing",
+        "imageDataId": -92407495,
+        "imageDataUrl": "mollit ad"
+      },
+      {
+        "consultRecordId": "elit",
+        "createTime": "2000-06-20T02:21:22.251Z",
+        "imageDataDesc": "commodo minim",
+        "imageDataId": 60804396,
+        "imageDataUrl": "Ut tempor laborum fugiat"
+      },
+      {
+        "consultRecordId": "culpa deserunt eu",
+        "createTime": "2016-07-21T11:18:39.934Z",
+        "imageDataDesc": "ex in",
+        "imageDataId": -61950248,
+        "imageDataUrl": "in eu dolore Ut"
+      },
+      {
+        "consultRecordId": "eiusmod nulla i",
+        "createTime": "1946-10-08T22:46:55.668Z",
+        "imageDataDesc": "et aliquip velit",
+        "imageDataId": -19560137,
+        "imageDataUrl": "fugiat ea"
+      }
+    ]
+  },
+  "ConsultImageDataModifyResponse": {
+    "consultImageDataVO": {
+      "consultRecordId": "magna minim",
+      "createTime": "1976-05-16T19:52:53.859Z",
+      "imageDataDesc": "ad consequat dolor sit",
+      "imageDataId": -85893251,
+      "imageDataUrl": "magna"
+    }
+  },
+  "ConsultImageDataPageResponse": {
+    "consultImageDataVOPage": {
+      "content": [
+        {
+          "consultRecordId": "ex",
+          "createTime": "2012-10-03T08:31:31.974Z",
+          "imageDataDesc": "dolor",
+          "imageDataId": 40373446,
+          "imageDataUrl": "nostrud Duis sed"
+        },
+        {
+          "consultRecordId": "ali",
+          "createTime": "1974-01-27T09:13:29.453Z",
+          "imageDataDesc": "non dolor reprehenderit ",
+          "imageDataId": -49183960,
+          "imageDataUrl": "pariatur reprehenderit sit"
+        },
+        {
+          "consultRecordId": "Ut cillum",
+          "createTime": "1985-05-07T20:00:19.618Z",
+          "imageDataDesc": "enim in nisi ipsum in",
+          "imageDataId": 72056188,
+          "imageDataUrl": "aliquip"
+        },
+        {
+          "consultRecordId": "in officia anim",
+          "createTime": "2000-06-15T10:06:47.2Z",
+          "imageDataDesc": "Duis",
+          "imageDataId": 78482239,
+          "imageDataUrl": "dolor"
+        },
+        {
+          "consultRecordId": "proident est Lorem cupidatat aliqua",
+          "createTime": "1950-01-10T07:12:23.144Z",
+          "imageDataDesc": "sint proident ",
+          "imageDataId": -3230058,
+          "imageDataUrl": "quis"
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": -91897231,
+      "numberOfElements": 885874,
+      "size": -64643169,
+      "sort": {},
+      "total": -78642196,
+      "totalElements": -82555191,
+      "totalPages": -92503454
+    }
+  },
+  "ConsultImageDataByIdResponse": {
+    "consultImageDataVO": {
+      "consultRecordId": "eu do",
+      "createTime": "2012-10-05T12:58:15.027Z",
+      "imageDataDesc": "Duis exercitation aute ut culpa",
+      "imageDataId": -29079418,
+      "imageDataUrl": "Ut Duis sunt"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "CustomerFollowRelaAddResponse": {
+    "customerFollowRelaVO": {
+      "createTime": "1968-01-16T13:31:44.676Z",
+      "customerFollowRelaId": "enim aute",
+      "customerId": "minim enim deserunt",
+      "followType": 58150809,
+      "refId": "sunt"
+    }
+  },
+  "noneName": {},
+  "CustomerFollowRelaListResponse": {
+    "customerFollowRelaVOList": [
+      {
+        "createTime": "1972-06-09T18:33:57.572Z",
+        "customerFollowRelaId": "ea occaecat incididunt",
+        "customerId": "i",
+        "followType": 23949844,
+        "refId": "Lorem in"
+      },
+      {
+        "createTime": "1961-12-10T14:16:05.854Z",
+        "customerFollowRelaId": "laboris",
+        "customerId": "reprehenderit",
+        "followType": 90872785,
+        "refId": "cupidatat"
+      },
+      {
+        "createTime": "1964-04-26T04:47:53.234Z",
+        "customerFollowRelaId": "laborum quis minim do",
+        "customerId": "id ex",
+        "followType": -74510846,
+        "refId": "dolor"
+      },
+      {
+        "createTime": "1943-04-28T03:55:49.875Z",
+        "customerFollowRelaId": "consequat Ut cupidatat",
+        "customerId": "anim minim laboris Ut in",
+        "followType": -91932237,
+        "refId": "velit"
+      },
+      {
+        "createTime": "2017-02-12T17:47:42.97Z",
+        "customerFollowRelaId": "minim anim ut",
+        "customerId": "ut mollit dolor",
+        "followType": -73187869,
+        "refId": "consectetur in qu"
+      }
+    ]
+  },
+  "CustomerFollowRelaPageResponse": {
+    "customerFollowRelaVOPage": {
+      "content": [
+        {
+          "createTime": "2019-02-03T21:52:06.908Z",
+          "customerFollowRelaId": "dolore aliqua ea",
+          "customerId": "irure",
+          "followType": 2543835,
+          "refId": "tempor in mollit"
+        },
+        {
+          "createTime": "2006-11-15T12:27:05.317Z",
+          "customerFollowRelaId": "sunt minim velit",
+          "customerId": "consectetur esse veniam",
+          "followType": 5558698,
+          "refId": "aute"
+        },
+        {
+          "createTime": "1953-06-25T04:21:19.49Z",
+          "customerFollowRelaId": "sit do exercit",
+          "customerId": "Excepteur do in anim",
+          "followType": -57213868,
+          "refId": "dolore labore non"
+        },
+        {
+          "createTime": "1984-07-22T01:55:29.133Z",
+          "customerFollowRelaId": "proident voluptate aliquip sit",
+          "customerId": "irure laborum exercitation",
+          "followType": 28237973,
+          "refId": "consectetur est"
+        },
+        {
+          "createTime": "1991-08-29T09:45:36.471Z",
+          "customerFollowRelaId": "cupidatat Ut aliqua ipsum",
+          "customerId": "ut ad",
+          "followType": -59335733,
+          "refId": "mollit"
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": -82739491,
+      "numberOfElements": -86472198,
+      "size": 48681638,
+      "sort": {},
+      "total": -31344730,
+      "totalElements": -58735871,
+      "totalPages": -53732084
+    }
+  },
+  "CustomerFollowRelaByIdResponse": {
+    "customerFollowRelaVO": {
+      "createTime": "1963-01-23T19:03:57.973Z",
+      "customerFollowRelaId": "dolor fugiat Lorem dolore aliq",
+      "customerId": "elit commodo velit et",
+      "followType": 72314283,
+      "refId": "aute Ut ut et"
+    }
+  }
+}

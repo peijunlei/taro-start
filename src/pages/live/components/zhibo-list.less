@@ -1,0 +1,43 @@
+.zhiboListRoll {
+  height: calc(100vh - 88px - env(safe-area-inset-bottom));
+  display: block;
+}
+
+.zhiboListBox {
+  align-items: center;
+
+  .bottom {
+    width: 128px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.emptyBox {
+  //flex: 1;
+  align-items: center;
+  margin: 0 24px;
+  height: 336px;
+  border-radius: 16px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  .emptyImg {
+    width: 208px;
+    height: 208px;
+  }
+
+  .emptyText {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+

@@ -1,0 +1,160 @@
+{
+  "ConsultUserAddResponse": {
+    "consultUserVO": {
+      "createTime": "1945-09-29T15:18:30.457Z",
+      "customerId": "quis amet elit esse ex",
+      "delFlag": 1,
+      "idCard": "non pa",
+      "patientAge": -88913716,
+      "patientGender": 2,
+      "relation": 5,
+      "updateTime": "1955-12-03T15:11:39.469Z",
+      "userId": "amet ullamco quis culpa",
+      "userName": "nisi ullamco occaecat deserunt consectetur"
+    }
+  },
+  "noneName": 23966633,
+  "ConsultUserListResponse": {
+    "consultUserVOList": [
+      {
+        "createTime": "1964-10-04T21:50:04.048Z",
+        "customerId": "nostrud nisi",
+        "delFlag": 1,
+        "idCard": "officia mollit",
+        "patientAge": -33148927,
+        "patientGender": 1,
+        "relation": 3,
+        "updateTime": "2014-05-09T01:50:05.92Z",
+        "userId": "minim dolore",
+        "userName": "in"
+      },
+      {
+        "createTime": "1942-04-15T23:35:29.944Z",
+        "customerId": "nulla",
+        "delFlag": 0,
+        "idCard": "veniam deserunt",
+        "patientAge": 89760100,
+        "patientGender": 1,
+        "relation": 1,
+        "updateTime": "1971-10-16T20:00:03.444Z",
+        "userId": "ea",
+        "userName": "ipsum incididunt commodo"
+      },
+      {
+        "createTime": "1957-04-16T02:42:51.439Z",
+        "customerId": "laboris",
+        "delFlag": 1,
+        "idCard": "Excepteur e",
+        "patientAge": -30439091,
+        "patientGender": 2,
+        "relation": 2,
+        "updateTime": "1998-06-06T17:48:30.073Z",
+        "userId": "ut",
+        "userName": "consectetur"
+      },
+      {
+        "createTime": "1940-06-21T00:09:30.099Z",
+        "customerId": "pariatur commodo aute ipsum",
+        "delFlag": 1,
+        "idCard": "Lorem aute",
+        "patientAge": -8668540,
+        "patientGender": 0,
+        "relation": 4,
+        "updateTime": "1973-10-31T04:10:36.479Z",
+        "userId": "et",
+        "userName": "velit"
+      }
+    ]
+  },
+  "ConsultUserModifyResponse": {
+    "consultUserVO": {
+      "createTime": "2001-12-11T17:25:03.104Z",
+      "customerId": "sed deserunt dolor adipisicing eu",
+      "delFlag": 1,
+      "idCard": "fugiat esse occaecat irure",
+      "patientAge": -85122781,
+      "patientGender": 1,
+      "relation": 5,
+      "updateTime": "1970-10-22T01:26:26.251Z",
+      "userId": "irure",
+      "userName": "dolore"
+    }
+  },
+  "ConsultUserPageResponse": {
+    "consultUserVOPage": {
+      "content": [
+        {
+          "createTime": "2006-01-05T00:36:16.35Z",
+          "customerId": "ex esse tempor",
+          "delFlag": 0,
+          "idCard": "Excepteur aliqua sed nisi nulla",
+          "patientAge": 21348014,
+          "patientGender": 1,
+          "relation": 3,
+          "updateTime": "2005-05-27T17:37:57.86Z",
+          "userId": "amet dolore do ex Duis",
+          "userName": "fugiat Excepteur ullamco dolor"
+        },
+        {
+          "createTime": "2015-05-21T18:28:54.431Z",
+          "customerId": "magna fugiat",
+          "delFlag": 0,
+          "idCard": "incididunt dolor aliquip in sit",
+          "patientAge": 97384183,
+          "patientGender": 2,
+          "relation": 1,
+          "updateTime": "2008-02-02T15:27:38.668Z",
+          "userId": "in cillum ut",
+          "userName": "labore"
+        },
+        {
+          "createTime": "1944-06-26T00:24:49.062Z",
+          "customerId": "laboris magna exercitation reprehenderit deserunt",
+          "delFlag": 0,
+          "idCard": "reprehenderit veniam u",
+          "patientAge": -20398976,
+          "patientGender": 0,
+          "relation": 1,
+          "updateTime": "1985-09-06T22:18:03.883Z",
+          "userId": "veniam consequat",
+          "userName": "ipsum in Duis"
+        },
+        {
+          "createTime": "1949-03-24T15:35:55.358Z",
+          "customerId": "dolore consequat dolor",
+          "delFlag": 1,
+          "idCard": "Ut laborum pariatur",
+          "patientAge": -30045120,
+          "patientGender": 0,
+          "relation": 1,
+          "updateTime": "2001-06-24T09:41:04.409Z",
+          "userId": "adipisicing aute in cupidatat laboris",
+          "userName": "esse quis anim"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": 38957473,
+      "numberOfElements": -85330445,
+      "size": -97112060,
+      "sort": {},
+      "total": 4770489,
+      "totalElements": 55751341,
+      "totalPages": -57288436
+    }
+  },
+  "ConsultUserByIdResponse": {
+    "consultUserVO": {
+      "createTime": "1999-09-07T22:09:44.864Z",
+      "customerId": "adipisicing et",
+      "delFlag": 0,
+      "idCard": "non",
+      "patientAge": 4681550,
+      "patientGender": 1,
+      "relation": 0,
+      "updateTime": "1945-12-17T14:42:32.68Z",
+      "userId": "sit",
+      "userName": "elit adipisicing Excepteur dolor"
+    }
+  }
+}

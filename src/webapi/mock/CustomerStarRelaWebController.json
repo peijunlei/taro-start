@@ -1,0 +1,111 @@
+{
+  "CustomerStarRelaAddResponse": {
+    "customerStarRelaVO": {
+      "createTime": "1977-08-21T21:52:08.449Z",
+      "customerId": "sint ipsum do",
+      "customerStarRelaId": "Duis",
+      "refId": "reprehenderit dolor velit quis consectetur",
+      "starType": 2
+    }
+  },
+  "CustomerStarRelaListResponse": {
+    "customerStarRelaVOList": [
+      {
+        "createTime": "1990-12-18T10:35:56.353Z",
+        "customerId": "dolore laboris veniam voluptate",
+        "customerStarRelaId": "magna enim consectetur",
+        "refId": "dolor",
+        "starType": 1
+      },
+      {
+        "createTime": "1981-05-18T16:44:58.608Z",
+        "customerId": "sit Excepteur Lorem",
+        "customerStarRelaId": "ad incididunt do",
+        "refId": "aute incididunt aliqua nostrud",
+        "starType": 0
+      },
+      {
+        "createTime": "1958-07-29T21:51:57.459Z",
+        "customerId": "do",
+        "customerStarRelaId": "esse",
+        "refId": "se",
+        "starType": 2
+      },
+      {
+        "createTime": "1963-07-24T09:58:17.895Z",
+        "customerId": "incididunt pr",
+        "customerStarRelaId": "dolore consectetur velit",
+        "refId": "eu mollit do",
+        "starType": 1
+      },
+      {
+        "createTime": "1998-08-06T11:45:03.951Z",
+        "customerId": "dolor proident",
+        "customerStarRelaId": "in sed",
+        "refId": "labore incididunt",
+        "starType": 2
+      }
+    ]
+  },
+  "CustomerStarRelaPageResponse": {
+    "customerStarRelaVOPage": {
+      "content": [
+        {
+          "createTime": "2012-09-06T08:42:19.064Z",
+          "customerId": "dolor est cillum sint eiusmod",
+          "customerStarRelaId": "reprehenderit esse ipsum qui in",
+          "refId": "mollit",
+          "starType": 1
+        },
+        {
+          "createTime": "1942-01-23T00:00:01.081Z",
+          "customerId": "Lorem Ut dolor culpa",
+          "customerStarRelaId": "laborum Lorem inc",
+          "refId": "exercitation aute",
+          "starType": 1
+        },
+        {
+          "createTime": "2010-10-13T02:54:24.29Z",
+          "customerId": "officia dolor aute non do",
+          "customerStarRelaId": "in aliqua amet",
+          "refId": "aute dolor nulla proident consequat",
+          "starType": 0
+        },
+        {
+          "createTime": "1955-03-26T16:10:18.111Z",
+          "customerId": "labore in",
+          "customerStarRelaId": "laboris",
+          "refId": "mollit",
+          "starType": 2
+        },
+        {
+          "createTime": "2011-04-22T02:35:28.319Z",
+          "customerId": "ex ipsum in",
+          "customerStarRelaId": "veniam nisi",
+          "refId": "pariatur Duis Lorem magna fugiat",
+          "starType": 2
+        }
+      ],
+      "first": false,
+      "last": false,
+      "number": 27202532,
+      "numberOfElements": -91515016,
+      "size": 86112654,
+      "sort": {},
+      "total": -87935343,
+      "totalElements": -77681264,
+      "totalPages": 66597014
+    }
+  },
+  "IsFollowDeleteRes": false,
+  "CustomerStarRelaByIdResponse": {
+    "customerStarRelaVO": {
+      "createTime": "2019-07-02T16:10:08.262Z",
+      "customerId": "nostrud consequat",
+      "customerStarRelaId": "aliqua Ut laborum amet sed",
+      "refId": "pariatur officia",
+      "starType": 1
+    }
+  },
+  "noneName": false
+}

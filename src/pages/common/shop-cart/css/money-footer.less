@@ -1,0 +1,224 @@
+.no-do {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 72px;
+  background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+}
+
+.no-do-con {
+  height: 144px;
+}
+
+.no-check1 {
+  background: linear-gradient(90deg, rgba(216, 216, 216, 1) 0%, rgba(179, 179, 179, 1) 100%) !important;
+  border: none !important;
+}
+
+.no-check2 {
+  background: #fff !important;
+  border: 2px solid #b3b3b3 !important;
+}
+
+.disabled-text {
+  color: #b3b3b3 !important;
+}
+
+.no-do-text {
+  font-size: 24px;
+  padding-left: 24px;
+  color: #fff;
+}
+
+.footer-con-c {
+  position: fixed;
+  bottom: calc(96px + env(safe-area-inset-bottom)) !important;
+  z-index: 9;
+
+  .money-footer {
+    bottom: calc(100px + env(safe-area-inset-bottom)) !important;
+  }
+}
+
+.footer-con {
+  position: fixed;
+  bottom: 6px;
+  z-index: 9;
+}
+
+.footer-con-s {
+  position: fixed;
+  bottom: calc(1px + env(safe-area-inset-bottom));
+  z-index: 9;
+
+  .money-footer {
+    bottom: calc(env(safe-area-inset-bottom)) !important;
+  }
+}
+
+.footer-con-h5 {
+  // position: fixed;
+  position: absolute;
+  bottom: calc(1px + env(safe-area-inset-bottom)) !important;
+  z-index: 9;
+}
+
+.money-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // height: 142px;
+  min-height: 118px;
+  border-top: 1px rgba(230, 230, 230, 1) solid;
+
+  padding: 10px 24px;
+  width: 100vw;
+  background-color: #fff;
+
+  .money-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    // margin-left: 38px;
+  }
+
+  .money-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .check-text {
+      font-size: 28px;
+      font-weight: 500;
+      color: #333;
+      margin-left: 16px;
+    }
+
+    .check-view {
+      width: 35px;
+      margin-right: 16px;
+    }
+
+    .check-image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .money-total {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    .total-con {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+
+      .total-key {
+        font-size: 32px;
+        font-weight: 500;
+        color: #333;
+        padding-right: 10px;
+      }
+
+      .total-icon {
+        font-size: 20px;
+        color: #ff6600;
+        font-weight: bold;
+      }
+
+      .total-num {
+        font-size: 32px;
+        color: #ff6600;
+        font-weight: 500;
+      }
+
+      .point-price-state {
+        color: #ff6600;
+        margin-left: 10px;
+      }
+
+      .point-price-state-title {
+        color: #ff6600;
+        font-size: 20px;
+      }
+    }
+
+    .total-point {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    .total-coupon {
+      display: flex;
+      flex-direction: row;
+      margin-top: 8px;
+
+      .total-coupon-key {
+        color: #999;
+        font-size: 20px;
+      }
+
+      .total-coupon-val {
+        color: #ff6600;
+        font-size: 20px;
+        font-weight: 500;
+
+        .point-price-state {
+          color: #ff6600;
+          margin-left: 10px;
+          font-size: 20px;
+        }
+
+        .point-price-state-title {
+          color: #ff6600;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .submit-edit-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .right-btn {
+    margin-left: 30px;
+  }
+
+  .submit-edit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 32px;
+    border-radius: 36px;
+    border: 2px solid rgba(255, 102, 0, 1);
+  }
+
+  .submit-btn-text {
+    font-size: 28px;
+    color: #ff6600;
+  }
+
+  .submit-shop-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 156px;
+    height: 72px;
+    background: linear-gradient(90deg, rgba(255, 136, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 36px;
+  }
+
+  .submit-text {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+  }
+}

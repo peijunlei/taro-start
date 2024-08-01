@@ -1,0 +1,136 @@
+.zhiboListItem {
+  width: calc(100vw - 48px);
+  height: 368px;
+  border-radius: 16px;
+  text-align: center;
+  background-color: #fff;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  justify-content: center;
+
+  .itemStatus {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+  }
+
+  .itemPlay {
+    position: 'absolute';
+    width: 80px;
+    height: 80px;
+    margin-top: calc((368px - 80px) / 2);
+    margin-left: calc((368px - 80px) / 2);
+  }
+
+  .itemLeft {
+    width: 368px;
+    height: 368px;
+  }
+
+  .itemRight {
+    flex: 1;
+    padding: 24px;
+    width: calc(100vw - 48px - 368px);
+
+    .itemTitle {
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 28px;
+      text-align: left;
+      margin-bottom: 12px;
+      line-height: 36px;
+      font-weight: bold;
+    }
+
+    .user {
+      flex-direction: row;
+      align-items: center;
+
+      .userAvatar {
+        width: 56px;
+        height: 56px;
+        border-radius: 28px;
+        overflow: hidden;
+        margin-right: 16px;
+        border: 1px solid #eeeeee;
+        background-color: #fff;
+
+        .avatarImg {
+          width: 56px;
+          height: 56px;
+        }
+      }
+
+      .username {
+        line-height: 1;
+        font-size: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: calc(100vw - 528px);
+        color: #999999;
+        text-align: left;
+      }
+    }
+  }
+
+  .itemBottom {
+    position: absolute;
+    bottom: 0;
+    width: calc(100vw - 464px);
+
+    .itemContent {
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 20px;
+      text-align: left;
+      margin-bottom: 16px;
+      line-height: 1;
+      width: calc(100vw - 464px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+
+    .lists {
+      flex-direction: row;
+      margin-bottom: 20px;
+
+      .listImgBox {
+        width: 88px;
+        height: 88px;
+        margin-right: 12px;
+
+        .listImg {
+          width: 88px;
+          height: 88px;
+          position: absolute;
+          overflow: hidden;
+          border-radius: 8px;
+        }
+
+        .priceBox {
+          position: relative;
+          width: 88px;
+          height: 36px;
+          top: 52px;
+          background: linear-gradient(rgba(0, 0, 0, 0, 0), #000000 100%);
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+
+          .itemPrice {
+            color: rgba(255, 255, 255, 1);
+            font-size: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0);
+          }
+        }
+      }
+    }
+
+    .subscribeBtn {
+      align-items: flex-end;
+    }
+  }
+}

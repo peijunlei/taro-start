@@ -1,0 +1,135 @@
+{
+  "CustomerShareRecordAddResponse": {
+    "customerShareRecordVO": {
+      "customerId": "amet",
+      "delFlag": 1,
+      "shareChannel": 3,
+      "shareId": "al",
+      "shareName": "aute nulla do",
+      "shareTargetId": "Duis cillum sed",
+      "shareTime": "1994-02-20T09:32:08.635Z",
+      "shareType": 2
+    }
+  },
+  "CustomerShareRecordListResponse": {
+    "customerShareRecordVOList": [
+      {
+        "customerId": "Excepteur sed",
+        "delFlag": 1,
+        "shareChannel": 0,
+        "shareId": "labore laboris eu Lorem",
+        "shareName": "ut dolore in in ea",
+        "shareTargetId": "cupidatat reprehenderit",
+        "shareTime": "1942-01-15T10:09:37.205Z",
+        "shareType": 2
+      },
+      {
+        "customerId": "ex in",
+        "delFlag": 0,
+        "shareChannel": 0,
+        "shareId": "laborum",
+        "shareName": "conse",
+        "shareTargetId": "proident",
+        "shareTime": "1996-01-10T21:32:38.476Z",
+        "shareType": 1
+      },
+      {
+        "customerId": "Excepteur ullamco sunt anim",
+        "delFlag": 1,
+        "shareChannel": 2,
+        "shareId": "dolor pariatur",
+        "shareName": "deserunt laborum",
+        "shareTargetId": "Excepteur elit minim",
+        "shareTime": "1986-12-27T16:48:30.904Z",
+        "shareType": 2
+      },
+      {
+        "customerId": "reprehenderit voluptate deserunt aute sed",
+        "delFlag": 1,
+        "shareChannel": 4,
+        "shareId": "cillum exercitation dolore occaecat",
+        "shareName": "est eu nostrud in",
+        "shareTargetId": "adipisicing in",
+        "shareTime": "2006-08-18T20:07:01.295Z",
+        "shareType": 0
+      },
+      {
+        "customerId": "et",
+        "delFlag": 1,
+        "shareChannel": 3,
+        "shareId": "ad velit irure aliqua",
+        "shareName": "",
+        "shareTargetId": "quis reprehenderit ipsum ex pariatur",
+        "shareTime": "1965-12-27T17:50:42.814Z",
+        "shareType": 3
+      }
+    ]
+  },
+  "CustomerShareRecordPageResponse": {
+    "customerShareRecordVOPage": {
+      "content": [
+        {
+          "customerId": "irure exercitation elit",
+          "delFlag": 0,
+          "shareChannel": 2,
+          "shareId": "amet dolor Excepteu",
+          "shareName": "Excepteur eiusmod nisi minim mol",
+          "shareTargetId": "qui deserunt ipsum Duis proident",
+          "shareTime": "1977-12-04T18:17:49.208Z",
+          "shareType": 1
+        },
+        {
+          "customerId": "pariatur",
+          "delFlag": 0,
+          "shareChannel": 0,
+          "shareId": "fugiat",
+          "shareName": "nostrud elit Lorem",
+          "shareTargetId": "Duis dolore cupidat",
+          "shareTime": "1988-11-27T09:16:17.101Z",
+          "shareType": 3
+        },
+        {
+          "customerId": "minim ullamco fugiat",
+          "delFlag": 1,
+          "shareChannel": 4,
+          "shareId": "sunt",
+          "shareName": "fugiat",
+          "shareTargetId": "quis in cillum pariatur incididunt",
+          "shareTime": "2011-07-14T20:30:41.545Z",
+          "shareType": 5
+        },
+        {
+          "customerId": "ullamco do cupidatat",
+          "delFlag": 0,
+          "shareChannel": 1,
+          "shareId": "consectetur Duis nostrud",
+          "shareName": "Lorem",
+          "shareTargetId": "occaecat nostrud consequat",
+          "shareTime": "1954-11-11T06:27:06.819Z",
+          "shareType": 2
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": 94256710,
+      "numberOfElements": -59543843,
+      "size": 13731007,
+      "sort": {},
+      "total": -64736286,
+      "totalElements": -34583198,
+      "totalPages": -50340501
+    }
+  },
+  "CustomerShareRecordByIdResponse": {
+    "customerShareRecordVO": {
+      "customerId": "Duis nulla et",
+      "delFlag": 1,
+      "shareChannel": 4,
+      "shareId": "anim aliquip eiusmod",
+      "shareName": "et deserunt irure culpa cupidatat",
+      "shareTargetId": "est id",
+      "shareTime": "2008-09-14T20:05:41.542Z",
+      "shareType": 0
+    }
+  }
+}

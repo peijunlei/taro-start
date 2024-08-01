@@ -1,0 +1,103 @@
+{
+  "ConsultSectionListResponse": {
+    "consultSectionVOList": [
+      {
+        "avatar": "culpa ullamco adipisicing in tempor",
+        "createTime": "1954-07-16T13:59:05.682Z",
+        "delFlag": 0,
+        "sectionId": 58701657,
+        "sectionName": "nulla in",
+        "updateTime": "1999-02-10T23:06:02.707Z"
+      },
+      {
+        "avatar": "culpa Excepteur",
+        "createTime": "1958-12-09T03:45:20.941Z",
+        "delFlag": 1,
+        "sectionId": -84453782,
+        "sectionName": "labore",
+        "updateTime": "2006-08-18T20:18:00.131Z"
+      },
+      {
+        "avatar": "nisi irure",
+        "createTime": "1947-01-03T03:56:29.099Z",
+        "delFlag": 1,
+        "sectionId": 57665868,
+        "sectionName": "esse voluptate",
+        "updateTime": "1968-05-31T07:35:52.94Z"
+      },
+      {
+        "avatar": "sed id ipsum Ut",
+        "createTime": "1995-06-03T23:27:21.79Z",
+        "delFlag": 1,
+        "sectionId": 76650299,
+        "sectionName": "dolore reprehenderit quis cupidatat deserunt",
+        "updateTime": "1945-12-04T15:52:59.937Z"
+      }
+    ]
+  },
+  "ConsultSectionPageResponse": {
+    "consultSectionVOPage": {
+      "content": [
+        {
+          "avatar": "veni",
+          "createTime": "1963-03-11T12:15:59.285Z",
+          "delFlag": 0,
+          "sectionId": -86409223,
+          "sectionName": "nisi sed",
+          "updateTime": "1998-02-01T23:32:21.994Z"
+        },
+        {
+          "avatar": "est",
+          "createTime": "2008-11-30T02:30:33.638Z",
+          "delFlag": 1,
+          "sectionId": 56519597,
+          "sectionName": "elit",
+          "updateTime": "1979-11-20T04:20:44.631Z"
+        },
+        {
+          "avatar": "consectetur sint",
+          "createTime": "1992-03-02T00:47:28.594Z",
+          "delFlag": 1,
+          "sectionId": 15413194,
+          "sectionName": "veniam nulla exercitation laboris",
+          "updateTime": "1986-09-16T14:48:48.99Z"
+        },
+        {
+          "avatar": "in",
+          "createTime": "1969-08-14T03:17:45.416Z",
+          "delFlag": 0,
+          "sectionId": 47106571,
+          "sectionName": "Ut non",
+          "updateTime": "1974-03-28T18:47:09.46Z"
+        },
+        {
+          "avatar": "sint",
+          "createTime": "1999-02-22T10:45:17.33Z",
+          "delFlag": 0,
+          "sectionId": 31263542,
+          "sectionName": "magna id",
+          "updateTime": "1965-05-28T15:37:52.474Z"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": -46383663,
+      "numberOfElements": -47587893,
+      "size": 34694323,
+      "sort": {},
+      "total": 1104431,
+      "totalElements": 2511479,
+      "totalPages": 2797105
+    }
+  },
+  "ConsultSectionByIdResponse": {
+    "consultSectionVO": {
+      "avatar": "et in",
+      "createTime": "1991-12-02T09:57:05.077Z",
+      "delFlag": 1,
+      "sectionId": -96288026,
+      "sectionName": "dolore ut",
+      "updateTime": "1949-06-29T16:17:56.801Z"
+    }
+  }
+}

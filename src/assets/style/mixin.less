@@ -1,0 +1,120 @@
+.fs(@size: 28px) {
+  font-size: @size;
+}
+
+.text-overflow(@lines: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.text-overflow (@lines) when(@lines =1) {
+  display: block;
+  white-space: nowrap;
+}
+
+.text-overflow (@lines) when(@lines > 1) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @lines;
+}
+
+.border(@width: 1px; @style: solid; @color: #E6E6E6; @radius: 1px) {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: @width;
+    border-style: @style;
+    border-color: @color;
+    border-radius: @radius;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}
+
+.border-top(@width: 1px; @style: solid; @color: #E6E6E6; @radius: 1px) {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-width: @width;
+    border-top-style: @style;
+    border-top-color: @color;
+    border-radius: @radius;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}
+
+.border-right(@width: 1px; @style: solid; @color: #E6E6E6; @radius: 1px) {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right-width: @width;
+    border-right-style: @style;
+    border-right-color: @color;
+    border-radius: @radius;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}
+
+.border-bottom(@width: 1px; @style: solid; @color: #E6E6E6; @radius: 1px) {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-width: @width;
+    border-bottom-style: @style;
+    border-bottom-color: @color;
+    border-radius: @radius;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}
+
+.border-left(@width: 1px; @style: solid; @color: #E6E6E6; @radius: 1px) {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left-width: @width;
+    border-left-style: @style;
+    border-left-color: @color;
+    border-radius: @radius;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}

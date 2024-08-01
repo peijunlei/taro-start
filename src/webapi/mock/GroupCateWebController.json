@@ -1,0 +1,149 @@
+{
+  "GroupCateListByFollowResponse": {
+    "groupCateVOList": [
+      {
+        "articleNum": 61100894,
+        "funNum": -32371212,
+        "groupCateDesc": "officia consectetur",
+        "groupCateIcon": "mollit aliqua esse",
+        "groupCateId": "proident Lorem non ad",
+        "groupCateImage": "non",
+        "groupCateName": "do Ut voluptate elit"
+      },
+      {
+        "articleNum": -16656136,
+        "funNum": -68425943,
+        "groupCateDesc": "enim qui aliquip Lorem",
+        "groupCateIcon": "labore cillum elit",
+        "groupCateId": "ut",
+        "groupCateImage": "nisi et consectetur",
+        "groupCateName": "exercitation"
+      },
+      {
+        "articleNum": -58273292,
+        "funNum": -47730453,
+        "groupCateDesc": "sunt venia",
+        "groupCateIcon": "dolore Duis",
+        "groupCateId": "esse dolore adipisicing officia",
+        "groupCateImage": "Lorem reprehenderit sint anim",
+        "groupCateName": "cupidatat irure eiusmod ex"
+      },
+      {
+        "articleNum": -19590296,
+        "funNum": 30614365,
+        "groupCateDesc": "eiusmod in",
+        "groupCateIcon": "Excepteur",
+        "groupCateId": "anim ipsum ad nisi",
+        "groupCateImage": "ut et",
+        "groupCateName": "aliquip"
+      },
+      {
+        "articleNum": 68811940,
+        "funNum": 88451447,
+        "groupCateDesc": "dolore exercitation",
+        "groupCateIcon": "incididunt reprehenderit ut dolor",
+        "groupCateId": "sint veniam non eiusmod",
+        "groupCateImage": "et ut",
+        "groupCateName": "nisi minim enim ut"
+      }
+    ]
+  },
+  "GroupCateHotResponse": {
+    "articleNum": -87834641,
+    "funNum": -18215182,
+    "groupCateDesc": "dolor",
+    "groupCateIcon": "incididunt dolore in dolore",
+    "groupCateId": "laboris minim cupidatat",
+    "groupCateImage": "quis sunt minim",
+    "groupCateName": "voluptate in irure exercitation"
+  },
+  "GroupCateGetByGroupCateIdResponse": {
+    "articleNum": 88692477,
+    "funNum": -62380459,
+    "groupCateDesc": "fugiat",
+    "groupCateIcon": "ea",
+    "groupCateId": "do cupidatat Excepteur enim",
+    "groupCateImage": "aute fugiat occaecat",
+    "groupCateName": "pariatur ut labore quis et"
+  },
+  "GroupCateListResponse": {
+    "list": [
+      {
+        "articleNum": 35107726,
+        "funNum": -56558343,
+        "groupCateDesc": "irure",
+        "groupCateIcon": "sed nostrud commodo sit qui",
+        "groupCateId": "cu",
+        "groupCateImage": "ullamco occaecat",
+        "groupCateName": "non aute"
+      },
+      {
+        "articleNum": 2505057,
+        "funNum": 86055183,
+        "groupCateDesc": "Ut",
+        "groupCateIcon": "consequat",
+        "groupCateId": "aliqua sed sint dolore",
+        "groupCateImage": "officia voluptate",
+        "groupCateName": ""
+      },
+      {
+        "articleNum": -79836206,
+        "funNum": 37068662,
+        "groupCateDesc": "ut Lorem adipisicing irure tempor",
+        "groupCateIcon": "ut nostrud Excepteur",
+        "groupCateId": "elit",
+        "groupCateImage": "enim exercitatio",
+        "groupCateName": "culpa Lorem"
+      }
+    ]
+  },
+  "GroupCateListByRecommendResponse": {
+    "groupCateVOList": [
+      {
+        "articleNum": 337137,
+        "funNum": 56036116,
+        "groupCateDesc": "dolor exercitation Lorem e",
+        "groupCateIcon": "in in consectetur u",
+        "groupCateId": "laborum",
+        "groupCateImage": "dolor adipisicing Lorem ",
+        "groupCateName": "in adipisicing amet"
+      },
+      {
+        "articleNum": 13878299,
+        "funNum": 20854851,
+        "groupCateDesc": "ex",
+        "groupCateIcon": "non Exce",
+        "groupCateId": "id sit veniam Duis",
+        "groupCateImage": "magna",
+        "groupCateName": "occa"
+      },
+      {
+        "articleNum": 29988177,
+        "funNum": 55640075,
+        "groupCateDesc": "anim irure officia ad",
+        "groupCateIcon": "in",
+        "groupCateId": "commodo ex elit",
+        "groupCateImage": "qui",
+        "groupCateName": "consectetur voluptate"
+      },
+      {
+        "articleNum": 16565139,
+        "funNum": 48598105,
+        "groupCateDesc": "nulla incididunt qui consectetu",
+        "groupCateIcon": "occaecat labore",
+        "groupCateId": "do consectetur proident et",
+        "groupCateImage": "fugiat aute",
+        "groupCateName": "minim"
+      },
+      {
+        "articleNum": -6594514,
+        "funNum": -55350992,
+        "groupCateDesc": "Excepteur sunt dolor in",
+        "groupCateIcon": "quis",
+        "groupCateId": "",
+        "groupCateImage": "occaecat officia sit ullamco",
+        "groupCateName": "ea"
+      }
+    ]
+  }
+}

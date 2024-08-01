@@ -1,0 +1,48 @@
+.wm-common-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 999;
+
+  .myCanvas {
+    width: calc(100vw * 0.747);
+    height: calc(100vw * 1.125);
+    border-radius: 8px;
+    display: block !important;
+    position: fixed;
+    bottom: -9999px;
+  }
+
+  .canvasImg {
+    width: calc(100vw * 0.747);
+    height: calc(100vw * 1.125);
+  }
+
+  .surplus {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 120px;
+    bottom: 400px;
+    background-color: transparent;
+    z-index: 99999;
+  }
+
+  .close {
+    margin-top: 32px;
+    width: 80px;
+    height: 80px;
+
+    .img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

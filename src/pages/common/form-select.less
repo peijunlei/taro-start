@@ -1,0 +1,62 @@
+.wm-form-item {
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 10px;
+  justify-content: space-between;
+
+  &.flex-start-item {
+    align-items: flex-start;
+  }
+
+  .form-label {
+    font-size: 28px;
+    min-width: 120px;
+    margin-right: 24px;
+  }
+
+  .select-right {
+    flex-direction: row;
+    align-items: center;
+    .form_needComplete {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .needComplete{
+        font-size: 24px;
+        color: var(--themeColor);
+      }
+    }
+    .jiantou {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .select-text2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .form__input {
+    font-size: 28px;
+    text-align: right;
+    color: #333;
+    caret-color: #ff6600;
+
+    input[disabled] {
+      opacity: 1;
+      color: #000000;
+    }
+  }
+
+  .form-context {
+    flex: 1;
+  }
+}
+
+input::placeholder {
+  color: #999;
+}

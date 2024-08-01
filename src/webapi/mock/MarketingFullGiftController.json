@@ -1,0 +1,261 @@
+{
+  "FullGiftLevelListByMarketingIdAndCustomerResponse": {
+    "giftList": [
+      {
+        "goodsId": "laboris incididunt irure",
+        "goodsInfoId": "magna laboris",
+        "goodsInfoImg": "sint ex",
+        "goodsInfoName": "eu in",
+        "goodsInfoNo": "dolore ullamco",
+        "marketPrice": 35366901.13532853
+      },
+      {
+        "goodsId": "Excepteur pariatur commodo",
+        "goodsInfoId": "anim elit aute et",
+        "goodsInfoImg": "Excepteur incididunt",
+        "goodsInfoName": "in",
+        "goodsInfoNo": "deserunt dolor in adipisicing ut",
+        "marketPrice": -52649215.796899766
+      },
+      {
+        "goodsId": "veniam quis sed Lorem",
+        "goodsInfoId": "qui",
+        "goodsInfoImg": "nisi",
+        "goodsInfoName": "in",
+        "goodsInfoNo": "occaecat",
+        "marketPrice": -2612579.4063112587
+      },
+      {
+        "goodsId": "est sint in",
+        "goodsInfoId": "ipsum",
+        "goodsInfoImg": "in anim amet qui cupidatat",
+        "goodsInfoName": "nisi ipsum dolor in",
+        "goodsInfoNo": "Excepteur sint",
+        "marketPrice": 29128121.207248464
+      },
+      {
+        "goodsId": "et sed reprehenderit ",
+        "goodsInfoId": "nisi fugiat m",
+        "goodsInfoImg": "proident",
+        "goodsInfoName": "culpa",
+        "goodsInfoNo": "laborum adipisicing",
+        "marketPrice": -49695744.66539619
+      }
+    ],
+    "levelList": [
+      {
+        "fullAmount": 28209016.279426098,
+        "fullCount": -54553997,
+        "fullGiftDetailList": [
+          {
+            "giftDetailId": 62489244,
+            "giftLevelId": -81880463,
+            "marketingId": -4321020,
+            "productId": "dolor quis velit",
+            "productNum": 65972297
+          },
+          {
+            "giftDetailId": 63205858,
+            "giftLevelId": -57172195,
+            "marketingId": 21182501,
+            "productId": "dolor",
+            "productNum": -55494467
+          },
+          {
+            "giftDetailId": -82396333,
+            "giftLevelId": 49503069,
+            "marketingId": -60390020,
+            "productId": "ullamco in dolore proiden",
+            "productNum": -13330181
+          },
+          {
+            "giftDetailId": -9703650,
+            "giftLevelId": 57884304,
+            "marketingId": -62329376,
+            "productId": "laboris minim sunt elit",
+            "productNum": -39174820
+          },
+          {
+            "giftDetailId": -44490871,
+            "giftLevelId": 33879271,
+            "marketingId": -17160770,
+            "productId": "qui veniam",
+            "productNum": -34524040
+          }
+        ],
+        "giftLevelId": 40606074,
+        "giftType": 1,
+        "marketingId": -50746597
+      },
+      {
+        "fullAmount": -13042436.35840252,
+        "fullCount": 48945621,
+        "fullGiftDetailList": [
+          {
+            "giftDetailId": -28873796,
+            "giftLevelId": 99751674,
+            "marketingId": 33568468,
+            "productId": "adipisicing fugiat",
+            "productNum": 85891775
+          },
+          {
+            "giftDetailId": 19243455,
+            "giftLevelId": -50168626,
+            "marketingId": 96231782,
+            "productId": "do nisi",
+            "productNum": 30824611
+          },
+          {
+            "giftDetailId": -5556229,
+            "giftLevelId": -70704325,
+            "marketingId": -89430780,
+            "productId": "aute dolor tempor",
+            "productNum": 76998347
+          },
+          {
+            "giftDetailId": -81598218,
+            "giftLevelId": -92726966,
+            "marketingId": 87103462,
+            "productId": "anim in",
+            "productNum": -70387396
+          },
+          {
+            "giftDetailId": -52818157,
+            "giftLevelId": -33934966,
+            "marketingId": 50742741,
+            "productId": "laboris ea sunt ad",
+            "productNum": -59573865
+          }
+        ],
+        "giftLevelId": 39041202,
+        "giftType": 1,
+        "marketingId": -10574130
+      },
+      {
+        "fullAmount": -96807312.7727501,
+        "fullCount": 56358860,
+        "fullGiftDetailList": [
+          {
+            "giftDetailId": -27043477,
+            "giftLevelId": 40102308,
+            "marketingId": -3407861,
+            "productId": "commodo deserunt",
+            "productNum": 50510083
+          },
+          {
+            "giftDetailId": -60077345,
+            "giftLevelId": -89860575,
+            "marketingId": -86117175,
+            "productId": "ullamco fugiat",
+            "productNum": 78837748
+          },
+          {
+            "giftDetailId": 29670726,
+            "giftLevelId": 31273405,
+            "marketingId": -96192120,
+            "productId": "aliqua cillum",
+            "productNum": -73315300
+          },
+          {
+            "giftDetailId": 91378166,
+            "giftLevelId": 28727356,
+            "marketingId": -3201314,
+            "productId": "reprehenderit ex do elit id",
+            "productNum": -18416347
+          },
+          {
+            "giftDetailId": 60787780,
+            "giftLevelId": -91722716,
+            "marketingId": -13223651,
+            "productId": "in ipsum ut est",
+            "productNum": -50863549
+          }
+        ],
+        "giftLevelId": 1086380,
+        "giftType": 1,
+        "marketingId": -5757980
+      },
+      {
+        "fullAmount": 90472605.33950537,
+        "fullCount": -85167346,
+        "fullGiftDetailList": [
+          {
+            "giftDetailId": -73128468,
+            "giftLevelId": -43400594,
+            "marketingId": -41638130,
+            "productId": "sit",
+            "productNum": -61966095
+          },
+          {
+            "giftDetailId": -68014285,
+            "giftLevelId": -6021653,
+            "marketingId": -89682013,
+            "productId": "ullamco",
+            "productNum": -85937972
+          },
+          {
+            "giftDetailId": 86935581,
+            "giftLevelId": -2481159,
+            "marketingId": -45004404,
+            "productId": "do tempor anim deserunt",
+            "productNum": 5938691
+          },
+          {
+            "giftDetailId": -81275702,
+            "giftLevelId": 45587122,
+            "marketingId": 805436,
+            "productId": "reprehenderit non in eu",
+            "productNum": 13074209
+          },
+          {
+            "giftDetailId": -49400455,
+            "giftLevelId": -57969628,
+            "marketingId": 88010681,
+            "productId": "id Lorem Duis do minim",
+            "productNum": 2315652
+          }
+        ],
+        "giftLevelId": 81957271,
+        "giftType": 0,
+        "marketingId": 82840986
+      },
+      {
+        "fullAmount": 53918431.32426083,
+        "fullCount": -86273333,
+        "fullGiftDetailList": [
+          {
+            "giftDetailId": -1571748,
+            "giftLevelId": -24708197,
+            "marketingId": -31258813,
+            "productId": "est aliqua aute",
+            "productNum": -43503385
+          },
+          {
+            "giftDetailId": 11348552,
+            "giftLevelId": 7595548,
+            "marketingId": -60146334,
+            "productId": "dolor laboris cillum",
+            "productNum": 26105711
+          },
+          {
+            "giftDetailId": 26295466,
+            "giftLevelId": -97182628,
+            "marketingId": -42236834,
+            "productId": "adipisicing id ut",
+            "productNum": -40985036
+          },
+          {
+            "giftDetailId": 4058056,
+            "giftLevelId": 6429513,
+            "marketingId": 25224571,
+            "productId": "incididunt sit deserunt culpa",
+            "productNum": -72458867
+          }
+        ],
+        "giftLevelId": 73994663,
+        "giftType": 1,
+        "marketingId": 88251706
+      }
+    ]
+  }
+}

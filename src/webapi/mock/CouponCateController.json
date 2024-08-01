@@ -1,0 +1,29 @@
+{
+  "CouponCateVOArray": [
+    {
+      "couponCateId": "deserunt sint",
+      "couponCateName": "nulla",
+      "onlyPlatformFlag": 0
+    },
+    {
+      "couponCateId": "nostrud non et mollit Duis",
+      "couponCateName": "in irure nisi Ut",
+      "onlyPlatformFlag": 1
+    },
+    {
+      "couponCateId": "cupidatat occaecat mollit consectetur",
+      "couponCateName": "ad in",
+      "onlyPlatformFlag": 0
+    },
+    {
+      "couponCateId": "ea",
+      "couponCateName": "dolor dolore Excepteur",
+      "onlyPlatformFlag": 1
+    },
+    {
+      "couponCateId": "laborum",
+      "couponCateName": "ipsum incididunt fugiat ullamco ut",
+      "onlyPlatformFlag": 0
+    }
+  ]
+}

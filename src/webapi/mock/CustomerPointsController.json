@@ -1,0 +1,83 @@
+{
+  "CustomerPointsExpireResponse": {
+    "customerId": "ad do",
+    "pointsExpireDate": "1975-03-12",
+    "pointsExpireStatus": 1,
+    "willExpirePoints": 8102198
+  },
+  "CustomerPointsDetailPageResponse": {
+    "customerPointsDetailVOPage": {
+      "content": [
+        {
+          "content": "cupidatat enim",
+          "customerAccount": "Lorem",
+          "customerId": "nulla pariatur deserunt commodo amet",
+          "customerName": "dolor",
+          "id": -85062004,
+          "opTime": "2015-03-25T01:35:01.129Z",
+          "points": 84062815,
+          "pointsAvailable": 66467505,
+          "serviceType": "8",
+          "type": "0"
+        },
+        {
+          "content": "occaec",
+          "customerAccount": "aliqua proid",
+          "customerId": "magna deserunt",
+          "customerName": "dolore Ut ipsum dolor",
+          "id": -168205,
+          "opTime": "1959-03-07T19:49:31.077Z",
+          "points": -15160878,
+          "pointsAvailable": 4565586,
+          "serviceType": "11",
+          "type": "0"
+        },
+        {
+          "content": "ad enim",
+          "customerAccount": "nulla culpa dolor minim",
+          "customerId": "magna deserunt",
+          "customerName": "proident deserunt culpa",
+          "id": 24167898,
+          "opTime": "2009-06-27T19:28:46.732Z",
+          "points": -46840425,
+          "pointsAvailable": -91927951,
+          "serviceType": "15",
+          "type": "1"
+        },
+        {
+          "content": "aliquip Ut aliqua laborum",
+          "customerAccount": "occaecat dolore",
+          "customerId": "in Excepteur elit",
+          "customerName": "eiusmod Excepteur reprehenderit",
+          "id": -85116238,
+          "opTime": "1953-12-04T19:38:55.674Z",
+          "points": 27228133,
+          "pointsAvailable": -30186593,
+          "serviceType": "9",
+          "type": "0"
+        },
+        {
+          "content": "",
+          "customerAccount": "elit irure ut cillum",
+          "customerId": "labore eiusmod cupidatat deserunt",
+          "customerName": "incididunt laboris labor",
+          "id": -21564947,
+          "opTime": "1997-06-20T23:12:54.36Z",
+          "points": -69777286,
+          "pointsAvailable": -65520243,
+          "serviceType": "2",
+          "type": "1"
+        }
+      ],
+      "first": false,
+      "last": false,
+      "number": -52057722,
+      "numberOfElements": 37619893,
+      "size": 74126248,
+      "sort": {},
+      "total": -47938619,
+      "totalElements": -83545624,
+      "totalPages": -11927773
+    }
+  }
+}

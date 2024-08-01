@@ -1,0 +1,47 @@
+{
+  "CustomerVerifiedAddResponse": {
+    "customerVerifiedVO": {
+      "artificialRemake": "ullamco",
+      "automaticRemake": "ullamco dolor",
+      "cardNegative": "anim cupidatat Duis in",
+      "cardNo": "exerc",
+      "cardPositive": "nisi commodo dolor",
+      "createTime": "2019-02-17T19:19:00.0Z",
+      "customerId": "in",
+      "customerName": "commodo",
+      "id": "s",
+      "statusType": 43364443,
+      "updateTime": "2018-02-11T17:19:36.263Z"
+    }
+  },
+  "CustomerVerifiedModifyResponse": {
+    "customerVerifiedVO": {
+      "artificialRemake": "incididunt amet nostrud sint ad",
+      "automaticRemake": "voluptate ea deserunt",
+      "cardNegative": "ut mollit",
+      "cardNo": "sed",
+      "cardPositive": "aute ad pariatur minim voluptat",
+      "createTime": "1965-04-12T16:41:35.661Z",
+      "customerId": "qui amet ex do eiusmod",
+      "customerName": "sed",
+      "id": "sunt aliquip ullamco labore",
+      "statusType": -67341004,
+      "updateTime": "1956-04-20T16:15:20.043Z"
+    }
+  },
+  "CustomerVerifiedByIdResponse": {
+    "customerVerifiedVO": {
+      "artificialRemake": "in",
+      "automaticRemake": "nulla exercitation Excepteur esse",
+      "cardNegative": "consectetur",
+      "cardNo": "amet commodo dolor",
+      "cardPositive": "id aliquip occaecat",
+      "createTime": "1953-08-30T02:59:46.649Z",
+      "customerId": "Excepteur esse",
+      "customerName": "tempor do occaecat nulla laborum",
+      "id": "in aliqua officia",
+      "statusType": 65380811,
+      "updateTime": "1944-05-24T21:00:19.021Z"
+    }
+  }
+}

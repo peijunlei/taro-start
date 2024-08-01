@@ -1,0 +1,11 @@
+{
+  "DeviceTokenAddResponse": {
+    "deviceTokenVO": {
+      "createTime": "1959-03-25T21:53:45.175Z",
+      "customerId": "aliquip",
+      "deviceToken": "labore",
+      "osType": 4592104,
+      "updateTime": "1948-07-15T08:16:19.343Z"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "ArticleInfoPageResponse": {
+    "articleInfoVOPage": {
+      "content": [
+        {
+          "accurateType": "occaecat mollit qui non",
+          "articleCoverSource": "tempor nulla officia adipi",
+          "articleDigest": "dolore in aliqua laborum ad",
+          "articleProperty": 0,
+          "articleRecommendType": 1,
+          "articleSubjectId": "Lorem ex ipsum",
+          "articleType": 0,
+          "auditPersion": "et eiusm",
+          "auditState": 0,
+          "auditTime": "1992-07-18T08:58:54.953Z",
+          "authorType": "0",
+          "browseTotal": 65897137,
+          "cateIds": "Excep",
+          "channelType": 1,
+          "commentTotal": 71873486,
+          "content": "voluptate tempor officia",
+          "contentSource": "id nulla",
+          "contentSourceDuration": "ea Excepteur amet in",
+          "contentState": 1,
+          "contentType": 0,
+          "coverType": 2,
+          "createPerson": "ut irure tempor est",
+          "createTime": "1955-06-13T08:53:55.051Z",
+          "delFlag": 1,
+          "delPerson": "dolo",
+          "delTime": "1965-10-07T03:05:59.866Z",
+          "groupCateId": "eiusmod",
+          "id": "anim et occaecat Duis",
+          "parentCateIds": "commodo eu velit",
+          "rejectReason": "labore commodo",
+          "releasePersion": "pariatur",
+          "releaseTime": "1968-06-16T13:52:49.372Z",
+          "shareTotal": -83296273,
+          "starTotal": 2432221,
+          "title": "proident do",
+          "updatePerson": "ea deserunt",
+          "updateTime": "1967-01-25T12:38:29.551Z"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": -75109228,
+      "numberOfElements": 32808845,
+      "size": -25622970,
+      "sort": {},
+      "total": -39685869,
+      "totalElements": 11166361,
+      "totalPages": -5107107
+    }
+  },
+  "ArticleRecommendListResponse": {
+    "articlePage": {
+      "content": [
+        {
+          "articleCoverSource": "exercitation in eu Duis enim",
+          "browseTotal": "reprehenderit cillum Duis sed ex",
+          "cateName": "elit do magna",
+          "contentSource": "enim pariatur",
+          "contentType": 95590488,
+          "id": "id nisi",
+          "title": "elit laborum ullamco occaecat magna",
+          "articleId": "pariatur consequat",
+          "articleImg": "est voluptate Excepteur",
+          "articleTitle": "irure qui",
+          "readingQuality": "commodo est labore non ullamco"
+        },
+        {
+          "articleCoverSource": "sint",
+          "browseTotal": "in consectetur consequa",
+          "cateName": "ex ut aliquip quis ullamco",
+          "contentSource": "laboris deserunt officia",
+          "contentType": 96994093,
+          "id": "ad dolore est",
+          "title": "ullamco amet",
+          "articleId": "sunt laboris reprehenderit magna amet",
+          "articleImg": "exercitation",
+          "articleTitle": "ullamco dolore aliquip ut Duis",
+          "readingQuality": ""
+        },
+        {
+          "articleCoverSource": "Duis adipisicing",
+          "browseTotal": "aliquip Ut anim consequat",
+          "cateName": "pariatur",
+          "contentSource": "magna elit in laboris ullamco",
+          "contentType": 83115860,
+          "id": "est nostrud nisi veniam sed",
+          "title": "do ea minim incididunt",
+          "articleId": "adipisicin"
+        },
+        {
+          "articleCoverSource": "consectetur Ut nulla",
+          "browseTotal": "in",
+          "cateName": "anim pariatur",
+          "contentSource": "amet",
+          "contentType": 67822978,
+          "id": "aliqua id",
+          "title": "dolor eu Excepteur nostrud",
+          "articleId": "dolore"
+        },
+        {
+          "articleCoverSource": "labore exercitation aliqua Duis Lorem",
+          "articleId": "commodo ut est",
+          "browseTotal": "sint nulla",
+          "cateName": "esse deserunt ut cupidatat",
+          "contentType": -1201826,
+          "title": "id"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": -1572655,
+      "numberOfElements": 16436975,
+      "size": -87109894,
+      "sort": {},
+      "total": 80276744,
+      "totalElements": -57703405,
+      "totalPages": -38663092
+    }
+  },
+  "AudioRecommendListResponse": {
+    "audioPage": {
+      "content": [
+        {
+          "audioId": "laborum labore ut eiusmod",
+          "audioSrc": "ut",
+          "audioTitle": "nostrud elit",
+          "viewCount": "sint ad esse"
+        },
+        {
+          "audioId": "qui dolore occaecat Duis",
+          "audioSrc": "ea nulla",
+          "audioTitle": "cupidatat dolore eiusmod ut eu",
+          "viewCount": "nisi laboris ipsum"
+        }
+      ],
+      "first": false,
+      "last": false,
+      "number": 87326841,
+      "numberOfElements": 26845608,
+      "size": 44307395,
+      "sort": {},
+      "total": 95650025,
+      "totalElements": -76451464,
+      "totalPages": -6297109
+    }
+  },
+  "VideoRecommendListResponse": {
+    "videoPage": {
+      "content": [
+        {
+          "videoId": "esse consectetur ea nisi mollit",
+          "videoSrc": "occaecat fugiat",
+          "videoTitle": "exercitation cupidatat proident in",
+          "viewCount": "elit"
+        },
+        {
+          "videoId": "mollit nisi sit",
+          "videoSrc": "in ma",
+          "videoTitle": "in irure",
+          "viewCount": "incididunt esse"
+        },
+        {
+          "videoId": "consequat dolore elit et",
+          "videoSrc": "dolore aliqu",
+          "videoTitle": "consequat",
+          "viewCount": "commodo id proident consectetur aute"
+        },
+        {
+          "videoId": "aute",
+          "videoSrc": "nostrud",
+          "videoTitle": "et qui sint exercitat",
+          "viewCount": "officia do sint nostrud"
+        },
+        {
+          "videoId": "pariatur",
+          "videoSrc": "amet occaecat commodo ut",
+          "videoTitle": "consequat Ut irure",
+          "viewCount": "dolor aliquip esse commodo"
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": -56912290,
+      "numberOfElements": -60261062,
+      "size": 20450007,
+      "sort": {},
+      "total": -51173224,
+      "totalElements": -76326319,
+      "totalPages": 70710420
+    }
+  }
+}

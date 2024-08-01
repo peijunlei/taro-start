@@ -1,0 +1,1663 @@
+{
+  "GoodsRecommendSettingResponse": {
+    "goodsRecommendSettingVO": {
+      "brands": [
+        {
+          "brandCommissionRatioMax": 40777082.14260247,
+          "brandCommissionRatioMin": -27788136.631485954,
+          "brandId": 57258458,
+          "brandName": "enim voluptate et",
+          "brandType": 83226122,
+          "countryCode": "magna eiusmod officia",
+          "countryName": "ut",
+          "countryVO": {
+            "countryCode": "do",
+            "countryName": "sint culpa aliqua voluptate enim",
+            "countryNameUk": "magna",
+            "id": 45284893
+          },
+          "createTime": "1950-07-30T08:46:03.374Z",
+          "delFlag": 1,
+          "isParticipateReward": 1,
+          "jointVenturesCommissionRatio": -31907088.513216525,
+          "logo": "sit veniam qui proident",
+          "microShopCommissionRatio": 85849042.90864646,
+          "nickName": "laboris magna ad",
+          "partnerCommissionRatio": 66748664.09853557,
+          "pinYin": "sed laborum",
+          "spinYin": "reprehenderit id",
+          "storeCount": 51166518,
+          "storeId": -82365847,
+          "updateTime": "1992-10-08T19:53:08.48Z"
+        },
+        {
+          "brandCommissionRatioMax": 42000812.07739398,
+          "brandCommissionRatioMin": 94644486.62868103,
+          "brandId": 83798579,
+          "brandName": "aliquip",
+          "brandType": -65446806,
+          "countryCode": "eu Lorem",
+          "countryName": "voluptate aliqua",
+          "countryVO": {
+            "countryCode": "irure ut consectetur ullamco velit",
+            "countryName": "ad ex sunt exercitation deserunt",
+            "countryNameUk": "tempor officia sint",
+            "id": 51758893
+          },
+          "createTime": "1952-09-18T03:33:33.759Z",
+          "delFlag": 1,
+          "isParticipateReward": 1,
+          "jointVenturesCommissionRatio": 83051326.68325347,
+          "logo": "eu elit Duis fugiat consequat",
+          "microShopCommissionRatio": -65054297.143244796,
+          "nickName": "occaecat ullamco consectetur culpa",
+          "partnerCommissionRatio": 10474575.543398544,
+          "pinYin": "deserunt",
+          "spinYin": "consectetur in reprehenderit",
+          "storeCount": -36132124,
+          "storeId": -38085816,
+          "updateTime": "1958-08-02T02:15:15.303Z"
+        },
+        {
+          "brandCommissionRatioMax": 77079989.84117398,
+          "brandCommissionRatioMin": 62557105.68910676,
+          "brandId": -86669667,
+          "brandName": "non eiusmod sunt ex",
+          "brandType": -68398140,
+          "countryCode": "dolore",
+          "countryName": "ut quis magna in",
+          "countryVO": {
+            "countryCode": "sit commodo aute proident",
+            "countryName": "in do Excepteur",
+            "countryNameUk": "qui",
+            "id": 97222898
+          },
+          "createTime": "1990-05-25T06:46:14.918Z",
+          "delFlag": 0,
+          "isParticipateReward": 1,
+          "jointVenturesCommissionRatio": -31329498.880513012,
+          "logo": "ipsum occaecat tempor minim",
+          "microShopCommissionRatio": -46854716.82214608,
+          "nickName": "qui ut consectetur Ut minim",
+          "partnerCommissionRatio": 78069112.3066822,
+          "pinYin": "irure sint qui",
+          "spinYin": "culpa dolore est sit Excepteur",
+          "storeCount": 70494771,
+          "storeId": 81390122,
+          "updateTime": "1984-02-19T01:47:59.584Z"
+        },
+        {
+          "brandCommissionRatioMax": -55362202.058009654,
+          "brandCommissionRatioMin": -73924532.5519537,
+          "brandId": 42027622,
+          "brandName": "amet magna",
+          "brandType": 91062517,
+          "countryCode": "id quis veniam irure tempor",
+          "countryName": "sed incididunt nulla ad",
+          "countryVO": {
+            "countryCode": "cupidatat do esse tempor",
+            "countryName": "ut cupidatat",
+            "countryNameUk": "dolore irure quis",
+            "id": -74950610
+          },
+          "createTime": "1984-04-29T09:07:54.762Z",
+          "delFlag": 0,
+          "isParticipateReward": 1,
+          "jointVenturesCommissionRatio": 54406070.45552835,
+          "logo": "ipsum",
+          "microShopCommissionRatio": 49760506.93826854,
+          "nickName": "dolore aliquip amet",
+          "partnerCommissionRatio": -92621954.49757811,
+          "pinYin": "tempor velit fugiat Excepteur Duis",
+          "spinYin": "dolore",
+          "storeCount": 48341565,
+          "storeId": -4148603,
+          "updateTime": "1979-04-14T14:16:51.341Z"
+        },
+        {
+          "brandCommissionRatioMax": -44590762.18327334,
+          "brandCommissionRatioMin": -75781521.42058125,
+          "brandId": -73204090,
+          "brandName": "Excepteur",
+          "brandType": 35357696,
+          "countryCode": "magna do ut proident in",
+          "countryName": "sed ut dol",
+          "countryVO": {
+            "countryCode": "laboris Excepteur laborum",
+            "countryName": "ut nostrud dolor",
+            "countryNameUk": "culpa labore sint est",
+            "id": 51445142
+          },
+          "createTime": "2006-08-29T15:51:59.332Z",
+          "delFlag": 0,
+          "isParticipateReward": 1,
+          "jointVenturesCommissionRatio": -45942884.133172825,
+          "logo": "laborum incididunt",
+          "microShopCommissionRatio": 1731273.6759579629,
+          "nickName": "velit laborum",
+          "partnerCommissionRatio": 166458.00968694687,
+          "pinYin": "ipsum consequat aliquip est sunt",
+          "spinYin": "ut",
+          "storeCount": 95140457,
+          "storeId": 1049319,
+          "updateTime": "1989-08-27T09:26:18.163Z"
+        }
+      ],
+      "cates": [
+        {
+          "baseTag": "in aute quis nulla",
+          "cateCommissionRatioMax": -9887282.909445852,
+          "cateCommissionRatioMin": 90609674.81550017,
+          "cateGrade": -77047263,
+          "cateId": -5662491,
+          "cateImg": "sunt ut ex mollit",
+          "cateName": "et laborum id culpa",
+          "cateParentId": 81146874,
+          "catePath": "consequat",
+          "cateRate": 72203091.0121117,
+          "cateTag": "consequat",
+          "cateType": -15034369,
+          "createTime": "1980-10-14T23:50:50.797Z",
+          "delFlag": 1,
+          "goodsCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "goodsProps": [
+            {
+              "cateId": -88583692,
+              "createTime": "1977-10-09T02:12:24.275Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1980-02-04T02:42:27.248Z",
+                  "delFlag": 0,
+                  "detailId": -113710,
+                  "detailName": "ut nisi ad",
+                  "propId": 54014030,
+                  "sort": -72724893,
+                  "updateTime": "2017-12-14T16:38:30.282Z"
+                },
+                {
+                  "createTime": "1990-06-16T19:38:41.025Z",
+                  "delFlag": 0,
+                  "detailId": 57826064,
+                  "detailName": "id nisi dolore voluptate proident",
+                  "propId": 92644039,
+                  "sort": -88251098,
+                  "updateTime": "2014-05-09T04:29:43.364Z"
+                },
+                {
+                  "createTime": "2005-12-06T21:45:26.378Z",
+                  "delFlag": 1,
+                  "detailId": -61748366,
+                  "detailName": "esse enim elit",
+                  "propId": 50638781,
+                  "sort": -73347263,
+                  "updateTime": "1967-08-29T13:20:22.944Z"
+                },
+                {
+                  "createTime": "1997-12-09T02:47:39.821Z",
+                  "delFlag": 1,
+                  "detailId": 21429393,
+                  "detailName": "officia eu voluptate",
+                  "propId": -98071309,
+                  "sort": -4528398,
+                  "updateTime": "2004-03-07T15:48:50.942Z"
+                },
+                {
+                  "createTime": "1962-04-17T04:32:00.337Z",
+                  "delFlag": 1,
+                  "detailId": 65155557,
+                  "detailName": "laborum dolore aliquip",
+                  "propId": -6351460,
+                  "sort": 8518117,
+                  "updateTime": "2018-08-27T07:49:05.699Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "culpa qui",
+              "propId": -74590690,
+              "propName": "eu",
+              "sort": 50561513,
+              "updateTime": "1986-09-05T17:35:27.061Z"
+            },
+            {
+              "cateId": 88624958,
+              "createTime": "2005-04-06T04:24:16.459Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1944-05-07T18:24:29.858Z",
+                  "delFlag": 0,
+                  "detailId": 25238813,
+                  "detailName": "esse Excepteur quis",
+                  "propId": -3587461,
+                  "sort": 99683581,
+                  "updateTime": "2010-07-27T10:18:02.684Z"
+                },
+                {
+                  "createTime": "1970-05-12T06:04:50.708Z",
+                  "delFlag": 0,
+                  "detailId": -2567662,
+                  "detailName": "aliqua labore elit aute",
+                  "propId": -92690754,
+                  "sort": -98092585,
+                  "updateTime": "1952-09-03T10:31:14.799Z"
+                },
+                {
+                  "createTime": "1942-03-01T22:37:08.87Z",
+                  "delFlag": 1,
+                  "detailId": -58527342,
+                  "detailName": "voluptate est esse",
+                  "propId": 19070083,
+                  "sort": -93754925,
+                  "updateTime": "1981-09-16T09:00:54.01Z"
+                },
+                {
+                  "createTime": "1973-01-11T00:15:18.704Z",
+                  "delFlag": 0,
+                  "detailId": 94960527,
+                  "detailName": "enim do",
+                  "propId": -90916345,
+                  "sort": 5653000,
+                  "updateTime": "1951-07-01T23:17:46.045Z"
+                },
+                {
+                  "createTime": "1974-08-08T13:32:29.445Z",
+                  "delFlag": 0,
+                  "detailId": -2132070,
+                  "detailName": "voluptate deserunt incididunt ex",
+                  "propId": -84979592,
+                  "sort": 93437264,
+                  "updateTime": "2008-06-25T03:47:06.937Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "pariatur nostrud",
+              "propId": 6662788,
+              "propName": "sed veniam",
+              "sort": -14017960,
+              "updateTime": "1966-08-10T13:34:52.684Z"
+            },
+            {
+              "cateId": -24337402,
+              "createTime": "1958-02-18T09:25:40.886Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1985-06-26T21:21:16.375Z",
+                  "delFlag": 0,
+                  "detailId": 2444164,
+                  "detailName": "qui nisi dolor enim",
+                  "propId": -17787309,
+                  "sort": -51417934,
+                  "updateTime": "1968-12-07T20:25:43.289Z"
+                },
+                {
+                  "createTime": "1944-06-17T05:44:18.817Z",
+                  "delFlag": 1,
+                  "detailId": 7393311,
+                  "detailName": "amet dolore labore Lorem ullamco",
+                  "propId": 38233630,
+                  "sort": -97324459,
+                  "updateTime": "1948-08-14T04:49:07.548Z"
+                },
+                {
+                  "createTime": "2012-02-07T05:29:44.004Z",
+                  "delFlag": 0,
+                  "detailId": 45049356,
+                  "detailName": "ut id cillum laboris mollit",
+                  "propId": 73269663,
+                  "sort": 46950329,
+                  "updateTime": "1997-10-23T22:15:19.727Z"
+                },
+                {
+                  "createTime": "2012-07-05T05:36:15.896Z",
+                  "delFlag": 0,
+                  "detailId": 75286237,
+                  "detailName": "ut laboris cillum magna",
+                  "propId": -87646730,
+                  "sort": -34599628,
+                  "updateTime": "1982-01-11T12:33:43.621Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "ea",
+              "propId": -24351980,
+              "propName": "adipisicing pariatur",
+              "sort": -91912456,
+              "updateTime": "2002-02-06T09:17:14.139Z"
+            },
+            {
+              "cateId": 32271802,
+              "createTime": "1986-04-12T10:00:02.593Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1994-05-12T15:28:23.993Z",
+                  "delFlag": 0,
+                  "detailId": -19462465,
+                  "detailName": "adipisicing",
+                  "propId": -17588257,
+                  "sort": -48779967,
+                  "updateTime": "1983-01-11T14:56:42.715Z"
+                },
+                {
+                  "createTime": "2019-09-12T12:36:28.443Z",
+                  "delFlag": 1,
+                  "detailId": -55968364,
+                  "detailName": "velit occaecat fugiat ",
+                  "propId": -98337726,
+                  "sort": 62566423,
+                  "updateTime": "2013-10-21T22:18:42.249Z"
+                },
+                {
+                  "createTime": "1994-07-07T13:23:52.532Z",
+                  "delFlag": 0,
+                  "detailId": 92123232,
+                  "detailName": "ipsum eu magna",
+                  "propId": -84581468,
+                  "sort": -77194855,
+                  "updateTime": "1956-01-07T23:36:44.136Z"
+                },
+                {
+                  "createTime": "1996-12-29T07:07:18.317Z",
+                  "delFlag": 0,
+                  "detailId": 5229056,
+                  "detailName": "sint consequat ea veniam",
+                  "propId": -47996260,
+                  "sort": -80554530,
+                  "updateTime": "1948-08-20T17:29:34.943Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "labore cupidatat aliqua deserunt incididunt",
+              "propId": 52067471,
+              "propName": "consequat in aliqua",
+              "sort": -84744319,
+              "updateTime": "1967-04-16T22:38:35.905Z"
+            },
+            {
+              "cateId": 29967037,
+              "createTime": "2010-07-28T01:32:54.902Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1946-07-14T05:04:05.333Z",
+                  "delFlag": 1,
+                  "detailId": 2955670,
+                  "detailName": "cillum commodo",
+                  "propId": -23391409,
+                  "sort": -73977818,
+                  "updateTime": "1964-07-14T17:16:38.771Z"
+                },
+                {
+                  "createTime": "1998-09-21T07:15:49.953Z",
+                  "delFlag": 1,
+                  "detailId": 22803795,
+                  "detailName": "deserunt in",
+                  "propId": -23500765,
+                  "sort": -84677417,
+                  "updateTime": "1997-11-18T19:21:41.077Z"
+                },
+                {
+                  "createTime": "1992-12-22T02:26:26.975Z",
+                  "delFlag": 0,
+                  "detailId": 39053425,
+                  "detailName": "cillum incididunt ipsum amet minim",
+                  "propId": 81530377,
+                  "sort": 99400713,
+                  "updateTime": "1968-11-05T09:18:06.034Z"
+                },
+                {
+                  "createTime": "1968-10-29T11:07:53.456Z",
+                  "delFlag": 1,
+                  "detailId": -23041901,
+                  "detailName": "adipisicing",
+                  "propId": 66032368,
+                  "sort": 81338107,
+                  "updateTime": "2010-01-03T23:30:15.18Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "culpa fugiat laboris cupidatat nostrud",
+              "propId": 21209074,
+              "propName": "elit do Excepteur a",
+              "sort": 34114387,
+              "updateTime": "1994-02-24T13:51:54.74Z"
+            }
+          ],
+          "growthValueRate": 16305773.365627557,
+          "isDefault": 0,
+          "isParentCateRate": 1,
+          "isParentGrowthValueRate": 0,
+          "isParentPointsRate": 0,
+          "isParticipateReward": 0,
+          "pinYin": "officia eiusmod",
+          "pointsRate": 33138260.29609248,
+          "sort": 75783336,
+          "spinYin": "minim ea",
+          "updateTime": "2002-03-22T23:48:27.044Z"
+        },
+        {
+          "baseTag": "enim dolore nisi nulla ut",
+          "cateCommissionRatioMax": 37486226.45202908,
+          "cateCommissionRatioMin": 84325916.46281448,
+          "cateGrade": 47648618,
+          "cateId": 55410519,
+          "cateImg": "sunt fugiat eiusmod ",
+          "cateName": "consectetur in nostrud Ut aute",
+          "cateParentId": -96937387,
+          "catePath": "in minim dolore dolore",
+          "cateRate": 68936200.08584812,
+          "cateTag": "irure qui nostrud Lorem deserunt",
+          "cateType": 12187833,
+          "createTime": "1972-06-22T05:42:37.967Z",
+          "delFlag": 1,
+          "goodsCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "goodsProps": [
+            {
+              "cateId": -95545524,
+              "createTime": "1975-10-05T15:10:05.534Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "2007-10-10T05:34:48.433Z",
+                  "delFlag": 0,
+                  "detailId": -62423764,
+                  "detailName": "occaecat",
+                  "propId": -34466430,
+                  "sort": 89644661,
+                  "updateTime": "2000-08-16T09:57:48.399Z"
+                },
+                {
+                  "createTime": "2015-03-14T10:49:47.566Z",
+                  "delFlag": 0,
+                  "detailId": -38304682,
+                  "detailName": "Ut irure dolor laboris",
+                  "propId": 71749053,
+                  "sort": 31829047,
+                  "updateTime": "2012-03-24T10:01:31.662Z"
+                },
+                {
+                  "createTime": "1987-07-25T03:47:13.932Z",
+                  "delFlag": 0,
+                  "detailId": -31986830,
+                  "detailName": "minim",
+                  "propId": -40896619,
+                  "sort": 85221787,
+                  "updateTime": "1962-06-02T00:49:21.946Z"
+                },
+                {
+                  "createTime": "1966-11-19T02:39:31.087Z",
+                  "delFlag": 1,
+                  "detailId": 9849947,
+                  "detailName": "tempor",
+                  "propId": -34909840,
+                  "sort": -25705511,
+                  "updateTime": "1940-02-20T18:31:07.118Z"
+                },
+                {
+                  "createTime": "1977-07-28T09:23:04.805Z",
+                  "delFlag": 1,
+                  "detailId": 85420369,
+                  "detailName": "irure elit ex",
+                  "propId": -29849405,
+                  "sort": 39532600,
+                  "updateTime": "1961-08-15T21:10:24.173Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "culpa",
+              "propId": 45264348,
+              "propName": "exercitation Ut E",
+              "sort": 57514244,
+              "updateTime": "1979-06-27T15:25:20.3Z"
+            },
+            {
+              "cateId": -29916672,
+              "createTime": "1985-09-16T05:59:59.286Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1958-06-13T19:40:30.346Z",
+                  "delFlag": 0,
+                  "detailId": -74213555,
+                  "detailName": "velit dolore Lorem",
+                  "propId": 12564701,
+                  "sort": 31995807,
+                  "updateTime": "2016-05-17T09:13:59.026Z"
+                },
+                {
+                  "createTime": "1967-11-08T15:06:02.774Z",
+                  "delFlag": 0,
+                  "detailId": 20333601,
+                  "detailName": "laboris",
+                  "propId": 67930005,
+                  "sort": 71785305,
+                  "updateTime": "1983-05-06T20:40:19.473Z"
+                },
+                {
+                  "createTime": "1995-03-30T17:54:37.913Z",
+                  "delFlag": 0,
+                  "detailId": -97304448,
+                  "detailName": "voluptate mollit officia",
+                  "propId": 52763557,
+                  "sort": 1176194,
+                  "updateTime": "1940-09-12T18:17:21.195Z"
+                },
+                {
+                  "createTime": "1971-04-11T02:01:12.07Z",
+                  "delFlag": 0,
+                  "detailId": -29406007,
+                  "detailName": "sit irure dolore",
+                  "propId": -64555691,
+                  "sort": -82023857,
+                  "updateTime": "2018-05-21T20:04:37.128Z"
+                },
+                {
+                  "createTime": "1955-12-05T03:49:40.094Z",
+                  "delFlag": 1,
+                  "detailId": -35888452,
+                  "detailName": "quis ut pariatur",
+                  "propId": 16212926,
+                  "sort": -15819097,
+                  "updateTime": "1965-11-04T03:16:21.932Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "Excepteur nulla do",
+              "propId": -35146161,
+              "propName": "nostrud elit sunt reprehenderit adipisicing",
+              "sort": -30288135,
+              "updateTime": "1968-03-03T18:50:45.174Z"
+            },
+            {
+              "cateId": 15435807,
+              "createTime": "1958-04-08T07:07:22.933Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1973-10-18T18:51:31.882Z",
+                  "delFlag": 1,
+                  "detailId": -73530048,
+                  "detailName": "incididunt sed dolor nisi",
+                  "propId": -38284507,
+                  "sort": 98618307,
+                  "updateTime": "1983-05-06T04:39:14.372Z"
+                },
+                {
+                  "createTime": "2012-02-07T05:56:57.245Z",
+                  "delFlag": 1,
+                  "detailId": -8395071,
+                  "detailName": "ea dolo",
+                  "propId": 40580075,
+                  "sort": -63890699,
+                  "updateTime": "2006-07-31T14:57:57.639Z"
+                },
+                {
+                  "createTime": "2012-01-27T05:23:26.821Z",
+                  "delFlag": 0,
+                  "detailId": 27794186,
+                  "detailName": "aliquip amet elit",
+                  "propId": -67538559,
+                  "sort": 73017189,
+                  "updateTime": "2000-08-16T00:45:55.822Z"
+                },
+                {
+                  "createTime": "1985-12-22T15:36:32.81Z",
+                  "delFlag": 1,
+                  "detailId": -88340707,
+                  "detailName": "velit dolore eu sunt Excepteur",
+                  "propId": 65224540,
+                  "sort": -8438634,
+                  "updateTime": "1981-12-18T22:03:36.096Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "irure officia",
+              "propId": 24294634,
+              "propName": "enim Ut minim Excepteur",
+              "sort": 38080477,
+              "updateTime": "2017-11-08T11:28:37.815Z"
+            },
+            {
+              "cateId": 51754592,
+              "createTime": "1946-02-21T15:24:54.781Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1949-12-28T21:38:26.515Z",
+                  "delFlag": 0,
+                  "detailId": 88270896,
+                  "detailName": "in",
+                  "propId": 82045153,
+                  "sort": 25849280,
+                  "updateTime": "1996-10-29T22:35:16.819Z"
+                },
+                {
+                  "createTime": "1974-12-15T02:41:17.598Z",
+                  "delFlag": 0,
+                  "detailId": -56589861,
+                  "detailName": "id cillum velit",
+                  "propId": -38160202,
+                  "sort": 10254608,
+                  "updateTime": "1968-12-14T16:10:52.374Z"
+                },
+                {
+                  "createTime": "2017-11-23T00:27:43.538Z",
+                  "delFlag": 0,
+                  "detailId": 33655554,
+                  "detailName": "qui cillum reprehenderit elit",
+                  "propId": 55681335,
+                  "sort": -3246162,
+                  "updateTime": "1990-01-31T01:00:38.803Z"
+                },
+                {
+                  "createTime": "1977-04-21T22:53:14.124Z",
+                  "delFlag": 0,
+                  "detailId": -50907537,
+                  "detailName": "",
+                  "propId": 44568998,
+                  "sort": 95714865,
+                  "updateTime": "1949-07-11T15:48:47.159Z"
+                },
+                {
+                  "createTime": "1985-01-12T06:20:20.033Z",
+                  "delFlag": 0,
+                  "detailId": -99359349,
+                  "detailName": "Duis ex dolore enim",
+                  "propId": 59905960,
+                  "sort": 12969579,
+                  "updateTime": "1994-07-29T11:11:35.098Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "elit magna ut",
+              "propId": -85677508,
+              "propName": "mollit aute exercitation culpa",
+              "sort": -74691569,
+              "updateTime": "2010-06-29T06:29:18.931Z"
+            },
+            {
+              "cateId": 426794,
+              "createTime": "2012-07-04T22:31:15.372Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1988-11-18T17:28:10.637Z",
+                  "delFlag": 1,
+                  "detailId": 3153946,
+                  "detailName": "deserunt tempor consequat",
+                  "propId": 37198623,
+                  "sort": 95180527,
+                  "updateTime": "2003-09-05T23:46:36.295Z"
+                },
+                {
+                  "createTime": "2018-10-14T09:52:26.856Z",
+                  "delFlag": 0,
+                  "detailId": 62833653,
+                  "detailName": "ullamco amet incididunt",
+                  "propId": -33522082,
+                  "sort": -51999710,
+                  "updateTime": "1967-12-24T13:48:31.144Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "ad aliquip in irure",
+              "propId": 48434953,
+              "propName": "in velit dolore occaecat sed",
+              "sort": 1452467,
+              "updateTime": "2015-09-10T18:26:40.903Z"
+            }
+          ],
+          "growthValueRate": 92448511.1494267,
+          "isDefault": 1,
+          "isParentCateRate": 1,
+          "isParentGrowthValueRate": 0,
+          "isParentPointsRate": 0,
+          "isParticipateReward": 0,
+          "pinYin": "ut aute dolor laboris et",
+          "pointsRate": -29073029.50621578,
+          "sort": 74001998,
+          "spinYin": "labore mol",
+          "updateTime": "1959-02-13T12:25:34.224Z"
+        },
+        {
+          "baseTag": "dolor",
+          "cateCommissionRatioMax": -65017451.36752151,
+          "cateCommissionRatioMin": 57142843.599276274,
+          "cateGrade": -7081304,
+          "cateId": -38711098,
+          "cateImg": "sint",
+          "cateName": "quis est esse magna",
+          "cateParentId": 16251650,
+          "catePath": "Ut",
+          "cateRate": 13789918.695304811,
+          "cateTag": "officia occaecat laboris aliquip qui",
+          "cateType": 95328820,
+          "createTime": "1968-04-21T22:53:33.865Z",
+          "delFlag": 0,
+          "goodsCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "goodsProps": [
+            {
+              "cateId": 46727344,
+              "createTime": "1969-08-29T16:00:52.153Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1981-09-24T12:52:48.554Z",
+                  "delFlag": 1,
+                  "detailId": -95775113,
+                  "detailName": "veniam commodo aliquip pariatur sed",
+                  "propId": -48882995,
+                  "sort": 69701430,
+                  "updateTime": "1957-09-13T06:03:40.304Z"
+                },
+                {
+                  "createTime": "1943-07-28T19:42:05.243Z",
+                  "delFlag": 0,
+                  "detailId": -94953132,
+                  "detailName": "fugiat nulla laborum non",
+                  "propId": -79340199,
+                  "sort": -34689015,
+                  "updateTime": "1984-07-21T09:21:40.713Z"
+                },
+                {
+                  "createTime": "1950-11-14T14:34:28.473Z",
+                  "delFlag": 0,
+                  "detailId": -78877091,
+                  "detailName": "in qui consequat ullamco",
+                  "propId": 45570213,
+                  "sort": -26469198,
+                  "updateTime": "1979-05-16T00:57:13.881Z"
+                },
+                {
+                  "createTime": "2006-03-22T16:07:12.926Z",
+                  "delFlag": 1,
+                  "detailId": -66611899,
+                  "detailName": "est nulla et",
+                  "propId": -61273842,
+                  "sort": -27873343,
+                  "updateTime": "2002-03-02T12:04:56.257Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "eu dolore irure",
+              "propId": 76695945,
+              "propName": "sed occaecat",
+              "sort": 28349945,
+              "updateTime": "1955-06-03T04:58:23.367Z"
+            },
+            {
+              "cateId": -38479056,
+              "createTime": "1993-08-10T18:43:41.194Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "2015-06-06T16:38:10.304Z",
+                  "delFlag": 1,
+                  "detailId": -34607434,
+                  "detailName": "pariatur sed irure",
+                  "propId": 79364634,
+                  "sort": 11959942,
+                  "updateTime": "1954-08-19T20:37:44.23Z"
+                },
+                {
+                  "createTime": "1966-06-17T09:33:57.856Z",
+                  "delFlag": 1,
+                  "detailId": -1838590,
+                  "detailName": "tempor aute ullamco reprehenderit",
+                  "propId": -6167082,
+                  "sort": 92980667,
+                  "updateTime": "1996-10-15T00:57:07.465Z"
+                },
+                {
+                  "createTime": "2000-04-18T12:39:48.732Z",
+                  "delFlag": 0,
+                  "detailId": -76300541,
+                  "detailName": "amet al",
+                  "propId": 13453395,
+                  "sort": 5659476,
+                  "updateTime": "1974-12-25T19:15:42.933Z"
+                },
+                {
+                  "createTime": "1961-05-24T01:52:41.231Z",
+                  "delFlag": 1,
+                  "detailId": -50963145,
+                  "detailName": "commodo occaecat officia",
+                  "propId": 93775647,
+                  "sort": 4355490,
+                  "updateTime": "1939-10-30T11:04:01.39Z"
+                },
+                {
+                  "createTime": "1966-02-11T20:37:41.866Z",
+                  "delFlag": 1,
+                  "detailId": 32081388,
+                  "detailName": "occaecat in enim",
+                  "propId": 90784747,
+                  "sort": -16680733,
+                  "updateTime": "2000-11-24T14:16:58.963Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "ea",
+              "propId": 11716701,
+              "propName": "elit in minim mollit culpa",
+              "sort": -86375874,
+              "updateTime": "1986-10-30T12:54:03.757Z"
+            },
+            {
+              "cateId": -76366917,
+              "createTime": "2001-03-20T08:03:21.991Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1954-03-25T10:04:45.472Z",
+                  "delFlag": 1,
+                  "detailId": 4515400,
+                  "detailName": "est",
+                  "propId": 63526605,
+                  "sort": -80032979,
+                  "updateTime": "2010-10-25T02:40:29.353Z"
+                },
+                {
+                  "createTime": "1989-06-15T16:22:15.789Z",
+                  "delFlag": 0,
+                  "detailId": -24712484,
+                  "detailName": "eu",
+                  "propId": 13686692,
+                  "sort": -66331085,
+                  "updateTime": "2008-05-26T01:17:12.5Z"
+                },
+                {
+                  "createTime": "1940-10-25T20:46:05.886Z",
+                  "delFlag": 0,
+                  "detailId": 87591434,
+                  "detailName": "labore magna cillum",
+                  "propId": -97608157,
+                  "sort": 48823235,
+                  "updateTime": "2001-10-01T15:08:17.838Z"
+                },
+                {
+                  "createTime": "2008-04-25T19:13:58.91Z",
+                  "delFlag": 0,
+                  "detailId": 50355596,
+                  "detailName": "Excepteur nisi velit",
+                  "propId": 88183739,
+                  "sort": 33955004,
+                  "updateTime": "1993-11-06T06:14:35.464Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "nostrud consequat Duis nulla",
+              "propId": -75541571,
+              "propName": "amet in dolore",
+              "sort": 43049384,
+              "updateTime": "1988-01-20T15:10:33.99Z"
+            },
+            {
+              "cateId": 17112586,
+              "createTime": "1944-09-02T21:17:33.566Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1986-09-26T23:01:32.479Z",
+                  "delFlag": 1,
+                  "detailId": -500182,
+                  "detailName": "rep",
+                  "propId": 94008260,
+                  "sort": -78173052,
+                  "updateTime": "1962-07-02T07:27:47.44Z"
+                },
+                {
+                  "createTime": "1943-09-02T14:36:53.791Z",
+                  "delFlag": 0,
+                  "detailId": -80322989,
+                  "detailName": "ad",
+                  "propId": -71864092,
+                  "sort": 50166335,
+                  "updateTime": "1985-08-04T00:16:21.089Z"
+                },
+                {
+                  "createTime": "1946-12-04T08:42:01.571Z",
+                  "delFlag": 1,
+                  "detailId": 29012765,
+                  "detailName": "reprehenderit nulla officia",
+                  "propId": -81639379,
+                  "sort": -67607487,
+                  "updateTime": "1986-11-25T05:26:45.27Z"
+                },
+                {
+                  "createTime": "1952-07-29T19:37:36.757Z",
+                  "delFlag": 0,
+                  "detailId": -27323446,
+                  "detailName": "molli",
+                  "propId": -5233366,
+                  "sort": 38070516,
+                  "updateTime": "1968-03-13T17:14:14.624Z"
+                },
+                {
+                  "createTime": "1976-04-01T11:49:35.688Z",
+                  "delFlag": 0,
+                  "detailId": 26810722,
+                  "detailName": "velit",
+                  "propId": 39219280,
+                  "sort": -52955519,
+                  "updateTime": "1984-11-09T17:18:35.629Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "aute dolor",
+              "propId": 87683516,
+              "propName": "commodo mollit eiusmod ut nulla",
+              "sort": -6650378,
+              "updateTime": "1973-05-19T21:38:08.157Z"
+            },
+            {
+              "cateId": 16888302,
+              "createTime": "1982-09-06T16:23:53.315Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1998-09-06T09:22:24.367Z",
+                  "delFlag": 1,
+                  "detailId": 51694404,
+                  "detailName": "consectetur",
+                  "propId": 85375207,
+                  "sort": -14185245,
+                  "updateTime": "2006-03-27T08:58:49.27Z"
+                },
+                {
+                  "createTime": "2016-07-17T00:06:53.737Z",
+                  "delFlag": 0,
+                  "detailId": -16040705,
+                  "detailName": "magna deserunt ad id",
+                  "propId": -47510249,
+                  "sort": 12100761,
+                  "updateTime": "2016-07-17T19:16:12.56Z"
+                },
+                {
+                  "createTime": "2014-01-24T18:57:21.73Z",
+                  "delFlag": 0,
+                  "detailId": -65113488,
+                  "detailName": "nostrud pariatur ut cillum do",
+                  "propId": -54034945,
+                  "sort": 59005210,
+                  "updateTime": "1984-06-16T11:40:28.532Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "eu tempor",
+              "propId": 91484404,
+              "propName": "co",
+              "sort": 15365197,
+              "updateTime": "2002-12-22T03:32:44.428Z"
+            }
+          ],
+          "growthValueRate": 63548097.021069884,
+          "isDefault": 0,
+          "isParentCateRate": 1,
+          "isParentGrowthValueRate": 0,
+          "isParentPointsRate": 0,
+          "isParticipateReward": 0,
+          "pinYin": "nostrud",
+          "pointsRate": 35534133.91193226,
+          "sort": -27052190,
+          "spinYin": "in",
+          "updateTime": "1972-05-04T02:12:58.225Z"
+        },
+        {
+          "baseTag": "do eiusmod cillum",
+          "cateCommissionRatioMax": -90474931.21709427,
+          "cateCommissionRatioMin": 56293821.798960984,
+          "cateGrade": 78817369,
+          "cateId": -55325554,
+          "cateImg": "velit ipsum non in reprehenderit",
+          "cateName": "dolore",
+          "cateParentId": 98636092,
+          "catePath": "laboris",
+          "cateRate": -14536099.190012038,
+          "cateTag": "sint sit",
+          "cateType": 84009237,
+          "createTime": "1954-09-15T23:52:45.285Z",
+          "delFlag": 0,
+          "goodsCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "goodsProps": [
+            {
+              "cateId": -79278080,
+              "createTime": "1970-05-07T16:07:54.52Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1973-02-17T20:53:31.629Z",
+                  "delFlag": 1,
+                  "detailId": 93047604,
+                  "detailName": "eiusmod consectetur nostrud adipisicing",
+                  "propId": 8507236,
+                  "sort": -50842676,
+                  "updateTime": "1952-08-24T13:12:41.135Z"
+                },
+                {
+                  "createTime": "1970-07-04T00:08:53.137Z",
+                  "delFlag": 0,
+                  "detailId": 78419575,
+                  "detailName": "ex ut ea voluptate",
+                  "propId": 79740889,
+                  "sort": -6567096,
+                  "updateTime": "2016-04-26T00:14:32.809Z"
+                },
+                {
+                  "createTime": "1973-06-17T12:59:30.493Z",
+                  "delFlag": 0,
+                  "detailId": 87489485,
+                  "detailName": "Ut veniam deserunt",
+                  "propId": -98047652,
+                  "sort": 7093616,
+                  "updateTime": "1953-12-23T14:28:25.064Z"
+                },
+                {
+                  "createTime": "1957-05-31T23:26:34.874Z",
+                  "delFlag": 1,
+                  "detailId": 27746296,
+                  "detailName": "ut qui commodo",
+                  "propId": 39759784,
+                  "sort": 9333608,
+                  "updateTime": "1950-08-14T12:27:15.468Z"
+                },
+                {
+                  "createTime": "1972-12-17T13:24:30.094Z",
+                  "delFlag": 0,
+                  "detailId": -16569163,
+                  "detailName": "in",
+                  "propId": 98125677,
+                  "sort": -3726851,
+                  "updateTime": "1962-09-18T21:27:05.44Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "id velit ",
+              "propId": 70978744,
+              "propName": "veniam Ut elit",
+              "sort": 92119250,
+              "updateTime": "1968-12-06T21:44:39.621Z"
+            },
+            {
+              "cateId": -80526210,
+              "createTime": "1948-03-15T09:02:50.498Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1989-09-05T03:32:09.092Z",
+                  "delFlag": 1,
+                  "detailId": 69005992,
+                  "detailName": "aliquip reprehenderit sint velit",
+                  "propId": -78172097,
+                  "sort": 43622208,
+                  "updateTime": "1988-10-30T12:31:31.112Z"
+                },
+                {
+                  "createTime": "2005-10-10T02:02:05.136Z",
+                  "delFlag": 0,
+                  "detailId": 10964670,
+                  "detailName": "labore ex",
+                  "propId": -47640973,
+                  "sort": 22897879,
+                  "updateTime": "1953-06-14T10:16:40.504Z"
+                },
+                {
+                  "createTime": "1941-07-15T19:30:48.585Z",
+                  "delFlag": 0,
+                  "detailId": 64531993,
+                  "detailName": "voluptate elit ea in",
+                  "propId": -93063942,
+                  "sort": 65876080,
+                  "updateTime": "1947-05-26T19:19:11.227Z"
+                },
+                {
+                  "createTime": "1993-11-23T06:12:01.495Z",
+                  "delFlag": 1,
+                  "detailId": -60188721,
+                  "detailName": "in eu",
+                  "propId": 85095401,
+                  "sort": 55162959,
+                  "updateTime": "2016-07-26T16:01:53.756Z"
+                },
+                {
+                  "createTime": "1993-04-27T12:54:47.678Z",
+                  "delFlag": 1,
+                  "detailId": 57866573,
+                  "detailName": "et Lorem proident",
+                  "propId": -87447372,
+                  "sort": -71091477,
+                  "updateTime": "1951-05-10T03:53:53.173Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "amet ut",
+              "propId": -39269062,
+              "propName": "fugiat proident",
+              "sort": 97941828,
+              "updateTime": "1977-07-20T18:57:29.573Z"
+            },
+            {
+              "cateId": 88442286,
+              "createTime": "1942-11-17T10:50:30.95Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1961-09-27T07:10:31.386Z",
+                  "delFlag": 1,
+                  "detailId": 71965484,
+                  "detailName": "velit irure eu incididunt",
+                  "propId": 63018086,
+                  "sort": -3610462,
+                  "updateTime": "1978-02-01T00:13:29.222Z"
+                },
+                {
+                  "createTime": "1950-01-01T17:59:46.379Z",
+                  "delFlag": 1,
+                  "detailId": -61357943,
+                  "detailName": "in id do elit",
+                  "propId": 62508999,
+                  "sort": 1256153,
+                  "updateTime": "1971-05-02T17:26:23.631Z"
+                },
+                {
+                  "createTime": "2016-08-10T09:05:53.589Z",
+                  "delFlag": 0,
+                  "detailId": 31726700,
+                  "detailName": "eu cupidatat sed consectetur",
+                  "propId": 69561711,
+                  "sort": -68809061,
+                  "updateTime": "1950-12-30T04:59:36.659Z"
+                },
+                {
+                  "createTime": "1974-03-23T01:49:16.723Z",
+                  "delFlag": 0,
+                  "detailId": -57656282,
+                  "detailName": "sit",
+                  "propId": 21378062,
+                  "sort": 45783101,
+                  "updateTime": "1956-09-29T20:05:41.847Z"
+                },
+                {
+                  "createTime": "2009-02-15T07:13:22.974Z",
+                  "delFlag": 0,
+                  "detailId": -4297055,
+                  "detailName": "reprehenderit ut",
+                  "propId": 96452964,
+                  "sort": 37180455,
+                  "updateTime": "1962-05-09T01:33:36.108Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "minim irure sunt laboris Duis",
+              "propId": -62020471,
+              "propName": "ut consequat adipisicing in",
+              "sort": -38164500,
+              "updateTime": "2017-06-22T21:40:07.739Z"
+            },
+            {
+              "cateId": -19073897,
+              "createTime": "1962-06-24T21:17:55.601Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "2014-04-18T03:35:24.261Z",
+                  "delFlag": 0,
+                  "detailId": 4053635,
+                  "detailName": "consequat cupidatat",
+                  "propId": 305236,
+                  "sort": 89176589,
+                  "updateTime": "1964-08-08T11:43:22.163Z"
+                },
+                {
+                  "createTime": "1995-04-10T18:16:11.492Z",
+                  "delFlag": 1,
+                  "detailId": 4328303,
+                  "detailName": "id ex",
+                  "propId": 56082911,
+                  "sort": -96919735,
+                  "updateTime": "1990-03-10T09:14:14.731Z"
+                },
+                {
+                  "createTime": "2013-08-16T21:49:50.957Z",
+                  "delFlag": 0,
+                  "detailId": -77967551,
+                  "detailName": "do esse est cupidatat",
+                  "propId": -97098160,
+                  "sort": -65211361,
+                  "updateTime": "1994-04-07T08:13:17.616Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "adipisicing ea dolor",
+              "propId": -80459804,
+              "propName": "aute con",
+              "sort": 78715417,
+              "updateTime": "1991-11-06T14:31:56.592Z"
+            },
+            {
+              "cateId": -99775756,
+              "createTime": "1952-11-24T21:35:18.538Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "2019-06-27T17:42:11.567Z",
+                  "delFlag": 1,
+                  "detailId": 17249316,
+                  "detailName": "reprehenderit in cillum proident",
+                  "propId": 5623145,
+                  "sort": 59132890,
+                  "updateTime": "1974-11-29T21:51:38.879Z"
+                },
+                {
+                  "createTime": "2016-04-03T23:33:04.37Z",
+                  "delFlag": 0,
+                  "detailId": 82918544,
+                  "detailName": "ipsum anim",
+                  "propId": -28822591,
+                  "sort": -93155050,
+                  "updateTime": "1956-12-31T19:23:25.042Z"
+                },
+                {
+                  "createTime": "1964-07-15T10:07:16.577Z",
+                  "delFlag": 0,
+                  "detailId": 42059140,
+                  "detailName": "Ut Lorem sit velit ull",
+                  "propId": -32181571,
+                  "sort": 95072919,
+                  "updateTime": "1984-05-21T20:48:30.727Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "eu",
+              "propId": 35237256,
+              "propName": "voluptate",
+              "sort": -96017718,
+              "updateTime": "1945-07-19T17:34:32.05Z"
+            }
+          ],
+          "growthValueRate": -6432502.385988444,
+          "isDefault": 1,
+          "isParentCateRate": 1,
+          "isParentGrowthValueRate": 1,
+          "isParentPointsRate": 1,
+          "isParticipateReward": 1,
+          "pinYin": "in mollit reprehenderit",
+          "pointsRate": -77001007.83560115,
+          "sort": -23977943,
+          "spinYin": "ut Ut eiusmod dolor do",
+          "updateTime": "1956-10-06T04:04:47.024Z"
+        },
+        {
+          "baseTag": "cupidatat velit occaecat anim",
+          "cateCommissionRatioMax": 85818593.6139364,
+          "cateCommissionRatioMin": -8537960.08396314,
+          "cateGrade": -36558197,
+          "cateId": -49366662,
+          "cateImg": "Lorem",
+          "cateName": "do veniam ut",
+          "cateParentId": -9942142,
+          "catePath": "ea commodo",
+          "cateRate": -25170576.319721594,
+          "cateTag": "dolor qui ex pariatur officia",
+          "cateType": 26532297,
+          "createTime": "1976-02-27T01:02:46.776Z",
+          "delFlag": 0,
+          "goodsCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "goodsProps": [
+            {
+              "cateId": -56984727,
+              "createTime": "1965-10-13T01:21:26.334Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1954-11-17T08:27:38.271Z",
+                  "delFlag": 0,
+                  "detailId": -33702192,
+                  "detailName": "amet cillum reprehenderit",
+                  "propId": -87038020,
+                  "sort": 12983191,
+                  "updateTime": "1982-02-25T13:27:48.365Z"
+                },
+                {
+                  "createTime": "1980-05-09T10:35:44.627Z",
+                  "delFlag": 0,
+                  "detailId": -45579573,
+                  "detailName": "nostrud sed aliqua",
+                  "propId": 30644514,
+                  "sort": -5510601,
+                  "updateTime": "1986-11-24T12:27:07.56Z"
+                },
+                {
+                  "createTime": "1996-05-07T12:21:25.365Z",
+                  "delFlag": 0,
+                  "detailId": 53200470,
+                  "detailName": "anim irure ut incididunt minim",
+                  "propId": -42946615,
+                  "sort": -40056790,
+                  "updateTime": "1950-05-09T02:42:17.352Z"
+                },
+                {
+                  "createTime": "1951-01-26T17:17:51.937Z",
+                  "delFlag": 0,
+                  "detailId": 46022134,
+                  "detailName": "veniam voluptate adipisicing non officia",
+                  "propId": 53297805,
+                  "sort": 73611678,
+                  "updateTime": "2015-04-16T08:44:59.712Z"
+                },
+                {
+                  "createTime": "1943-01-09T10:33:58.539Z",
+                  "delFlag": 1,
+                  "detailId": -46075301,
+                  "detailName": "ea in adipisicing in velit",
+                  "propId": -51537025,
+                  "sort": 49909689,
+                  "updateTime": "1966-04-14T23:09:47.298Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "commodo in consectetur",
+              "propId": -1494354,
+              "propName": "tempor ipsum exercitation eiusmod elit",
+              "sort": 1265938,
+              "updateTime": "2012-01-06T05:35:39.75Z"
+            },
+            {
+              "cateId": 65053964,
+              "createTime": "2015-08-08T06:25:29.557Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1995-03-27T14:29:02.203Z",
+                  "delFlag": 1,
+                  "detailId": -4258047,
+                  "detailName": "in velit in aliqua",
+                  "propId": -94486358,
+                  "sort": -64376764,
+                  "updateTime": "1993-08-14T17:12:16.902Z"
+                },
+                {
+                  "createTime": "1992-01-23T12:22:08.605Z",
+                  "delFlag": 0,
+                  "detailId": -74256748,
+                  "detailName": "in dolor dolore ea",
+                  "propId": 59058149,
+                  "sort": 82208481,
+                  "updateTime": "1950-07-24T21:02:36.473Z"
+                },
+                {
+                  "createTime": "1984-07-17T00:13:13.393Z",
+                  "delFlag": 0,
+                  "detailId": -92285227,
+                  "detailName": "ut",
+                  "propId": -75329243,
+                  "sort": 63773972,
+                  "updateTime": "1963-02-15T04:51:18.321Z"
+                },
+                {
+                  "createTime": "1983-05-02T00:10:29.026Z",
+                  "delFlag": 0,
+                  "detailId": 5200976,
+                  "detailName": "eu magna velit",
+                  "propId": -93058148,
+                  "sort": 62944485,
+                  "updateTime": "1987-09-26T15:50:46.083Z"
+                },
+                {
+                  "createTime": "2019-09-03T17:01:37.295Z",
+                  "delFlag": 1,
+                  "detailId": -63255130,
+                  "detailName": "aliqua labore nulla cupidatat ",
+                  "propId": 72674353,
+                  "sort": 12783414,
+                  "updateTime": "1988-09-11T13:57:51.295Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "Lorem ut quis",
+              "propId": -12686593,
+              "propName": "non cupidatat sint",
+              "sort": -46828676,
+              "updateTime": "1979-02-10T13:20:49.682Z"
+            },
+            {
+              "cateId": 31938822,
+              "createTime": "2011-11-05T08:06:46.886Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1980-04-11T22:03:33.01Z",
+                  "delFlag": 0,
+                  "detailId": 77621073,
+                  "detailName": "et Duis",
+                  "propId": 68080709,
+                  "sort": -66875345,
+                  "updateTime": "1985-01-28T02:51:26.919Z"
+                },
+                {
+                  "createTime": "1943-02-28T02:40:39.856Z",
+                  "delFlag": 0,
+                  "detailId": 97343114,
+                  "detailName": "consequat",
+                  "propId": 85279026,
+                  "sort": -70348219,
+                  "updateTime": "1984-10-24T14:05:53.623Z"
+                },
+                {
+                  "createTime": "1982-05-08T05:52:08.122Z",
+                  "delFlag": 1,
+                  "detailId": -137873,
+                  "detailName": "ut",
+                  "propId": 75185528,
+                  "sort": -74909280,
+                  "updateTime": "1990-02-27T14:27:20.813Z"
+                },
+                {
+                  "createTime": "2004-09-28T09:15:39.274Z",
+                  "delFlag": 1,
+                  "detailId": 61127459,
+                  "detailName": "sint cupidatat velit",
+                  "propId": 87142292,
+                  "sort": 83450490,
+                  "updateTime": "1982-02-01T09:39:13.892Z"
+                },
+                {
+                  "createTime": "1972-01-18T08:09:44.166Z",
+                  "delFlag": 1,
+                  "detailId": 87079086,
+                  "detailName": "velit amet",
+                  "propId": -75533631,
+                  "sort": 44108547,
+                  "updateTime": "1990-11-25T04:21:35.754Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "cillum magna labore aliqua",
+              "propId": -61331755,
+              "propName": "laboris ut",
+              "sort": 91002328,
+              "updateTime": "1952-04-14T05:56:37.153Z"
+            },
+            {
+              "cateId": -39241478,
+              "createTime": "2008-11-28T08:38:17.611Z",
+              "delFlag": 0,
+              "goodsPropDetails": [
+                {
+                  "createTime": "1945-07-04T06:19:19.893Z",
+                  "delFlag": 1,
+                  "detailId": 72703695,
+                  "detailName": "e",
+                  "propId": 13311804,
+                  "sort": -29461435,
+                  "updateTime": "1954-07-16T16:50:22.312Z"
+                },
+                {
+                  "createTime": "1965-11-14T00:19:10.209Z",
+                  "delFlag": 0,
+                  "detailId": 20425017,
+                  "detailName": "eiusmod cillum qui",
+                  "propId": -43914584,
+                  "sort": -40825472,
+                  "updateTime": "1979-01-15T07:30:35.599Z"
+                },
+                {
+                  "createTime": "1942-11-19T20:10:19.154Z",
+                  "delFlag": 1,
+                  "detailId": -95294257,
+                  "detailName": "non minim",
+                  "propId": -32969401,
+                  "sort": 75017411,
+                  "updateTime": "2003-07-15T09:56:32.767Z"
+                },
+                {
+                  "createTime": "1991-06-15T08:47:09.495Z",
+                  "delFlag": 0,
+                  "detailId": 86108127,
+                  "detailName": "anim ipsum ut officia ea",
+                  "propId": 36734097,
+                  "sort": -50070972,
+                  "updateTime": "1976-12-24T16:59:05.517Z"
+                }
+              ],
+              "indexFlag": 1,
+              "propDetailStr": "commodo cillum sint",
+              "propId": -52991046,
+              "propName": "sit culpa non dolore",
+              "sort": -2219668,
+              "updateTime": "1984-06-13T14:00:08.203Z"
+            },
+            {
+              "cateId": 69244050,
+              "createTime": "1961-10-03T01:22:45.452Z",
+              "delFlag": 1,
+              "goodsPropDetails": [
+                {
+                  "createTime": "2013-01-05T10:30:38.743Z",
+                  "delFlag": 0,
+                  "detailId": 20625945,
+                  "detailName": "reprehenderit laboris Du",
+                  "propId": 25223898,
+                  "sort": -88130328,
+                  "updateTime": "2006-09-12T11:19:55.961Z"
+                },
+                {
+                  "createTime": "1969-05-08T23:45:58.332Z",
+                  "delFlag": 1,
+                  "detailId": -86229433,
+                  "detailName": "minim temp",
+                  "propId": -7429364,
+                  "sort": -11539983,
+                  "updateTime": "1997-11-06T03:17:30.593Z"
+                }
+              ],
+              "indexFlag": 0,
+              "propDetailStr": "qui",
+              "propId": 20457181,
+              "propName": "Excepteur de",
+              "sort": 21002449,
+              "updateTime": "1959-02-14T19:32:00.902Z"
+            }
+          ],
+          "growthValueRate": -83340981.36901748,
+          "isDefault": 1,
+          "isParentCateRate": 0,
+          "isParentGrowthValueRate": 0,
+          "isParentPointsRate": 1,
+          "isParticipateReward": 0,
+          "pinYin": "culpa minim",
+          "pointsRate": -84175330.0158372,
+          "sort": 67930002,
+          "spinYin": "eiusmod qui reprehenderit ullamco",
+          "updateTime": "1985-12-28T10:36:45.759Z"
+        }
+      ],
+      "enabled": 26851733,
+      "entries": "enim ullamco sed deserunt",
+      "goodsInfoIds": [
+        "Excepteur proident dolor ex tempor",
+        "labore proident veniam",
+        "nostrud",
+        "in sunt do consectetur Lorem",
+        "aliqua dolore"
+      ],
+      "goodsInfos": [
+        {
+          "goodsId": "sit labore dolore",
+          "goodsInfoId": "fugiat occaecat dolore",
+          "goodsInfoImg": "laborum amet",
+          "goodsInfoName": "elit amet consectetur",
+          "goodsInfoNo": "aliquip",
+          "marketPrice": -87113456.66552192
+        },
+        {
+          "goodsId": "veniam aute",
+          "goodsInfoId": "commodo minim officia proident",
+          "goodsInfoImg": "proident",
+          "goodsInfoName": "Lorem",
+          "goodsInfoNo": "ipsum",
+          "marketPrice": 3257612.9977945387
+        },
+        {
+          "goodsId": "in in velit elit",
+          "goodsInfoId": "dolore exercitation",
+          "goodsInfoImg": "la",
+          "goodsInfoName": "commodo",
+          "goodsInfoNo": "esse consequat dolore in",
+          "marketPrice": -10385568.168052256
+        },
+        {
+          "goodsId": "amet Ex",
+          "goodsInfoId": "laborum quis deserunt ullamco laboris",
+          "goodsInfoImg": "enim voluptate dolor",
+          "goodsInfoName": "laborum velit mollit aliquip ea",
+          "goodsInfoNo": "Ut in do",
+          "marketPrice": 72397932.42448944
+        },
+        {
+          "goodsId": "veniam adipisicing sit ipsum incididunt",
+          "goodsInfoId": "Excepteur commodo sed",
+          "goodsInfoImg": "ut do",
+          "goodsInfoName": "veniam laborum id",
+          "goodsInfoNo": "est laborum nisi adipisicing ullamco",
+          "marketPrice": 75867051.7162618
+        }
+      ],
+      "priority": 34954290,
+      "rule": -33025242,
+      "settingId": "exercitatio"
+    }
+  }
+}

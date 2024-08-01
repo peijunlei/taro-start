@@ -1,0 +1,201 @@
+{
+  "GrouponShareRecordAddResponse": {
+    "grouponShareRecordVO": {
+      "companyInfoId": 68166519,
+      "customerId": "do",
+      "goodsId": "commodo consectetur id",
+      "goodsInfoId": "Ut amet",
+      "grouponActivityId": "elit officia nisi sit commodo",
+      "id": 62721235,
+      "shareChannel": 1,
+      "shareCustomerId": "Ut pariatur",
+      "storeId": -3282056,
+      "terminalSource": 4,
+      "type": -76164305
+    }
+  },
+  "GrouponShareRecordListResponse": {
+    "grouponShareRecordVOList": [
+      {
+        "companyInfoId": 10488613,
+        "customerId": "Ut nulla",
+        "goodsId": "et eu velit cillum",
+        "goodsInfoId": "Ut",
+        "grouponActivityId": "et",
+        "id": 26464363,
+        "shareChannel": 2,
+        "shareCustomerId": "consectetur dolore",
+        "storeId": -34804038,
+        "terminalSource": 4,
+        "type": -34137871
+      },
+      {
+        "companyInfoId": -52900712,
+        "customerId": "pariatur Duis sint",
+        "goodsId": "do nulla in tempor ut",
+        "goodsInfoId": "adipisicing laboris proident",
+        "grouponActivityId": "ad nisi ea ex",
+        "id": 56883586,
+        "shareChannel": 4,
+        "shareCustomerId": "magna elit quis",
+        "storeId": -70770472,
+        "terminalSource": 2,
+        "type": -91069469
+      },
+      {
+        "companyInfoId": 76850464,
+        "customerId": "sint sit voluptate anim",
+        "goodsId": "pariatur et",
+        "goodsInfoId": "consequat",
+        "grouponActivityId": "ea quis eiusmod proident eu",
+        "id": -99039708,
+        "shareChannel": 1,
+        "shareCustomerId": "aute tempor",
+        "storeId": -44186185,
+        "terminalSource": 0,
+        "type": -24166388
+      },
+      {
+        "companyInfoId": 72746333,
+        "customerId": "non proident veniam",
+        "goodsId": "sint id irure",
+        "goodsInfoId": "ex non ut anim in",
+        "grouponActivityId": "dolor",
+        "id": 53290279,
+        "shareChannel": 4,
+        "shareCustomerId": "in tempor ad nostrud",
+        "storeId": 44783412,
+        "terminalSource": 3,
+        "type": 98226020
+      },
+      {
+        "companyInfoId": 65621608,
+        "customerId": "laborum",
+        "goodsId": "Excepteur sed ullamco in",
+        "goodsInfoId": "magna enim et ea",
+        "grouponActivityId": "sit Duis",
+        "id": -44973318,
+        "shareChannel": 6,
+        "shareCustomerId": "enim",
+        "storeId": 44988893,
+        "terminalSource": 3,
+        "type": -84292031
+      }
+    ]
+  },
+  "GrouponShareRecordModifyResponse": {
+    "grouponShareRecordVO": {
+      "companyInfoId": 82524508,
+      "customerId": "consequat aute amet fugiat consectetur",
+      "goodsId": "aute reprehenderit tempor",
+      "goodsInfoId": "laboris elit ipsum",
+      "grouponActivityId": "reprehenderit eiusmod Lorem",
+      "id": 61471271,
+      "shareChannel": 3,
+      "shareCustomerId": "consectetur cupidatat",
+      "storeId": -23122944,
+      "terminalSource": 1,
+      "type": -60730830
+    }
+  },
+  "GrouponShareRecordPageResponse": {
+    "grouponShareRecordVOPage": {
+      "content": [
+        {
+          "companyInfoId": 26238915,
+          "customerId": "anim aliquip ut",
+          "goodsId": "velit quis",
+          "goodsInfoId": "do sint ullamco adipisicing ut",
+          "grouponActivityId": "labore veniam mollit",
+          "id": 42849266,
+          "shareChannel": 4,
+          "shareCustomerId": "dolor dolor aliquip",
+          "storeId": -97984688,
+          "terminalSource": 1,
+          "type": 46875906
+        },
+        {
+          "companyInfoId": -44752350,
+          "customerId": "ipsum aliquip sunt",
+          "goodsId": "ut ipsum ut deserunt",
+          "goodsInfoId": "aute irure in aliqua",
+          "grouponActivityId": "cupidatat elit",
+          "id": -19229520,
+          "shareChannel": 3,
+          "shareCustomerId": "eiusmod veniam aliqua officia",
+          "storeId": 58071858,
+          "terminalSource": 4,
+          "type": -81996483
+        },
+        {
+          "companyInfoId": -22284568,
+          "customerId": "minim",
+          "goodsId": "eiusmod",
+          "goodsInfoId": "labore sed esse consequat eiusmod",
+          "grouponActivityId": "incididunt",
+          "id": 56325991,
+          "shareChannel": 0,
+          "shareCustomerId": "ullamco",
+          "storeId": -92710608,
+          "terminalSource": 2,
+          "type": -90240752
+        },
+        {
+          "companyInfoId": -58050636,
+          "customerId": "ullamco est exercitation",
+          "goodsId": "est ut",
+          "goodsInfoId": "ut non",
+          "grouponActivityId": "anim consequat dolor deserunt mollit",
+          "id": 7675289,
+          "shareChannel": 2,
+          "shareCustomerId": "fugiat amet laboris",
+          "storeId": 54534342,
+          "terminalSource": 4,
+          "type": 35172598
+        },
+        {
+          "companyInfoId": 28343032,
+          "customerId": "sit Ut",
+          "goodsId": "magna sit Excepteur aute",
+          "goodsInfoId": "est tempor et",
+          "grouponActivityId": "minim",
+          "id": 8779983,
+          "shareChannel": 5,
+          "shareCustomerId": "labore fugiat laboris voluptate",
+          "storeId": -11225929,
+          "terminalSource": 1,
+          "type": -56476782
+        }
+      ],
+      "empty": true,
+      "first": true,
+      "last": false,
+      "number": -54160246,
+      "numberOfElements": 15736096,
+      "size": -6047467,
+      "sort": {
+        "empty": true,
+        "sorted": true,
+        "unsorted": true
+      },
+      "total": 70414184,
+      "totalElements": -6364123,
+      "totalPages": -95151290
+    }
+  },
+  "GrouponShareRecordByIdResponse": {
+    "grouponShareRecordVO": {
+      "companyInfoId": 49819071,
+      "customerId": "eu laborum irure",
+      "goodsId": "nisi voluptate eu",
+      "goodsInfoId": "ex qui fugiat in cillum",
+      "grouponActivityId": "anim ea reprehenderit",
+      "id": -94301761,
+      "shareChannel": 1,
+      "shareCustomerId": "quis in",
+      "storeId": 11551234,
+      "terminalSource": 3,
+      "type": -99132964
+    }
+  }
+}

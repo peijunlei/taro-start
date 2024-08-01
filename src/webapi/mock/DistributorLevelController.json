@@ -1,0 +1,19 @@
+{
+  "DistributorLevelByCustomerIdResponse": {
+    "distributorLevelVO": {
+      "commissionRate": 2847208.4198928475,
+      "distributorLevelId": "d",
+      "distributorLevelName": "in elit",
+      "inviteFlag": 0,
+      "inviteThreshold": -94447063,
+      "percentageRate": -40037888.34917872,
+      "recordFlag": 0,
+      "recordThreshold": -98446363.3492286,
+      "salesFlag": 0,
+      "salesThreshold": -42863178.9629029,
+      "sort": -57383521,
+      "updatePerson": "labore id nostrud cillum consectetur",
+      "updateTime": "1961-06-05T19:44:54.771Z"
+    }
+  }
+}

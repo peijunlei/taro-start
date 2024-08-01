@@ -1,0 +1,15 @@
+{
+  "ArticleSubjectByIdResponse": {
+    "articleSubjectVO": {
+      "articleSubjecName": "ut cupidatat Lorem ea",
+      "articleSubjectId": "in ea id labore",
+      "createPerson": "nisi dolore Excepteur",
+      "createTime": "2001-06-29T15:48:46.757Z",
+      "delFlag": 0,
+      "delPerson": "deserunt sed",
+      "delTime": "1947-01-27T13:33:34.583Z",
+      "updatePerson": "anim",
+      "updateTime": "1966-12-14T21:35:38.055Z"
+    }
+  }
+}

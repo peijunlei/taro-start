@@ -1,0 +1,52 @@
+{
+  "SmallShopCustomerTagAddResponse": {
+    "smallShopCustomerTagVO": {
+      "customerId": "reprehenderit eu ipsum eiusmod no",
+      "releCustomerId": "ipsum ea esse",
+      "tagId": "adipisicing eu culpa",
+      "tagName": "sit voluptate officia aute dolor"
+    }
+  },
+  "SmallShopCustomerTagListResponse": {
+    "smallShopCustomerTagVOList": [
+      {
+        "customerId": "aute enim sed in tem",
+        "releCustomerId": "dolor in enim dolore tempor",
+        "tagId": "ut veniam",
+        "tagName": "enim consequat ut mollit laborum"
+      },
+      {
+        "customerId": "eiusmod mollit sint Ut",
+        "releCustomerId": "Excepteur dolor sit",
+        "tagId": "non laboris esse voluptate dolor",
+        "tagName": "sed nulla ad"
+      },
+      {
+        "customerId": "magna adipisicing sint",
+        "releCustomerId": "nostrud sunt Excepteur",
+        "tagId": "ipsum",
+        "tagName": "dolore"
+      },
+      {
+        "customerId": "aute pariatur qui",
+        "releCustomerId": "magna esse",
+        "tagId": "tempor deserunt Lorem",
+        "tagName": "qui anim"
+      },
+      {
+        "customerId": "ex sed nostrud anim tempor",
+        "releCustomerId": "sed velit pariatur in deserunt",
+        "tagId": "anim ex id enim consectetur",
+        "tagName": "laboris non dolore"
+      }
+    ]
+  },
+  "SmallShopCustomerTagModifyResponse": {
+    "smallShopCustomerTagVO": {
+      "customerId": "ullamco",
+      "releCustomerId": "anim",
+      "tagId": "aliquip consectetur occaecat qui sit",
+      "tagName": "pariatur do dolore"
+    }
+  }
+}

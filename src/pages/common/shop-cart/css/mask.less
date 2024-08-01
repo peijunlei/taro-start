@@ -1,0 +1,59 @@
+.shop-cart-mask {
+  position: fixed;
+  // bottom: 112px;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  flex-shrink: 0;
+
+  .mask-container {
+    position: absolute;
+    bottom: 0;
+    /* 无tab的情况下 */
+    height: 52vh;
+    //min-height: 50vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 16px 16px 0 0;
+
+    .mask-header {
+      width: 100vw;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 96px;
+      padding: 0 32px;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 -1px 0 0 rgba(230, 230, 230, 1);
+      border-radius: 16px 16px 0 0;
+      z-index: 10;
+      flex-shrink: 0;
+
+      .header-text {
+        flex: 1;
+        font-size: 32px;
+        text-align: center;
+      }
+
+      .close-icon {
+        position: absolute;
+        right: 32px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .close-img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .mask-con {
+      overflow-y: auto;
+      height: 100%;
+      padding: 0 24px;
+    }
+  }
+}

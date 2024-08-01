@@ -1,0 +1,725 @@
+{
+  "MicroShopOwnerBaseDataResponse": {
+    "communicationNum": -18813880,
+    "conversionRate": "enim minim aute sunt elit",
+    "memberNum": 39554602,
+    "pageviews": -8646366,
+    "repurchaseRate": "aute id ipsum cul",
+    "saleNum": 59151174,
+    "saleTotal": 37501486.27978352,
+    "saleUnitPrice": 69031948.65919754,
+    "shareGoodsNum": 83217907
+  },
+  "CustomerDetailResponse": {
+    "customerDetailVO": {
+      "age": 15153695,
+      "areaId": -90139478,
+      "bindAlipay": 0,
+      "bindBank": 0,
+      "bindWechat": 1,
+      "birthday": "aliquip",
+      "certification": 4,
+      "cityId": -58224790,
+      "companyInfoId": -89486732,
+      "constellation": "nostrud eiusmod ex",
+      "contactName": "est",
+      "contactPhone": "sunt minim consectetur officia cillum",
+      "createPerson": "n",
+      "createTime": "1977-03-19T21:48:23.489Z",
+      "customerAddress": "exercitation et irure non laboris",
+      "customerDetailId": "dolor in",
+      "customerId": "cupidatat elit consectetur qui dolor",
+      "customerName": "proident sint consectetur",
+      "customerStatus": 1,
+      "customerVO": null,
+      "delFlag": 0,
+      "deletePerson": "nisi",
+      "deleteTime": "1999-02-09T01:56:08.904Z",
+      "downloadApp": 1,
+      "email": "exercitation Excepteur",
+      "employeeId": "ex",
+      "focusWechatPublicNumber": 1,
+      "forbidReason": "elit of",
+      "gender": -36148878,
+      "headPicture": "officia do exercitation qui Lorem",
+      "hobby": "in",
+      "idCard": "incididunt sunt",
+      "invoice": "magna Duis",
+      "isContact": 0,
+      "isDistributor": 0,
+      "job": "culpa",
+      "latitude": "non ut irure minim Lorem",
+      "longitude": "do ad ipsum cillum",
+      "microType": 4,
+      "ownershipGroup": 0,
+      "ownershipGroupCode": "do ipsum",
+      "proCertification": "adipi",
+      "proCertificationId": "et commodo elit dolor dolor",
+      "provinceId": -32793929,
+      "refereePerson": "deserunt laboris",
+      "registChanel": 2,
+      "rejectReason": "quis ut",
+      "roleType": 0,
+      "storeTime": "1988-02-05T08:44:42.375Z",
+      "updatePerson": "sit laborum eu tempor",
+      "updateTime": "1962-05-30T03:07:09.848Z",
+      "wechat": "in sunt ut magna esse",
+      "zodiac": "officia dolor fugiat qui"
+    }
+  },
+  "CustomerWebRankDataResponse": {
+    "rankDataVoPage": {
+      "content": [
+        {
+          "name": "ad ipsum sit cupidatat incididunt",
+          "value": "voluptate laboris"
+        },
+        {
+          "name": "mollit cillum tempor",
+          "value": "in consequat consectetur"
+        },
+        {
+          "name": "exercitation quis adip",
+          "value": "consectetur"
+        },
+        {
+          "name": "in deserunt est Duis",
+          "value": "voluptate mollit"
+        },
+        {
+          "name": "tempor aute consectetur et esse",
+          "value": "ea eu irure esse"
+        }
+      ],
+      "first": false,
+      "last": false,
+      "number": -9110440,
+      "numberOfElements": -92460759,
+      "size": 30885457,
+      "sort": {},
+      "total": 84120154,
+      "totalElements": -76300963,
+      "totalPages": 90266551
+    }
+  },
+  "CustomerConditionByBaseResponse": {
+    "communicationNum": -3320249,
+    "conditionVOS": [
+      {
+        "conditionDescrition": "dolore anim eu in esse",
+        "conditionId": -29082658,
+        "conditionName": "commodo cillum dolor",
+        "conditionSettingChoose": 5746484,
+        "conditionSettingValue": "et",
+        "conditionTag": "Ut sed labore",
+        "gapRatio": "Ut fugiat nisi",
+        "recommendSchemeVOS": [
+          {
+            "createTime": "1971-12-04T12:54:08.124Z",
+            "delFlag": 1,
+            "deleteTime": "2007-03-02T19:27:59.726Z",
+            "schemeConditionId": -87667534,
+            "schemeContext": "Duis in dolore id",
+            "schemeId": 2810214,
+            "schemeName": "Ut esse",
+            "updateTime": "1957-04-26T23:27:39.928Z"
+          },
+          {
+            "createTime": "1988-07-09T02:51:06.414Z",
+            "delFlag": 1,
+            "deleteTime": "1959-02-27T01:18:54.256Z",
+            "schemeConditionId": 89136279,
+            "schemeContext": "irure eu sint amet pariatur",
+            "schemeId": -72066157,
+            "schemeName": "in",
+            "updateTime": "1991-09-27T07:42:42.485Z"
+          },
+          {
+            "createTime": "2003-09-01T14:07:11.53Z",
+            "delFlag": 1,
+            "deleteTime": "1948-09-12T20:09:53.15Z",
+            "schemeConditionId": -98342671,
+            "schemeContext": "ex eu",
+            "schemeId": 48388685,
+            "schemeName": "exercitation velit ut laborum",
+            "updateTime": "1990-05-03T23:04:18.858Z"
+          },
+          {
+            "createTime": "1990-06-20T02:39:52.489Z",
+            "delFlag": 0,
+            "deleteTime": "2005-01-13T07:35:53.969Z",
+            "schemeConditionId": -2625442,
+            "schemeContext": "irure in",
+            "schemeId": 81575874,
+            "schemeName": "id",
+            "updateTime": "1974-10-12T19:49:02.884Z"
+          }
+        ],
+        "tagRelatePlan": "si",
+        "value": "ut mollit"
+      },
+      {
+        "conditionDescrition": "magna",
+        "conditionId": -70431086,
+        "conditionName": "Lorem sint",
+        "conditionSettingChoose": 10436128,
+        "conditionSettingValue": "elit enim velit consequat",
+        "conditionTag": "proident eu laboris",
+        "gapRatio": "Duis aliquip",
+        "recommendSchemeVOS": [
+          {
+            "createTime": "1941-05-14T15:21:55.008Z",
+            "delFlag": 1,
+            "deleteTime": "1940-11-27T22:36:49.436Z",
+            "schemeConditionId": -97742599,
+            "schemeContext": "commodo",
+            "schemeId": 44352814,
+            "schemeName": "minim ex non voluptate",
+            "updateTime": "1967-05-07T00:37:47.76Z"
+          },
+          {
+            "createTime": "1949-06-20T11:40:25.475Z",
+            "delFlag": 1,
+            "deleteTime": "2018-10-28T22:31:00.246Z",
+            "schemeConditionId": 68611781,
+            "schemeContext": "dolor exercitation minim in",
+            "schemeId": -64896627,
+            "schemeName": "ullamco amet cillum proident",
+            "updateTime": "1999-10-30T13:35:41.908Z"
+          },
+          {
+            "createTime": "1988-10-29T05:20:28.442Z",
+            "delFlag": 0,
+            "deleteTime": "1993-01-25T13:17:34.666Z",
+            "schemeConditionId": -24625032,
+            "schemeContext": "pariatur et",
+            "schemeId": -84068865,
+            "schemeName": "nostrud labore fugiat exercitation tempor",
+            "updateTime": "2002-03-11T11:34:53.586Z"
+          }
+        ],
+        "tagRelatePlan": "magna occaecat",
+        "value": ""
+      },
+      {
+        "conditionDescrition": "consectetur id",
+        "conditionId": -63238260,
+        "conditionName": "ut cupidatat est",
+        "conditionSettingChoose": -89939421,
+        "conditionSettingValue": "et exercitation pariatur veniam elit",
+        "conditionTag": "sunt ut labore nulla non",
+        "gapRatio": "ut esse veniam aliquip",
+        "recommendSchemeVOS": [
+          {
+            "createTime": "1980-05-21T13:04:19.977Z",
+            "delFlag": 0,
+            "deleteTime": "2016-10-31T00:33:57.263Z",
+            "schemeConditionId": -14091093,
+            "schemeContext": "in",
+            "schemeId": 52347134,
+            "schemeName": "in",
+            "updateTime": "1944-01-23T22:42:27.822Z"
+          },
+          {
+            "createTime": "1983-01-19T08:26:30.936Z",
+            "delFlag": 1,
+            "deleteTime": "1947-01-17T01:00:01.419Z",
+            "schemeConditionId": -6710780,
+            "schemeContext": "velit mag",
+            "schemeId": 12646295,
+            "schemeName": "sunt adipisicing Ut",
+            "updateTime": "1977-07-04T17:13:31.077Z"
+          },
+          {
+            "createTime": "1977-05-25T01:16:36.803Z",
+            "delFlag": 0,
+            "deleteTime": "1942-09-23T12:24:08.953Z",
+            "schemeConditionId": -42663281,
+            "schemeContext": "incididunt dolor",
+            "schemeId": -96495459,
+            "schemeName": "Duis dolor magn",
+            "updateTime": "1961-05-01T11:14:33.83Z"
+          },
+          {
+            "createTime": "2004-03-14T17:40:26.504Z",
+            "delFlag": 1,
+            "deleteTime": "2019-12-03T07:28:24.562Z",
+            "schemeConditionId": -6767495,
+            "schemeContext": "incididunt adipisicing in cillum",
+            "schemeId": -24081567,
+            "schemeName": "est",
+            "updateTime": "1956-10-05T08:45:50.319Z"
+          }
+        ],
+        "tagRelatePlan": "non exercitation nostrud nulla",
+        "value": ""
+      },
+      {
+        "conditionDescrition": "eu dolore ullamco ut commodo",
+        "conditionId": -78183391,
+        "conditionName": "ut",
+        "conditionSettingChoose": -61377559,
+        "conditionSettingValue": "Ut mollit reprehenderit eiusmod",
+        "conditionTag": "eu aliquip",
+        "gapRatio": "aliquip est veniam tem",
+        "recommendSchemeVOS": [
+          {
+            "createTime": "2019-03-22T02:40:52.353Z",
+            "delFlag": 1,
+            "deleteTime": "2015-07-05T23:02:13.132Z",
+            "schemeConditionId": -57727228,
+            "schemeContext": "consequat fugiat aliquip",
+            "schemeId": -34644865,
+            "schemeName": "sed Lorem laborum mollit",
+            "updateTime": "2011-10-18T20:15:21.928Z"
+          },
+          {
+            "createTime": "1993-04-07T22:32:34.207Z",
+            "delFlag": 0,
+            "deleteTime": "1972-03-01T23:55:41.49Z",
+            "schemeConditionId": 15505822,
+            "schemeContext": "enim pariatur sint officia tempor",
+            "schemeId": -95495588,
+            "schemeName": "Excepteur",
+            "updateTime": "2017-12-18T14:10:37.609Z"
+          },
+          {
+            "createTime": "2007-10-14T20:04:44.96Z",
+            "delFlag": 0,
+            "deleteTime": "1949-01-07T18:35:58.308Z",
+            "schemeConditionId": -42494715,
+            "schemeContext": "fugiat aliquip",
+            "schemeId": -47066153,
+            "schemeName": "n",
+            "updateTime": "2002-06-06T11:54:15.893Z"
+          },
+          {
+            "createTime": "2015-12-04T18:22:59.518Z",
+            "delFlag": 1,
+            "deleteTime": "1993-09-29T22:13:13.597Z",
+            "schemeConditionId": -58674738,
+            "schemeContext": "ex",
+            "schemeId": 65866197,
+            "schemeName": "ut in est dolor in",
+            "updateTime": "1944-04-04T22:41:38.319Z"
+          },
+          {
+            "createTime": "1989-03-14T15:09:22.764Z",
+            "delFlag": 1,
+            "deleteTime": "1962-10-26T19:25:53.799Z",
+            "schemeConditionId": -41097927,
+            "schemeContext": "in",
+            "schemeId": 98517335,
+            "schemeName": "sed Duis elit",
+            "updateTime": "2015-06-27T21:45:14.381Z"
+          }
+        ],
+        "tagRelatePlan": "sit",
+        "value": "nisi aliqua Ut laboris sed"
+      },
+      {
+        "conditionDescrition": "incididunt",
+        "conditionId": 60551643,
+        "conditionName": "fugiat non",
+        "conditionSettingChoose": -68785883,
+        "conditionSettingValue": "eu",
+        "conditionTag": "enim velit",
+        "gapRatio": "sit exercitation Excepteur occaecat",
+        "recommendSchemeVOS": [
+          {
+            "createTime": "2010-11-03T13:23:32.389Z",
+            "delFlag": 1,
+            "deleteTime": "2018-12-28T12:49:53.23Z",
+            "schemeConditionId": 97620021,
+            "schemeContext": "sunt ut",
+            "schemeId": -40657374,
+            "schemeName": "minim anim dolor",
+            "updateTime": "1998-12-04T21:49:15.974Z"
+          },
+          {
+            "createTime": "1981-04-20T06:13:17.846Z",
+            "delFlag": 0,
+            "deleteTime": "1991-01-03T01:39:41.101Z",
+            "schemeConditionId": -30882170,
+            "schemeContext": "eu pariatur",
+            "schemeId": 34829635,
+            "schemeName": "laborum irure dolor pariatur ea",
+            "updateTime": "2000-09-19T07:21:16.801Z"
+          }
+        ],
+        "tagRelatePlan": "laboris",
+        "value": "consequat laborum"
+      }
+    ],
+    "conversionRate": "esse",
+    "memberNum": -51796890,
+    "pageviews": -55401831,
+    "recommendSchemeVOS1": [
+      {
+        "createTime": "2006-06-12T02:38:22.008Z",
+        "delFlag": 1,
+        "deleteTime": "1995-04-20T23:36:02.014Z",
+        "schemeConditionId": 97011926,
+        "schemeContext": "nulla dolore ut dolor est",
+        "schemeId": 4628424,
+        "schemeName": "laboris ut",
+        "updateTime": "1953-12-16T14:51:01.331Z"
+      },
+      {
+        "createTime": "1992-01-23T21:57:26.124Z",
+        "delFlag": 1,
+        "deleteTime": "1992-09-29T06:56:30.354Z",
+        "schemeConditionId": -76244215,
+        "schemeContext": "ullamco s",
+        "schemeId": 18253068,
+        "schemeName": "ad anim",
+        "updateTime": "2013-12-23T12:34:29.297Z"
+      },
+      {
+        "createTime": "2020-01-18T07:40:53.819Z",
+        "delFlag": 1,
+        "deleteTime": "1951-12-07T09:33:45.6Z",
+        "schemeConditionId": 29670903,
+        "schemeContext": "magna sit",
+        "schemeId": 22590879,
+        "schemeName": "laboris commodo culpa sunt incididunt",
+        "updateTime": "2009-01-29T08:01:52.887Z"
+      },
+      {
+        "createTime": "1945-05-23T11:56:11.085Z",
+        "delFlag": 0,
+        "deleteTime": "2006-11-07T07:24:03.011Z",
+        "schemeConditionId": 1443806,
+        "schemeContext": "",
+        "schemeId": 28902400,
+        "schemeName": "id dolore",
+        "updateTime": "1950-07-22T03:31:32.983Z"
+      },
+      {
+        "createTime": "1951-10-27T00:55:13.845Z",
+        "delFlag": 0,
+        "deleteTime": "1961-12-29T15:09:16.431Z",
+        "schemeConditionId": 72769725,
+        "schemeContext": "amet occaecat",
+        "schemeId": 54372068,
+        "schemeName": "non culpa ad Ut sed",
+        "updateTime": "2004-09-10T02:13:14.122Z"
+      }
+    ],
+    "recommendSchemeVOS2": [
+      {
+        "createTime": "1959-12-27T02:30:33.209Z",
+        "delFlag": 1,
+        "deleteTime": "1948-09-07T04:30:36.917Z",
+        "schemeConditionId": -29804487,
+        "schemeContext": "ea reprehenderit et Excepteur qui",
+        "schemeId": -79508358,
+        "schemeName": "exercitation nostrud nisi pariatur aliquip",
+        "updateTime": "1947-02-19T16:57:59.28Z"
+      },
+      {
+        "createTime": "1949-11-28T09:12:47.326Z",
+        "delFlag": 0,
+        "deleteTime": "2019-02-11T01:40:53.32Z",
+        "schemeConditionId": -89384308,
+        "schemeContext": "est dolor",
+        "schemeId": -34765642,
+        "schemeName": "ad Excepteur mollit magna",
+        "updateTime": "1969-12-25T15:28:31.88Z"
+      },
+      {
+        "createTime": "2000-05-23T10:37:33.785Z",
+        "delFlag": 0,
+        "deleteTime": "1972-07-18T01:24:23.0Z",
+        "schemeConditionId": 51718966,
+        "schemeContext": "reprehenderit",
+        "schemeId": 56687239,
+        "schemeName": "culpa Ut",
+        "updateTime": "1964-03-12T07:52:32.84Z"
+      }
+    ],
+    "recommendSchemeVOS3": [
+      {
+        "createTime": "1994-12-23T20:19:14.282Z",
+        "delFlag": 0,
+        "deleteTime": "2008-01-04T10:39:18.656Z",
+        "schemeConditionId": 11277102,
+        "schemeContext": "dolore velit",
+        "schemeId": -52024317,
+        "schemeName": "aliquip",
+        "updateTime": "1957-03-24T01:33:47.057Z"
+      },
+      {
+        "createTime": "1996-10-23T11:41:17.996Z",
+        "delFlag": 1,
+        "deleteTime": "1991-11-16T03:58:05.448Z",
+        "schemeConditionId": 65579767,
+        "schemeContext": "sit pariatur amet",
+        "schemeId": -32721809,
+        "schemeName": "Excepteur id sit m",
+        "updateTime": "1963-08-22T21:18:54.63Z"
+      },
+      {
+        "createTime": "1984-06-26T00:39:41.582Z",
+        "delFlag": 0,
+        "deleteTime": "2018-01-30T16:37:46.141Z",
+        "schemeConditionId": 11788547,
+        "schemeContext": "aliquip nisi in proident Ut",
+        "schemeId": 78921071,
+        "schemeName": "adipisicing",
+        "updateTime": "1968-12-18T12:46:18.266Z"
+      },
+      {
+        "createTime": "1950-11-19T15:48:22.28Z",
+        "delFlag": 0,
+        "deleteTime": "1963-04-05T00:46:33.494Z",
+        "schemeConditionId": -26828163,
+        "schemeContext": "culpa labore commodo",
+        "schemeId": -79361054,
+        "schemeName": "ut",
+        "updateTime": "1952-05-11T15:29:59.544Z"
+      },
+      {
+        "createTime": "1976-08-29T20:35:49.029Z",
+        "delFlag": 0,
+        "deleteTime": "1943-06-18T15:44:55.838Z",
+        "schemeConditionId": 75172582,
+        "schemeContext": "sint",
+        "schemeId": -13475265,
+        "schemeName": "ex ipsum anim",
+        "updateTime": "1947-10-09T05:51:05.059Z"
+      }
+    ],
+    "repurchaseRate": "quis veniam aute",
+    "saleNum": -49289107,
+    "saleTotal": -99024980.16316739,
+    "saleUnitPrice": 36539056.901617914,
+    "shareGoodsNum": -41053891,
+    "teamConversionRate": "consectetur",
+    "teamMicroShopNum": -46386256,
+    "teamRepurchaseRate": "aute quis sunt reprehenderit",
+    "teamSaleNum": 39464036,
+    "teamSaleTotal": -9443361.3861721,
+    "teamSaleUnitPrice": -72146910.67826973
+  },
+  "MicroShopOwnerShareGoodsCountDataResponse": {
+    "ringDiagramVoList": [
+      {
+        "name": "cupidatat minim",
+        "value": "anim sint aute ut"
+      },
+      {
+        "name": "pariatur esse",
+        "value": "quis"
+      },
+      {
+        "name": "anim exercitation magna",
+        "value": "c"
+      },
+      {
+        "name": "minim nulla laborum labore dolor",
+        "value": "eiusmod et"
+      }
+    ],
+    "shareCountTotal": -10683647
+  },
+  "MicroShopOwnerWebRankDataResponse": {
+    "rankDataVoPage": {
+      "content": [
+        {
+          "closeDiff": "et Duis laboris dolor",
+          "customerId": "ut",
+          "customerName": "est Duis irure ut",
+          "gender": -70811488,
+          "headPicture": "deserun",
+          "telPhone": "voluptate nulla commo",
+          "value": "ut voluptate incididunt ea"
+        },
+        {
+          "closeDiff": "et dolor irure",
+          "customerId": "incididunt laborum eu",
+          "customerName": "adipisicing",
+          "gender": 53296940,
+          "headPicture": "in cillum",
+          "telPhone": "sunt ut",
+          "value": "ullamco l"
+        },
+        {
+          "closeDiff": "aliqua mollit minim exercitation aute",
+          "customerId": "eu sed ut pariatur",
+          "customerName": "minim dolore nisi est",
+          "gender": -82444053,
+          "headPicture": "officia",
+          "telPhone": "aut",
+          "value": "aute elit"
+        },
+        {
+          "closeDiff": "labore Duis incididunt sed veniam",
+          "customerId": "ad fugiat in Excepteur magna",
+          "customerName": "minim nisi velit quis",
+          "gender": 77974838,
+          "headPicture": "qui est reprehenderit fugiat pariatur",
+          "telPhone": "in est sed",
+          "value": "ex quis Ut minim"
+        },
+        {
+          "closeDiff": "ullamco",
+          "customerId": "anim sed in enim",
+          "customerName": "quis",
+          "gender": -23937814,
+          "headPicture": "id adipisicing cupidatat nostrud sed",
+          "telPhone": "do labore sed ut",
+          "value": "enim eiusmod laborum nulla commodo"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": 27216153,
+      "numberOfElements": -63325328,
+      "size": 50511685,
+      "sort": {},
+      "total": -62344062,
+      "totalElements": 20185424,
+      "totalPages": -42927799
+    }
+  },
+  "MicroShopOwnerWebRankHeadTailDataResponse": {
+    "rankDataVoList": [
+      {
+        "closeDiff": "o",
+        "customerId": "incididunt culpa est officia in",
+        "customerName": "reprehenderit eiusmod",
+        "gender": 16910364,
+        "headPicture": "voluptate laborum Lorem veniam amet",
+        "telPhone": "quis",
+        "value": "magna ex"
+      },
+      {
+        "closeDiff": "ad Lorem deserunt mollit dolor",
+        "customerId": "pariatur id fugiat dolore",
+        "customerName": "laborum fugiat et",
+        "gender": 96964531,
+        "headPicture": "dolor",
+        "telPhone": "cillum Ut tempor",
+        "value": "ex exercitation sint m"
+      },
+      {
+        "closeDiff": "do nisi cupidatat commodo",
+        "customerId": "officia qui proident dolor",
+        "customerName": "adipisicing sint sed non ut",
+        "gender": -87956250,
+        "headPicture": "officia ullamco nisi et",
+        "telPhone": "occaecat qui",
+        "value": "et sint occaecat repreh"
+      },
+      {
+        "closeDiff": "laboris",
+        "customerId": "sunt",
+        "customerName": "dese",
+        "gender": -27166190,
+        "headPicture": "dolore",
+        "telPhone": "anim labore culpa",
+        "value": "ullamco ad sint"
+      }
+    ]
+  },
+  "MicroShopOwnerWebBehaviorDataResponse": {
+    "communicationDatas": [
+      {
+        "name": "est Duis laboris dolore reprehenderit",
+        "value": "minim et"
+      },
+      {
+        "name": "elit",
+        "value": "reprehender"
+      },
+      {
+        "name": "in id",
+        "value": "ut labore"
+      }
+    ],
+    "lengthofStays": [
+      {
+        "name": "quis do ullamco ipsum fugiat",
+        "value": "est enim"
+      },
+      {
+        "name": "co",
+        "value": "esse ipsum cupidatat incididun"
+      },
+      {
+        "name": "aute dolore sint",
+        "value": "fugiat aliquip"
+      },
+      {
+        "name": "amet dolore sint et reprehenderit",
+        "value": "irure"
+      },
+      {
+        "name": "sint ul",
+        "value": "fugiat eu occaecat deserunt eiusmod"
+      }
+    ],
+    "orderSource": [
+      {
+        "name": "ipsum tempor Duis",
+        "value": "aliquip ex culpa sed"
+      },
+      {
+        "name": "nostrud",
+        "value": "esse Ut"
+      },
+      {
+        "name": "officia labore cupidatat",
+        "value": "elit minim"
+      },
+      {
+        "name": "culpa in voluptate occaecat",
+        "value": "commodo"
+      },
+      {
+        "name": "nostrud",
+        "value": "deserunt magna dolor nulla in"
+      }
+    ],
+    "pageViews": [
+      {
+        "name": "adipisicing et proident reprehenderit",
+        "value": "Ut aliquip dolore"
+      },
+      {
+        "name": "dolor quis",
+        "value": "mollit quis reprehenderit"
+      },
+      {
+        "name": "dolor eiusmod veniam",
+        "value": "dolor consectetur voluptate sed ul"
+      },
+      {
+        "name": "irure laborum Lorem cupidatat",
+        "value": "consequat"
+      }
+    ],
+    "shareDatas": [
+      {
+        "name": "consequat eu officia culpa",
+        "value": "labore proident mollit"
+      },
+      {
+        "name": "voluptate laboris",
+        "value": "magna in"
+      },
+      {
+        "name": "m",
+        "value": "ut fugiat proident dolor eiusmod"
+      },
+      {
+        "name": "fugiat deserunt ad",
+        "value": "mollit"
+      }
+    ]
+  },
+  "ReplayTradeTeamNumByCustomerIdResponse": {
+    "teamNum": -2688749
+  }
+}

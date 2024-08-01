@@ -1,0 +1,212 @@
+{
+  "ValidateCodepostRes": {},
+  "ArticleCateRootListResponse": {
+    "articleCateVOList": [
+      {
+        "cateGrade": 69142083,
+        "cateId": "ut",
+        "cateImg": "Excepteur est pariatur of",
+        "cateName": "eiusmod commodo aute",
+        "cateParentId": "sunt pariatur",
+        "catePath": "in laboris cupidatat",
+        "createPerson": "sint culpa",
+        "createTime": "1953-06-28T01:22:13.24Z",
+        "delFlag": 0,
+        "delPerson": "dolore elit velit dolore ut",
+        "deleteTime": "1961-03-07T15:23:48.965Z",
+        "sort": 97987492,
+        "updatePerson": "deserunt dolor ullamco dolore in",
+        "updateTime": "1962-08-31T05:07:12.861Z"
+      },
+      {
+        "cateGrade": 46141424,
+        "cateId": "dolor et dolore officia pariatur",
+        "cateImg": "occaecat ut id",
+        "cateName": "eiusmod Lorem id Duis commodo",
+        "cateParentId": "",
+        "catePath": "minim reprehenderit sit inc",
+        "createPerson": "ex adipisicing",
+        "createTime": "1996-05-12T02:09:51.586Z",
+        "delFlag": 0,
+        "delPerson": "velit dolore",
+        "deleteTime": "1964-04-17T16:40:49.347Z",
+        "sort": -48732832,
+        "updatePerson": "sunt ut",
+        "updateTime": "1978-04-29T16:07:29.864Z"
+      },
+      {
+        "cateGrade": 15114395,
+        "cateId": "nulla Excepteur sint",
+        "cateImg": "Duis",
+        "cateName": "amet in consectetur cillum culpa",
+        "cateParentId": "aliqua Excepte",
+        "catePath": "nostru",
+        "createPerson": "ad in",
+        "createTime": "2002-12-14T20:56:46.425Z",
+        "delFlag": 1,
+        "delPerson": "aute ut amet Excepteur",
+        "deleteTime": "1988-11-27T09:59:08.194Z",
+        "sort": -24245257,
+        "updatePerson": "minim amet adipisicing do",
+        "updateTime": "1983-04-02T09:56:33.278Z"
+      },
+      {
+        "cateGrade": -22961765,
+        "cateId": "sed",
+        "cateImg": "officia dolore proident eu in",
+        "cateName": "culpa commodo incididunt",
+        "cateParentId": "non",
+        "catePath": "qu",
+        "createPerson": "ad labore et quis",
+        "createTime": "1963-07-11T13:12:21.231Z",
+        "delFlag": 0,
+        "delPerson": "ipsum",
+        "deleteTime": "1960-01-13T19:38:32.617Z",
+        "sort": -95810875,
+        "updatePerson": "sed nisi deserunt velit",
+        "updateTime": "2011-01-13T14:55:13.337Z"
+      },
+      {
+        "cateGrade": 48863708,
+        "cateId": "sunt Ut",
+        "cateImg": "laboris tempor nisi",
+        "cateName": "occaecat velit anim enim fugiat",
+        "cateParentId": "officia",
+        "catePath": "do ipsum deserunt reprehenderit cillum",
+        "createPerson": "quis",
+        "createTime": "1984-07-27T05:00:40.293Z",
+        "delFlag": 0,
+        "delPerson": "proident cupidatat aute",
+        "deleteTime": "1997-12-09T04:46:26.7Z",
+        "sort": -31857362,
+        "updatePerson": "velit",
+        "updateTime": "2015-05-12T15:06:26.463Z"
+      }
+    ]
+  },
+  "CustomerArticleCateRelaListResponse": {
+    "customerArticleCateRelaVOList": [
+      {
+        "articleCateChildId": "reprehenderit et",
+        "articleCateParentId": "D",
+        "createTime": "2008-09-17T14:20:36.643Z",
+        "customerArticleCateRelaId": "dolor occaecat",
+        "customerId": "id ad consequat adipisicing"
+      },
+      {
+        "articleCateChildId": "in Ut ea",
+        "articleCateParentId": "cillum est laboris deserunt",
+        "createTime": "1977-09-13T21:15:05.947Z",
+        "customerArticleCateRelaId": "incid",
+        "customerId": "consequat tempor mollit"
+      },
+      {
+        "articleCateChildId": "officia enim commodo esse occaecat",
+        "articleCateParentId": "mollit non aliqua",
+        "createTime": "1983-10-09T20:46:12.486Z",
+        "customerArticleCateRelaId": "commodo sed v",
+        "customerId": "exercitation ullamco eiusmod ut"
+      },
+      {
+        "articleCateChildId": "ut cillum amet qui",
+        "articleCateParentId": "aliqua",
+        "createTime": "2019-03-16T05:48:16.981Z",
+        "customerArticleCateRelaId": "tempor",
+        "customerId": "non in dolore elit ullamco"
+      },
+      {
+        "articleCateChildId": "i",
+        "articleCateParentId": "dolor magna commodo",
+        "createTime": "2008-04-05T16:34:57.368Z",
+        "customerArticleCateRelaId": "ipsum labore culpa dolore laboris",
+        "customerId": "Ut ipsum"
+      }
+    ]
+  },
+  "ArticleCateListResponse": {
+    "articleCateVOList": [
+      {
+        "cateGrade": -35972182,
+        "cateId": "velit esse cupidatat",
+        "cateImg": "laboris quis in dolor",
+        "cateName": "proi",
+        "cateParentId": "irure dolore cupidatat",
+        "catePath": "Duis et",
+        "createPerson": "quis labore eu in",
+        "createTime": "1975-12-09T12:08:48.032Z",
+        "delFlag": 1,
+        "delPerson": "voluptate aliqua ea labore in",
+        "deleteTime": "2014-11-02T18:22:54.034Z",
+        "sort": 82330234,
+        "updatePerson": "nostrud consectetur laboris nulla",
+        "updateTime": "1960-09-05T00:06:51.971Z"
+      },
+      {
+        "cateGrade": 23832495,
+        "cateId": "reprehenderit minim elit a",
+        "cateImg": "enim sed et ",
+        "cateName": "nostrud eiusmod",
+        "cateParentId": "cillum cupidatat exercitation laborum aliqua",
+        "catePath": "et ullamco voluptate nisi",
+        "createPerson": "Duis cupidatat in",
+        "createTime": "1948-03-12T08:40:54.289Z",
+        "delFlag": 1,
+        "delPerson": "deserunt pariatur aute culpa",
+        "deleteTime": "1990-12-03T23:56:24.512Z",
+        "sort": 77606648,
+        "updatePerson": "cillum",
+        "updateTime": "1967-03-15T10:02:49.816Z"
+      },
+      {
+        "cateGrade": 10300559,
+        "cateId": "anim",
+        "cateImg": "ut consequat sit officia nulla",
+        "cateName": "minim sit nulla",
+        "cateParentId": "id ut occaecat",
+        "catePath": "elit esse labore occaecat commodo",
+        "createPerson": "ipsum nostrud laboris",
+        "createTime": "1995-10-28T18:29:28.878Z",
+        "delFlag": 1,
+        "delPerson": "ipsum qui ad consectetur ex",
+        "deleteTime": "1994-03-29T10:52:42.446Z",
+        "sort": 83601263,
+        "updatePerson": "ea aliqua cillum veniam amet",
+        "updateTime": "1972-02-12T18:50:37.111Z"
+      },
+      {
+        "cateGrade": -68904236,
+        "cateId": "nisi sit",
+        "cateImg": "laborum mollit adipisicin",
+        "cateName": "sit dolore in irure laboris",
+        "cateParentId": "qui",
+        "catePath": "exercitation nulla in irure amet",
+        "createPerson": "commodo nulla ad minim",
+        "createTime": "1958-03-01T20:34:23.413Z",
+        "delFlag": 1,
+        "delPerson": "dolor",
+        "deleteTime": "1963-12-16T13:27:32.681Z",
+        "sort": 96925605,
+        "updatePerson": "elit pariatur quis dolore commodo",
+        "updateTime": "1971-07-01T03:32:54.826Z"
+      },
+      {
+        "cateGrade": -9314030,
+        "cateId": "veli",
+        "cateImg": "sunt",
+        "cateName": "aliquip",
+        "cateParentId": "mol",
+        "catePath": "aute aliquip pariatur id",
+        "createPerson": "occaecat in labore enim",
+        "createTime": "1941-01-06T04:27:23.433Z",
+        "delFlag": 1,
+        "delPerson": "",
+        "deleteTime": "1985-02-17T21:42:21.171Z",
+        "sort": -24855888,
+        "updatePerson": "cillum pariatur amet anim nostrud",
+        "updateTime": "2006-04-27T17:48:28.912Z"
+      }
+    ]
+  },
+  "ArticleCateByIdResponse": {},
+  "noneName": "exercitation commodo id Ut conseq"
+}

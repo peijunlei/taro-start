@@ -1,0 +1,82 @@
+@import url('@/assets/style/theme.less');
+@import url('@/assets/style/mixin.less');
+
+.wm-form-input {
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  font-size: 28px;
+  padding: 24px 12px;
+
+  .require {
+    color: #ff6600;
+    position: absolute;
+    left: -24px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+  }
+
+  .label {
+    color: #333;
+    min-width: 120px;
+    margin-right: 24px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .input {
+    flex: 1;
+    color: #333;
+    caret-color: #ff6600;
+    font-size: 28px;
+  }
+
+  .clear {
+    width: 34px;
+    height: 32px;
+    margin-left: 24px;
+  }
+}
+
+.wm-form-input-small {
+  height: 72px;
+  font-size: 24px;
+
+  .require {
+    left: -16px;
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+  }
+
+  .clear {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+  }
+}
+
+.form__underline {
+  &::after {
+    content: '';
+    width: 200%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+    border-radius: 1px;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: top left;
+  }
+}

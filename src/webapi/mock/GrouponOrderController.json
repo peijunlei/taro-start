@@ -1,0 +1,23 @@
+{
+  "GrouponOrderStatusGetByOrderIdResponse": {
+    "status": "1"
+  },
+  "GrouponActivityVO": {
+    "alreadyGrouponNum": 99561417,
+    "auditFailReason": "eiusmod",
+    "autoGroupon": true,
+    "endTime": "1995-03-28T21:50:27.352Z",
+    "failGrouponNum": 29166669,
+    "freeDelivery": true,
+    "goodsId": "non quis",
+    "goodsName": "ex minim Lorem adipisicing",
+    "grouponActivityId": "deserunt qui elit officia aliquip",
+    "grouponCateId": "in Lorem",
+    "grouponNum": -84976105,
+    "startTime": "1956-01-21T18:08:09.739Z",
+    "sticky": true,
+    "storeId": "ipsum",
+    "storeName": "incididunt reprehenderi",
+    "waitGrouponNum": 48143379
+  }
+}

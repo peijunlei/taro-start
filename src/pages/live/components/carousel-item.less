@@ -1,0 +1,62 @@
+.currentCarouselItem {
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 16px;
+  transition: all 0.5s;
+}
+
+.carouselItem {
+  width: 288px;
+  height: 288px;
+  background-color: #fff;
+  border-radius: 16px;
+  transform: scale(0.9);
+  transform-origin: center top;
+  transition: all 0.5s;
+}
+
+.statusBox {
+  padding: 16px;
+  position: absolute;
+}
+.carouselItemCurrentTitle {
+  width: 320px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  padding: 16px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0, 0), #000000 100%);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.carouselItemTitle {
+  width: 288px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  padding: 16px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0, 0), #000000 100%);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.itemPlay {
+  position: 'absolute';
+  width: 80px;
+  height: 80px;
+  margin-top: calc((320px - 80px) / 2);
+  margin-left: calc((320px - 80px) / 2);
+}

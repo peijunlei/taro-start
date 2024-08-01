@@ -1,0 +1,53 @@
+.menu-state:before {
+  /* 伪元素必须添加content */
+  content: '';
+  width: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+  display: block;
+  border-width: 15px;
+  border-color: transparent transparent #fff transparent;
+  border-style: solid dashed dashed dashed;
+  position: absolute; /* 绝对定位不占位置 */
+  right: 15px;
+  top: -30px;
+}
+
+.menu-box {
+  position: absolute;
+  right: 20px;
+  z-index: 999;
+  top: 85px;
+
+  .menu-state {
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 10px;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      margin-left: 20px;
+    }
+
+    .menu-title {
+      margin-left: 20px;
+      font-size: 28px;
+      margin-top: 2px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    .menu-state-child {
+      font-size: 24px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: initial;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.centerOrders__panels {
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 0 24px;
+  padding: 40px 32px;
+  // z-index: 99;
+  .title {
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    .title-name {
+      color: #333;
+      flex: 1;
+      font-weight: bold;
+      font-size: 32px;
+    }
+
+    .title-arrow {
+      flex-direction: row;
+      align-items: center;
+
+      .click-text {
+        color: #999;
+        font-size: 24px;
+      }
+
+      .arrow-img {
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .panels-list {
+    flex-direction: row;
+    justify-content: space-around;
+
+    .panels-item {
+      align-items: center;
+      width: calc(100vw / 3 - 40px);
+
+      .item-img {
+        width: 48px;
+        height: 48px;
+      }
+
+      .item-text {
+        color: #999;
+        font-size: 24px;
+        margin-top: 20px;
+      }
+
+      .item-badge {
+        height: 32px;
+        min-width: 32px;
+        line-height: 32px;
+        text-align: center;
+        border-radius: 16px;
+        background: linear-gradient(90deg, rgba(255, 102, 102, 1) 0%, rgba(255, 10, 10, 1) 100%);
+        position: absolute;
+        padding: 0 10px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: -20px;
+
+        .item-badge-value {
+          color: rgba(255, 255, 255, 1);
+          font-size: 20px;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          font-weight: 500;
+        }
+      }
+    }
+
+    &.panels-list-top {
+      .panels-item {
+        width: auto;
+        position: relative;
+      }
+    }
+  }
+
+  .cut-panels-list {
+    justify-content: unset;
+  }
+
+  .tool-list {
+    display: flex;
+    flex-flow: wrap;
+
+    .panels-item {
+      width: 25%;
+      box-sizing: border-box;
+      padding: 10px 10px;
+    }
+  }
+}
+
+.userc-order {
+  margin-top: -64px;
+  z-index: 100;
+  position: relative;
+}

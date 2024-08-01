@@ -1,0 +1,101 @@
+{
+  "CustomerSignRecordAddResponse": {
+    "customerSignRecordVO": {
+      "customerId": "ullamco esse occaecat dolore",
+      "delFlag": 1,
+      "signRecord": "1989-03-12T11:51:50.573Z",
+      "signRecordId": "irure laboris nostrud qui"
+    }
+  },
+  "CustomerSignRecordInitInfoResponse": {
+    "customerVO": {
+      "checkState": 0,
+      "createPerson": "anim ullamco consectetur labore oc",
+      "createTime": "2007-05-23T10:03:35.359Z",
+      "customerAccount": "voluptate",
+      "customerDetail": null,
+      "customerId": "et ea eu",
+      "customerLevelId": 92259124,
+      "customerPassword": "deserunt qui",
+      "customerPayPassword": "ullamco occaecat amet",
+      "customerSaltVal": "ad laborum",
+      "customerType": 0,
+      "delFlag": 0,
+      "deletePerson": "consequat est",
+      "deleteTime": "1982-01-24T05:12:09.573Z",
+      "distributeChannel": {
+        "channelType": 0,
+        "inviteeId": "labore minim aliquip Excepteur"
+      },
+      "followWxFlag": 0,
+      "growthValue": -28631511,
+      "headImg": "do exercitation deserunt dolore cillum",
+      "loginErrorCount": -61368556,
+      "loginIp": "nisi cillum magna cupidatat",
+      "loginLockTime": "2000-07-28T21:01:06.955Z",
+      "loginTime": "1970-06-16T19:44:55.771Z",
+      "payErrorTime": 50003014,
+      "payLockTime": "1995-06-05T06:28:47.917Z",
+      "pointsAvailable": 12754481,
+      "pointsUsed": -38681333,
+      "roleType": 1,
+      "safeLevel": -74601296,
+      "signContinuousDays": -95303028,
+      "storeCustomerRelaListByAll": [
+        {
+          "companyInfoId": 13410050,
+          "customerId": "voluptate do aliqua nulla officia",
+          "customerType": 1,
+          "employeeId": "officia velit nisi ad",
+          "id": "enim",
+          "storeId": -37858629,
+          "storeLevelId": -4537720
+        },
+        {
+          "companyInfoId": -26834766,
+          "customerId": "labore voluptate sunt veniam",
+          "customerType": 1,
+          "employeeId": "mollit aute enim laboris id",
+          "id": "sunt fugiat non et",
+          "storeId": 99993288,
+          "storeLevelId": 275931
+        },
+        {
+          "companyInfoId": -58257430,
+          "customerId": "consequat aute culpa quis",
+          "customerType": 0,
+          "employeeId": "dolore dolore voluptate incididunt",
+          "id": "labore Excepteur non exercitation pariatur",
+          "storeId": 61212106,
+          "storeLevelId": 378927
+        },
+        {
+          "companyInfoId": 57432738,
+          "customerId": "cupidatat",
+          "customerType": 1,
+          "employeeId": "incididunt tempor eiusmod exercitation",
+          "id": "laborum nisi deserunt eu Lorem",
+          "storeId": 7102121,
+          "storeLevelId": -93923
+        }
+      ],
+      "updatePerson": "et Lorem eiusmod ut ut",
+      "updateTime": "2014-11-13T08:28:43.646Z"
+    },
+    "growthFlag": false,
+    "growthValue": -91144963,
+    "pointFlag": false,
+    "signFlag": false,
+    "signPoint": 42092270
+  },
+  "CustomerSignRecordListResponse": {
+    "customerSignRecordVOList": [
+      {
+        "customerId": "sint",
+        "delFlag": 0,
+        "signRecord": "1968-06-01T17:46:56.421Z",
+        "signRecordId": "id ullamco non esse"
+      }
+    ]
+  }
+}

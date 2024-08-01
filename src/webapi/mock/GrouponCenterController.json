@@ -1,0 +1,72 @@
+{
+  "GrouponCenterListResponse": {
+    "grouponCenterVOList": {
+      "content": [
+        {
+          "alreadyGrouponNum": -21899269,
+          "goodsId": "dolore ut dolore ex",
+          "goodsImg": "ex",
+          "goodsInfoId": "aute ad minim anim fugiat",
+          "goodsName": "aliquip sint culpa nisi sit",
+          "grouponActivityId": "dolor incididunt mollit",
+          "grouponNum": -21175103,
+          "grouponPrice": -57474630.21737804,
+          "marketPrice": -97940997.15852469
+        },
+        {
+          "alreadyGrouponNum": 32065130,
+          "goodsId": "Excepteur fugia",
+          "goodsImg": "ut est cupidatat proident",
+          "goodsInfoId": "exercitation non",
+          "goodsName": "id eu adipisicing",
+          "grouponActivityId": "sit id incididunt consectetur pariatur",
+          "grouponNum": 15275381,
+          "grouponPrice": -83974031.32470052,
+          "marketPrice": 30929705.520974696
+        },
+        {
+          "alreadyGrouponNum": -58442067,
+          "goodsId": "eu non",
+          "goodsImg": "laborum ut Ut elit",
+          "goodsInfoId": "minim",
+          "goodsName": "dolore Ut sed in",
+          "grouponActivityId": "ea culpa consequat mollit ",
+          "grouponNum": 44353125,
+          "grouponPrice": -26939177.559421837,
+          "marketPrice": -88942992.34858191
+        },
+        {
+          "alreadyGrouponNum": -87596872,
+          "goodsId": "pariatur irure laboris veniam",
+          "goodsImg": "laboris enim est eiusmod",
+          "goodsInfoId": "incididunt cillum Lorem",
+          "goodsName": "est mollit commodo",
+          "grouponActivityId": "culpa dolor",
+          "grouponNum": -60252035,
+          "grouponPrice": 11200676.069493115,
+          "marketPrice": 87590837.08698842
+        },
+        {
+          "alreadyGrouponNum": 20465057,
+          "goodsId": "officia id Excepteu",
+          "goodsImg": "sunt",
+          "goodsInfoId": "proident anim occaecat exercitation id",
+          "goodsName": "esse ea adipisicing occaecat sunt",
+          "grouponActivityId": "adipisicing",
+          "grouponNum": 55544361,
+          "grouponPrice": 42543545.95211676,
+          "marketPrice": -16908106.30796525
+        }
+      ],
+      "first": false,
+      "last": true,
+      "number": 10164037,
+      "numberOfElements": 89250805,
+      "size": -46675925,
+      "sort": {},
+      "total": -68434113,
+      "totalElements": -18557074,
+      "totalPages": 28752437
+    }
+  }
+}

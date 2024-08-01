@@ -1,0 +1,107 @@
+.packageCShopCart {
+  display: block;
+  // height: 100vh;
+  height: calc(100vh - 50px - 56px - 15px);
+  background-color: #f5f5f5;
+  z-index: 9;
+
+  .scroll-view {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .at-list {
+    display: block;
+  }
+
+  .at-list::after {
+    //border-bottom-width: 0;
+    border: none;
+  }
+
+  .no-login {
+    display: block;
+  }
+
+  .shop-cartC-con {
+    overflow: scroll;
+    display: block;
+    padding: 0 24px 24px 24px !important;
+    // padding: 24px !important;
+  }
+
+  .distribution-price {
+    color: red;
+    font-size: 24px;
+  }
+
+  .shop-cart-con {
+    display: block;
+    background-color: #f5f5f5;
+    padding: 0 24px 92px;
+    overflow: scroll;
+    width: 100vw;
+
+    .status {
+      margin-top: 24px;
+      padding-bottom: 64px;
+      font-size: 24px;
+      color: #999;
+      text-align: center;
+    }
+  }
+
+  .shop-cart-invaild {
+    display: block;
+    height: calc(100vh - 290px);
+  }
+
+  .at-swipe-action__options {
+    flex-direction: row;
+
+    .option__text {
+      width: 50%;
+      color: #fff;
+    }
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+.check-view {
+  width: 32px;
+  margin-right: 32px;
+}
+
+.check-image {
+  width: 32px;
+  height: 32px;
+}
+
+.wanmi-checkbox::before {
+  content: '';
+  margin-left: 10px;
+  top: -10px;
+  margin-top: 10px;
+  left: -10px;
+}
+
+.wanmi-checkbox .taro-checkbox_checked,
+.wanmi-checkbox .wx-checkbox-input {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.wanmi-checkbox .taro-checkbox_checked:checked,
+.wanmi-checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #ff6600;
+  border-color: #ff6600;
+}
+
+.wanmi-checkbox .taro-checkbox_checked:checked:before,
+.wanmi-checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  color: #ffffff;
+  font-size: 32px;
+}

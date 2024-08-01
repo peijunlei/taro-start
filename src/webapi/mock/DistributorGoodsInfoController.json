@@ -1,0 +1,13 @@
+{
+  "DistributorGoodsInfoAddResponse": {
+    "customerId": "nisi",
+    "goodsInfoId": "esse occaecat nisi commodo proident",
+    "id": "velit nostrud aliquip ea ad"
+  },
+  "DistributorGoodsInfoCountsResponse": {
+    "counts": 82728451
+  },
+  "DistributorGoodsInfoDeleteResponse": {
+    "result": 74152456
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "MicroServicePageSmallShopCustomerRelVO": {
+    "content": [
+      {
+        "birthday": "id",
+        "customerId": "cillum",
+        "customerName": "et mollit ut ipsum",
+        "customerRelType": 3,
+        "customerRfmType": 4,
+        "gender": 64234709,
+        "gradeArup": "est laborum do",
+        "gradeRfm": "dolor ",
+        "imgUrl": "ex pariatur",
+        "releCustomerId": "tempor in"
+      },
+      {
+        "birthday": "Duis dolore velit",
+        "customerId": "nulla",
+        "customerName": "Excepteur Duis",
+        "customerRelType": 1,
+        "customerRfmType": 0,
+        "gender": 67672242,
+        "gradeArup": "tempor velit",
+        "gradeRfm": "pariatur",
+        "imgUrl": "adipisicing ad quis esse Lorem",
+        "releCustomerId": "enim"
+      },
+      {
+        "birthday": "incididunt Excep",
+        "customerId": "dolore deserunt ",
+        "customerName": "Ut eu dolore",
+        "customerRelType": 0,
+        "customerRfmType": 5,
+        "gender": 5779151,
+        "gradeArup": "in d",
+        "gradeRfm": "aliquip nisi",
+        "imgUrl": "ullamco sunt",
+        "releCustomerId": "et pariatur ex aliquip aliqua"
+      },
+      {
+        "birthday": "aliqua sit laborum cupidatat quis",
+        "customerId": "ad",
+        "customerName": "sint",
+        "customerRelType": 0,
+        "customerRfmType": 4,
+        "gender": 5181855,
+        "gradeArup": "id",
+        "gradeRfm": "pariatur esse nulla",
+        "imgUrl": "dolore elit m",
+        "releCustomerId": "do pariatur in tempor"
+      },
+      {
+        "birthday": "laboris",
+        "customerId": "dolor Lorem sed",
+        "customerName": "Ut",
+        "customerRelType": 2,
+        "customerRfmType": 1,
+        "gender": 26947192,
+        "gradeArup": "id mollit rep",
+        "gradeRfm": "proident",
+        "imgUrl": "ut qui",
+        "releCustomerId": "ea Excepteur"
+      }
+    ],
+    "first": true,
+    "last": false,
+    "number": 50632862,
+    "numberOfElements": -67266481,
+    "size": 76981780,
+    "sort": {},
+    "total": 69160459,
+    "totalElements": -92346796,
+    "totalPages": 1346144
+  }
+}

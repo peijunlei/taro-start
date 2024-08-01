@@ -1,0 +1,30 @@
+{
+  "LogisticsLogSimpleListByCustomerIdResponse": {
+    "logisticsList": [
+      {
+        "context": "minim proident Duis",
+        "goodsImg": "dolore est aliquip",
+        "goodsName": "fugiat quis laborum exercitation dolore",
+        "id": "ut aliqua",
+        "state": "sint nulla nostrud mollit",
+        "time": "Excepteur dolor amet aliqua quis"
+      },
+      {
+        "context": "mollit velit aute est dolore",
+        "goodsImg": "anim labore",
+        "goodsName": "ipsum ad aute",
+        "id": "voluptate",
+        "state": "nostrud nisi exercitation",
+        "time": "in nisi officia"
+      },
+      {
+        "context": "laborum ut sint",
+        "goodsImg": "sed",
+        "goodsName": "consequat sit quis in irure",
+        "id": "proident dolor laborum",
+        "state": "dolor id sunt anim",
+        "time": "nostrud occaecat"
+      }
+    ]
+  }
+}

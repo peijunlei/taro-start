@@ -1,0 +1,30 @@
+{
+  "RealNameResponseVO": {
+    "errorMsg": "aliquip et",
+    "httpCode": -70486045,
+    "realNameBody": {
+      "addrCode": "veniam nisi",
+      "area": "velit",
+      "birthday": "ea Excepteur magna p",
+      "city": "deserunt culpa nostrud",
+      "idCard": "magna",
+      "lastCode": "ea",
+      "msg": "D",
+      "name": "sunt deserunt",
+      "prefecture": "nisi nostrud",
+      "province": "et officia",
+      "sex": "sit laboris",
+      "status": "labore deserunt"
+    }
+  },
+  "CustomerRealNameByIdResponse": {
+    "customerRealNameVO": {
+      "createTime": "1995-03-25T06:26:23.861Z",
+      "customerCardNo": "ut aliquip adipisicing",
+      "customerId": "Ut amet laborum",
+      "customerName": "dolor ea aliquip laborum",
+      "customerRealNameId": "consequat do",
+      "delFlag": 1
+    }
+  }
+}

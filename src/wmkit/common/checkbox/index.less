@@ -1,0 +1,41 @@
+.wm-check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  line-height: 1;
+
+  .img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+  }
+
+  .img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    line-height: 1;
+  }
+
+  .disabled-img {
+    opacity: 0.4;
+  }
+
+  .disabled-unchecked-img {
+    filter: invert(13.5%);
+  }
+
+  .label {
+    margin-left: -8px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+  }
+
+  .disabled-label {
+    color: #999;
+  }
+}

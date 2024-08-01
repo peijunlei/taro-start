@@ -1,0 +1,121 @@
+{
+  "CustomerCollectRelaAddResponse": {
+    "customerCollectRelaVO": {
+      "articleInfoId": "ea",
+      "collectType": 0,
+      "contentType": 0,
+      "createTime": "1972-04-15T22:52:51.312Z",
+      "customerCollectRelaId": "sit",
+      "customerId": "Lorem minim exercitation ut enim"
+    }
+  },
+  "CustomerCollectRelaListResponse": {
+    "customerCollectRelaVOList": [
+      {
+        "articleInfoId": "nisi",
+        "collectType": 0,
+        "contentType": 1,
+        "createTime": "1950-11-23T00:52:20.58Z",
+        "customerCollectRelaId": "Ut esse ullamco Lorem",
+        "customerId": "of"
+      },
+      {
+        "articleInfoId": "Ut",
+        "collectType": 0,
+        "contentType": 2,
+        "createTime": "2006-12-30T01:55:36.065Z",
+        "customerCollectRelaId": "culpa sit sunt labore esse",
+        "customerId": "in comm"
+      },
+      {
+        "articleInfoId": "mollit incididunt sit ea nu",
+        "collectType": 0,
+        "contentType": 0,
+        "createTime": "1969-05-18T21:34:45.324Z",
+        "customerCollectRelaId": "dolor eu laboris consequat",
+        "customerId": "non quis"
+      },
+      {
+        "articleInfoId": "of",
+        "collectType": 0,
+        "contentType": 1,
+        "createTime": "1962-05-01T23:58:30.971Z",
+        "customerCollectRelaId": "cupidatat fugiat nostrud in anim",
+        "customerId": "Excepteur aliqua dolore"
+      },
+      {
+        "articleInfoId": "aute ut",
+        "collectType": 0,
+        "contentType": 2,
+        "createTime": "2019-10-12T08:08:20.15Z",
+        "customerCollectRelaId": "",
+        "customerId": "in eiusmod"
+      }
+    ]
+  },
+  "CustomerCollectRelaPageResponse": {
+    "customerCollectRelaVOPage": {
+      "content": [
+        {
+          "articleInfoId": "nisi",
+          "collectType": 0,
+          "contentType": 2,
+          "createTime": "2013-07-16T14:11:57.346Z",
+          "customerCollectRelaId": "tempor in",
+          "customerId": "dolore est laboris exercitation"
+        },
+        {
+          "articleInfoId": "nisi",
+          "collectType": 1,
+          "contentType": 1,
+          "createTime": "2011-01-05T05:26:54.364Z",
+          "customerCollectRelaId": "consequat labore ullamco pariatur",
+          "customerId": "laboris consectetur cupidatat mo"
+        },
+        {
+          "articleInfoId": "velit in",
+          "collectType": 1,
+          "contentType": 2,
+          "createTime": "1940-06-26T10:49:47.563Z",
+          "customerCollectRelaId": "deserunt sunt",
+          "customerId": "Excepteur in irure anim"
+        },
+        {
+          "articleInfoId": "ullamco deserunt",
+          "collectType": 0,
+          "contentType": 0,
+          "createTime": "1943-05-17T14:32:43.076Z",
+          "customerCollectRelaId": "veniam",
+          "customerId": "quis"
+        },
+        {
+          "articleInfoId": "nisi ea",
+          "collectType": 1,
+          "contentType": 2,
+          "createTime": "1941-09-11T17:26:09.106Z",
+          "customerCollectRelaId": "sed Ut",
+          "customerId": "enim Ut nostrud"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": 16098476,
+      "numberOfElements": 43073310,
+      "size": -23801683,
+      "sort": {},
+      "total": 17668074,
+      "totalElements": -59942077,
+      "totalPages": 48449776
+    }
+  },
+  "CustomerCollectRelaByIdResponse": {
+    "customerCollectRelaVO": {
+      "articleInfoId": "ea dolore occa",
+      "collectType": 0,
+      "contentType": 1,
+      "createTime": "1965-11-11T04:12:17.933Z",
+      "customerCollectRelaId": "dolore ut do voluptate",
+      "customerId": "voluptate dolor"
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "CouponCheckoutResponse": {
+    "checkGoodsInfos": [
+      {
+        "goodsInfoId": "nostrud",
+        "splitPrice": 80209150.60416675,
+        "storeId": -59725331
+      },
+      {
+        "goodsInfoId": "officia enim",
+        "splitPrice": 37097638.4934119,
+        "storeId": -36216849
+      },
+      {
+        "goodsInfoId": "qui amet nisi do id",
+        "splitPrice": -83219738.83050221,
+        "storeId": -96305508
+      },
+      {
+        "goodsInfoId": "amet adipisicing",
+        "splitPrice": -48061640.35849272,
+        "storeId": 97776102
+      }
+    ],
+    "couponTotalPrice": 59629416.53776571,
+    "totalPrice": -80705812.97154641,
+    "unreachedIds": [
+      "incididunt est amet",
+      "Duis ex fugiat cillum",
+      "dolore Duis ad",
+      "commodo occaecat",
+      "exercitation eiusmod amet cillum"
+    ]
+  },
+  "CouponCodePageResponse": {
+    "couponCodeVos": {
+      "content": [
+        {
+          "activityId": "",
+          "brandNames": [
+            "do",
+            "enim",
+            "aliqua elit",
+            "magna Lorem nisi"
+          ],
+          "couponCanUse": false,
+          "couponCode": "",
+          "couponCodeId": "Ut nostrud",
+          "couponDesc": "id commodo aliqua",
+          "couponId": "Excepteur incididun",
+          "couponName": "eu tempor mollit ipsum",
+          "couponType": 1,
+          "createTime": "1994-11-28T18:34:12.142Z",
+          "denomination": 73104848.80927914,
+          "endTime": "1984-06-20T01:33:06.668Z",
+          "fullBuyPrice": 62845458.33707908,
+          "fullBuyType": 1,
+          "goodsCateNames": [
+            "nisi velit cillum nostrud",
+            "aliquip incididunt veniam velit",
+            "ad aute et",
+            "cupidatat ullamco"
+          ],
+          "nearOverdue": true,
+          "orderCode": "ea",
+          "platformFlag": 1,
+          "scopeType": 0,
+          "startTime": "1974-07-11T22:13:24.095Z",
+          "status": 0,
+          "storeCateNames": [
+            "ea voluptate aliquip anim irure",
+            "ea irure labore fugiat",
+            "sit",
+            "sit veniam",
+            "voluptate occaecat dolor ullamco commodo"
+          ],
+          "storeId": -52142706,
+          "storeName": "consequat pariatur laboris",
+          "useDate": "2005-10-08T00:27:40.559Z",
+          "useStatus": 1
+        },
+        {
+          "activityId": "pariatur ea",
+          "brandNames": [
+            "laborum fugiat proident",
+            "in minim sit ut",
+            "ut",
+            "sit",
+            "consectetur incididunt"
+          ],
+          "couponCanUse": true,
+          "couponCode": "ea in mollit",
+          "couponCodeId": "eu nulla veniam",
+          "couponDesc": "esse in sit",
+          "couponId": "ad est pariatur ipsum quis",
+          "couponName": "nulla nostrud consequat id",
+          "couponType": 2,
+          "createTime": "1996-07-04T22:29:33.772Z",
+          "denomination": -812455.0149153769,
+          "endTime": "1974-09-09T05:13:29.046Z",
+          "fullBuyPrice": 15013959.703507856,
+          "fullBuyType": 0,
+          "goodsCateNames": [
+            "ea ut Duis",
+            "aliqua tempor ex",
+            "cupidatat tempor veniam",
+            "nostrud aliquip labore",
+            "es"
+          ],
+          "nearOverdue": false,
+          "orderCode": "Lorem non nostrud culpa",
+          "platformFlag": 1,
+          "scopeType": 3,
+          "startTime": "2017-03-30T01:47:45.338Z",
+          "status": 1,
+          "storeCateNames": [
+            "proident sed",
+            "sunt",
+            "mollit laborum do reprehenderit dolore",
+            "non aliquip quis",
+            "do minim ex labore in"
+          ],
+          "storeId": 72791396,
+          "storeName": "exercitation",
+          "useDate": "1943-06-01T04:23:37.913Z",
+          "useStatus": 1
+        },
+        {
+          "activityId": "do nostrud ut ipsum sint",
+          "brandNames": [
+            "laborum sint",
+            "ut pariatur cupidatat aliquip sunt",
+            "consectetur dolor Duis commodo voluptate",
+            "pariatur",
+            "laboris in"
+          ],
+          "couponCanUse": true,
+          "couponCode": "dolor cupidatat fugiat tempor",
+          "couponCodeId": "consequat Ut exercitation nisi aliquip",
+          "couponDesc": "occaecat consectetur id reprehenderit",
+          "couponId": "irure Excepteur sed ullamco",
+          "couponName": "Lorem Duis",
+          "couponType": 0,
+          "createTime": "1947-02-05T04:36:57.809Z",
+          "denomination": 25752563.807814613,
+          "endTime": "2012-08-07T06:44:11.509Z",
+          "fullBuyPrice": -71971919.86485678,
+          "fullBuyType": 0,
+          "goodsCateNames": [
+            "cupidatat cillum proident",
+            "ullamco quis",
+            "officia aliquip",
+            "officia",
+            "sint dolore"
+          ],
+          "nearOverdue": false,
+          "orderCode": "elit amet dolore",
+          "platformFlag": 0,
+          "scopeType": 0,
+          "startTime": "1946-07-20T07:13:34.675Z",
+          "status": 3,
+          "storeCateNames": [
+            "aute",
+            "exercitation veniam",
+            "culpa sed",
+            "ullamco id",
+            "nostrud qui elit"
+          ],
+          "storeId": -94081286,
+          "storeName": "cupidatat",
+          "useDate": "2005-08-11T04:45:03.376Z",
+          "useStatus": 1
+        },
+        {
+          "activityId": "Duis consectetur nulla",
+          "brandNames": [
+            "",
+            "tempor ad pariatur",
+            "aute cillum eiusmod et in",
+            "velit sint",
+            "m"
+          ],
+          "couponCanUse": false,
+          "couponCode": "eu",
+          "couponCodeId": "culpa occaecat aute Duis",
+          "couponDesc": "anim Ut Duis ea mol",
+          "couponId": "fugiat sint magna",
+          "couponName": "sit",
+          "couponType": 0,
+          "createTime": "1944-11-11T07:33:54.047Z",
+          "denomination": 29977954.893607482,
+          "endTime": "2016-09-04T22:12:15.209Z",
+          "fullBuyPrice": 54837530.82748425,
+          "fullBuyType": 0,
+          "goodsCateNames": [
+            "Excepteur tempor nostrud laboris",
+            "ipsum laboris",
+            "incididunt mollit fugiat aliqua",
+            "ipsum sint deserunt"
+          ],
+          "nearOverdue": true,
+          "orderCode": "ut dolor do anim deserunt",
+          "platformFlag": 1,
+          "scopeType": 1,
+          "startTime": "1964-07-22T11:43:19.639Z",
+          "status": 1,
+          "storeCateNames": [
+            "commodo",
+            "reprehenderit est aliqua Ut",
+            "ullamco proident",
+            "ut irure in",
+            "sint"
+          ],
+          "storeId": -92858547,
+          "storeName": "ipsum",
+          "useDate": "1985-12-21T21:20:06.965Z",
+          "useStatus": 1
+        },
+        {
+          "activityId": "aliqua in dolore fug",
+          "brandNames": [
+            "fugiat ipsum culpa",
+            "consectetur in laboris",
+            "dolor",
+            "exercitation anim Lorem incididunt"
+          ],
+          "couponCanUse": true,
+          "couponCode": "sint",
+          "couponCodeId": "cupidatat veniam proident pariatur",
+          "couponDesc": "do magna non enim adipisicing",
+          "couponId": "dolor cupidatat incididunt Lorem qui",
+          "couponName": "in dolore",
+          "couponType": 0,
+          "createTime": "1973-10-21T23:03:26.488Z",
+          "denomination": 59771462.377684414,
+          "endTime": "1981-09-01T18:21:57.032Z",
+          "fullBuyPrice": -63205875.23512486,
+          "fullBuyType": 1,
+          "goodsCateNames": [
+            "amet non nulla",
+            "commodo fugiat sunt veniam non",
+            "tempor nisi",
+            "cillum ut occaecat labore"
+          ],
+          "nearOverdue": true,
+          "orderCode": "cupidatat aute",
+          "platformFlag": 1,
+          "scopeType": 0,
+          "startTime": "2016-10-13T22:25:41.858Z",
+          "status": 0,
+          "storeCateNames": [
+            "nulla exercitation",
+            "reprehenderit",
+            "eu mollit incididunt dolore do",
+            "nulla id ut minim "
+          ],
+          "storeId": 73614210,
+          "storeName": "Ut ad laborum",
+          "useDate": "1960-01-21T07:28:23.305Z",
+          "useStatus": 1
+        }
+      ],
+      "first": false,
+      "last": false,
+      "number": -89062575,
+      "numberOfElements": -95529540,
+      "size": -33801138,
+      "sort": {},
+      "total": -11314235,
+      "totalElements": -54291109,
+      "totalPages": -46263662
+    },
+    "overDueCount": -17778214,
+    "unUseCount": 61073585,
+    "usedCount": 62876772
+  }
+}

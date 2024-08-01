@@ -1,0 +1,47 @@
+{
+  "CustomerVerifiedAddResponse": {
+    "customerVerifiedVO": {
+      "artificialRemake": "anim amet",
+      "automaticRemake": "aliqua irure",
+      "cardNegative": "laborum dolore enim",
+      "cardNo": "amet laboris",
+      "cardPositive": "in velit elit tempor",
+      "createTime": "1968-03-20T20:20:36.517Z",
+      "customerId": "non laborum reprehenderit veniam",
+      "customerName": "et officia incididunt nulla non",
+      "id": "esse officia do amet aute",
+      "statusType": 99551254,
+      "updateTime": "1964-09-06T14:36:33.812Z"
+    }
+  },
+  "CustomerVerifiedByIdResponse": {
+    "customerVerifiedVO": {
+      "artificialRemake": "veniam non nostrud eu dolore",
+      "automaticRemake": "dolore cill",
+      "cardNegative": "veniam sunt aliqua adipisicing officia",
+      "cardNo": "irure mollit tempor",
+      "cardPositive": "fugiat commodo sunt dolore exercitation",
+      "createTime": "1944-12-06T21:51:06.149Z",
+      "customerId": "eiusmod velit",
+      "customerName": "aute",
+      "id": "fugiat Lorem mollit",
+      "statusType": -19559070,
+      "updateTime": "2009-06-11T16:59:25.779Z"
+    }
+  },
+  "CustomerVerifiedModifyResponse": {
+    "customerVerifiedVO": {
+      "artificialRemake": "nulla sit e",
+      "automaticRemake": "voluptate",
+      "cardNegative": "Excepteur fugiat do",
+      "cardNo": "incididunt dolor",
+      "cardPositive": "dolore",
+      "createTime": "1955-05-22T01:19:27.655Z",
+      "customerId": "eiusmod dolor aliqua sed p",
+      "customerName": "sed id est et commodo",
+      "id": "sunt in minim dolor sit",
+      "statusType": 29195542,
+      "updateTime": "2012-06-20T22:36:02.348Z"
+    }
+  }
+}

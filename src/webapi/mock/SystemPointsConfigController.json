@@ -1,0 +1,36 @@
+{
+  "SystemPointsConfigQueryResponse": {
+    "commissionFlag": 94464010,
+    "createTime": "1968-11-26T00:20:15.073Z",
+    "delFlag": 1,
+    "invoiceFlag": -14152848,
+    "maxDeductionRate": 41695793.85542476,
+    "overPointsAvailable": -23552380,
+    "pointsConfigId": "incididunt",
+    "pointsExpireDay": -17475217,
+    "pointsExpireMonth": -5513394,
+    "pointsWorth": 76834022,
+    "remark": "occaecat est consequat eu dolore",
+    "status": 1,
+    "updateTime": "1993-08-07T01:19:10.047Z"
+  },
+  "BossGoodsEvaluateResponse": {
+    "evaluate": true
+  },
+  "CommissionSettingByTypeResponse": {},
+  "CommissionSettingByIdResponse": {
+    "commissionSettingVO": {
+      "commissionFlag": -35120650,
+      "convertAmount": 23670075.544206172,
+      "convertScore": -73537799.67265956,
+      "createTm": "2016-05-10T06:03:21.109Z",
+      "delFlag": 0,
+      "equityName": "est",
+      "invoiceFlag": 6446984,
+      "maxLimit": 87784081.33270577,
+      "minLimit": -27661499.653617486,
+      "settingId": "fugiat deserunt",
+      "updateTm": "1995-09-01T15:24:18.508Z"
+    }
+  }
+}

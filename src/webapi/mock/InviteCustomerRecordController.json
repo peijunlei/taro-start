@@ -1,0 +1,79 @@
+{
+  "CountInviteCustomerResponse": {
+    "inviteNum": 34667457,
+    "myCustomerNum": -61717202,
+    "validInviteNum": 51919505
+  },
+  "DistributionSettingVO": {
+    "applyFlag": 0,
+    "applyType": 1,
+    "baseLimitType": 1,
+    "buyRecruitEnterImg": "ut Excepteur in ullamco",
+    "commissionFlag": 0,
+    "commissionPriorityType": 1,
+    "commissionUnhookType": 1,
+    "distributorLevelDesc": "qui",
+    "distributorName": "elit cillum ullamco dolore",
+    "goodsAuditFlag": 1,
+    "inviteCount": -19140694,
+    "inviteDesc": "magna labore in elit laborum",
+    "inviteEnterImg": "commodo aute nostrud",
+    "inviteFlag": 0,
+    "inviteImg": "est deserunt culpa incididunt aliqua",
+    "inviteRecruitEnterImg": "Duis",
+    "inviteRecruitImg": "ad sint",
+    "inviteShareImg": "dolore elit culpa",
+    "limitType": 0,
+    "openFlag": 1,
+    "performanceDesc": "nisi voluptate ut incididunt elit",
+    "recruitDesc": "culpa aliquip sit nulla",
+    "recruitImg": "irure fugiat Duis",
+    "recruitShareImg": "non tempor sit",
+    "registerLimitType": 0,
+    "rewardCash": -22526098.957190976,
+    "rewardCashCount": -14885498,
+    "rewardCashFlag": 1,
+    "rewardCashType": 1,
+    "rewardCouponCount": -66499176,
+    "rewardCouponFlag": 0,
+    "rewardLimitType": 0,
+    "shopName": "consequat",
+    "shopOpenFlag": 0,
+    "shopShareImg": "ut cillum Duis"
+  },
+  "Page": {
+    "content": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "first": false,
+    "last": true,
+    "number": -83319368,
+    "numberOfElements": -98052548,
+    "size": -41475258,
+    "sort": {},
+    "totalElements": 29142103,
+    "totalPages": 43791775
+  },
+  "MicroServicePage": {
+    "content": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "first": true,
+    "last": false,
+    "number": -57964198,
+    "numberOfElements": 23518914,
+    "size": -46379130,
+    "sort": {},
+    "total": -72416076,
+    "totalElements": 59142847,
+    "totalPages": 31966325
+  }
+}

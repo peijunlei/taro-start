@@ -1,0 +1,46 @@
+.materialCircleTabs {
+  height: 88px;
+
+  .container {
+    height: 88px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    .bar {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .nav {
+        height: 88px;
+        padding-top: 32px;
+
+        .item {
+          color: #000;
+          font-size: 24px;
+        }
+
+        .itemSelected {
+          color: #ff6600;
+        }
+
+        .active {
+          margin-top: 20px;
+          width: 100%;
+          align-items: center;
+        }
+
+        .activeLine {
+          width: 48px;
+          height: 4px;
+          background: linear-gradient(90deg, #ff8400 0%, #ff4d00 100%);
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}

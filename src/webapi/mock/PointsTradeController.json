@@ -1,0 +1,132 @@
+{
+  "PointsTradeCommitResultVO": {
+    "points": 41833976,
+    "tid": "in in mollit dolore quis"
+  },
+  "PointsTradeConfirmResponse": {
+    "pointsTradeConfirmItem": {
+      "supplier": {
+        "employeeId": "dolor Excepteur ",
+        "employeeName": "proident occaecat do",
+        "freightTemplateType": 1,
+        "isSelf": -96115959,
+        "storeId": 67888955,
+        "storeName": "ullamco amet minim",
+        "supplierCode": "qui dolore",
+        "supplierId": -36782027,
+        "supplierName": "in occaecat adipisicing mol"
+      },
+      "tradeItem": {
+        "adminId": "commodo",
+        "bn": "sint",
+        "brand": 87933580,
+        "canReturnNum": 35453503,
+        "cateId": 68002277,
+        "cateName": "Duis quis",
+        "cateRate": -2855326.7544848174,
+        "commissionRate": 65973967.94101077,
+        "cost": 3282488.8134709448,
+        "couponSettlements": [
+          {
+            "couponCode": "dolore quis",
+            "couponCodeId": "consequat qui occaecat ea",
+            "couponType": 1,
+            "reducePrice": -35498933.38136574,
+            "splitPrice": -67829208.18524162
+          },
+          {
+            "couponCode": "culpa ullamco",
+            "couponCodeId": "adipisicing sit magna no",
+            "couponType": 0,
+            "reducePrice": 51157482.35512379,
+            "splitPrice": -93221643.28882124
+          },
+          {
+            "couponCode": "laborum commodo dolor",
+            "couponCodeId": "aliqua occaecat consequat",
+            "couponType": 0,
+            "reducePrice": 69062557.97956717,
+            "splitPrice": 62835464.795149356
+          },
+          {
+            "couponCode": "qui ut",
+            "couponCodeId": "commodo dolore eiusmod",
+            "couponType": 0,
+            "reducePrice": 77601904.31149775,
+            "splitPrice": 73038110.16877612
+          },
+          {
+            "couponCode": "",
+            "couponCodeId": "ullamco sunt quis",
+            "couponType": 0,
+            "reducePrice": -20736026.707402825,
+            "splitPrice": 27090571.682589054
+          }
+        ],
+        "deliverStatus": "PART_SHIPPED",
+        "deliveredNum": -18217247,
+        "distributionCommission": -13031497.222634763,
+        "distributionGoodsAudit": 1,
+        "flashSaleGoodsId": 56997472,
+        "freightTempId": 43536856,
+        "goodsCubage": -46296810.718888536,
+        "goodsWeight": -45291437.61033421,
+        "isAccountStatus": 1,
+        "isFlashSaleGoods": false,
+        "levelPrice": 28584741.63432248,
+        "marketingIds": [
+          -78478526,
+          24352494,
+          -52148008,
+          -95055376,
+          27441423
+        ],
+        "marketingSettlements": [
+          {
+            "marketingType": "1",
+            "splitPrice": -95149755.37552094
+          },
+          {
+            "marketingType": "0",
+            "splitPrice": -82781948.34693706
+          },
+          {
+            "marketingType": "1",
+            "splitPrice": 78488250.31059116
+          },
+          {
+            "marketingType": "1",
+            "splitPrice": -37291292.14230178
+          },
+          {
+            "marketingType": "0",
+            "splitPrice": -60701062.20073113
+          }
+        ],
+        "medicineType": 1,
+        "num": 10567420,
+        "oid": "dolore Ut laboris aliquip",
+        "originalPrice": -26757462.758808434,
+        "pic": "officia",
+        "points": 34229143,
+        "pointsGoodsId": "ipsum qui esse consequat id",
+        "pointsPrice": -79609423.76084317,
+        "price": 2532121.5276726186,
+        "settlementPrice": -83016557.89397073,
+        "shopCommissions": -38098431.24421843,
+        "shopCommissionsPrice": 35766783.631931365,
+        "skuId": "ad",
+        "skuName": "dolor consectetur aliquip",
+        "skuNo": "offi",
+        "specDetails": "veniam exercitation",
+        "splitPrice": -90197217.33742414,
+        "spuId": "pariatur",
+        "spuName": "in do",
+        "storeId": 61107580,
+        "supplierCode": "do ad c",
+        "unit": "in"
+      }
+    },
+    "totalPoints": 28195661
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "RecommendListDetailAddResponse": {
+    "recommendListDetailVO": {
+      "createTime": "1974-09-16T00:54:39.835Z",
+      "delFlag": 1,
+      "id": "dolor in",
+      "itemId": "cillum ipsum irure",
+      "listId": "mollit",
+      "updateTime": "2004-09-23T00:22:51.594Z"
+    }
+  },
+  "RecommendListDetailListResponse": {
+    "recommendListDetailVOList": [
+      {
+        "createTime": "1948-05-04T06:38:13.384Z",
+        "delFlag": 0,
+        "id": "aliqua id",
+        "itemId": "culpa",
+        "listId": "commodo tempor anim Duis",
+        "updateTime": "2001-12-01T10:32:03.931Z"
+      },
+      {
+        "createTime": "1983-09-16T01:21:26.591Z",
+        "delFlag": 1,
+        "id": "mollit in",
+        "itemId": "amet incididunt esse volupta",
+        "listId": "reprehenderit sit nisi quis",
+        "updateTime": "2017-01-09T07:50:59.316Z"
+      },
+      {
+        "createTime": "2006-01-28T08:11:05.147Z",
+        "delFlag": 1,
+        "id": "ex",
+        "itemId": "in",
+        "listId": "fugiat Ut laboris in",
+        "updateTime": "1985-03-10T17:26:12.68Z"
+      },
+      {
+        "createTime": "1962-07-25T10:49:34.287Z",
+        "delFlag": 1,
+        "id": "dolor sunt",
+        "itemId": "fugiat pariatur nisi consequat ullamco",
+        "listId": "ex in adipisici",
+        "updateTime": "1942-10-09T20:42:11.949Z"
+      }
+    ]
+  },
+  "RecommendListDetailModifyResponse": {
+    "recommendListDetailVO": {
+      "createTime": "1952-10-24T16:35:47.576Z",
+      "delFlag": 0,
+      "id": "sit",
+      "itemId": "sed enim",
+      "listId": "Excepteur voluptate cupidatat aute incididunt",
+      "updateTime": "2019-07-25T18:41:30.34Z"
+    }
+  },
+  "RecommendListDetailPageResponse": {
+    "recommendListDetailVOPage": {
+      "content": [
+        {
+          "createTime": "1958-06-28T16:07:22.939Z",
+          "delFlag": 0,
+          "id": "sit aliquip enim",
+          "itemId": "in et",
+          "listId": "commodo ut",
+          "updateTime": "1958-10-20T02:29:17.13Z"
+        },
+        {
+          "createTime": "2017-07-01T05:23:32.851Z",
+          "delFlag": 0,
+          "id": "pariatur",
+          "itemId": "labore nulla elit quis",
+          "listId": "non Excepteur",
+          "updateTime": "1965-10-26T23:12:12.528Z"
+        },
+        {
+          "createTime": "2000-02-28T20:28:00.097Z",
+          "delFlag": 1,
+          "id": "cupidatat consectetur culpa eiusmod",
+          "itemId": "ame",
+          "listId": "tempor eu proident laboris",
+          "updateTime": "1989-01-07T02:03:20.114Z"
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": 38679240,
+      "numberOfElements": 86413425,
+      "size": 58607029,
+      "sort": {},
+      "total": 30485003,
+      "totalElements": 49924992,
+      "totalPages": -53340049
+    }
+  },
+  "RecommendListDetailByIdResponse": {
+    "recommendListDetailVO": {
+      "createTime": "1996-01-31T00:58:18.153Z",
+      "delFlag": 1,
+      "id": "sit magna quis",
+      "itemId": "et nostrud aute ullamco",
+      "listId": "eiusmod Duis ",
+      "updateTime": "1966-12-25T18:52:51.555Z"
+    }
+  }
+}

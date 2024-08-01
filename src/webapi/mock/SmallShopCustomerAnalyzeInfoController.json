@@ -1,0 +1,249 @@
+{
+  "SmallShopCustomerAnalyzeInfoByCustomerIdResponse": {
+    "customerInfoVO": {
+      "age": -20012772,
+      "birthday": "officia do",
+      "constellation": "ea qui Ut",
+      "customerId": "sint est do enim eu",
+      "customerName": "labore occaecat",
+      "defaultAddress": {
+        "addrLat": -17309559,
+        "addrLng": -36585613,
+        "areaId": 55209437,
+        "cityId": 22657995,
+        "consigneeName": "quis dolor deserunt in Excepteur",
+        "consigneeNumber": "eu est dolore et",
+        "createPerson": "volup",
+        "createTime": "1964-04-18T09:34:44.197Z",
+        "customerId": "enim dolore anim elit qui",
+        "delFlag": 0,
+        "deletePerson": "laborum",
+        "deleteTime": "1972-01-01T18:53:04.559Z",
+        "deliveryAddress": "officia ut",
+        "deliveryAddressId": "ea",
+        "isDefaltAddress": 1,
+        "provinceId": 61307872,
+        "updatePerson": "Excepteur s",
+        "updateTime": "1979-01-22T06:52:43.57Z"
+      },
+      "gender": 43575962,
+      "hadchildren": 9964911,
+      "proCertification": "ipsu",
+      "provinceId": "amet minim fugiat velit",
+      "usualAddress": {
+        "addrLat": -81504161,
+        "addrLng": 17603425,
+        "areaId": -62584775,
+        "cityId": 83201880,
+        "consigneeName": "aliqua quis",
+        "consigneeNumber": "magna voluptate velit Ut Lorem",
+        "createPerson": "cupidatat sit est",
+        "createTime": "1994-07-10T10:34:08.197Z",
+        "customerId": "dolor fugiat",
+        "delFlag": 1,
+        "deletePerson": "Ut",
+        "deleteTime": "1962-05-19T18:15:02.348Z",
+        "deliveryAddress": "commodo culpa",
+        "deliveryAddressId": "enim tempor in velit",
+        "isDefaltAddress": 0,
+        "provinceId": -89138882,
+        "updatePerson": "culpa id",
+        "updateTime": "2001-01-11T03:05:51.164Z"
+      },
+      "zodiac": "nulla non veniam id"
+    },
+    "smallShopCustomerAnalyzeInfoVO": {
+      "activeDay": "amet",
+      "activeLastLoginDay": "1989-07-31T21:38:33.042Z",
+      "collectLatelyGoodsInfoId": "in ea cupidatat",
+      "collectLatelyGoodsInfoName": "ut et",
+      "collectMostCateId": "quis elit",
+      "collectMostCateName": "in in est proiden",
+      "collectTotal": "eiusmod aliqua Ut in",
+      "customerAnalyzeId": "aute",
+      "customerId": "sunt Ut",
+      "customerRfmType": 2,
+      "evaluateLatelyGoodsInfoId": "anim esse",
+      "evaluateLatelyGoodsInfoName": "fugiat",
+      "evaluateMostGoodsInfoId": "nostrud",
+      "evaluateMostGoodsInfoName": "Ut eu",
+      "evaluateTotal": "ut elit aliqua sit",
+      "gradeRfm": "pariatur consectetur",
+      "inquiryLatelyTime": "1946-01-12T09:19:54.478Z",
+      "inquiryMostGoodsInfoName": "nisi voluptate est consectetur",
+      "inquiryMostWords": "ea qui quis Excepteur laboris",
+      "inquiryTotal": "Ut veniam",
+      "marketingMostCouponCount": "adipisicing esse ut reprehenderit",
+      "marketingMostCouponType": "aliqua c",
+      "marketingSuggestion": "e",
+      "marketingTotalCouponCount": "ex magna irure",
+      "marketingUsedCouponCount": "pariatur aliquip ut n",
+      "preferBlogCateId": "ut pariatur nostrud officia",
+      "preferBlogCateName": "Ut occaecat exercitation",
+      "preferGoodsBrandId": "commodo cillum elit et",
+      "preferGoodsBrandName": "magna nulla d",
+      "preferGoodsCateId": "est Lorem in",
+      "preferGoodsCateName": "culpa officia",
+      "preferGoodsInfoId": "pro",
+      "preferGoodsInfoName": "proident",
+      "preferMarketingActivetyId": "Lorem irure consectetur deserunt",
+      "preferMarketingActivetyName": "sed Duis do t",
+      "preferMarketingActivetyType": "lab",
+      "preferMedicineGoodsInfoName": "commodo nulla in pariatur elit",
+      "preferMedicineRecipeId": "incididunt",
+      "shareMostBlogId": "laboris",
+      "shareMostBlogName": "velit",
+      "shareMostGoodsInfoId": "in minim",
+      "shareMostGoodsInfoName": "est ad Lorem laborum sunt",
+      "shareTotal": "consectetur cupidatat nulla ullamco consequat",
+      "shoppingAmount": -23744542.75689186,
+      "shoppingAmountLastYear": -72447132.37223004,
+      "shoppingCartLatelyGoodsInfoId": "laborum irure",
+      "shoppingCartLatelyGoodsInfoName": "qui dolor Ut labore",
+      "shoppingCartMostGoodInfoId": "dolor aliqua",
+      "shoppingCartMostGoodsInfoName": "ali",
+      "shoppingCartTotal": "sunt in sint deserunt pariatur",
+      "shoppingLatelyCount": "mollit in",
+      "shoppingLatelyTime": "1973-05-08T13:27:59.855Z",
+      "shoppingTimes": "ea m",
+      "shoppingTimesLastYear": "dolor sed ut esse aliquip",
+      "tagsBlogTotal": "nisi exercitation nulla voluptate ut",
+      "tagsLatelyBlogName": "cupidatat in",
+      "tradeLatelyAmount": 730477.9611359388,
+      "tradeLatelyGoodsInfoName": "qui aute veniam",
+      "tradeTotal": "magna sunt velit officia aliquip",
+      "tradeTotalAmount": -5961501.280406132,
+      "tradeTotalGoodsNum": "laboris",
+      "viewLatelyGoodsInfoId": "proident",
+      "viewLatelyGoodsInfoName": "anim",
+      "viewMostGoodsInfoId": "voluptate eiusmod",
+      "viewMostGoodsInfoName": "non consectetur",
+      "viewTotal": "adipisicing in pariatur Ut"
+    },
+    "smallShopCustomerTagVOs": [
+      {
+        "customerId": "qui nulla",
+        "releCustomerId": "in laborum dolor",
+        "tagId": "dolore",
+        "tagName": "non"
+      },
+      {
+        "customerId": "qui reprehenderit dol",
+        "releCustomerId": "dolore ea",
+        "tagId": "aliquip",
+        "tagName": "adipisicing dolor qui magna anim"
+      },
+      {
+        "customerId": "ut",
+        "releCustomerId": "in consectetur sed laborum commodo",
+        "tagId": "eu",
+        "tagName": "in"
+      },
+      {
+        "customerId": "velit labore",
+        "releCustomerId": "sunt ex id laborum",
+        "tagId": "do in ut",
+        "tagName": "culpa incididunt dolor"
+      },
+      {
+        "customerId": "in deserunt culpa amet in",
+        "releCustomerId": "cupidatat culpa ad dolor eiusmod",
+        "tagId": "in",
+        "tagName": "aliqua velit elit"
+      }
+    ]
+  },
+  "SmallShopCustomerRecommendPageResponse": {
+    "blogVOS": {
+      "content": [
+        {
+          "blogId": "laborum cillum mag",
+          "blogImg": "offici",
+          "blogName": "laboris nostrud"
+        },
+        {
+          "blogId": "ullamco mollit",
+          "blogImg": "cupidatat amet",
+          "blogName": "dolore aliquip sunt"
+        },
+        {
+          "blogId": "nisi enim nulla do anim",
+          "blogImg": "nostrud sit aute",
+          "blogName": "consectetur est"
+        },
+        {
+          "blogId": "in velit Ut",
+          "blogImg": "sed in",
+          "blogName": "ut sunt proident officia"
+        },
+        {
+          "blogId": "in Lorem laborum fugiat in",
+          "blogImg": "nisi laborum",
+          "blogName": "minim"
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": 28629092,
+      "numberOfElements": 31351354,
+      "size": 76454533,
+      "sort": {},
+      "total": -51620722,
+      "totalElements": 46210195,
+      "totalPages": -47615989
+    },
+    "goodsInfoVOS": {
+      "content": [
+        {
+          "goodsId": "reprehenderit",
+          "goodsInfoId": "aliqua eu labore quis",
+          "goodsInfoImg": "tempor veniam dolore qui",
+          "goodsInfoName": "do in quis commodo nulla",
+          "goodsInfoNo": "et eiusmod mollit",
+          "marketPrice": 83067341.70016807
+        },
+        {
+          "goodsId": "irure",
+          "goodsInfoId": "consequat dolor id",
+          "goodsInfoImg": "anim ",
+          "goodsInfoName": "nulla pariatur esse id",
+          "goodsInfoNo": "in quis do",
+          "marketPrice": 73937817.19515803
+        },
+        {
+          "goodsId": "est in sint",
+          "goodsInfoId": "eu fugiat nostrud in",
+          "goodsInfoImg": "Lorem in",
+          "goodsInfoName": "nulla sed esse sit",
+          "goodsInfoNo": "in et in commodo",
+          "marketPrice": 79155119.33394787
+        },
+        {
+          "goodsId": "officia veniam ea",
+          "goodsInfoId": "enim proident consectetur elit",
+          "goodsInfoImg": "adipisicing reprehenderit magna elit",
+          "goodsInfoName": "Ut dolore ut Excepteur nostrud",
+          "goodsInfoNo": "nostrud magna",
+          "marketPrice": -98522101.47103189
+        },
+        {
+          "goodsId": "aliqu",
+          "goodsInfoId": "eu dolore do quis dolor",
+          "goodsInfoImg": "esse in ea",
+          "goodsInfoName": "Excepteur sed",
+          "goodsInfoNo": "Excepteur",
+          "marketPrice": 9134595.88635908
+        }
+      ],
+      "first": false,
+      "last": true,
+      "number": -86201680,
+      "numberOfElements": -53527608,
+      "size": 76486179,
+      "sort": {},
+      "total": 88228828,
+      "totalElements": -211620,
+      "totalPages": 34137284
+    }
+  }
+}

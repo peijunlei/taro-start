@@ -1,0 +1,212 @@
+{
+  "AppAdvertisementListResponse": {
+    "appAdvertisementVOList": [
+      {
+        "advId": "id aliquip",
+        "advShow": false,
+        "advSort": -81979714,
+        "advUrl": "culpa dolore et sit",
+        "createTime": "1964-02-23T19:20:34.861Z",
+        "delFlag": 1,
+        "jumpParams": "dolore velit",
+        "jumpType": "est",
+        "updateTime": "2000-10-31T10:39:23.937Z"
+      },
+      {
+        "advId": "quis Duis id",
+        "advShow": false,
+        "advSort": -74832934,
+        "advUrl": "nisi sed adipisicing in",
+        "createTime": "1945-04-26T18:58:39.647Z",
+        "delFlag": 1,
+        "jumpParams": "dolore occaecat Ut",
+        "jumpType": "reprehenderit",
+        "updateTime": "1980-11-06T15:46:40.882Z"
+      },
+      {
+        "advId": "sunt",
+        "advShow": false,
+        "advSort": -95652156,
+        "advUrl": "mollit anim",
+        "createTime": "1970-07-24T21:24:12.01Z",
+        "delFlag": 0,
+        "jumpParams": "mollit minim",
+        "jumpType": "pariatur in minim officia ipsum",
+        "updateTime": "2000-04-24T02:19:23.291Z"
+      },
+      {
+        "advId": "officia sunt",
+        "advShow": false,
+        "advSort": 62864327,
+        "advUrl": "nisi do",
+        "createTime": "1970-02-22T08:58:01.634Z",
+        "delFlag": 1,
+        "jumpParams": "irure minim",
+        "jumpType": "tempor reprehenderit",
+        "updateTime": "1950-08-21T06:33:39.887Z"
+      },
+      {
+        "advId": "laboris qui non id aliqua",
+        "advShow": false,
+        "advSort": -52280873,
+        "advUrl": "exercitation in et ut",
+        "createTime": "1947-11-25T12:43:03.269Z",
+        "delFlag": 0,
+        "jumpParams": "enim",
+        "jumpType": "reprehenderit consectetur",
+        "updateTime": "1981-11-01T04:28:31.556Z"
+      }
+    ]
+  },
+  "unknow": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "AppMessageTypeVOArray": [
+    {
+      "msgNumber": -62826863,
+      "msgType": -90842202,
+      "sendTime": "dol",
+      "text": "magna",
+      "title": "laboris"
+    },
+    {
+      "msgNumber": -97633910,
+      "msgType": -35200581,
+      "sendTime": "dolor tempor in pariatur",
+      "text": "esse",
+      "title": "tempor"
+    },
+    {
+      "msgNumber": -18258438,
+      "msgType": -46162018,
+      "sendTime": "quis",
+      "text": "in enim sed ullamco",
+      "title": "nulla deserunt sit"
+    },
+    {
+      "msgNumber": -87607802,
+      "msgType": -67280464,
+      "sendTime": "sed veniam est dolore",
+      "text": "velit",
+      "title": "ad elit"
+    },
+    {
+      "msgNumber": -33902002,
+      "msgType": 42788997,
+      "sendTime": "nostrud",
+      "text": "Ut culpa ipsu",
+      "title": "eu et"
+    }
+  ],
+  "AppMessagePageResponse": {
+    "appMessageVOPage": {
+      "content": [
+        {
+          "createTime": "1969-01-01T17:40:18.812Z",
+          "customerId": "est ad",
+          "delFlag": 0,
+          "imgUrl": "anim deserunt magna",
+          "isRead": 71043958,
+          "msgId": "adipisicing do sit",
+          "msgType": 62844370,
+          "routeName": "proident",
+          "routeParam": "deserunt quis non labore",
+          "sendTime": "voluptate",
+          "text": "dolor voluptate cupidatat minim",
+          "title": "aute fugiat ex Lorem",
+          "updateTime": "1946-01-17T08:08:46.959Z"
+        },
+        {
+          "createTime": "1987-05-26T00:04:31.049Z",
+          "customerId": "sint Ut cillum commodo",
+          "delFlag": 1,
+          "imgUrl": "ex Duis labore pariatur",
+          "isRead": -91398405,
+          "msgId": "voluptate",
+          "msgType": 38744829,
+          "routeName": "minim Ut",
+          "routeParam": "veniam do",
+          "sendTime": "proident eu in consectetur",
+          "text": "sunt pariatur proident exercitation",
+          "title": "fugiat Duis nisi",
+          "updateTime": "1946-08-24T06:53:07.328Z"
+        },
+        {
+          "createTime": "2012-03-22T22:34:55.577Z",
+          "customerId": "Lorem",
+          "delFlag": 0,
+          "imgUrl": "fugiat commodo",
+          "isRead": -76060947,
+          "msgId": "dolor nisi qui",
+          "msgType": -96276766,
+          "routeName": "sed culpa Ut",
+          "routeParam": "ipsum laborum amet aliquip Excepteur",
+          "sendTime": "amet deserunt cillum quis",
+          "text": "adipisicing pariatur ut",
+          "title": "dolor",
+          "updateTime": "2017-08-02T23:52:09.051Z"
+        },
+        {
+          "createTime": "1990-07-19T00:10:16.897Z",
+          "customerId": "minim non laborum",
+          "delFlag": 1,
+          "imgUrl": "non",
+          "isRead": 97998464,
+          "msgId": "anim eu Excepteur",
+          "msgType": -87183259,
+          "routeName": "in",
+          "routeParam": "sed anim",
+          "sendTime": "culpa qui",
+          "text": "Duis labore",
+          "title": "dolore id cupidatat veniam",
+          "updateTime": "1944-07-23T14:50:40.056Z"
+        },
+        {
+          "createTime": "2009-04-18T20:05:57.86Z",
+          "customerId": "eiusmod dolore",
+          "delFlag": 0,
+          "imgUrl": "velit non",
+          "isRead": 12626039,
+          "msgId": "commodo cupidatat sunt dolore amet",
+          "msgType": 29640640,
+          "routeName": "nostrud",
+          "routeParam": "tempor amet sit",
+          "sendTime": "adipisicing enim fugiat Lorem",
+          "text": "Lorem aliquip",
+          "title": "irure ",
+          "updateTime": "1955-01-25T22:53:46.299Z"
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": -57811333,
+      "numberOfElements": 2569489,
+      "size": -71023869,
+      "sort": {},
+      "total": -4356738,
+      "totalElements": 4888170,
+      "totalPages": 2073157
+    }
+  },
+  "AppMessageByIdResponse": {
+    "appMessageVO": {
+      "createTime": "1949-05-03T13:20:07.028Z",
+      "customerId": "ut eu",
+      "delFlag": 0,
+      "imgUrl": "est mollit",
+      "isRead": 70962611,
+      "msgId": "est non proident",
+      "msgType": -64240177,
+      "routeName": "exercitation deserunt",
+      "routeParam": "consectetur minim",
+      "sendTime": "est do aliquip eu",
+      "text": "non exercitation veniam quis reprehenderit",
+      "title": "occaecat Ut consequat ullamco",
+      "updateTime": "1953-09-03T17:36:52.594Z"
+    }
+  }
+}

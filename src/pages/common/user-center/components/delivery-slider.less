@@ -1,0 +1,61 @@
+.deliverySlider {
+  // padding: 20px;
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .imgSlides {
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+    .delivery-box {
+      padding: 20px;
+      color: #999;
+
+      .delivery-status {
+        color: #ff6600;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .delivery-desc {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 85%;
+        font-size: 24px;
+        margin-top: 5px;
+        color: #999;
+      }
+
+      .delivery-time {
+        font-size: 24px;
+        text-align: right;
+        color: #999;
+        position: absolute;
+        right: 24px;
+      }
+    }
+
+    div,
+    view {
+      flex-direction: unset;
+      align-items: center;
+    }
+
+    .swiper-pagination-bullets {
+      justify-content: center;
+    }
+
+    .delivery-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 16px;
+      margin-top: 5px;
+    }
+  }
+}

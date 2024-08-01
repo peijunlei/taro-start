@@ -1,0 +1,431 @@
+{
+  "IndexModuleSpuIdResponse": {},
+  "IndexResponse": {
+    "articleInfoForIndexVOList": [
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 0,
+        "articleSubjectId": "esse aliquip ut ipsum Excepteur",
+        "articleType": 1,
+        "auditState": 0,
+        "cateIds": "cupidatat ea proident ut",
+        "contentState": 0,
+        "contentType": 2,
+        "groupCateId": "ea laboris",
+        "id": "culpa esse non",
+        "parentCateIds": "laboris",
+        "title": "proident Excepteur sunt veniam"
+      },
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 1,
+        "articleSubjectId": "fugiat",
+        "articleType": 0,
+        "auditState": 0,
+        "cateIds": "deserunt anim ea sed Excepteur",
+        "contentState": 0,
+        "contentType": 1,
+        "groupCateId": "sunt Excepteur veniam dolore",
+        "id": "aliqua ullamco voluptate sed sunt",
+        "parentCateIds": "labore mollit pariatur ut",
+        "title": "tempor in"
+      },
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 0,
+        "articleSubjectId": "dolore consequat",
+        "articleType": 1,
+        "auditState": 1,
+        "cateIds": "",
+        "contentState": 0,
+        "contentType": 2,
+        "groupCateId": "",
+        "id": "veniam dolor",
+        "parentCateIds": "elit ex proident dolor laborum",
+        "title": "minim ut nisi deserunt t"
+      },
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 0,
+        "articleSubjectId": "veniam ullamco Lorem",
+        "articleType": 0,
+        "auditState": 2,
+        "cateIds": "sint culpa",
+        "contentState": 2,
+        "contentType": 2,
+        "groupCateId": "sed irure",
+        "id": "ut pariatur irure",
+        "parentCateIds": "ullamco eu ea et sint",
+        "title": "in amet adipisicing"
+      },
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 1,
+        "articleSubjectId": "aute",
+        "articleType": 0,
+        "auditState": 1,
+        "cateIds": "labore",
+        "contentState": 2,
+        "contentType": 1,
+        "groupCateId": "ex et irure velit amet",
+        "id": "elit",
+        "parentCateIds": "consectetur",
+        "title": "id"
+      }
+    ],
+    "articleInfoVideoForIndexVOList": [
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 0,
+        "articleSubjectId": "labore proident",
+        "articleType": 0,
+        "auditState": 0,
+        "cateIds": "labore aliqua",
+        "contentState": 1,
+        "contentType": 1,
+        "groupCateId": "velit voluptate ut",
+        "id": "aute ea cillum ipsum laborum",
+        "parentCateIds": "aliquip reprehenderit ea commodo",
+        "title": "esse"
+      },
+      {
+        "articleProperty": 1,
+        "articleRecommendType": 1,
+        "articleSubjectId": "non Excepteur dolor ullamco Ut",
+        "articleType": 0,
+        "auditState": 1,
+        "cateIds": "eu commodo",
+        "contentState": 2,
+        "contentType": 0,
+        "groupCateId": "officia nulla",
+        "id": "p",
+        "parentCateIds": "dolore ex exercitati",
+        "title": "voluptate laborum laboris ad consequat"
+      },
+      {
+        "articleProperty": 0,
+        "articleRecommendType": 0,
+        "articleSubjectId": "nisi laborum eiusmod nostrud",
+        "articleType": 0,
+        "auditState": 0,
+        "cateIds": "id",
+        "contentState": 3,
+        "contentType": 1,
+        "groupCateId": "ex occaecat aute ad",
+        "id": "cupidatat qui dolore ipsum",
+        "parentCateIds": "fugiat enim eu qui",
+        "title": "ullamco mollit in exer"
+      },
+      {
+        "articleProperty": 0,
+        "articleRecommendType": 0,
+        "articleSubjectId": "adipisicing Excepteur",
+        "articleType": 0,
+        "auditState": 0,
+        "cateIds": "in irure ipsum in est",
+        "contentState": 1,
+        "contentType": 2,
+        "groupCateId": "officia",
+        "id": "Excepteu",
+        "parentCateIds": "dolor in Duis enim",
+        "title": "mollit occaecat et dolor"
+      },
+      {
+        "articleProperty": 0,
+        "articleRecommendType": 1,
+        "articleSubjectId": "voluptate Duis et",
+        "articleType": 1,
+        "auditState": 0,
+        "cateIds": "qu",
+        "contentState": 0,
+        "contentType": 0,
+        "groupCateId": "ad veniam",
+        "id": "velit dolor consectetur",
+        "parentCateIds": "amet commodo fugiat veniam enim",
+        "title": "occaecat sed ullamco eiusmod dolore"
+      }
+    ],
+    "indexAdverForIndexVOList": [
+      {
+        "adverImage": "sint",
+        "adverRoute": "ipsum enim esse",
+        "adverType": 93971840,
+        "adverUrl": "nostrud fugiat minim dolore laborum"
+      },
+      {
+        "adverImage": "adipisicing Excepteur amet aute se",
+        "adverRoute": "anim laboris adipisici",
+        "adverType": 77967666,
+        "adverUrl": "Duis amet irure"
+      },
+      {
+        "adverImage": "tempor",
+        "adverRoute": "in esse",
+        "adverType": -49394604,
+        "adverUrl": "id reprehenderit sit ut sunt"
+      },
+      {
+        "adverImage": "voluptate consequat cillum",
+        "adverRoute": "dolore",
+        "adverType": -26122157,
+        "adverUrl": "proident consequat voluptate"
+      }
+    ],
+    "indexBannerList": [
+      {
+        "bannerImage": "ullamco reprehenderit",
+        "bannerSort": -72237593,
+        "route": "occaecat id",
+        "url": "in"
+      },
+      {
+        "bannerImage": "id ex culpa in",
+        "bannerSort": 93589166,
+        "route": "cillum voluptate",
+        "url": "qui Lorem dolor amet in"
+      },
+      {
+        "bannerImage": "ipsum dolor ea",
+        "bannerSort": 8991431,
+        "route": "esse",
+        "url": "est occaecat"
+      },
+      {
+        "bannerImage": "eiusmod ad",
+        "bannerSort": 93110881,
+        "route": "ut ",
+        "url": "nulla"
+      },
+      {
+        "bannerImage": "dolore velit aute Ut",
+        "bannerSort": 45181137,
+        "route": "velit id pariatur esse ad",
+        "url": "est irure proident"
+      }
+    ],
+    "indexBrandForIndexVOList": [
+      {
+        "brandId": -55079432,
+        "brandName": "sed aliqua eiusmod",
+        "indexBrandId": "Lorem nostrud commodo mini",
+        "logo": "voluptate nostrud eu ullamco"
+      },
+      {
+        "brandId": 31153946,
+        "brandName": "culpa occaecat ut ea",
+        "indexBrandId": "sed laborum do tempor aute",
+        "logo": "tempor"
+      },
+      {
+        "brandId": -92968317,
+        "brandName": "eu nost",
+        "indexBrandId": "Lorem",
+        "logo": "qui tempor enim laborum"
+      },
+      {
+        "brandId": -55107624,
+        "brandName": "tempor Lorem nulla reprehenderit dolor",
+        "indexBrandId": "Ut id",
+        "logo": "est in Except"
+      },
+      {
+        "brandId": 22870037,
+        "brandName": "dolor",
+        "indexBrandId": "pro",
+        "logo": "in do"
+      }
+    ],
+    "indexCateVOList": [
+      {
+        "cateName": "veniam in",
+        "indexCateId": "et consequat qui sint",
+        "indexCateSpuForIndexVOList": [
+          {
+            "distributionCommission": 7838771.944615215,
+            "goodsImg": "irure sint aute et",
+            "goodsInfoId": "laboris in voluptate fugiat",
+            "goodsName": "cupidatat officia Ut veniam laborum",
+            "goodsSubtitle": "sed quis",
+            "marketPrice": 69155627.28862649,
+            "spuId": "ullamco dolore occaecat aliqua"
+          },
+          {
+            "distributionCommission": -41270173.67392294,
+            "goodsImg": "exercitation elit incididunt occaecat",
+            "goodsInfoId": "eiusmod ea nisi incididunt cillum",
+            "goodsName": "dolor commodo cupidatat et non",
+            "goodsSubtitle": "Lorem sint ut ullamc",
+            "marketPrice": -6150589.193993911,
+            "spuId": "tempor id"
+          },
+          {
+            "distributionCommission": -97270948.74995798,
+            "goodsImg": "nulla aute anim",
+            "goodsInfoId": "anim quis sed in sint",
+            "goodsName": "minim",
+            "goodsSubtitle": "do ",
+            "marketPrice": 18165897.4257219,
+            "spuId": "enim irure Ut veniam sed"
+          }
+        ]
+      },
+      {
+        "cateName": "dolore laboris tempor Duis",
+        "indexCateId": "est"
+      },
+      {
+        "cateName": "et in reprehenderit",
+        "indexCateId": "commodo"
+      }
+    ],
+    "indexFixBannerForIndexVO": {
+      "bannerImage": "irure sed reprehenderit labore in",
+      "bannerRoute": "Lorem aliqua",
+      "bannerUrl": "enim"
+    },
+    "indexHotSpuForIndexVOList": [
+      {
+        "goodsImg": "cupidatat dolore exercitation",
+        "goodsInfoId": "aliqua Lorem in ",
+        "goodsName": "nisi dolor irure aute",
+        "goodsSubtitle": "Duis incididunt deserunt est do",
+        "spuId": "quis irure l"
+      },
+      {
+        "goodsImg": "qui nostrud eu ipsum",
+        "goodsInfoId": "sint nostrud commodo Lorem",
+        "goodsName": "tempor ",
+        "goodsSubtitle": "officia sint",
+        "spuId": "minim Duis"
+      },
+      {
+        "goodsImg": "culpa ex aliqua sit",
+        "goodsInfoId": "laborum in Lorem",
+        "goodsName": "minim sint",
+        "goodsSubtitle": "eu dolore",
+        "spuId": "magna et occaecat consequat sint"
+      },
+      {
+        "goodsImg": "dolor occaecat proident dolor",
+        "goodsInfoId": "dolor Excepteur commodo ipsum",
+        "goodsName": "sed consectetur laboris enim",
+        "goodsSubtitle": "officia reprehenderit cillum",
+        "spuId": "enim ipsum"
+      },
+      {
+        "goodsImg": "tempor elit dolore aute",
+        "goodsInfoId": "occaecat voluptate",
+        "goodsName": "dolor",
+        "goodsSubtitle": "esse minim",
+        "spuId": "anim Duis"
+      }
+    ],
+    "indexModuleForIndexVOList": [
+      {
+        "indexModuleId": "eu magna cupidatat dolore",
+        "moduleImage": "velit"
+      },
+      {
+        "indexModuleId": "laboris exer",
+        "moduleImage": "ea voluptate aliqua"
+      },
+      {
+        "indexModuleId": "dolore",
+        "moduleImage": "exercitation laborum cillum velit dolore"
+      },
+      {
+        "indexModuleId": "ad velit nostrud qui et",
+        "moduleImage": "sint aliqua deserunt"
+      },
+      {
+        "indexModuleId": "minim enim laboris",
+        "moduleImage": "dolor Ut ea nostrud"
+      }
+    ],
+    "indexSingleSliderForIndexVOList": [
+      {
+        "goodsImg": "ea ad sed proident deserunt",
+        "goodsInfoId": "dolore tempor Ut",
+        "spuId": "sit cupidatat reprehenderit voluptate ut"
+      },
+      {
+        "goodsImg": "proident laboris commodo ",
+        "goodsInfoId": "incididunt ut sit occaecat non",
+        "spuId": "reprehenderit ut aliqua est ex"
+      },
+      {
+        "goodsImg": "Ut in mollit",
+        "goodsInfoId": "quis",
+        "spuId": "non dolor amet"
+      },
+      {
+        "goodsImg": "magna quis ex",
+        "goodsInfoId": "nostrud eiusmod aliqu",
+        "spuId": "consectetur occaecat pariatur anim"
+      },
+      {
+        "goodsImg": "magna pariatur et exercitation velit",
+        "goodsInfoId": "in aliqua dolore ci",
+        "spuId": "consectetur "
+      }
+    ]
+  },
+  "IndexHotSpuListAllForIndexResponse": {
+    "list": [
+      "dolore qui incididunt Lorem labo",
+      "magna mollit occaecat",
+      "sint mollit",
+      "do irure laborum voluptate",
+      "dolore deserunt in"
+    ]
+  },
+  "IndexPageCateGoodsResponse": {
+    "indexCateSpuForIndexVOList": [
+      {
+        "distributionCommission": -32280717.687533528,
+        "goodsImg": "et",
+        "goodsInfoId": "laborum ad culpa",
+        "goodsName": "enim Excepteur anim do",
+        "goodsSubtitle": "fugiat",
+        "marketPrice": 92564467.1004866,
+        "spuId": "non deserunt consequat in dolore"
+      },
+      {
+        "distributionCommission": 23441431.954823866,
+        "goodsImg": "quis sint",
+        "goodsInfoId": "Ut elit anim incididunt officia",
+        "goodsName": "cupidatat",
+        "goodsSubtitle": "ad ipsum",
+        "marketPrice": 80348606.83645934,
+        "spuId": "minim est officia do"
+      },
+      {
+        "distributionCommission": 20854433.28075631,
+        "goodsImg": "minim",
+        "goodsInfoId": "anim in",
+        "goodsName": "culpa",
+        "goodsSubtitle": "dolore et laborum labore sed",
+        "marketPrice": -41349273.84787939,
+        "spuId": "sint"
+      },
+      {
+        "distributionCommission": -1529560.4464125037,
+        "goodsImg": "proident",
+        "goodsInfoId": "adipisicing",
+        "goodsName": "sed culpa",
+        "goodsSubtitle": "cillum",
+        "marketPrice": 74915276.89441502,
+        "spuId": "adipisicing"
+      },
+      {
+        "distributionCommission": -12272119.721523508,
+        "goodsImg": "laborum consectetur aute elit proident",
+        "goodsInfoId": "dolor Duis quis",
+        "goodsName": "proident officia quis sint",
+        "goodsSubtitle": "eiusmod est nisi fugiat",
+        "marketPrice": -30453698.98186463,
+        "spuId": "mollit nostrud"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "SalesPerformanceResponse": {
+    "forecastEarnings": -82145399.24420947,
+    "mySales": -56991177.85322487,
+    "mySalesTrendResponseList": [
+      {
+        "day": "1953-03-03",
+        "income": -47748073.13467835
+      },
+      {
+        "day": "1975-08-22",
+        "income": -16610422.467328683
+      },
+      {
+        "day": "1987-06-21",
+        "income": -59823250.514895186
+      },
+      {
+        "day": "1984-11-30",
+        "income": 43563863.10036063
+      },
+      {
+        "day": "1973-07-10",
+        "income": -28613271.07126063
+      }
+    ],
+    "teamSales": 45929908.59590697,
+    "teamSalesTrendResponseList": [
+      {
+        "day": "2014-02-19",
+        "income": -3904724.6843162924
+      },
+      {
+        "day": "1967-06-23",
+        "income": -87548580.9148227
+      },
+      {
+        "day": "1942-09-21",
+        "income": -67416018.54910018
+      },
+      {
+        "day": "1964-10-28",
+        "income": 29427580.387009084
+      },
+      {
+        "day": "1941-03-16",
+        "income": -50623543.54109231
+      }
+    ]
+  },
+  "TeamPerformanceResponse": {
+    "mySelfCount": -40488949,
+    "myTeamCount": 79160071,
+    "myTeamTrendResponseList": [
+      {
+        "day": "1972-10-27",
+        "teamCount": -36975824
+      },
+      {
+        "day": "1988-07-19",
+        "teamCount": -28126042
+      },
+      {
+        "day": "2012-05-14",
+        "teamCount": 32433369
+      },
+      {
+        "day": "1981-03-13",
+        "teamCount": -94230146
+      },
+      {
+        "day": "2012-10-26",
+        "teamCount": -60290394
+      }
+    ],
+    "totalTrendResponseList": [
+      {
+        "day": "1973-11-16",
+        "teamCount": -27338417
+      },
+      {
+        "day": "1992-09-03",
+        "teamCount": 30473945
+      },
+      {
+        "day": "1964-06-28",
+        "teamCount": 48021343
+      },
+      {
+        "day": "2008-08-13",
+        "teamCount": -81566080
+      },
+      {
+        "day": "1977-08-18",
+        "teamCount": 90247957
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BaseConfigRopResponse": {
+    "baseConfigId": 26470309,
+    "mobileBanner": "pa",
+    "mobileWebsite": "aliqua mollit veniam commodo",
+    "pcBanner": "dolore ",
+    "pcIco": "pariatur",
+    "pcLogo": "dolor",
+    "pcMainBanner": "qui voluptate",
+    "pcTitle": "et do",
+    "pcWebsite": "officia cillum adipisicing proident",
+    "registerContent": "velit exercitation adipisicing labore mollit",
+    "supplierWebsite": "nostrud"
+  },
+  "BusinessConfigRopResponse": {
+    "businessBanner": "sed pariatur ad",
+    "businessConfigId": -97512306,
+    "businessCustom": "minim in ",
+    "businessEnter": "sint",
+    "businessRegister": "consectetur est"
+  },
+  "noneName": -85068035
+}

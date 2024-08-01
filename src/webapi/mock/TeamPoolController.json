@@ -1,0 +1,101 @@
+{
+  "TeamPoolResponse": {
+    "customerTotalCount": -84974382,
+    "myTotalCount": -81449654,
+    "originTag": 22994420,
+    "pageNum": -56621821,
+    "pageRequest": {
+      "offset": -14243528,
+      "pageNumber": -67915488,
+      "pageSize": -65439514,
+      "sort": {}
+    },
+    "pageSize": 71289140,
+    "pageable": {
+      "offset": 43837732,
+      "pageNumber": -27290369,
+      "pageSize": -64516500,
+      "sort": {}
+    },
+    "sort": {},
+    "sortColumn": "nisi",
+    "sortMap": {
+      "sed_5$": "laborum fugiat cillum laboris",
+      "labore_0$": "velit magna anim aute",
+      "nostrud0a1": "exercitation aliqua mollit minim",
+      "consequatf5$": "sed nulla et amet fugiat",
+      "occaecat_778": "eu",
+      "commodo_9_8": "commodo velit aliquip",
+      "id5": "nisi Lorem ut in",
+      "nisi1$": "non dolor",
+      "voluptateb2d$": "eu ullamco et fugiat sit",
+      "ut_a4": "u",
+      "nulla_8dd$": "adipisicing",
+      "nulla_5a": "Duis in irure anim aliqua",
+      "quise74": "irure",
+      "exercitation_43f": "enim",
+      "eu1": "sint",
+      "enim8f5$": "do anim "
+    },
+    "sortRole": "est sit mollit minim tempor",
+    "sortType": "cillum consectetur laboris in qui",
+    "teamPoolPage": {
+      "content": [
+        {
+          "customerName": "dolor",
+          "headImg": "ea",
+          "joinTeamDate": "in proident",
+          "level": "exercitation laborum",
+          "recordId": "labore",
+          "teamCount": -10420317,
+          "rankBadgeImg": "sit ex id fugiat"
+        },
+        {
+          "customerName": "eiusmod id esse tempor nisi",
+          "headImg": "Lorem irure velit",
+          "joinTeamDate": "Ut eu reprehenderit dolore ad",
+          "level": "in do cillum",
+          "recordId": "laboris nulla",
+          "teamCount": -37707324,
+          "rankBadgeImg": "ex Duis do"
+        },
+        {
+          "customerName": "mi",
+          "headImg": "magna",
+          "joinTeamDate": "anim cupidatat eiusmod",
+          "level": "Ut in in",
+          "recordId": "est exercitation",
+          "teamCount": -24286648,
+          "rankBadgeImg": "aute"
+        },
+        {
+          "customerName": "sed sit cillum qui ut",
+          "headImg": "ea occaecat Excepteur laborum quis",
+          "joinTeamDate": "elit dolor",
+          "level": "quis adipisicing sint",
+          "recordId": "enim cillum",
+          "teamCount": 73292354
+        },
+        {
+          "customerName": "quis nisi",
+          "headImg": "irure",
+          "joinTeamDate": "ex eiusmod nisi velit irure",
+          "level": "laboris dolore",
+          "recordId": "voluptate quis",
+          "teamCount": -23424547
+        }
+      ],
+      "first": false,
+      "last": true,
+      "number": 66426663,
+      "numberOfElements": -4076761,
+      "size": -77049516,
+      "sort": {},
+      "total": 45956400,
+      "totalElements": -14391288,
+      "totalPages": -79661246
+    },
+    "teamTotalCount": 30366720,
+    "userId": "est"
+  }
+}

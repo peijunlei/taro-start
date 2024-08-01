@@ -1,0 +1,86 @@
+{
+  "GoodsLackRegisterAddResponse": {
+    "goodsLackRegisterVO": {
+      "contactName": "cupidatat pariatur ut amet",
+      "contactPhone": "laboris commodo consequat",
+      "customerId": "Duis ut Lorem ci",
+      "delFlag": 1,
+      "goodsInfoId": "voluptate",
+      "goodsInfoName": "minim mollit pariatur exercit",
+      "goodsInfoNo": "elit ut dolore",
+      "lackRegisterId": "magna nisi",
+      "lackRegisterNoticeStatus": 34715887,
+      "lackRegisterNoticeTime": "2012-03-01T00:23:07.75Z",
+      "lackRegisterTime": "1979-09-03T07:43:04.407Z"
+    }
+  },
+  "GoodsLackRegisterListResponse": {
+    "goodsLackRegisterVOList": [
+      {
+        "contactName": "in nisi do irure cillum",
+        "contactPhone": "aute sit id aliqua",
+        "customerId": "sint",
+        "delFlag": 1,
+        "goodsInfoId": "laboris enim officia id",
+        "goodsInfoName": "ea",
+        "goodsInfoNo": "enim eu mollit Ut in",
+        "lackRegisterId": "magna Duis eu",
+        "lackRegisterNoticeStatus": 7755012,
+        "lackRegisterNoticeTime": "1977-02-06T07:40:21.489Z",
+        "lackRegisterTime": "1962-02-13T14:27:07.141Z"
+      },
+      {
+        "contactName": "consectetur dolor do aliquip",
+        "contactPhone": "laboris",
+        "customerId": "eu fugiat",
+        "delFlag": 1,
+        "goodsInfoId": "nostrud ullamco",
+        "goodsInfoName": "esse ex fugiat do nostrud",
+        "goodsInfoNo": "consequat tempor dolor dolore Lorem",
+        "lackRegisterId": "esse dolore in ex",
+        "lackRegisterNoticeStatus": -80662873,
+        "lackRegisterNoticeTime": "1968-09-14T00:50:37.302Z",
+        "lackRegisterTime": "1954-12-21T12:54:27.624Z"
+      },
+      {
+        "contactName": "amet",
+        "contactPhone": "dolor nulla sint culpa",
+        "customerId": "dolor non velit",
+        "delFlag": 0,
+        "goodsInfoId": "sint dolor laborum",
+        "goodsInfoName": "minim aliqua quis adipisicing",
+        "goodsInfoNo": "eu culpa amet magna",
+        "lackRegisterId": "cillum",
+        "lackRegisterNoticeStatus": 53897717,
+        "lackRegisterNoticeTime": "1949-05-20T21:56:06.871Z",
+        "lackRegisterTime": "1997-06-03T01:31:30.639Z"
+      },
+      {
+        "contactName": "ea quis",
+        "contactPhone": "sunt sit",
+        "customerId": "sit",
+        "delFlag": 1,
+        "goodsInfoId": "laboris Lorem",
+        "goodsInfoName": "mollit elit pariatur ex",
+        "goodsInfoNo": "deserunt reprehenderit consectetur laboris",
+        "lackRegisterId": "id esse ",
+        "lackRegisterNoticeStatus": 74935098,
+        "lackRegisterNoticeTime": "1990-07-02T22:28:24.945Z",
+        "lackRegisterTime": "1997-09-23T19:30:50.431Z"
+      },
+      {
+        "contactName": "officia",
+        "contactPhone": "aute cupidatat id m",
+        "customerId": "dolor occaecat dolor labore",
+        "delFlag": 0,
+        "goodsInfoId": "Excepteur nulla tempor",
+        "goodsInfoName": "labore elit proident",
+        "goodsInfoNo": "laborum voluptate",
+        "lackRegisterId": "elit es",
+        "lackRegisterNoticeStatus": 30011365,
+        "lackRegisterNoticeTime": "2001-09-08T12:45:57.727Z",
+        "lackRegisterTime": "1948-08-14T01:50:59.082Z"
+      }
+    ]
+  }
+}

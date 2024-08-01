@@ -1,0 +1,210 @@
+.reward-center {
+  background-color: #f5f5f5;
+  position: relative;
+
+  .header-box {
+    margin-top: -65px;
+    padding: 0 24px;
+  }
+
+  .deposit-btn {
+    height: 136px;
+    width: 100%;
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #ffeedb, #ffdfc7);
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    text-align: left;
+
+    span {
+      color: #985b31;
+    }
+  }
+
+  .deposit-btn::after {
+    border: none;
+  }
+
+  .header {
+    height: 276px;
+    background-size: cover;
+    padding: 52px 52px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: linear-gradient(90deg, rgba(255, 133, 10, 1) 0%, rgba(250, 92, 0, 1) 100%);
+
+    .content {
+      flex-direction: row;
+
+      .img {
+        margin: 0 24px 0 0;
+        width: 112px;
+        height: 112px;
+        border-radius: 56px;
+        border: 2px solid #fff;
+      }
+
+      .infos {
+        justify-content: center;
+
+        .name-bar {
+          margin: 0 0 12px 0;
+          flex-direction: row;
+
+          .user-name {
+            font-size: 36px;
+            color: #fff;
+            font-weight: 500;
+            margin-right: 16px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            word-break: break-all;
+            max-width: 390px;
+          }
+        }
+
+        .name {
+          margin: 0 16px 0 0;
+          font-size: 36px;
+          color: #ffffff;
+          font-weight: bold;
+        }
+
+        .invite {
+          margin: 0 0 12px 0;
+          font-size: 20px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .card {
+    .left {
+      flex-direction: row;
+      height: 48px;
+
+      .img {
+        margin: 16px 8px -6px 0;
+        width: 32px;
+        height: 32px;
+      }
+
+      .money {
+        font-size: 56px;
+        color: #ff6600;
+        font-family: PingFangSC-Regular, PingFang SC !important;
+      }
+
+      .small-money {
+        font-size: 24px;
+        color: #ff6600;
+        align-self: flex-end;
+        font-family: PingFangSC-Regular, PingFang SC !important;
+      }
+    }
+
+    .right {
+      width: 144px;
+      height: 56px;
+      border-radius: 36px;
+      background-image: linear-gradient(90deg, #ff8400, #ff4d00);
+      justify-content: center;
+      align-items: center;
+
+      .text {
+        font-size: 24px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .links {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+
+    .link {
+      position: relative;
+      background-color: #fff;
+      width: calc((100% - 14px) / 2);
+      height: 156px;
+      border-radius: 12px;
+      padding: 40px 24px;
+
+      .box {
+        margin-top: 16px;
+        flex-direction: row;
+        align-items: center;
+
+        .text {
+          font-size: 36px;
+          color: #ff6600;
+        }
+
+        .arrow {
+          margin-left: 12px;
+          width: 12px;
+          height: 12px;
+        }
+      }
+
+      .bg {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 128px;
+        height: 128px;
+      }
+    }
+  }
+
+  .banner {
+    width: 100%;
+    height: 160px;
+    margin-top: 24px;
+  }
+
+  .top-set {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    z-index: 100;
+
+    .set-box {
+      position: relative;
+
+      .mess-num {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: -5px;
+        top: -8px;
+        padding: 6px;
+        border-radius: 16px;
+        background-color: #fff;
+      }
+
+      .mess-num-text {
+        font-size: 16px;
+        color: #ff8800;
+        font-weight: 500;
+      }
+    }
+
+    .set-img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.images-viewer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+
+  div {
+    flex-direction: unset;
+  }
+
+  .images {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 20%;
+
+    .item {
+      z-index: 90;
+      width: 100%;
+      // height: 750px;
+      animation: amIn 0.4s ease-in-out;
+      display: flex;
+      justify-content: center;
+
+      .img {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        .taro-img__mode-scaletofill {
+          width: 0;
+        }
+      }
+    }
+  }
+}

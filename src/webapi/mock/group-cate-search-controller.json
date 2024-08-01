@@ -1,0 +1,158 @@
+{
+  "EsGroupCateResponse": {
+    "customerFollowRelaVOList": [
+      {
+        "createTime": "1972-08-28T18:59:25.344Z",
+        "customerFollowRelaId": "elit labore aute",
+        "customerId": "esse proident reprehenderit ut do",
+        "followType": 1,
+        "refId": "reprehende"
+      },
+      {
+        "createTime": "1949-12-05T01:08:23.327Z",
+        "customerFollowRelaId": "magna et culpa in",
+        "customerId": "aliquip",
+        "followType": 0,
+        "refId": "eu et dolore"
+      },
+      {
+        "createTime": "1991-01-28T16:53:12.222Z",
+        "customerFollowRelaId": "eu quis ea culpa irure",
+        "customerId": "ea",
+        "followType": 1,
+        "refId": "adipisicing deserunt"
+      },
+      {
+        "createTime": "1992-09-29T00:30:34.379Z",
+        "customerFollowRelaId": "eu ad sint fugiat aute",
+        "customerId": "non Duis exercitation in tempor",
+        "followType": 0,
+        "refId": "ad ut fugiat amet"
+      },
+      {
+        "createTime": "1975-06-18T21:22:28.509Z",
+        "customerFollowRelaId": "commodo ex anim eiusmod",
+        "customerId": "minim proident irure reprehenderit",
+        "followType": 0,
+        "refId": "quis mollit anim est et"
+      }
+    ],
+    "esGroupCatePage": {
+      "content": [
+        {
+          "articleNum": -34533174,
+          "createPerson": "Ut",
+          "createTime": "2015-09-13T07:46:19.746Z",
+          "delFlag": "0",
+          "delPerson": "do eiusmod ut veniam magna",
+          "delTime": "1962-10-01T12:45:48.96Z",
+          "funNum": -94074615,
+          "groupCateDesc": "aute nulla occaecat anim ullamco",
+          "groupCateIcon": "veniam cupidatat in",
+          "groupCateId": "tempor consectetur officia aliquip ea",
+          "groupCateImage": "enim nisi nostrud culpa",
+          "groupCateName": "Excepteur dolor eu in adipisicing",
+          "groupCateSearchAuxNest": {
+            "groupCateDesc": "esse",
+            "groupCateNameIk": "sint est non esse"
+          },
+          "id": "pariatur Duis adipisicing",
+          "updatePerson": "reprehenderit consequat nisi",
+          "updateTime": "1942-03-01T15:06:35.68Z"
+        },
+        {
+          "articleNum": 69851255,
+          "createPerson": "pariatur tempor dolor",
+          "createTime": "2013-03-01T10:19:59.607Z",
+          "delFlag": "0",
+          "delPerson": "pariatur sunt",
+          "delTime": "1996-01-06T09:17:40.656Z",
+          "funNum": 91567629,
+          "groupCateDesc": "culpa dolore voluptate",
+          "groupCateIcon": "cupidatat dolore quis",
+          "groupCateId": "adipisicing irure consequat Excepteur aliqua",
+          "groupCateImage": "ullamco e",
+          "groupCateName": "ut",
+          "groupCateSearchAuxNest": {
+            "groupCateDesc": "nisi mollit labore est",
+            "groupCateNameIk": "consequat eu reprehenderit"
+          },
+          "id": "sunt laborum amet",
+          "updatePerson": "ex aliquip irure in",
+          "updateTime": "1966-01-10T17:05:54.12Z"
+        },
+        {
+          "articleNum": 59280028,
+          "createPerson": "qui velit",
+          "createTime": "1988-03-28T00:50:20.538Z",
+          "delFlag": "1",
+          "delPerson": "non esse fugiat ad",
+          "delTime": "2009-11-22T09:29:38.683Z",
+          "funNum": -52883165,
+          "groupCateDesc": "do in",
+          "groupCateIcon": "irure velit cupidatat laboris",
+          "groupCateId": "ad Lorem velit eiusmod",
+          "groupCateImage": "fugiat",
+          "groupCateName": "laborum in consequat",
+          "groupCateSearchAuxNest": {
+            "groupCateDesc": "in nostrud exercitation",
+            "groupCateNameIk": "dolore do ipsum sed"
+          },
+          "id": "qui laborum",
+          "updatePerson": "reprehenderit sit labore amet ad",
+          "updateTime": "1984-08-16T23:49:31.138Z"
+        },
+        {
+          "articleNum": 20769708,
+          "createPerson": "aliqua Ut incididunt Duis",
+          "createTime": "1972-08-27T10:40:37.919Z",
+          "delFlag": "0",
+          "delPerson": "ex est Lorem elit ipsum",
+          "delTime": "1955-07-18T00:54:34.204Z",
+          "funNum": 51867382,
+          "groupCateDesc": "do",
+          "groupCateIcon": "sed adipisicing",
+          "groupCateId": "in",
+          "groupCateImage": "dolor conse",
+          "groupCateName": "ullamco dolor",
+          "groupCateSearchAuxNest": {
+            "groupCateDesc": "adipisicing incididunt",
+            "groupCateNameIk": "anim ipsum tempor dolor irure"
+          },
+          "id": "ad anim ea exercitation",
+          "updatePerson": "est nisi fugiat ad",
+          "updateTime": "1998-08-22T02:22:37.055Z"
+        },
+        {
+          "articleNum": -16780623,
+          "createPerson": "com",
+          "createTime": "2014-11-03T06:53:10.497Z",
+          "delFlag": "1",
+          "delPerson": "dolore aliqua culpa",
+          "delTime": "1963-01-13T10:16:02.33Z",
+          "funNum": 46667669,
+          "groupCateDesc": "eu dolor id consequat elit",
+          "groupCateIcon": "minim consecte",
+          "groupCateId": "enim quis et ullamco",
+          "groupCateImage": "veniam minim",
+          "groupCateName": "mollit Lorem anim ex ",
+          "groupCateSearchAuxNest": {
+            "groupCateDesc": "velit",
+            "groupCateNameIk": "cillum"
+          },
+          "id": "deserunt ut enim",
+          "updatePerson": "eu dolor labore irure culpa",
+          "updateTime": "1970-06-16T05:56:03.846Z"
+        }
+      ],
+      "first": false,
+      "last": false,
+      "number": -52189969,
+      "numberOfElements": 2348924,
+      "size": -49535694,
+      "sort": {},
+      "totalElements": -23364248,
+      "totalPages": -76339571
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.listItem {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background: #ffffff;
+  flex-shrink: 0;
+
+  .listItemContent {
+    flex-direction: row;
+    align-items: center;
+
+    .label {
+      font-size: 28px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.8);
+      line-height: 30px;
+      margin-right: 24px;
+    }
+
+    .content {
+      font-size: 28px;
+      font-weight: 400;
+      color: #333333;
+      line-height: 30px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+      max-width: calc(100vw - 260px);
+    }
+  }
+
+  .listItemIcon {
+    width: 48px;
+    height: 48px;
+  }
+}

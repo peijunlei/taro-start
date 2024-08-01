@@ -1,0 +1,80 @@
+@import url('@/assets/style/theme.less');
+@import url('@/assets/style/mixin.less');
+//促销活动
+.marketing-label {
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start !important;
+  height: 33px;
+  // margin-top: 5px;
+  //width: calc(100vw - 304px);
+  .goods-label {
+    height: 28px;
+    background: linear-gradient(90deg, #ff6666 0%, #ff0a0a 100%);
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 20px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    white-space: nowrap;
+  }
+
+  .active-item {
+    .border(@width:1px; @color:#ff6600; @radius:4px;);
+    height: 26px;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+    padding: 0 6px;
+    font-size: 20px;
+    color: #ff6600;
+    font-weight: 400;
+    flex-shrink: 0;
+    margin-right: 8px;
+  }
+
+  .active-item:last-child {
+    margin-right: 0;
+  }
+}
+
+.marketing-label-con {
+  max-width: calc(100vw - 326px);
+  flex-direction: row;
+  align-items: flex-start;
+  overflow: hidden;
+  height: auto;
+  padding-right: 2px;
+}
+
+.marginDis {
+  width: calc(100vw - 352px);
+}
+
+.white-con {
+  position: absolute;
+  right: 0;
+  z-index: 9;
+  flex-direction: row;
+  height: 30px;
+
+  .con {
+    width: 40px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    height: 30px;
+  }
+
+  .marginNull {
+    margin-right: 0;
+  }
+
+  .marginDis {
+    margin-right: 20px;
+  }
+}
+
+.paddR {
+  margin-right: 12px;
+}

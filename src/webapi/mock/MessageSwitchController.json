@@ -1,0 +1,114 @@
+{
+  "GetSwitchStatusResponse": {
+    "switchStatus": -33062522
+  },
+  "MessageSwitchListResponse": {
+    "messageSwitchVOList": [
+      {
+        "createTime": "1997-03-24T04:01:04.769Z",
+        "customerId": "ullamco tempor Ut magna reprehende",
+        "delFlag": 1,
+        "switchId": "Excepteur enim tempor",
+        "switchStatus": 938076,
+        "switchType": 52201079,
+        "updateTime": "1982-05-15T05:57:00.632Z"
+      },
+      {
+        "createTime": "1972-12-14T06:16:22.049Z",
+        "customerId": "culpa dolor esse",
+        "delFlag": 0,
+        "switchId": "tempor sed exercitation ad",
+        "switchStatus": -39610422,
+        "switchType": -31236577,
+        "updateTime": "1971-06-30T14:56:09.111Z"
+      },
+      {
+        "createTime": "1940-09-15T22:08:13.027Z",
+        "customerId": "aute minim",
+        "delFlag": 1,
+        "switchId": "cillum offici",
+        "switchStatus": 28037547,
+        "switchType": 49012553,
+        "updateTime": "2011-11-04T00:14:14.262Z"
+      },
+      {
+        "createTime": "1958-09-16T04:47:32.135Z",
+        "customerId": "ea esse",
+        "delFlag": 0,
+        "switchId": "Excepteur Lorem qui",
+        "switchStatus": -20201412,
+        "switchType": -75506080,
+        "updateTime": "2009-01-04T06:42:18.278Z"
+      },
+      {
+        "createTime": "2015-11-10T09:45:43.088Z",
+        "customerId": "nulla deserunt dolore labore",
+        "delFlag": 0,
+        "switchId": "deserunt est aliquip",
+        "switchStatus": -15649476,
+        "switchType": -29576294,
+        "updateTime": "1972-08-27T06:45:41.62Z"
+      }
+    ]
+  },
+  "MessageSwitchPageResponse": {
+    "messageSwitchVOPage": {
+      "content": [
+        {
+          "createTime": "1960-11-18T01:08:10.506Z",
+          "customerId": "sed ex",
+          "delFlag": 1,
+          "switchId": "eu deserunt",
+          "switchStatus": -58699683,
+          "switchType": -70940686,
+          "updateTime": "1985-07-14T20:32:02.141Z"
+        },
+        {
+          "createTime": "1986-08-22T22:38:23.387Z",
+          "customerId": "aute amet nostrud",
+          "delFlag": 1,
+          "switchId": "ex magna mollit anim reprehenderit",
+          "switchStatus": 17409236,
+          "switchType": 10611409,
+          "updateTime": "1947-11-25T12:44:19.051Z"
+        },
+        {
+          "createTime": "1951-01-15T14:42:36.87Z",
+          "customerId": "quis id",
+          "delFlag": 0,
+          "switchId": "eu cupidatat nisi reprehenderi",
+          "switchStatus": 49754045,
+          "switchType": 11353876,
+          "updateTime": "1976-11-12T23:33:19.852Z"
+        },
+        {
+          "createTime": "1944-04-28T22:33:58.261Z",
+          "customerId": "e",
+          "delFlag": 1,
+          "switchId": "ex quis nostrud",
+          "switchStatus": 4546698,
+          "switchType": -4204270,
+          "updateTime": "1967-11-15T17:40:46.941Z"
+        },
+        {
+          "createTime": "1939-12-07T23:57:51.297Z",
+          "customerId": "sed aute incididunt",
+          "delFlag": 1,
+          "switchId": "eiusmod cupid",
+          "switchStatus": 81831337,
+          "switchType": 52949997,
+          "updateTime": "1993-05-16T20:16:42.475Z"
+        }
+      ],
+      "first": false,
+      "last": true,
+      "number": -57879011,
+      "numberOfElements": 60009404,
+      "size": -48691349,
+      "sort": {},
+      "total": -56052440,
+      "totalElements": -66643605,
+      "totalPages": -56419442
+    }
+  }
+}

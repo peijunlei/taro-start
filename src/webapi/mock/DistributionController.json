@@ -1,0 +1,123 @@
+{
+  "noneName": -3572947,
+  "DistributionCustomerByCustomerIdResponse": {
+    "distributionCustomerVO": {
+      "commission": 42206579.2804569,
+      "commissionNotRecorded": -72658283.88541192,
+      "commissionTotal": -61249914.06273872,
+      "createPerson": "voluptate sed",
+      "createTime": "2001-08-08T03:28:56.075Z",
+      "customerAccount": "et",
+      "customerId": "ad dol",
+      "customerName": "eiusmod aliquip proident",
+      "delFlag": 0,
+      "distributionId": "proident in",
+      "distributionTradeCount": -82405915,
+      "distributorFlag": 1,
+      "distributorLevelId": "cillum labore dolore in adipisicing",
+      "distributorLevelName": "eu incididunt quis cupidatat adipisicing",
+      "forbiddenFlag": 0,
+      "forbiddenReason": "ad",
+      "headImg": "irure",
+      "inviteAvailableCount": 52631533,
+      "inviteCode": "eiusmod",
+      "inviteCount": 26550410,
+      "inviteCustomerIds": "aute ul",
+      "rewardCash": 26008208.316442177,
+      "rewardCashNotRecorded": -1447394.4431039393,
+      "sales": 35350150.38786286
+    }
+  },
+  "DistributionCustomerEnableByCustomerIdResponse": {
+    "distributionEnable": false,
+    "forbiddenReason": "ex et"
+  },
+  "DistributionRecordByInviteeIdResponse": {
+    "monthEstimatedReturn": 6962351.875418633,
+    "monthSales": -77902048.87553562,
+    "yesterdayEstimatedReturn": -76485129.98066339,
+    "yesterdaySales": 50492708.530573785
+  },
+  "DistributionSimSettingResponse": {
+    "distributionCustomerSimVO": {
+      "customerDetailId": "in magna cillum Lorem consequat",
+      "customerId": "minim aute",
+      "customerName": "cupidatat ad tempor irure",
+      "distributionId": "veniam ea",
+      "distributorFlag": 1,
+      "distributorLevelDesc": "fugiat Excepteur",
+      "distributorLevelId": "non",
+      "forbiddenFlag": 1
+    },
+    "distributionSettingSimVO": {
+      "applyFlag": 1,
+      "applyType": 0,
+      "buyRecruitEnterImg": "in cillum proident Ut Lorem",
+      "distributorLevelDesc": "ut",
+      "distributorName": "ea mollit consectetur ullamco ut",
+      "inviteEnterImg": "occaecat laboris est laborum consequat",
+      "inviteFlag": 0,
+      "inviteRecruitEnterImg": "ad",
+      "inviteRecruitImg": "amet eu",
+      "openFlag": 0,
+      "performanceDesc": "qui voluptate mollit eu",
+      "shopName": "incididunt tempor deserunt Ut",
+      "shopOpenFlag": 1,
+      "shopShareImg": "labore anim"
+    }
+  },
+  "DistributionSetting4StoreBagsResponse": {
+    "applyFlag": 0,
+    "applyType": 0,
+    "goodsInfos": [
+      {
+        "goodsId": "aliquip officia",
+        "goodsInfoId": "sed proident magna dolor",
+        "goodsInfoImg": "ullamco magna",
+        "goodsInfoName": "commodo tempor",
+        "goodsInfoNo": "qui non laboris occaecat ut",
+        "marketPrice": 51823295.93343079
+      },
+      {
+        "goodsId": "sint sunt fugiat sed aute",
+        "goodsInfoId": "nisi",
+        "goodsInfoImg": "ut veniam fugiat mollit",
+        "goodsInfoName": "cupidatat ex irure nostrud occaecat",
+        "goodsInfoNo": "minim consectetur",
+        "marketPrice": 74485801.82016614
+      },
+      {
+        "goodsId": "esse non sit",
+        "goodsInfoId": "ex et ut Excepteur reprehenderit",
+        "goodsInfoImg": "aute officia",
+        "goodsInfoName": "nostrud",
+        "goodsInfoNo": "incididunt non",
+        "marketPrice": 27731844.568957612
+      },
+      {
+        "goodsId": "sint laborum commodo sunt dolor",
+        "goodsInfoId": "mollit labore proident",
+        "goodsInfoImg": "aliq",
+        "goodsInfoName": "consectetur do ipsum Duis deserunt",
+        "goodsInfoNo": "dolore",
+        "marketPrice": -51541066.93710139
+      },
+      {
+        "goodsId": "voluptate ad des",
+        "goodsInfoId": "magna adipisic",
+        "goodsInfoImg": "Ut cupidatat E",
+        "goodsInfoName": "enim dolor t",
+        "goodsInfoNo": "aute aliqua",
+        "marketPrice": -17565048.786017984
+      }
+    ],
+    "openFlag": 0,
+    "recruitDesc": "dolor nulla irure",
+    "recruitImg": "ullamco ipsum"
+  },
+  "DistributionSetting4StoreBagsVerifyResponse": {
+    "result": false
+  },
+  "IsFollowDeleteRes": {},
+  "CheckAccountpostRes": {}
+}

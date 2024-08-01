@@ -1,0 +1,77 @@
+.cart-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center;
+
+  .cart-count-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 24px;
+  }
+
+  .cart-count-size {
+    align-items: flex-end;
+    justify-content: center;
+    width: 64px;
+    // height: 64px;
+    text-align: center;
+    // padding: 10px 0 10px 20px;
+    position: relative;
+  }
+
+  .cart-count-click-area {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    z-index: 99;
+    margin-left: 6px;
+  }
+
+  .reduce {
+    height: 16px;
+    width: 16px;
+  }
+
+  .int {
+    // width: 45px;
+    font-size: 24px;
+    // color: #333;
+    // margin: 0 10px;
+    margin-right: -24px;
+    width: 60px;
+    text-align: center;
+  }
+
+  .input {
+    font-size: 24px;
+    // color: #333;
+    // margin: 0 10px;
+    // min-width: 64px;
+    text-align: center;
+    width: 60px;
+    -moz-appearance: textfield;
+  }
+
+  .int,
+  .input {
+    color: #000;
+
+    > input {
+      opacity: 1;
+    }
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  .add {
+    width: 16px;
+    height: 16px;
+  }
+}

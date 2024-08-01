@@ -1,0 +1,64 @@
+{
+  "ConfigVOArray": [
+    {
+      "configKey": "sint amet reprehenderit in nisi",
+      "configName": "adipisic",
+      "configType": "dolor occaecat minim voluptate",
+      "context": "reprehenderit ipsum dolor eiusmod",
+      "createTime": "1996-11-08T10:03:40.589Z",
+      "delFlag": 0,
+      "id": -3757276,
+      "remark": "deserunt qu",
+      "status": 42214959,
+      "updateTime": "1999-09-20T11:06:00.005Z"
+    },
+    {
+      "configKey": "sed",
+      "configName": "enim",
+      "configType": "quis laboris in occaecat aliqua",
+      "context": "labore officia ea culpa dolore",
+      "createTime": "2002-04-09T21:43:09.169Z",
+      "delFlag": 0,
+      "id": 27792393,
+      "remark": "nisi",
+      "status": -35561673,
+      "updateTime": "1967-07-03T06:10:47.648Z"
+    },
+    {
+      "configKey": "dolor cu",
+      "configName": "pariatur",
+      "configType": "cupidatat magna do exercitation",
+      "context": "sint minim fugiat pariatur",
+      "createTime": "1985-08-28T10:38:44.572Z",
+      "delFlag": 1,
+      "id": -83712477,
+      "remark": "amet",
+      "status": 51686587,
+      "updateTime": "1982-01-08T17:46:48.114Z"
+    },
+    {
+      "configKey": "magna nulla",
+      "configName": "tempor id in ",
+      "configType": "officia ut",
+      "context": "tempor consectetur",
+      "createTime": "1954-07-13T00:15:45.805Z",
+      "delFlag": 0,
+      "id": 37440900,
+      "remark": "enim voluptate officia sunt",
+      "status": 92032320,
+      "updateTime": "1985-07-29T13:52:15.466Z"
+    },
+    {
+      "configKey": "culpa elit ex",
+      "configName": "nostrud",
+      "configType": "tempor velit",
+      "context": "nostrud aute velit qui",
+      "createTime": "1992-10-19T12:41:12.69Z",
+      "delFlag": 1,
+      "id": 62598980,
+      "remark": "irure",
+      "status": -35884418,
+      "updateTime": "1947-03-15T16:44:09.956Z"
+    }
+  ]
+}

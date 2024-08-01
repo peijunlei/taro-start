@@ -1,0 +1,117 @@
+{
+  "ExpressCompanyVO": {},
+  "ExpressCompany": {
+    "expressCode": "laboris",
+    "expressCompanyId": -36473007,
+    "expressName": "Lorem dolore et velit",
+    "isChecked": -76145795,
+    "isLogisticsPart": 12509936
+  },
+  "ExpressCompanyArray": [
+    {
+      "expressCode": "nostrud ex nisi ut",
+      "expressCompanyId": 96515201,
+      "expressName": "a",
+      "isChecked": 58371533,
+      "isLogisticsPart": -62320100
+    },
+    {
+      "expressCode": "ipsum",
+      "expressCompanyId": -67379634,
+      "expressName": "cupidatat",
+      "isChecked": -94703993,
+      "isLogisticsPart": 23432998
+    },
+    {
+      "expressCode": "ea consectetur Excepteur occaecat",
+      "expressCompanyId": -19954231,
+      "expressName": "mollit deserunt laboris consectetur nulla",
+      "isChecked": -88143485,
+      "isLogisticsPart": 86944527
+    },
+    {
+      "expressCode": "pariatur est",
+      "expressCompanyId": -13910107,
+      "expressName": "veniam",
+      "isChecked": -47551329,
+      "isLogisticsPart": 36433347
+    },
+    {
+      "expressCode": "elit Ut adipisicing",
+      "expressCompanyId": 4691752,
+      "expressName": "dolore eu",
+      "isChecked": -7094406,
+      "isLogisticsPart": -53180799
+    }
+  ],
+  "ExpressCompanyRopResponse": {
+    "checkedExpressCompanyList": [
+      {
+        "expressCode": "pariatur ipsum",
+        "expressCompanyId": 93522546,
+        "expressName": "nostrud",
+        "isChecked": 82909434,
+        "isLogisticsPart": 16500620
+      },
+      {
+        "expressCode": "ut n",
+        "expressCompanyId": 77437494,
+        "expressName": "aliquip reprehenderit",
+        "isChecked": 24572514,
+        "isLogisticsPart": -75608229
+      },
+      {
+        "expressCode": "reprehenderit minim et labor",
+        "expressCompanyId": 35160973,
+        "expressName": "nisi velit aliqua laboris",
+        "isChecked": -89855680,
+        "isLogisticsPart": 75004794
+      },
+      {
+        "expressCode": "minim sint veniam",
+        "expressCompanyId": 71659967,
+        "expressName": "dolor",
+        "isChecked": 15694488
+      },
+      {
+        "expressCode": "tempor et esse velit",
+        "expressCompanyId": 11583858,
+        "expressName": "qui non dolor",
+        "isChecked": 38105033
+      }
+    ],
+    "expressCompanyList": [
+      {
+        "expressCode": "quis",
+        "expressCompanyId": -13950103,
+        "expressName": "enim qui cupidatat voluptate aliquip",
+        "isChecked": -90459665,
+        "isLogisticsPart": -81066205
+      },
+      {
+        "expressCode": "amet tempor Ut consequat",
+        "expressCompanyId": -15120583,
+        "expressName": "eiusmod aute nulla amet magna",
+        "isChecked": 63978861
+      },
+      {
+        "expressCode": "consequat",
+        "expressCompanyId": 81317953,
+        "expressName": "dolore",
+        "isChecked": 64985968
+      },
+      {
+        "expressCode": "quis ",
+        "expressCompanyId": -20574128,
+        "expressName": "labore",
+        "isChecked": 8294020
+      },
+      {
+        "expressCode": "reprehenderit nostrud elit deserunt",
+        "expressCompanyId": 5452372,
+        "expressName": "tempor",
+        "isChecked": 21485524
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "GetInquiryDrugsResponse": {
+    "drugVOList": [
+      {
+        "buyCount": -46392706,
+        "goodsInfoNo": "sunt"
+      },
+      {
+        "buyCount": -31740766,
+        "goodsInfoNo": "ex veniam"
+      },
+      {
+        "buyCount": 67934316,
+        "goodsInfoNo": "ullamco"
+      },
+      {
+        "buyCount": 18090489,
+        "goodsInfoNo": "Lorem "
+      },
+      {
+        "buyCount": -18637368,
+        "goodsInfoNo": "ut ipsum dolor aute voluptate"
+      }
+    ]
+  },
+  "ValidateCodepostRes": "velit",
+  "noneName": "occaecat"
+}

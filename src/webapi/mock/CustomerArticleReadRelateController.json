@@ -1,0 +1,44 @@
+{
+  "CustomerArticleReadRelateCountResponse": {
+    "count": 71467237
+  },
+  "CustomerArticleReadRelateListResponse": {
+    "customerArticleReadRelateVOList": [
+      {
+        "articleInfoId": "ut est voluptate fugiat dolore",
+        "attentionCustomerId": "in exercitation proident",
+        "postCustomerId": "pariatur est voluptate",
+        "readRelateId": "Duis sunt",
+        "readStatus": 1
+      },
+      {
+        "articleInfoId": "pariatur ex",
+        "attentionCustomerId": "laborum dolore",
+        "postCustomerId": "in",
+        "readRelateId": "Duis dolore",
+        "readStatus": 0
+      },
+      {
+        "articleInfoId": "",
+        "attentionCustomerId": "Ut tempor",
+        "postCustomerId": "labore",
+        "readRelateId": "exercitation Duis",
+        "readStatus": 1
+      },
+      {
+        "articleInfoId": "aliqua quis",
+        "attentionCustomerId": "dolore",
+        "postCustomerId": "sed tempor non dolor minim",
+        "readRelateId": "et tempor deserunt Ut ut",
+        "readStatus": 1
+      },
+      {
+        "articleInfoId": "ipsum",
+        "attentionCustomerId": "eiusmod ex",
+        "postCustomerId": "non",
+        "readRelateId": "proident occaecat nisi ad voluptate",
+        "readStatus": 1
+      }
+    ]
+  }
+}

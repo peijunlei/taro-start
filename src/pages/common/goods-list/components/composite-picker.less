@@ -1,0 +1,29 @@
+.compositePicker {
+  width: 100%;
+  height: calc(100% - 156px);
+  position: fixed;
+  top: 156px;
+  background: rgba(000, 000, 000, 0.4);
+  z-index: 9999;
+
+  .picker-content {
+    background: #fff;
+    border-radius: 0 0 16px 16px;
+    align-items: center;
+    width: 100%;
+
+    .picker-item {
+      font-size: 24px;
+      color: #333;
+      height: 80px;
+      width: 100%;
+      line-height: 80px;
+      text-align: center;
+    }
+
+    .active {
+      color: #ff6600;
+      font-weight: 500;
+    }
+  }
+}

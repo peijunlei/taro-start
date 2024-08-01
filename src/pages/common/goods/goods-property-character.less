@@ -1,0 +1,91 @@
+.goodsPropertyCharacter {
+  width: 100%;
+  height: 100vh;
+  height: calc(100% + constant(safe-area-inset-bottom));
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  justify-content: flex-end;
+  z-index: 100;
+
+  .props-container {
+    width: 100%;
+    //padding: 40px 0 calc(20px + env(safe-area-inset-bottom)) 0;
+    max-height: calc(env(safe-area-inset-bottom) + 1120px);
+    background: #fff;
+    border-radius: 16px 16px 0 0;
+    position: relative;
+    justify-content: space-between;
+
+    .props-title-box {
+      padding: 32px 0;
+      justify-content: center;
+      box-shadow: 0 0 0 0 #ebebeb;
+      border-bottom: 1px solid #ebebeb;
+      .props-title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.8);
+        line-height: 32px;
+      }
+    }
+
+    .props-close {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      right: 32px;
+      top: 28px;
+      z-index: 10;
+    }
+
+    .props-content-box {
+      padding: 0 50px;
+      margin-bottom: 24px;
+      .content-item {
+        margin-top: 56px;
+        flex-direction: row;
+        line-height: 36px;
+      }
+    }
+
+    .scroll-props-box {
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: auto;
+    }
+
+    .item-left-box {
+      width: 176px;
+      .left-text {
+        font-size: 24px;
+        font-weight: 400;
+        padding: 0 28px 0 6px;
+        color: rgba(0, 0, 0, 0.4);
+        word-wrap: break-word;
+        line-height: 36px;
+      }
+    }
+    .item-right-box {
+      width: 454px;
+      .right-text {
+        font-size: 26px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        word-wrap: break-word;
+        line-height: 36px;
+      }
+    }
+    .props-bottom {
+      padding: 20px 24px;
+      border-top: 1px solid #e6e6e6;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      background-color: #fff;
+      padding-bottom: calc(20px + constant(safe-area-inset-bottom)); /* 兼容 iOS < 11.2 */
+      padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* 兼容 iOS >= 11.2 */
+    }
+  }
+}

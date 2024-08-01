@@ -1,0 +1,31 @@
+{
+  "SmallShopCouponCodeAddResponse": {
+    "haveToReceive": 0,
+    "smallShopCouponCodeVO": {
+      "goodsId": "nulla anim esse ullamco ea",
+      "acquireTime": "1943-04-13T12:07:58.149Z",
+      "couponPrice": 57921376.0554398,
+      "createPerson": "dolor",
+      "createTime": "1942-05-26T19:19:57.355Z",
+      "customerId": "laborum ullamco veniam dolore Ut",
+      "delFlag": 0,
+      "delPerson": "do",
+      "delTime": "1975-03-11T14:21:36.805Z",
+      "endTime": "2006-11-24T15:14:19.682Z",
+      "goodsImg": "elit quis mollit",
+      "goodsInfoId": "sed laboris ut aliqua esse",
+      "goodsName": "officia dolor",
+      "goodsPrice": -63272405.69662731,
+      "orderCode": "aliqua",
+      "scouponCode": "voluptate labore nisi",
+      "scouponCodeId": "enim Excepteur incididunt tempor proident",
+      "scouponId": 29191023,
+      "startTime": "1953-09-13T04:51:23.413Z",
+      "updatePerson": "anim laborum nulla non",
+      "updateTime": "1955-11-12T08:51:59.563Z",
+      "useDate": "1973-05-03T03:26:00.433Z",
+      "useStatus": 19039157
+    }
+  },
+  "SmallShopCouponPageResponse": {}
+}

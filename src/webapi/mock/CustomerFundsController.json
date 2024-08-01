@@ -1,0 +1,66 @@
+{
+  "MicroServicePageCustomerFundsDetailVO": {
+    "content": [
+      {
+        "accountBalance": 60386614.2114211,
+        "businessId": "fugiat Lorem deserunt aliqua",
+        "createTime": "1990-03-17T18:40:27.527Z",
+        "customerFundsDetailId": "incididu",
+        "fundsType": "4",
+        "receiptPaymentAmount": 52145721.111821294,
+        "subType": 2
+      },
+      {
+        "accountBalance": -41219627.31803084,
+        "businessId": "dolore irure pariatur",
+        "createTime": "1990-06-08T00:47:10.625Z",
+        "customerFundsDetailId": "anim",
+        "fundsType": "4",
+        "receiptPaymentAmount": 2785759.386429906,
+        "subType": 2
+      },
+      {
+        "accountBalance": 93705897.26266122,
+        "businessId": "nulla",
+        "createTime": "2008-04-13T03:04:09.322Z",
+        "customerFundsDetailId": "ullamco elit",
+        "fundsType": "0",
+        "receiptPaymentAmount": -22755426.721137658,
+        "subType": 7
+      },
+      {
+        "accountBalance": -34523887.83679212,
+        "businessId": "reprehenderit",
+        "createTime": "1987-07-26T00:31:42.835Z",
+        "customerFundsDetailId": "nostrud in dolor eiusmod Duis",
+        "fundsType": "9",
+        "receiptPaymentAmount": 75986062.56718984,
+        "subType": 1
+      },
+      {
+        "accountBalance": -97362908.04038745,
+        "businessId": "esse",
+        "createTime": "2015-07-17T21:43:12.217Z",
+        "customerFundsDetailId": "culpa pariatur",
+        "fundsType": "7",
+        "receiptPaymentAmount": 48671941.07474765,
+        "subType": 6
+      }
+    ],
+    "first": false,
+    "last": false,
+    "number": -90592204,
+    "numberOfElements": -1562968,
+    "size": -25320484,
+    "sort": {},
+    "total": -39758597,
+    "totalElements": -55354476,
+    "totalPages": 1680375
+  },
+  "CustomerFundsStatisticsResponse": {
+    "accountBalanceTotal": -69679215.1886239,
+    "alreadyDrawAmount": -85181161.9288342,
+    "blockedBalanceTotal": -34913178.23809244,
+    "withdrawAmountTotal": -50282870.6466647
+  }
+}

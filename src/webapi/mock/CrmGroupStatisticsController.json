@@ -1,0 +1,882 @@
+{
+  "PageInfoCustomGroupVo": {
+    "endRow": -75169474,
+    "hasNextPage": false,
+    "hasPreviousPage": true,
+    "isFirstPage": true,
+    "isLastPage": false,
+    "list": [
+      {
+        "createPerson": "veniam exercitation laboris nostrud incididunt",
+        "createTime": "1977-02-05T17:35:00.21Z",
+        "customGroupDetail": {
+          "avgTradeAmountTime": 66240507,
+          "customerLevel": [
+            63835138,
+            -29735285,
+            -6681494,
+            43088965
+          ],
+          "customerTag": [
+            52662310,
+            75066696,
+            29818757,
+            34941282,
+            18567797
+          ],
+          "groupName": "voluptate",
+          "gtAvgTradeAmount": -42092314,
+          "gtBalance": 78798225,
+          "gtCustomerGrowth": -81210983,
+          "gtPoint": 89576969,
+          "gtTradeAmount": 44478127,
+          "gtTradeCount": 86686177,
+          "lastTradeTime": -35670455,
+          "ltAvgTradeAmount": -51084986,
+          "ltBalance": 25068010,
+          "ltCustomerGrowth": 70046370,
+          "ltPoint": 3681983,
+          "ltTradeAmount": -97767311,
+          "ltTradeCount": 92893026,
+          "noRecentCartTime": -96040606,
+          "noRecentFavoriteTime": 98658845,
+          "noRecentFlowTime": -49358270,
+          "noRecentPayTradeTime": -42083157,
+          "noRecentTradeTime": 28675170,
+          "recentCartTime": 8799365,
+          "recentFavoriteTime": 3123984,
+          "recentFlowTime": -69204145,
+          "recentPayTradeTime": -83869345,
+          "recentTradeTime": -88667549,
+          "regionList": [
+            {
+              "regionId": "minim Ut",
+              "regionName": "culpa velit consequat veniam labore"
+            },
+            {
+              "regionId": "est laborum magna",
+              "regionName": "sit aliquip eu id dolore"
+            },
+            {
+              "regionId": "pariatur",
+              "regionName": "incididunt et "
+            },
+            {
+              "regionId": "aute et",
+              "regionName": "amet"
+            },
+            {
+              "regionId": "Ut ut culpa ea ad",
+              "regionName": "quis tempor minim do sit"
+            }
+          ],
+          "tradeAmountTime": 66712948,
+          "tradeCountTime": 75894297
+        },
+        "customerCount": -21659805,
+        "definition": "esse ea",
+        "groupName": "dolor sunt nulla irure proident",
+        "id": 82080034,
+        "updatePerson": "ipsum eu",
+        "updateTime": "1973-04-23T03:18:12.932Z"
+      },
+      {
+        "createPerson": "dolore quis ad do",
+        "createTime": "1959-04-11T09:34:26.549Z",
+        "customGroupDetail": {
+          "avgTradeAmountTime": 79573147,
+          "customerLevel": [
+            -78731587
+          ],
+          "customerTag": [
+            36282620,
+            71752056,
+            87727714,
+            17797718
+          ],
+          "groupName": "anim ullamco ex",
+          "gtAvgTradeAmount": 54860910,
+          "gtBalance": 90286973,
+          "gtCustomerGrowth": -78567563,
+          "gtPoint": -96596023,
+          "gtTradeAmount": 82997664,
+          "gtTradeCount": 17780222,
+          "lastTradeTime": 99647514,
+          "ltAvgTradeAmount": -65819461,
+          "ltBalance": -88611777,
+          "ltCustomerGrowth": -46392344,
+          "ltPoint": -32133929,
+          "ltTradeAmount": 92862814,
+          "ltTradeCount": -29908355,
+          "noRecentCartTime": 40636512,
+          "noRecentFavoriteTime": 55392319,
+          "noRecentFlowTime": 73243831,
+          "noRecentPayTradeTime": 50851727,
+          "noRecentTradeTime": -14138622,
+          "recentCartTime": 1457240,
+          "recentFavoriteTime": -76818975,
+          "recentFlowTime": 90497353,
+          "recentPayTradeTime": 7183335,
+          "recentTradeTime": -6673023,
+          "regionList": [
+            {
+              "regionId": "ut aute cillum Ut",
+              "regionName": "Duis velit et pariatur"
+            },
+            {
+              "regionId": "consequat sed occaecat minim",
+              "regionName": "deserunt et"
+            },
+            {
+              "regionId": "pariatur nisi in proident Excepteur",
+              "regionName": "con"
+            },
+            {
+              "regionId": "aliqua in",
+              "regionName": "cupidatat non commodo officia"
+            },
+            {
+              "regionId": "Lorem",
+              "regionName": "sunt laborum Excepteur"
+            }
+          ],
+          "tradeAmountTime": 72219089,
+          "tradeCountTime": -3006817
+        },
+        "customerCount": -80487324,
+        "definition": "non sed consectetur",
+        "groupName": "est",
+        "id": 58400809,
+        "updatePerson": "ad sunt commodo non",
+        "updateTime": "1947-11-16T09:42:31.069Z"
+      },
+      {
+        "createPerson": "enim commodo minim et ipsum",
+        "createTime": "1964-11-01T20:07:19.537Z",
+        "customGroupDetail": {
+          "avgTradeAmountTime": 77118215,
+          "customerLevel": [
+            -62370728,
+            -56932973,
+            -53770223,
+            53477098,
+            -20492247
+          ],
+          "customerTag": [
+            -99256524,
+            -15284033,
+            21928141,
+            -61285049
+          ],
+          "groupName": "dolor sunt aliquip mollit",
+          "gtAvgTradeAmount": 23457141,
+          "gtBalance": 47491492,
+          "gtCustomerGrowth": 84972004,
+          "gtPoint": 41429271,
+          "gtTradeAmount": 12189621,
+          "gtTradeCount": 28376642,
+          "lastTradeTime": 13883233,
+          "ltAvgTradeAmount": 46433840,
+          "ltBalance": 98661056,
+          "ltCustomerGrowth": -95019095,
+          "ltPoint": -54014872,
+          "ltTradeAmount": -39570011,
+          "ltTradeCount": -56004044,
+          "noRecentCartTime": -17320579,
+          "noRecentFavoriteTime": 8367050,
+          "noRecentFlowTime": -22312062,
+          "noRecentPayTradeTime": -70962526,
+          "noRecentTradeTime": 16505775,
+          "recentCartTime": 50213849,
+          "recentFavoriteTime": -45658866,
+          "recentFlowTime": 77289148,
+          "recentPayTradeTime": 74758730,
+          "recentTradeTime": 41521303,
+          "regionList": [
+            {
+              "regionId": "commodo sunt culpa fugiat aliquip",
+              "regionName": "aliquip"
+            },
+            {
+              "regionId": "ullamco ad id non dolor",
+              "regionName": "dolore"
+            },
+            {
+              "regionId": "exercitation reprehenderit veniam nulla tempor",
+              "regionName": "aliqua quis consectetur ex"
+            },
+            {
+              "regionId": "nostrud aute ut aliqua exercitation",
+              "regionName": "proident nisi dolor irure"
+            },
+            {
+              "regionId": "elit do in ullamco",
+              "regionName": "occaecat aliquip ullamco non"
+            }
+          ],
+          "tradeAmountTime": -77170033,
+          "tradeCountTime": -43586856
+        },
+        "customerCount": -69800815,
+        "definition": "ex nulla ",
+        "groupName": "laboris esse dolore mollit anim",
+        "id": -16783559,
+        "updatePerson": "sed velit",
+        "updateTime": "2017-05-09T11:45:42.638Z"
+      },
+      {
+        "createPerson": "sit sint",
+        "createTime": "1942-04-23T12:11:33.451Z",
+        "customGroupDetail": {
+          "avgTradeAmountTime": -84492018,
+          "customerLevel": [
+            10462486,
+            46303963
+          ],
+          "customerTag": [
+            -33234731,
+            -83564226,
+            95599538
+          ],
+          "groupName": "Lorem dolor dolor anim",
+          "gtAvgTradeAmount": 87078062,
+          "gtBalance": 61602344,
+          "gtCustomerGrowth": 13415935,
+          "gtPoint": 77289646,
+          "gtTradeAmount": -75679556,
+          "gtTradeCount": 27654233,
+          "lastTradeTime": 93747267,
+          "ltAvgTradeAmount": -36679838,
+          "ltBalance": 76953579,
+          "ltCustomerGrowth": -79743702,
+          "ltPoint": 64825629,
+          "ltTradeAmount": -96742811,
+          "ltTradeCount": -44701554,
+          "noRecentCartTime": -57813421,
+          "noRecentFavoriteTime": -98940573,
+          "noRecentFlowTime": -70927228,
+          "noRecentPayTradeTime": 19523836,
+          "noRecentTradeTime": -22197540,
+          "recentCartTime": 93924061,
+          "recentFavoriteTime": -94003876,
+          "recentFlowTime": 1285893,
+          "recentPayTradeTime": -59989527,
+          "recentTradeTime": -71805986,
+          "regionList": [
+            {
+              "regionId": "laborum aliqua adipisicing Ut",
+              "regionName": "in adipisicing irure"
+            },
+            {
+              "regionId": "id ame",
+              "regionName": "aliqua dolore in irure reprehenderit"
+            },
+            {
+              "regionId": "in",
+              "regionName": "l"
+            },
+            {
+              "regionId": "ipsum voluptate Lorem",
+              "regionName": "Excepteur sed non"
+            }
+          ],
+          "tradeAmountTime": 79947340,
+          "tradeCountTime": 71949483
+        },
+        "customerCount": 66720473,
+        "definition": "culpa nulla Lorem Excepteur",
+        "groupName": "tempor",
+        "id": -52241331,
+        "updatePerson": "non ea quis ullamco ut",
+        "updateTime": "1976-01-14T11:26:39.799Z"
+      },
+      {
+        "createPerson": "fugiat",
+        "createTime": "1950-05-13T17:19:49.011Z",
+        "customGroupDetail": {
+          "avgTradeAmountTime": -86586981,
+          "customerLevel": [
+            -41522981,
+            -58128328,
+            -33416720
+          ],
+          "customerTag": [
+            73009491,
+            -79429621,
+            -68334301,
+            50358998
+          ],
+          "groupName": "laborum",
+          "gtAvgTradeAmount": -84562187,
+          "gtBalance": 66526601,
+          "gtCustomerGrowth": -22469664,
+          "gtPoint": -39836778,
+          "gtTradeAmount": 50070655,
+          "gtTradeCount": -50761939,
+          "lastTradeTime": -97731606,
+          "ltAvgTradeAmount": -32946608,
+          "ltBalance": -60066076,
+          "ltCustomerGrowth": 72886571,
+          "ltPoint": -76837388,
+          "ltTradeAmount": -9380239,
+          "ltTradeCount": -92737245,
+          "noRecentCartTime": 74995788,
+          "noRecentFavoriteTime": -56219548,
+          "noRecentFlowTime": 146771,
+          "noRecentPayTradeTime": -82714175,
+          "noRecentTradeTime": 78165511,
+          "recentCartTime": -24437856,
+          "recentFavoriteTime": 83838059,
+          "recentFlowTime": 78059538,
+          "recentPayTradeTime": -26920994,
+          "recentTradeTime": 83175983,
+          "regionList": [
+            {
+              "regionId": "ex tempor sint cupidatat",
+              "regionName": "aute laboris"
+            },
+            {
+              "regionId": "Ut tempor sunt sint",
+              "regionName": "cillum mollit ea in"
+            },
+            {
+              "regionId": "cillum sit adipisicing ips",
+              "regionName": "in"
+            }
+          ],
+          "tradeAmountTime": 5887160,
+          "tradeCountTime": -83115518
+        },
+        "customerCount": 89516002,
+        "definition": "est",
+        "groupName": "officia consequat ad nisi nostrud",
+        "id": 8604954,
+        "updatePerson": "velit ex reprehenderit in",
+        "updateTime": "1960-02-09T13:11:47.964Z"
+      }
+    ],
+    "navigateFirstPage": 15140374,
+    "navigateLastPage": 37987693,
+    "navigatePages": 28838831,
+    "navigatepageNums": [
+      87563319,
+      -24700425,
+      82969537
+    ],
+    "nextPage": 88906378,
+    "pageNum": -59309965,
+    "pageSize": -57288479,
+    "pages": 88974083,
+    "prePage": 75093703,
+    "size": 64664760,
+    "startRow": -12364739,
+    "total": 27126475
+  },
+  "PageInfoCustomerDetailWithRfmValueVO": {
+    "endRow": -46932604,
+    "hasNextPage": true,
+    "hasPreviousPage": false,
+    "isFirstPage": true,
+    "isLastPage": false,
+    "list": [
+      {
+        "age": 3430347,
+        "areaId": 16655273,
+        "avgScore": -19562321,
+        "bindAlipay": 1,
+        "bindBank": 1,
+        "bindWechat": 0,
+        "birthday": "ipsum culpa pariatur Duis",
+        "certification": 4,
+        "cityId": -89169022,
+        "companyInfoId": -38663266,
+        "constellation": "aliquip non",
+        "contactName": "reprehenderit Duis sunt",
+        "contactPhone": "in",
+        "createPerson": "esse ea in laborum labore",
+        "createTime": "1970-02-06T20:10:59.37Z",
+        "customerAddress": "proid",
+        "customerDetailId": "sunt Ut laborum in deserunt",
+        "customerId": "voluptate culpa nisi aliquip occaecat",
+        "customerName": "exercitation ipsum labore nisi Ut",
+        "customerStatus": 0,
+        "customerVO": {
+          "bindBank": 1,
+          "checkState": 0,
+          "createPerson": "dolor laborum incididunt",
+          "createTime": "2018-08-03T08:46:02.917Z",
+          "customerAccount": "dolore ullamco et consequat fugiat",
+          "customerDetail": {
+            "age": -51962069,
+            "areaId": -98392569,
+            "bindAlipay": 1,
+            "bindBank": 0,
+            "bindWechat": 1,
+            "birthday": "fugiat pariatur minim dolor",
+            "certification": 3,
+            "cityId": 55768543,
+            "companyInfoId": 23560429,
+            "constellation": "occaecat sit laboris ut",
+            "contactName": "magna est ad sint",
+            "contactPhone": "aliquip",
+            "createPerson": "sint dolore ullamco Ut enim",
+            "createTime": "1992-08-07T03:08:41.853Z",
+            "customerAddress": "ut do",
+            "customerDetailId": "aute",
+            "customerId": "incididunt",
+            "customerName": "id nisi in",
+            "customerStatus": 1,
+            "customerVO": null,
+            "delFlag": 1,
+            "deletePerson": "aliqua",
+            "deleteTime": "2012-03-06T19:55:37.04Z",
+            "downloadApp": 0,
+            "email": "velit",
+            "employeeId": "qui",
+            "focusWechatPublicNumber": 1,
+            "forbidReason": "sit esse magna",
+            "gender": 30626975,
+            "headPicture": "Excepteur",
+            "hobby": "officia non in mollit",
+            "idCard": "ut anim sint reprehenderit laboris",
+            "invoice": "consequat",
+            "isContact": 1,
+            "isDistributor": 1,
+            "job": "in proident id ea",
+            "latitude": "eiusmod",
+            "longitude": "quis do ut la",
+            "microType": 6,
+            "ownershipGroup": 2,
+            "ownershipGroupCode": "ea",
+            "proCertification": "nisi commodo",
+            "proCertificationId": "ut dolore ullamco quis fugiat",
+            "provinceId": -24840767,
+            "refereePerson": "velit Excepteur",
+            "registChanel": 2,
+            "rejectReason": "esse qui",
+            "roleType": 0,
+            "storeTime": "1963-07-21T16:59:03.231Z",
+            "updatePerson": "deserunt commodo Ut laboris",
+            "updateTime": "1951-03-07T13:37:59.59Z",
+            "wechat": "ipsum ex deserunt in qui",
+            "zodiac": "in mollit"
+          },
+          "customerId": "incididunt officia in in",
+          "customerLevelId": 39489723,
+          "customerPassword": "al",
+          "customerPayPassword": "irure qui la",
+          "customerSaltVal": "adipisicing",
+          "customerType": 0,
+          "delFlag": 1,
+          "deletePerson": "consequat nisi ullamco aliqua ut",
+          "deleteTime": "1965-11-21T22:14:29.377Z",
+          "distributeChannel": {
+            "channelType": 0,
+            "inviteeId": "u"
+          },
+          "followWxFlag": 1,
+          "growthValue": 20156906,
+          "headImg": "in",
+          "loginErrorCount": 29620918,
+          "loginIp": "aliqua in commodo fugiat",
+          "loginLockTime": "1949-02-17T09:21:21.695Z",
+          "loginTime": "1979-03-25T11:11:58.161Z",
+          "payErrorTime": -12332689,
+          "payLockTime": "1980-12-12T01:42:55.672Z",
+          "pointsAvailable": 21918183,
+          "pointsUsed": 98874412,
+          "roleType": 1,
+          "safeLevel": 80590486,
+          "signContinuousDays": 26710825,
+          "storeCustomerRelaListByAll": [
+            {
+              "companyInfoId": -85676037,
+              "customerId": "occaecat nostrud",
+              "customerType": 0,
+              "employeeId": "ut sed aute",
+              "id": "dolore",
+              "storeId": -40400630,
+              "storeLevelId": -69295866
+            },
+            {
+              "companyInfoId": 41320654,
+              "customerId": "adipis",
+              "customerType": 0,
+              "employeeId": "ex pariatur anim occaecat",
+              "id": "consectetur ipsum",
+              "storeId": 88258701,
+              "storeLevelId": -60437853
+            },
+            {
+              "companyInfoId": 26530347,
+              "customerId": "ut veniam dolore",
+              "customerType": 1,
+              "employeeId": "dolor ut",
+              "id": "proident est",
+              "storeId": -95303158,
+              "storeLevelId": 25068843
+            }
+          ],
+          "updatePerson": "elit eu",
+          "updateTime": "1999-07-25T06:56:20.14Z"
+        },
+        "delFlag": 1,
+        "deletePerson": "sint exercitati",
+        "deleteTime": "1967-04-01T02:31:36.687Z",
+        "downloadApp": 1,
+        "email": "mollit",
+        "employeeId": "id eiusmod consequat nisi sed",
+        "focusWechatPublicNumber": 1,
+        "forbidReason": "Ut enim fugiat minim",
+        "gender": 52526888,
+        "headPicture": "culpa aliqui",
+        "hobby": "tempor dolore",
+        "idCard": "aliqua velit dolor aute",
+        "invoice": "anim eu ea veniam",
+        "isContact": 1,
+        "isDistributor": 0,
+        "job": "Lorem pariatur",
+        "latitude": "dolore ullamco cillum esse minim",
+        "longitude": "Duis ut laborum",
+        "microType": 0,
+        "ownershipGroup": 1,
+        "ownershipGroupCode": "Excepteur",
+        "proCertification": "sed laboris",
+        "proCertificationId": "dolor",
+        "provinceId": -52088968,
+        "refereePerson": "aute dolore",
+        "registChanel": 1,
+        "rejectReason": "elit sunt labore",
+        "roleType": 0,
+        "storeTime": "2018-05-10T12:20:52.803Z",
+        "updatePerson": "Ut offici",
+        "updateTime": "1941-05-06T23:21:24.453Z",
+        "wechat": "ad exercitation dolor",
+        "zodiac": "cupidatat paria"
+      },
+      {
+        "age": 1931163,
+        "areaId": -7902882,
+        "avgScore": 42357353,
+        "bindAlipay": 0,
+        "bindBank": 1,
+        "bindWechat": 1,
+        "birthday": "qui dolore elit consequat anim",
+        "certification": 1,
+        "cityId": -60237936,
+        "companyInfoId": 50338192,
+        "constellation": "culpa sunt",
+        "contactName": "Lorem esse in",
+        "contactPhone": "e",
+        "createPerson": "incididunt dolore Duis magna eli",
+        "createTime": "2020-02-08T04:59:35.021Z",
+        "customerAddress": "minim ullamco id ea tempor",
+        "customerDetailId": "dolore",
+        "customerId": "Excepteur esse",
+        "customerName": "eu esse sed",
+        "customerStatus": 0,
+        "customerVO": {
+          "bindBank": 1,
+          "checkState": 1,
+          "createPerson": "cupidatat culpa in",
+          "createTime": "1990-05-20T11:46:14.25Z",
+          "customerAccount": "eiusmod aliquip in",
+          "customerDetail": {
+            "age": 87188620,
+            "areaId": -96793429,
+            "bindAlipay": 0,
+            "bindBank": 1,
+            "bindWechat": 0,
+            "birthday": "dolor veniam",
+            "certification": 4,
+            "cityId": 34887778,
+            "companyInfoId": -60810801,
+            "constellation": "ea culpa cupidatat",
+            "contactName": "Duis veniam culpa incididunt nostrud",
+            "contactPhone": "Lorem laborum",
+            "createPerson": "ea irure consectetur sit",
+            "createTime": "1994-02-02T12:33:54.488Z",
+            "customerAddress": "irure aliqua fugiat aliquip",
+            "customerDetailId": "magna",
+            "customerId": "id",
+            "customerName": "fugiat ex non",
+            "customerStatus": 2,
+            "customerVO": null,
+            "delFlag": 0,
+            "deletePerson": "reprehenderit dolo",
+            "deleteTime": "1979-07-20T06:44:16.154Z",
+            "downloadApp": 1,
+            "email": "tempor consectetur cupidatat dolore",
+            "employeeId": "in laborum ex",
+            "focusWechatPublicNumber": 1,
+            "forbidReason": "in",
+            "gender": -9170210,
+            "headPicture": "sunt non nulla esse",
+            "hobby": "ut aliq",
+            "idCard": "id adipisicing ut Excepteur",
+            "invoice": "commodo amet in quis",
+            "isContact": 0,
+            "isDistributor": 0,
+            "job": "et nostrud",
+            "latitude": "consectetur id eiusmod ipsum in",
+            "longitude": "ea dolore",
+            "microType": 3,
+            "ownershipGroup": 3,
+            "ownershipGroupCode": "do et",
+            "proCertification": "eu",
+            "proCertificationId": "ut dolore in qui ipsum",
+            "provinceId": -65063767,
+            "refereePerson": "sunt dolor magna",
+            "registChanel": 2,
+            "rejectReason": "reprehenderit non",
+            "roleType": 1,
+            "storeTime": "1955-11-04T06:09:16.407Z",
+            "updatePerson": "ullamco Excepteur dolore",
+            "updateTime": "1946-08-15T16:49:39.25Z",
+            "wechat": "commodo mollit Excepteur cupidatat",
+            "zodiac": "culpa nisi consectetur exercitation"
+          },
+          "customerId": "ipsum in ea ut",
+          "customerLevelId": -85635648,
+          "customerPassword": "tempor amet exercitation sint pariatur",
+          "customerPayPassword": "pariatur cupidatat",
+          "customerSaltVal": "tempor sint",
+          "customerType": 1,
+          "delFlag": 1,
+          "deletePerson": "nisi tempor fugiat",
+          "deleteTime": "1959-03-03T18:56:43.744Z",
+          "distributeChannel": {
+            "channelType": 2,
+            "inviteeId": "cupidatat deserunt sint elit"
+          },
+          "followWxFlag": 0,
+          "growthValue": 59054753,
+          "headImg": "ullamco Excepteur",
+          "loginErrorCount": 91497142,
+          "loginIp": "ad ullamco voluptate eu",
+          "loginLockTime": "2009-08-11T20:44:02.653Z",
+          "loginTime": "1998-08-06T15:20:35.004Z",
+          "payErrorTime": -94444743,
+          "payLockTime": "2019-12-21T11:17:44.827Z",
+          "pointsAvailable": -52408136,
+          "pointsUsed": -36621333,
+          "roleType": 1,
+          "safeLevel": 87633036,
+          "signContinuousDays": 22386171,
+          "storeCustomerRelaListByAll": [
+            {
+              "companyInfoId": 32608220,
+              "customerId": "magna dolor in anim enim",
+              "customerType": 0,
+              "employeeId": "officia Lorem irure",
+              "id": "sunt dolore officia",
+              "storeId": 31626015,
+              "storeLevelId": 31946533
+            },
+            {
+              "companyInfoId": 35221093,
+              "customerId": "ipsum est in",
+              "customerType": 0,
+              "employeeId": "fugiat sint sunt deserunt labore",
+              "id": "",
+              "storeId": -79561088,
+              "storeLevelId": 93640752
+            },
+            {
+              "companyInfoId": 84232508,
+              "customerId": "proident reprehenderit la",
+              "customerType": 0,
+              "employeeId": "tempor",
+              "id": "dolor irure minim in",
+              "storeId": -33930626,
+              "storeLevelId": 96581181
+            },
+            {
+              "companyInfoId": 61961887,
+              "customerId": "nulla tempor deserunt esse dolore",
+              "customerType": 0,
+              "employeeId": "incididunt sunt eiusmod consectetur",
+              "id": "in nulla",
+              "storeId": -53603981,
+              "storeLevelId": 49278399
+            },
+            {
+              "companyInfoId": 46804175,
+              "customerId": "ullamco",
+              "customerType": 0,
+              "employeeId": "commodo dolor ut",
+              "id": "culpa ea",
+              "storeId": 12454611,
+              "storeLevelId": 94534635
+            }
+          ],
+          "updatePerson": "Ut exercitation minim proident",
+          "updateTime": "1950-12-22T22:55:00.97Z"
+        },
+        "delFlag": 0,
+        "deletePerson": "anim l",
+        "deleteTime": "1948-02-26T01:24:01.978Z",
+        "downloadApp": 1,
+        "email": "Ut consectetur pariatur irure",
+        "employeeId": "culpa voluptate Ut",
+        "focusWechatPublicNumber": 1,
+        "forbidReason": "quis velit ea",
+        "gender": -86947344,
+        "headPicture": "nostrud officia",
+        "hobby": "ex ea sint in",
+        "idCard": "officia id",
+        "invoice": "nulla qui ad",
+        "isContact": 1,
+        "isDistributor": 0,
+        "job": "et velit commodo",
+        "latitude": "et commodo deseru",
+        "longitude": "incididunt dolore",
+        "microType": 0,
+        "ownershipGroup": 2,
+        "ownershipGroupCode": "dolor qui deserunt velit",
+        "proCertification": "mollit adipisicing minim",
+        "proCertificationId": "est eiusmod in dolore",
+        "provinceId": 96577887,
+        "refereePerson": "Excepteur",
+        "registChanel": 1,
+        "rejectReason": "mollit qui do",
+        "roleType": 0,
+        "storeTime": "1988-09-12T05:46:06.026Z",
+        "updatePerson": "amet minim voluptate",
+        "updateTime": "1979-07-07T08:25:45.492Z",
+        "wechat": "in",
+        "zodiac": "aute cillum dolore id"
+      }
+    ],
+    "navigateFirstPage": -44328700,
+    "navigateLastPage": 45093584,
+    "navigatePages": 31118223,
+    "navigatepageNums": [
+      -3179557,
+      82372174,
+      -61468352,
+      64838129,
+      -4593297
+    ],
+    "nextPage": 73394630,
+    "pageNum": 27802942,
+    "pageSize": 99708269,
+    "pages": -98269909,
+    "prePage": -50682788,
+    "size": 77295107,
+    "startRow": 10146629,
+    "total": 13848234
+  },
+  "CustomGroupVo": {
+    "createPerson": "aute esse commodo",
+    "createTime": "1984-09-23T15:23:49.183Z",
+    "customGroupDetail": {
+      "avgTradeAmountTime": -59403464,
+      "customerLevel": [
+        57873307,
+        20438499,
+        7057654
+      ],
+      "customerTag": [
+        92710333,
+        -79747977,
+        -75398915,
+        43043471
+      ],
+      "groupName": "ea id",
+      "gtAvgTradeAmount": -66571576,
+      "gtBalance": -75264772,
+      "gtCustomerGrowth": -17711681,
+      "gtPoint": 71928016,
+      "gtTradeAmount": -89781520,
+      "gtTradeCount": 16687238,
+      "lastTradeTime": 47584423,
+      "ltAvgTradeAmount": -18785167,
+      "ltBalance": 21718435,
+      "ltCustomerGrowth": -63575942,
+      "ltPoint": 13756077,
+      "ltTradeAmount": 50319454,
+      "ltTradeCount": -28398837,
+      "noRecentCartTime": -91710292,
+      "noRecentFavoriteTime": 84866357,
+      "noRecentFlowTime": -71817018,
+      "noRecentPayTradeTime": 16273933,
+      "noRecentTradeTime": 27462073,
+      "recentCartTime": -40068055,
+      "recentFavoriteTime": 7791695,
+      "recentFlowTime": -22491579,
+      "recentPayTradeTime": -81231544,
+      "recentTradeTime": -58741051,
+      "regionList": [
+        {
+          "regionId": "nostrud Lorem fugiat cillum enim",
+          "regionName": "sin"
+        },
+        {
+          "regionId": "ad voluptate qui",
+          "regionName": "Excepteur eu fugiat"
+        },
+        {
+          "regionId": "aliquip voluptate Duis",
+          "regionName": "Duis"
+        },
+        {
+          "regionId": "eu tempor et",
+          "regionName": "ipsum proident"
+        }
+      ],
+      "tradeAmountTime": -1333434,
+      "tradeCountTime": -52058756
+    },
+    "customerCount": -57828420,
+    "definition": "minim dolore",
+    "groupName": "ut do esse voluptate exercitation",
+    "id": 92755901,
+    "updatePerson": "ipsum ad",
+    "updateTime": "1970-06-18T12:37:12.713Z"
+  },
+  "RfmGroupStatisticsListResponse": {
+    "rfmGroupStatisticsListResponse": [
+      {
+        "customerNum": -37018516,
+        "groupAdvise": "ea qui",
+        "groupDefinition": "non sunt Lore",
+        "groupId": 71047597,
+        "groupName": "et aliquip reprehenderit fugiat",
+        "id": 64495915,
+        "tradeNum": 53389143,
+        "uvNum": 35371005
+      },
+      {
+        "customerNum": -66057545,
+        "groupAdvise": "tempor ad labore ipsum",
+        "groupDefinition": "dolor quis",
+        "groupId": -56009861,
+        "groupName": "e",
+        "id": -52069136,
+        "tradeNum": -65182931,
+        "uvNum": -5998806
+      },
+      {
+        "customerNum": 17528763,
+        "groupAdvise": "nostrud",
+        "groupDefinition": "quis",
+        "groupId": -84861596,
+        "groupName": "quis",
+        "id": -36388758,
+        "tradeNum": 18668394,
+        "uvNum": 90069384
+      },
+      {
+        "customerNum": 23289,
+        "groupAdvise": "nulla Lorem deserunt",
+        "groupDefinition": "Lorem Ut nisi aliquip nostrud",
+        "groupId": 93159898,
+        "groupName": "adipisicing",
+        "id": 17884019,
+        "tradeNum": 31090340,
+        "uvNum": -75142370
+      }
+    ]
+  }
+}

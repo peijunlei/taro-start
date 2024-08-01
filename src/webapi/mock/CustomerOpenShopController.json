@@ -1,0 +1,138 @@
+{
+  "CustomerOpenShopAddResponse": {
+    "customerOpenShopVO": {
+      "addressDetail": "Lorem Ut nostrud",
+      "areaId": 12898125,
+      "businessImageList": [
+        "officia Lorem",
+        "minim",
+        "aute",
+        "laboris",
+        "nulla qui"
+      ],
+      "businessLicenseNo": "Excepteur",
+      "certification": 30775941,
+      "cityId": 93645145,
+      "companyName": "sint occaecat quis",
+      "contactName": "occaecat nulla",
+      "contactPhone": "consectetur labore",
+      "createTime": "1972-06-27T09:20:40.065Z",
+      "customerAddress": "culpa enim consecte",
+      "customerDetailId": "mollit dolore id",
+      "customerId": "nisi",
+      "customerLevel": "aute aliqua veniam dolore fugiat",
+      "customerName": "esse aute dol",
+      "delFlag": 1,
+      "deliverWay": "tempor",
+      "distance": 88463194.79289043,
+      "id": "cillum incididunt",
+      "isParticipateReward": -18319022,
+      "latitude": "commodo sint Excepteur",
+      "longitude": "quis dolor Duis",
+      "microType": 1,
+      "noParticipateRewardReason": "sint et dolore qui veniam",
+      "openShopRejectReason": "laborum dolor Duis",
+      "openShopReviewTime": "1982-08-21T19:01:10.012Z",
+      "openShopTime": "1973-07-31T13:59:02.899Z",
+      "ownershipGroup": -10007191,
+      "parentId": "non ut Duis velit pariatur",
+      "proCertificationId": "ut est dolore ad incididunt",
+      "provinceId": -79872163,
+      "qualificationCertificate": [
+        "reprehenderit",
+        "proident deserunt",
+        "do aliqua adipisicing sunt",
+        "nulla reprehenderit",
+        "exercitation commodo elit velit Lorem"
+      ],
+      "realName": "nisi",
+      "recommendationCode": "incidid",
+      "registChanel": -35316255,
+      "reviewStatus": 64758959,
+      "shopName": "laborum qui pariatur Duis",
+      "storeType": 0
+    }
+  },
+  "CustomerDetailForOpenShopResponse": {
+    "customerDetailForOpenShopVO": {
+      "customerDetailId": "laborum ut par",
+      "customerId": "sint occaecat commodo velit",
+      "customerName": "nulla dolore ex",
+      "isContact": 0,
+      "microType": 5,
+      "openedShop": 1,
+      "ownershipGroup": 1,
+      "ownershipGroupCode": "consecte",
+      "recommendationCode": "nulla proident pariatur irure"
+    }
+  },
+  "CustomerOpenShopByIdResponse": {
+    "customerOpenShopVO": {
+      "addressDetail": "in quis reprehenderit minim",
+      "areaId": 49922605,
+      "businessImageList": [
+        "sint amet",
+        "commodo",
+        "enim minim",
+        "adipisicing tempor irure elit Ut",
+        "nostrud et"
+      ],
+      "businessLicenseNo": "laboris sit",
+      "certification": -78010402,
+      "cityId": 81772229,
+      "companyName": "non amet incididunt ex",
+      "contactName": "nulla velit enim irure",
+      "contactPhone": "magna ut dolore",
+      "createTime": "1952-06-16T20:37:07.675Z",
+      "customerAddress": "culpa",
+      "customerDetailId": "in",
+      "customerId": "aute aliquip ad Excepteur",
+      "customerLevel": "occaecat tempor",
+      "customerName": "eu",
+      "delFlag": 0,
+      "deliverWay": "irure est",
+      "distance": 53473271.63736221,
+      "id": "voluptate est irure",
+      "isParticipateReward": 29692759,
+      "latitude": "ut Ut non in quis",
+      "longitude": "id nisi Excepteur sed aliqua",
+      "microType": 3,
+      "noParticipateRewardReason": "labore exercitation",
+      "openShopRejectReason": "esse",
+      "openShopReviewTime": "1965-02-06T14:43:34.063Z",
+      "openShopTime": "2007-06-29T06:22:45.919Z",
+      "ownershipGroup": 22098113,
+      "parentId": "id mollit irure",
+      "proCertificationId": "anim cillum Ut nostrud",
+      "provinceId": -45035458,
+      "qualificationCertificate": [
+        "do id veniam ex",
+        "fugiat volup",
+        "sed",
+        "dolore et in velit",
+        "et esse dolor amet"
+      ],
+      "realName": "occaecat",
+      "recommendationCode": "est reprehenderi",
+      "registChanel": 80552559,
+      "reviewStatus": -79794877,
+      "shopName": "labore non",
+      "storeType": 4
+    }
+  },
+  "CustomerOpenShopBoolenResponse": {
+    "boolFlag": 63020011
+  },
+  "ProtocolSettingByIdResponse": {
+    "protocolSettingVO": {
+      "createTime": "1951-12-21T00:50:48.736Z",
+      "disableStatus": "Lorem sed",
+      "id": "dolor est exercitation",
+      "protocolContent": "ad aliquip consectetur",
+      "protocolTitle": "nisi",
+      "protocolType": 39690687,
+      "protocolTypeValue": "minim",
+      "updateTime": "1945-12-01T18:55:16.543Z"
+    }
+  }
+}

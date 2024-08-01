@@ -1,0 +1,170 @@
+{
+  "StatisticRecordListResponse": {
+    "statisticRecordVOList": [
+      {
+        "customerId": "labore est",
+        "elementId": "aliqua laboris elit Lorem adipisicing",
+        "recordChildType": "velit in do",
+        "recordCreateTime": "2017-02-25T08:53:42.078Z",
+        "recordFinishTime": "1952-11-15T23:28:46.197Z",
+        "recordId": 11880062,
+        "recordPartition": -37958305,
+        "recordRouter": "est eu Lorem sint nisi",
+        "recordSource": "est",
+        "recordTime": -92065717,
+        "recordType": 49622033
+      },
+      {
+        "customerId": "voluptate",
+        "elementId": "laboris ullamco sit",
+        "recordChildType": "ipsum officia",
+        "recordCreateTime": "1944-06-05T15:33:06.278Z",
+        "recordFinishTime": "2007-04-09T07:29:28.824Z",
+        "recordId": 46187654,
+        "recordPartition": 35999147,
+        "recordRouter": "dolor nulla",
+        "recordSource": "laboru",
+        "recordTime": 13728909,
+        "recordType": 42344225
+      },
+      {
+        "customerId": "ex tempor nostrud dolor sint",
+        "elementId": "dolor Lorem",
+        "recordChildType": "et",
+        "recordCreateTime": "1986-12-23T04:39:28.208Z",
+        "recordFinishTime": "1965-02-28T13:01:38.784Z",
+        "recordId": -15320372,
+        "recordPartition": 94815740,
+        "recordRouter": "aliquip in ad tempor",
+        "recordSource": "eu in cupidatat",
+        "recordTime": 51909717,
+        "recordType": -40892381
+      },
+      {
+        "customerId": "id exercitation do ea",
+        "elementId": "proident dolor ullamco Lorem",
+        "recordChildType": "consequat e",
+        "recordCreateTime": "1947-07-03T18:53:19.741Z",
+        "recordFinishTime": "1978-12-01T04:39:15.816Z",
+        "recordId": -21229091,
+        "recordPartition": -99408645,
+        "recordRouter": "in ut dolor",
+        "recordSource": "",
+        "recordTime": 15296330,
+        "recordType": -13812844
+      }
+    ]
+  },
+  "StatisticRecordModifyResponse": {
+    "statisticRecordVO": {
+      "customerId": "amet ipsum in",
+      "elementId": "proident exercitation ad cillum voluptate",
+      "recordChildType": "deserunt adipisicing occaecat enim",
+      "recordCreateTime": "1953-08-03T13:43:09.141Z",
+      "recordFinishTime": "1963-09-28T04:00:43.006Z",
+      "recordId": -34209449,
+      "recordPartition": 76189128,
+      "recordRouter": "quis eiusmod dolore ",
+      "recordSource": "exercitation labore in",
+      "recordTime": 65246766,
+      "recordType": 88054780
+    }
+  },
+  "StatisticRecordPageResponse": {
+    "statisticRecordVOPage": {
+      "content": [
+        {
+          "customerId": "consequat Ut officia",
+          "elementId": "eiusmod ali",
+          "recordChildType": "elit sed",
+          "recordCreateTime": "1993-10-14T03:48:03.565Z",
+          "recordFinishTime": "1977-12-27T17:06:04.368Z",
+          "recordId": -18352900,
+          "recordPartition": -69823630,
+          "recordRouter": "quis culpa do in",
+          "recordSource": "laboris Ut enim velit eiusmod",
+          "recordTime": -71340613,
+          "recordType": 95491744
+        },
+        {
+          "customerId": "Excepteur eu magna",
+          "elementId": "aliquip ad nulla amet adipisicing",
+          "recordChildType": "ea eu pariatur id consectetur",
+          "recordCreateTime": "2002-12-21T21:47:01.213Z",
+          "recordFinishTime": "1945-04-30T02:26:51.724Z",
+          "recordId": 25206145,
+          "recordPartition": -70909493,
+          "recordRouter": "et aute Excepteur",
+          "recordSource": "do consequat commodo c",
+          "recordTime": 27902793,
+          "recordType": -73054650
+        },
+        {
+          "customerId": "aliquip Excepteur consectetur sunt qui",
+          "elementId": "est",
+          "recordChildType": "laborum dolor enim ad",
+          "recordCreateTime": "1964-12-14T23:40:11.58Z",
+          "recordFinishTime": "2018-01-17T14:14:38.295Z",
+          "recordId": -36157672,
+          "recordPartition": -13601116,
+          "recordRouter": "aute dol",
+          "recordSource": "exercitation ut sint qui pariatur",
+          "recordTime": 33918210,
+          "recordType": 17978143
+        },
+        {
+          "customerId": "dolore",
+          "elementId": "ea quis ullamco anim",
+          "recordChildType": "aute",
+          "recordCreateTime": "1980-03-08T19:36:13.15Z",
+          "recordFinishTime": "1944-06-30T15:20:13.05Z",
+          "recordId": 59881079,
+          "recordPartition": -74416100,
+          "recordRouter": "in",
+          "recordSource": "in velit laboris dolore eiusmod",
+          "recordTime": -79554288,
+          "recordType": -40824501
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": 81724598,
+      "numberOfElements": -70718210,
+      "size": -1527738,
+      "sort": {},
+      "total": 91584144,
+      "totalElements": 8778052,
+      "totalPages": 91046426
+    }
+  },
+  "StatisticRecordAddResponse": {
+    "statisticRecordVO": {
+      "customerId": "Lorem",
+      "elementId": "sunt in deserunt ex",
+      "recordChildType": "laboru",
+      "recordCreateTime": "1957-09-04T00:59:04.772Z",
+      "recordFinishTime": "1966-07-14T20:33:00.796Z",
+      "recordId": 21261042,
+      "recordPartition": -1289955,
+      "recordRouter": "commodo esse tempor ex occaecat",
+      "recordSource": "sed pariatur ut ut",
+      "recordTime": -40633142,
+      "recordType": -82150412
+    }
+  },
+  "StatisticRecordByIdResponse": {
+    "statisticRecordVO": {
+      "customerId": "eiusmod qui",
+      "elementId": "in aute nostrud",
+      "recordChildType": "dolore labore",
+      "recordCreateTime": "1984-07-07T20:18:47.976Z",
+      "recordFinishTime": "1971-04-01T13:58:47.894Z",
+      "recordId": 61210830,
+      "recordPartition": 73315103,
+      "recordRouter": "cillum minim pariatur Lorem in",
+      "recordSource": "consectetur",
+      "recordTime": 71012907,
+      "recordType": -73458352
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "DistributionCustomerRankingResponse": {
+    "distributionCustomerRankingVO": {
+      "commission": 20934371.86644423,
+      "customerId": "consectetur",
+      "id": "cillum dolore",
+      "img": "sunt Excepteur labore in adipisicing",
+      "inviteAvailableCount": -62408281,
+      "inviteCount": -85360794,
+      "name": "Lorem sint",
+      "ranking": "pariatur fugiat",
+      "saleAmount": -62879655.30798259
+    },
+    "rankingVOList": [
+      {
+        "commission": 42267385.551080406,
+        "customerId": "nulla aute",
+        "id": "commodo velit qui",
+        "img": "amet sed mollit culpa",
+        "inviteAvailableCount": -19625586,
+        "inviteCount": -13630047,
+        "name": "id voluptate",
+        "ranking": "ut elit proident",
+        "saleAmount": 63310862.50558746
+      },
+      {
+        "commission": 82064240.10325474,
+        "customerId": "dolor qui eiusmod sit minim",
+        "id": "ullamco ut ea deserunt veniam",
+        "img": "in labore",
+        "inviteAvailableCount": -61186780,
+        "inviteCount": -36655415,
+        "name": "sunt",
+        "ranking": "irure ea culpa dolor occaecat",
+        "saleAmount": -18938632.789173275
+      },
+      {
+        "commission": -65478713.27981856,
+        "customerId": "cupidatat irure velit",
+        "id": "Ut Duis",
+        "img": "aliquip enim",
+        "inviteAvailableCount": -57141908,
+        "inviteCount": 11079952,
+        "name": "minim consequat ut qui",
+        "ranking": "consequat aliquip consectetur nisi",
+        "saleAmount": -66139159.61958807
+      },
+      {
+        "commission": -95097995.16388866,
+        "customerId": "c",
+        "id": "dolore incididunt",
+        "img": "minim et",
+        "inviteAvailableCount": 96236166,
+        "inviteCount": -58803560,
+        "name": "aliquip",
+        "ranking": "dolore aliqua reprehenderit est",
+        "saleAmount": 50735417.857040495
+      },
+      {
+        "commission": -8148052.783813536,
+        "customerId": "Duis cupidatat ea laborum veniam",
+        "id": "pariatur officia nisi aliquip",
+        "img": "velit Ut elit",
+        "inviteAvailableCount": 27250004,
+        "inviteCount": -40127522,
+        "name": "est consequat Lorem",
+        "ranking": "magna ad irure consectetur tempor",
+        "saleAmount": -45946707.85429247
+      }
+    ]
+  }
+}

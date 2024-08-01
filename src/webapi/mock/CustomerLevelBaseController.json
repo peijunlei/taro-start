@@ -1,0 +1,91 @@
+{
+  "CustomerLevelWithRightsByCustomerIdResponse": {
+    "createPerson": "magna",
+    "createTime": "1990-10-08T11:31:39.331Z",
+    "customerGrowthValue": -87845140,
+    "customerLevel": "ad quis",
+    "customerLevelDiscount": 68869040.17005065,
+    "customerLevelId": -80970087,
+    "customerLevelName": "velit sed irure",
+    "customerLevelRightsVOS": [
+      {
+        "activityId": "in ut",
+        "delFlag": "0",
+        "rightsDescription": "enim sed eu veniam ad",
+        "rightsId": 36257370,
+        "rightsLogo": "in",
+        "rightsName": "cupidatat dolor",
+        "rightsRule": "adipisicing ad culpa dolore",
+        "rightsType": "2",
+        "roleType": "1",
+        "sort": 62985659,
+        "status": 39687437
+      },
+      {
+        "activityId": "exercitation",
+        "delFlag": "0",
+        "rightsDescription": "venia",
+        "rightsId": 94994549,
+        "rightsLogo": "ut",
+        "rightsName": "id consectetur amet do",
+        "rightsRule": "conse",
+        "rightsType": "4",
+        "roleType": "0",
+        "sort": 31749250,
+        "status": -95883990
+      },
+      {
+        "activityId": "officia occaecat",
+        "delFlag": "1",
+        "rightsDescription": "quis proident culpa Ut",
+        "rightsId": 73348355,
+        "rightsLogo": "mollit sint",
+        "rightsName": "laboris sunt incididunt",
+        "rightsRule": "minim",
+        "rightsType": "2",
+        "roleType": "0",
+        "sort": -14712735,
+        "status": -6885266
+      },
+      {
+        "activityId": "culpa Duis ma",
+        "delFlag": "1",
+        "rightsDescription": "laborum sit occaecat aute in",
+        "rightsId": 96598742,
+        "rightsLogo": "nulla est",
+        "rightsName": "nulla sunt",
+        "rightsRule": "Excepteur proident labore cillum",
+        "rightsType": "3",
+        "roleType": "2",
+        "sort": 17883958,
+        "status": -38532038
+      },
+      {
+        "activityId": "tempor aute sunt",
+        "delFlag": "0",
+        "rightsDescription": "aute minim",
+        "rightsId": 13173213,
+        "rightsLogo": "fug",
+        "rightsName": "ex quis in",
+        "rightsRule": "deserunt",
+        "rightsType": "1",
+        "roleType": "1",
+        "sort": 41069746,
+        "status": 15528135
+      }
+    ],
+    "customerName": "aute veniam",
+    "customerTitle": "pariatur fugiat",
+    "customerType": "Ut mollit in",
+    "delFlag": 1,
+    "deletePerson": "ipsum",
+    "deleteTime": "1944-09-18T00:44:40.381Z",
+    "growthValue": -15301531,
+    "headImg": "cillum laboris ut",
+    "isDefalt": 0,
+    "rankBadgeImg": "dolor ut aliqua",
+    "totalSaleLowLimit": 48339280,
+    "updatePerson": "et anim",
+    "updateTime": "1993-02-06T07:00:27.242Z"
+  }
+}

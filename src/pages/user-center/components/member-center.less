@@ -1,0 +1,246 @@
+@import url('@/assets/style/theme.less');
+@import url('@/assets/style/mixin.less');
+
+.wm-user-center-top {
+  height: 352px;
+  padding: 0 24px;
+  position: relative;
+  z-index: 0;
+
+  // height: 300px;
+  .user-center-top-bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(255, 132, 0, 1) 0%, rgba(255, 77, 0, 1) 100%);
+    border-radius: 0 0 72px 72px;
+  }
+
+  .top-set {
+    height: 106px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    &.has-back {
+      justify-content: flex-end;
+    }
+
+    .set-box {
+      position: relative;
+
+      .message-num {
+        width: 30px;
+        height: 30px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        position: absolute;
+        font-size: 16px;
+        color: #ff6600;
+        right: -10px;
+        top: -10px;
+        line-height: 26px;
+        text-align: center;
+        padding: 2px;
+      }
+    }
+
+    .set-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .mess-num {
+      min-width: 30px;
+      height: 30px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 15px;
+      position: absolute;
+      font-size: 20px;
+      color: #ff6600;
+      left: 50%;
+      top: -10px;
+      line-height: 26px;
+      text-align: center;
+      padding: 2px;
+      transform: scale(0.8);
+      transform-origin: left;
+      font-weight: bold;
+    }
+  }
+
+  .user-info {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    .user-img-box {
+      margin-right: 24px;
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+
+      .user-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+
+    .user-account {
+      flex: 1;
+      justify-content: space-between;
+      // width: 1px;
+      .account-box {
+        flex-direction: row;
+
+        .user-name {
+          font-size: 36px;
+          color: #fff;
+          margin-right: 16px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          line-height: normal;
+          // flex: 1;
+          font-weight: 500;
+          max-width: calc(100vw - 467px);
+        }
+
+        .user-level {
+          padding: 0 16px;
+          background: rgba(0, 0, 0, 0.6);
+          border-radius: 18px;
+          flex-direction: row;
+          align-items: center;
+          height: 36px;
+
+          .level-img {
+            width: 23px;
+            height: 23px;
+            margin-right: 4px;
+          }
+
+          .level-name {
+            font-size: 16px;
+            color: #fff;
+          }
+        }
+      }
+
+      &.login-label {
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+
+        .noLogin {
+          font-size: 36px;
+          color: #fff;
+          font-weight: 500;
+        }
+
+        .warrow {
+          width: 24px;
+          height: 24px;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .account-text {
+      font-size: 24px;
+      color: #fff;
+      margin: 12px 0;
+    }
+
+    .user-growup {
+      align-items: center;
+      // width                : 136px;
+      // justify-content      : center;
+      flex-direction: row;
+      height: 36px;
+
+      .user-value {
+        .border(@color: #ffffff; @width: 2px; @radius: 40px);
+        font-size: 20px;
+        color: #fff;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 12px;
+      }
+    }
+
+    .has-signed {
+      flex-direction: row;
+      width: 128px;
+      height: 56px;
+      border-radius: 28px;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 25px;
+      // bottom: 20px;
+      // padding: 16px 24px;
+      border: 2px solid #fff;
+
+      .sign-img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .sign-text {
+        font-size: 24px;
+        color: #fff;
+        // margin-left: 8px;
+      }
+    }
+
+    .sign-in {
+      flex-direction: row;
+      width: 128px;
+      height: 56px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(254, 255, 254, 1) 100%);
+      border-radius: 28px;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 25px;
+      // bottom: 20px;
+      // padding: 16px 24px;
+      .sign-img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .sign-text {
+        font-size: 24px;
+        color: rgba(255, 102, 0, 1);
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .return {
+    justify-content: flex-end;
+  }
+
+  .left-bottom {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 32px;
+  }
+
+  .left-bottom-text {
+    padding: 8px 16px;
+
+    // border: 1px solid rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 400;
+    // color: rgba(255, 255, 255, 1);
+    color: #ff6600;
+  }
+}

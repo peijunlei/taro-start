@@ -1,0 +1,92 @@
+.address-select {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  margin: 0;
+
+  .popup {
+    position: absolute;
+    bottom: 0;
+    height: 70vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 16px 16px 0 0;
+
+    .header {
+      position: relative;
+      height: 96px;
+      justify-content: center;
+      align-items: center;
+
+      .close,
+      .back {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 28px;
+      }
+
+      .close {
+        right: 32px;
+      }
+
+      .back {
+        left: 32px;
+      }
+    }
+  }
+
+  .select-content {
+    padding: 0 40px;
+
+    .tabs {
+      flex-direction: row;
+      padding: 32px 0;
+
+      .tab-item {
+        align-items: center;
+        margin-right: 40px;
+
+        .text {
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 16px;
+        }
+
+        .line {
+          border-radius: 2px;
+          height: 4px;
+          width: 48px;
+        }
+
+        .line-sel {
+          background-color: #ff6600;
+        }
+      }
+    }
+
+    .list {
+      height: 50vh;
+      display: block;
+      overflow: scroll;
+
+      .list-item {
+        height: 72px;
+        flex-direction: row;
+        align-items: center;
+
+        .check {
+          width: 24px;
+          height: 24px;
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+}

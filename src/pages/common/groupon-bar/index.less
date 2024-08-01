@@ -1,0 +1,42 @@
+@import url('@/assets/style/theme.less');
+
+.wm-bar-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #fff;
+  flex-direction: row;
+  border-top-color: #e1e1e1;
+  border-top-width: 2px;
+  height: calc(94px + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 99;
+
+  .conBox {
+    height: 94px;
+    width: calc(100vw / 4);
+    justify-content: center;
+    align-items: center;
+
+    .img {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 8px;
+    }
+
+    .con-text {
+      color: #555;
+      font-size: 20px;
+    }
+
+    .text-cur {
+      color: @primary-color;
+    }
+  }
+}
+
+.wm-ios-bottom {
+  padding-bottom: 92px;
+  height: 186px;
+}

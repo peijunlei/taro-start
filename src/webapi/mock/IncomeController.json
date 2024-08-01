@@ -1,0 +1,87 @@
+{
+  "AccumulatedIncomeResponse": {
+    "accumulated": -2213440.751611799,
+    "commission": -89797090.6023423,
+    "reward": -65330151.029725544
+  },
+  "IncomeListResponse": {
+    "incomeList": [
+      {
+        "income": -69415295.69280499,
+        "ranking": 13661862,
+        "shopId": "pariatur quis proident",
+        "shopName": "veniam ut"
+      },
+      {
+        "income": -5958218.023642644,
+        "ranking": -99026802,
+        "shopId": "ullamco ut voluptate",
+        "shopName": "exercitation irure"
+      },
+      {
+        "income": 5891058.153873548,
+        "ranking": 42177097,
+        "shopId": "ut anim ea nulla dolor",
+        "shopName": "reprehenderit L"
+      },
+      {
+        "income": 2730302.1572426856,
+        "ranking": -40697669,
+        "shopId": "magna inci",
+        "shopName": "id in labore nulla qui"
+      }
+    ],
+    "myIncomeRanking": {
+      "ranking": -96138676,
+      "yesterdayRanking": 1241133
+    }
+  },
+  "IncomeOrderListResponse": {
+    "forecastEarnings": -9518160.502421185,
+    "haveSettlementProceeds": 71745333.51603976,
+    "incomeOrderList": [
+      {
+        "estimateCommission": -12646320.821800485,
+        "incomeOrderType": 0,
+        "orderCode": "in fugiat adipisicing dolore Duis",
+        "payPrice": 45466018.47315088,
+        "skuImg": "quis",
+        "skuName": "ut",
+        "skuSpec": "elit veniam"
+      },
+      {
+        "estimateCommission": 51193667.58539888,
+        "incomeOrderType": 1,
+        "orderCode": "dolor in",
+        "payPrice": -78422270.6770525,
+        "skuImg": "sed",
+        "skuName": "non eu nulla",
+        "skuSpec": "dolor ut incididunt"
+      }
+    ]
+  },
+  "IncomeOverviewResponse": {
+    "allIncome": 61838640.27137303,
+    "drawCashMoney": 75633010.61432678,
+    "forecastEarnings": 41117359.29719579,
+    "haveSettlementProceeds": -79935476.72012159,
+    "incomeTrendList": [
+      {
+        "day": "1996-04-26",
+        "income": 98145299.1560365
+      },
+      {
+        "day": "1961-11-20",
+        "income": -65208844.718093984
+      },
+      {
+        "day": "1968-01-02",
+        "income": 65058297.28263092
+      },
+      {
+        "day": "2011-10-21",
+        "income": 26864224.6814764
+      }
+    ]
+  }
+}

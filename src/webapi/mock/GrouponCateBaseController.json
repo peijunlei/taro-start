@@ -1,0 +1,31 @@
+{
+  "GrouponCateListResponse": {
+    "grouponCateVOList": [
+      {
+        "defaultCate": 0,
+        "grouponCateId": "exercitation cillum occaecat",
+        "grouponCateName": "magna enim ullamco in"
+      },
+      {
+        "defaultCate": 0,
+        "grouponCateId": "ut ex mollit",
+        "grouponCateName": "sint incididunt velit dolor"
+      },
+      {
+        "defaultCate": 1,
+        "grouponCateId": "ut",
+        "grouponCateName": "quis sed"
+      },
+      {
+        "defaultCate": 1,
+        "grouponCateId": "ut tempor dolor Ut nulla",
+        "grouponCateName": "aute laboris sunt voluptate aliqua"
+      },
+      {
+        "defaultCate": 1,
+        "grouponCateId": "amet aute dolor voluptate eiusmod",
+        "grouponCateName": "consectetur consequat Lorem"
+      }
+    ]
+  }
+}

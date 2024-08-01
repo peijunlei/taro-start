@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link id="icoLink" rel="shortcut icon" href="" type="image/x-icon">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telephone=no,address=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+  <title>taro-start</title>
+  <script><%= htmlWebpackPlugin.options.script %></script>
+</head>
+<body>
+  <script>
+    ;(function () {
+      if (!/#debug/.test(window.location)) return;
+      var src = '//unpkg.com/vconsole@latest/dist/vconsole.min.js';
+      document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+      document.write('<scr' + 'ipt>new VConsole();</scr' + 'ipt>');
+    })();
+  </script>
+  <script>
+    var ua = navigator.userAgent.toLowerCase();
+    var isSafari = ua.includes('safari') && !ua.includes('chrome');
+    if (isSafari) {
+      window.onpageshow = function (event) {
+        if (event.persisted) {
+          window.location.reload()
+        }
+      };
+    }
+  </script>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+  <script type="text/javascript">
+    // 高德地图官方反馈目前方式一，存在已知问题，还在优化中的，本地开发建议使用方式二，测试环境还是使用方式一
+    if ("<%= htmlWebpackPlugin.options.TYPE_ENV %>" === "prod") {
+      window._AMapSecurityConfig = {
+        serviceHost: "<%= htmlWebpackPlugin.options.aMapServiceHost %>",
+        // 例如 ：serviceHost:'http://1.1.1.1:80/_AMapService',
+      }
+    } else {
+      // 本地开发采用方式二
+      window._AMapSecurityConfig = {
+        securityJsCode: "<%= htmlWebpackPlugin.options.securityJsCode %>",
+      }
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=<%= htmlWebpackPlugin.options.mobileAmapKey %>"></script>
+  <div id="app"></div>
+  <form id="uploadForm" style="display: none;">
+    <input id="uploadInput" type="file" accept="image/*" style="display: none;">
+  </form>
+</body>
+</html>

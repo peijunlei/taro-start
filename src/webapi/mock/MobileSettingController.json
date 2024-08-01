@@ -1,0 +1,30 @@
+{
+  "noneName": "labore sunt",
+  "AppShareSettingGetResponse": {
+    "androidUrl": "commodo aute ullamco sunt",
+    "desc": "minim",
+    "downloadImg": "reprehenderit est irure adipisicing aliqua",
+    "downloadUrl": "laborum fugiat dolore",
+    "enabled": true,
+    "icon": "irure voluptate",
+    "iosUrl": "sunt esse veniam",
+    "shareImg": "est ex ullamco",
+    "title": "nisi"
+  },
+  "AppUpgradeGetResponse": {
+    "androidAddress": "o",
+    "appAddress": "Lorem",
+    "forceUpdateFlag": 17765096,
+    "latestVersion": "labore ipsum elit",
+    "upgradeDesc": "exercitation incididunt esse Excepteur"
+  },
+  "ValidateCodepostRes": {},
+  "AppInviteSettingGetResponse": {
+    "desc": "adipisicing consectetur sit pa",
+    "enabled": false,
+    "enterImg": "Excepteur",
+    "shareIcon": "mollit",
+    "shareImg": "anim officia minim",
+    "title": "proident sunt veniam"
+  }
+}

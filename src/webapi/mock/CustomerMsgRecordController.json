@@ -1,0 +1,81 @@
+{
+  "CustomerMsgRecordPageResponse": {
+    "customerMsgRecordVOPage": {
+      "content": [
+        {
+          "createTime": "1943-10-07T18:42:59.72Z",
+          "createTimeStr": "dolore nostr",
+          "customerId": "anim deserunt veniam incididunt",
+          "customerMsgRecordId": "ut deserunt Ut cillum incididunt",
+          "delFlag": 1,
+          "delTime": "1987-05-15T09:27:09.39Z",
+          "msgSubType": 2,
+          "msgType": 4,
+          "refCustomerHeadImg": "dolor culpa ad",
+          "refCustomerId": "in laboris ea ipsum",
+          "refCustomerName": "proident ad",
+          "refId": "aliqua veniam",
+          "sourceContent": "occa",
+          "targetContent": "ad eu"
+        },
+        {
+          "createTime": "2011-01-28T04:55:40.802Z",
+          "createTimeStr": "ex ullamco Duis qui",
+          "customerId": "officia labore",
+          "customerMsgRecordId": "officia",
+          "delFlag": 1,
+          "delTime": "2013-05-07T18:00:36.969Z",
+          "msgSubType": 2,
+          "msgType": 2,
+          "refCustomerHeadImg": "in",
+          "refCustomerId": "o",
+          "refCustomerName": "sint laboris cillum proident quis",
+          "refId": "culpa irure ea",
+          "sourceContent": "elit",
+          "targetContent": "eiusmod deserunt"
+        },
+        {
+          "createTime": "2005-04-14T16:30:53.829Z",
+          "createTimeStr": "Lorem",
+          "customerId": "non laborum",
+          "customerMsgRecordId": "minim ut deserunt in consequat",
+          "delFlag": 1,
+          "delTime": "2005-12-05T09:11:03.037Z",
+          "msgSubType": 2,
+          "msgType": 4,
+          "refCustomerHeadImg": "laborum commodo ad labore",
+          "refCustomerId": "eiusmod",
+          "refCustomerName": "cupidatat in incididunt Duis",
+          "refId": "magna ut ipsum",
+          "sourceContent": "non dolore laborum sit",
+          "targetContent": "pariatur labore"
+        },
+        {
+          "createTime": "2009-04-10T05:56:34.743Z",
+          "createTimeStr": "nisi Dui",
+          "customerId": "ipsum culpa labore Lor",
+          "customerMsgRecordId": "nulla dolor esse",
+          "delFlag": 0,
+          "delTime": "1959-01-09T23:47:33.927Z",
+          "msgSubType": 3,
+          "msgType": 3,
+          "refCustomerHeadImg": "in",
+          "refCustomerId": "ut anim id nulla ea",
+          "refCustomerName": "qui deserunt",
+          "refId": "proident occaecat non exercitation esse",
+          "sourceContent": "elit voluptate dolor",
+          "targetContent": "ullamco non"
+        }
+      ],
+      "first": true,
+      "last": true,
+      "number": -41838299,
+      "numberOfElements": 30127007,
+      "size": -70343939,
+      "sort": {},
+      "total": -63135052,
+      "totalElements": -2184969,
+      "totalPages": 91451072
+    }
+  }
+}

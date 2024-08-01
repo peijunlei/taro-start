@@ -1,0 +1,140 @@
+.imgSlides {
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+
+  div {
+    flex-direction: unset;
+  }
+
+  .taro-video {
+    height: 100%;
+  }
+
+  .taro-video-progress {
+    width: 100%;
+  }
+
+  .swiper-box {
+    width: 100%;
+    height: 750px;
+
+    .video-box {
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      position: relative;
+
+      .close {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 32px;
+        height: 32px;
+        z-index: 100;
+      }
+    }
+
+    .video-img {
+      margin-top: 52px;
+      width: 100%;
+      height: calc(100% - 52px);
+    }
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .no-img {
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  //播放按钮 页码
+  .bottom-page {
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    bottom: 24px;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 5;
+
+    .play-btn {
+      height: 48px;
+      background: linear-gradient(270deg, rgba(250, 250, 250, 1) 0%, rgba(235, 235, 235, 1) 100%);
+      border-radius: 28px;
+      align-items: center;
+      flex-direction: row;
+      padding: 0 4px;
+
+      .play {
+        width: 40px;
+        height: 40px;
+      }
+
+      .time {
+        font-size: 24px;
+        color: #333;
+        margin-left: 16px;
+      }
+    }
+
+    .video-size {
+      width: 104px;
+      height: 48px;
+      background: rgba(50, 50, 50, 0.3);
+      border-radius: 28px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 24px;
+
+      .text {
+        font-size: 28px;
+        color: #fff;
+
+        .num {
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .black-layer {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(000, 000, 000, 0.4);
+    position: fixed;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    @keyframes amIn {
+      0% {
+        transform: scale(0);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .big-img {
+      width: 100%;
+      height: 750px;
+      animation: amIn 0.4s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "DistributionPerformanceByDayQueryResponse": {
+    "dataList": [
+      {
+        "commission": 41561713.40870446,
+        "customerId": "anim proident consequat adipisicing",
+        "distributionId": "cillum cupidatat do eu",
+        "saleAmount": -15208894.348043203,
+        "targetDate": "2004-05-18"
+      },
+      {
+        "commission": -4850693.324153572,
+        "customerId": "aliquip",
+        "distributionId": "non et dolore eu",
+        "saleAmount": 9090372.258960143,
+        "targetDate": "2011-11-06"
+      },
+      {
+        "commission": -81511171.62273574,
+        "customerId": "aute est dolor voluptate ad",
+        "distributionId": "nisi",
+        "saleAmount": 75977023.04953486,
+        "targetDate": "1990-09-15"
+      },
+      {
+        "commission": -59392577.98538642,
+        "customerId": "Excepteur",
+        "distributionId": "in qui cupidatat Duis",
+        "saleAmount": -6805721.314236954,
+        "targetDate": "1999-09-25"
+      },
+      {
+        "commission": 50909569.01527718,
+        "customerId": "nulla",
+        "distributionId": "reprehenderit",
+        "saleAmount": 53647066.1889669,
+        "targetDate": "2019-04-24"
+      }
+    ],
+    "totalCommission": -25826910.402289644,
+    "totalSaleAmount": -73255669.22381288
+  },
+  "DistributionPerformanceByLast6MonthsQueryResponse": {
+    "dataList": [
+      {
+        "commission": -27084353.48004152,
+        "customerId": "cillum eu ipsum",
+        "distributionId": "dolor",
+        "saleAmount": 62611483.68134123,
+        "targetMonth": "aliquip"
+      },
+      {
+        "commission": -46619027.46992172,
+        "customerId": "magna ex in incididunt anim",
+        "distributionId": "ad occaecat esse tempor enim",
+        "saleAmount": -56271195.085568726,
+        "targetMonth": "est nisi adipisicing occaecat eiusmod"
+      },
+      {
+        "commission": 32190912.314868346,
+        "customerId": "veniam enim nisi dolore commodo",
+        "distributionId": "nostrud deserunt",
+        "saleAmount": -27939655.638902843,
+        "targetMonth": "velit elit"
+      },
+      {
+        "commission": -43178929.07755363,
+        "customerId": "anim",
+        "distributionId": "dolore consequat do sunt",
+        "saleAmount": 75064908.64065868,
+        "targetMonth": "commodo Lorem"
+      },
+      {
+        "commission": -67841455.92227584,
+        "customerId": "amet officia laborum minim",
+        "distributionId": "consectetur dolore culpa",
+        "saleAmount": -46662384.88559786,
+        "targetMonth": "non Ut aute"
+      }
+    ],
+    "totalCommission": 23699879.644346386,
+    "totalSaleAmount": 54131643.136163235
+  },
+  "DistributionPerformanceSummaryQueryResponse": {
+    "dataList": [
+      {
+        "commission": 30098576.0059651,
+        "customerId": "proident deserunt",
+        "distributionId": "quis do id Excepteur laboris",
+        "saleAmount": 89589537.08305883
+      },
+      {
+        "commission": 8363828.501445532,
+        "customerId": "Excepteur reprehenderit",
+        "distributionId": "reprehenderit eiusmod minim ut",
+        "saleAmount": -50615359.87510228
+      },
+      {
+        "commission": 16223581.686801761,
+        "customerId": "amet irure dolore reprehenderit laborum",
+        "distributionId": "proident dolor mollit",
+        "saleAmount": -31299584.88540283
+      },
+      {
+        "commission": -87687386.32909216,
+        "customerId": "nisi eiusmod enim magna",
+        "distributionId": "anim",
+        "saleAmount": -25522766.27363965
+      },
+      {
+        "commission": -66259927.65352682,
+        "customerId": "qui Duis",
+        "distributionId": "ullamco",
+        "saleAmount": -18143365.08629784
+      }
+    ]
+  },
+  "DistributionPerformanceYesterdayQueryResponse": {
+    "performanceByDayVO": {
+      "commission": -49775183.25058923,
+      "customerId": "amet adipisicing ex ipsum laborum",
+      "distributionId": "cillum commodo magna voluptate",
+      "saleAmount": -51620270.83828407,
+      "targetDate": "1949-11-30"
+    }
+  }
+}

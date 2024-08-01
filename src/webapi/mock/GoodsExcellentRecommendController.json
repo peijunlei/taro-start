@@ -1,0 +1,30 @@
+{
+  "GoodsExcellentResponse": {
+    "goodsInfos": [
+      {
+        "goodsId": "ullamco Excepteur",
+        "goodsInfoId": "cillum eu non nisi",
+        "goodsInfoImg": "aute ullamco sit",
+        "goodsInfoName": "cupidatat eiusmod proi",
+        "goodsInfoNo": "do anim ullamco quis culpa",
+        "marketPrice": 11453045.549279079
+      },
+      {
+        "goodsId": "sint deserunt ullamco labore",
+        "goodsInfoId": "in ut sit exercit",
+        "goodsInfoImg": "est nisi",
+        "goodsInfoName": "velit non anim voluptate nulla",
+        "goodsInfoNo": "non",
+        "marketPrice": 35957120.56899211
+      },
+      {
+        "goodsId": "deserunt",
+        "goodsInfoId": "ipsum sit voluptate",
+        "goodsInfoImg": "in pariatur ut voluptate",
+        "goodsInfoName": "amet culpa",
+        "goodsInfoNo": "deserunt occaecat cillum consequat ut",
+        "marketPrice": 92569079.18550143
+      }
+    ]
+  }
+}
