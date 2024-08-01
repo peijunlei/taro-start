@@ -163,7 +163,7 @@ export default class PackageCShopCart extends React.Component<Partial<T.IProps>,
 
   render() {
     return (
-      <View>
+      <View>1
         {/* isFromC是否为分销员购物车 */}
         <ShopCart
           isFromC={false}

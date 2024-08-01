@@ -15,7 +15,7 @@ import { connect } from 'react-redux';
 import * as T from './types';
 import actions from './actions';
 import { store2Props } from './selectors';
-import { WMLoading } from '@/pages/common';
+import  WMLoading from '@/pages/common/loading';
 import { fetchMock } from 'wmkit';
 
 import { BackgroundType, CardStatus, InvalidStatus } from 'api/GiftCardController';
@@ -63,7 +63,7 @@ export default class GiftCardDetail extends Component<Partial<T.IProps>, any> {
       actions: { action },
     } = this.props;
     return (
-      <View className="gift-card-detail _page">
+      <View className='gift-card-detail _page'>
         {main ? (
           <>
             {main?.isReady ? <WMLoading /> : null}

@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 import * as T from './types';
 import actions from './actions';
 import {store2Props} from './selectors';
-import {WMLoading} from '@/pages/common';
+import  WMLoading from '@/pages/common/loading';
 
 import LoginInfo from './components/login-info';
 
@@ -43,7 +43,7 @@ export default class GiftCardLogin extends Component<Partial<T.IProps>, any> {
       actions: {action},
     } = this.props;
     return (
-      <View className="gift-card-detail _page">
+      <View className='gift-card-detail _page'>
         {main ? (
           <Fragment>
             {main?.isReady ? <WMLoading /> : null}

@@ -11,7 +11,7 @@ import config, {setGlobalData} from '@/service/config';
 import {cache} from 'config';
 import {_, WMkit, wxAuth, pvUvStatics, msg} from 'wmkit';
 // fixme 这边要优化，直接引入的样式有点多
-import '@wanmi/ui-taro/lib/style/templates/index.less';
+// import '@wanmi/ui-taro/lib/style/templates/index.less';
 import * as sentry from 'sentry-mina';
 import Raven from 'raven-js';
 import {getHashParam} from '@/utils/common-functions';

@@ -15,7 +15,9 @@ import { connect } from 'react-redux';
 import { store2Props } from '@/pages/shop-cart/selectors';
 import moment from 'dayjs';
 import { debounce } from 'lodash';
+
 var isBetween = require('dayjs/plugin/isBetween');
+
 moment.extend(isBetween);
 type IStoreItemProps = T.IProps & T.IStoreItemProps;
 
@@ -56,11 +58,11 @@ export default class StoreItem extends Component<Partial<IStoreItemProps>, T.ISt
         {thisStoreSku.length ? (
           <View className={!isFromC ? 'storeItem' : 'storeItemFromc'}>
             {!isFromC && (
-              <View className="store-header">
-                <View className="store-con-noEdit">
-                  <View className="store-header-con">
-                    <View className="money-left">
-                      <View className="check-view">
+              <View className='store-header'>
+                <View className='store-con-noEdit'>
+                  <View className='store-header-con'>
+                    <View className='money-left'>
+                      <View className='check-view'>
                         <Checkbox
                           checked={actions._getStoreCheck(storeSpus, checkSku, goodsInfos)}
                           onClick={(checked) => {
@@ -73,29 +75,29 @@ export default class StoreItem extends Component<Partial<IStoreItemProps>, T.ISt
                         />
                       </View>
                     </View>
-                    <View className="store-header-content">
+                    <View className='store-header-content'>
                       <View
-                        className="store-header-left"
-                        onClick={(e) => {
-                          return
-                          e.stopPropagation();
-                          Taro.navigateTo({
-                            url: `/pages/package-A/store/store-main/index?storeId=${myStore?.storeId}`,
-                          });
-                        }}
+                        className='store-header-left'
+                        // onClick={(e) => {
+                        //   return
+                        //   e.stopPropagation();
+                        //   Taro.navigateTo({
+                        //     url: `/pages/package-A/store/store-main/index?storeId=${myStore?.storeId}`,
+                        //   });
+                        // }}
                       >
                         {myStore.companyType === 0 && (
-                          <View className="store-type">
-                            <Text className="store-type-text">自营</Text>
+                          <View className='store-type'>
+                            <Text className='store-type-text'>自营</Text>
                           </View>
                         )}
-                        <Text className="store-name">{myStore.storeName}</Text>
+                        <Text className='store-name'>{myStore.storeName}</Text>
                       </View>
 
                       {/*优惠券*/}
                       {storeCouponFlag && !isEdit && (
                         <View
-                          className="store-header-right"
+                          className='store-header-right'
                           onClick={async () => {
                             await action.loadingWML(true);
                             setTimeout(async () => {
@@ -104,7 +106,7 @@ export default class StoreItem extends Component<Partial<IStoreItemProps>, T.ISt
                             Taro.hideTabBar();
                           }}
                         >
-                          <Text className="coupon-text">优惠券</Text>
+                          <Text className='coupon-text'>优惠券</Text>
                         </View>
                       )}
                     </View>
@@ -198,7 +200,7 @@ export default class StoreItem extends Component<Partial<IStoreItemProps>, T.ISt
                   })
               }
               {/*当促销商品组不是最后一项item时展示border*/}
-              {index !== item.length - 1 && <View className="salesPromotionBorder"></View>}
+              {index !== item.length - 1 && <View className='salesPromotionBorder'></View>}
             </View>
           );
         } else {

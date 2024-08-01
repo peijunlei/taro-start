@@ -9,7 +9,6 @@ import './material-item.less';
 import moment from 'dayjs';
 import {Const} from 'config';
 import { _, getPrivacySetting, msg } from 'wmkit';
-import copy from 'copy-to-clipboard';
 
 const copytext = require('@/assets/image/goods/find/copytext.png');
 const defaultImg = require('@/assets/image/common/default-img.png');
@@ -66,18 +65,18 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
     if (!this.props.main) return <View />;
     let {action, main, matterItem} = this.props;
     return (
-      <View className="material-items">
-        <View className="top">
-          <View className="left">
-            <Image src={storeDefaultImg} className="img" />
+      <View className='material-items'>
+        <View className='top'>
+          <View className='left'>
+            <Image src={storeDefaultImg} className='img' />
             <View>
-              <Text className="name">官方精选</Text>
-              <Text className="fs20 c999">{moment(matterItem.updateTime).format('YYYY/MM/DD')}</Text>
+              <Text className='name'>官方精选</Text>
+              <Text className='fs20 c999'>{moment(matterItem.updateTime).format('YYYY/MM/DD')}</Text>
             </View>
           </View>
-          <View className="share">
-            <Text className="fs24 yellow">{matterItem.recommendNum + ''}</Text>
-            <Text className="fs24 c999">次分享</Text>
+          <View className='share'>
+            <Text className='fs24 yellow'>{matterItem.recommendNum + ''}</Text>
+            <Text className='fs24 c999'>次分享</Text>
           </View>
         </View>
         <View
@@ -85,14 +84,14 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
           style={{height: this.state.height, overflowY: this.state.overflowY as any}}
           className={this.props.visible && this.state.scrollHeigt > 105 ? 'content-all' : 'content-shrink'}
         >
-          <Text id={`a${this.state.key}`} className="mb8 content-recommend">
+          <Text id={`a${this.state.key}`} className='mb8 content-recommend'>
             {matterItem.recommend}
           </Text>
         </View>
         {this.state.scrollHeigt > 105 ? (
           this.props.visible ? (
             <View
-              className="total"
+              className='total'
               onClick={() => {
                 this.setState({
                   overflowY: 'hidden',
@@ -101,12 +100,12 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
                 action.commonChange(`main.visibleMap.${matterItem.id}`, !main.visibleMap[matterItem.id]);
               }}
             >
-              <Text className="text">收起</Text>
-              <Image src={full} className="icon" style={{transform: 'rotate(180deg)'}} />
+              <Text className='text'>收起</Text>
+              <Image src={full} className='icon' style={{transform: 'rotate(180deg)'}} />
             </View>
           ) : (
             <View
-              className="total"
+              className='total'
               onClick={() => {
                 this.setState({
                   overflowY: 'auto',
@@ -115,13 +114,13 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
                 action.commonChange(`main.visibleMap.${matterItem.id}`, !main.visibleMap[matterItem.id]);
               }}
             >
-              <Text className="text">全文</Text>
-              <Image src={full} className="icon" />
+              <Text className='text'>全文</Text>
+              <Image src={full} className='icon' />
             </View>
           )
         ) : null}
 
-        <View className="images">
+        <View className='images'>
           {matterItem.matterType == 0
             ? matterItem.matter.split(',').map((v, index) => {
                 return (
@@ -144,7 +143,7 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
                       key={Math.random()}
                       className={(index + 1) % 3 == 0 ? 'image image-last' : 'image'}
                     />
-                    {item.linkSrc && <Image src={item.linkSrc} key={Math.random()} className="image-link" />}
+                    {item.linkSrc && <Image src={item.linkSrc} key={Math.random()} className='image-link' />}
                   </View>
                 );
               })
@@ -152,26 +151,26 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
         </View>
         {main.customer.forbiddenFlag == 0 && matterItem.matterType == 0 ? (
           <View
-            className="box"
+            className='box'
             onClick={() =>
               Taro.navigateTo({
                 url: `/pages/package-B/goods/goods-details/index?skuId=${matterItem.goodsInfo.goodsInfoId}`,
               })
             }
           >
-            <View className="row-center">
+            <View className='row-center'>
               <Image
                 src={matterItem.goodsInfo.goodsInfoImg ? matterItem.goodsInfo.goodsInfoImg : defaultImg}
-                className="img"
+                className='img'
               />
               <View>
-                <Text className="fs20 c333 mb16 goodsName">{matterItem.goodsInfo.goodsInfoName}</Text>
-                <Text className="fs24 yellow">{`￥${matterItem.goodsInfo.marketPrice}`}元</Text>
+                <Text className='fs20 c333 mb16 goodsName'>{matterItem.goodsInfo.goodsInfoName}</Text>
+                <Text className='fs24 yellow'>{`￥${matterItem.goodsInfo.marketPrice}`}元</Text>
               </View>
             </View>
 
             <View
-              className="button"
+              className='button'
               onClick={(e) => {
                 e.stopPropagation();
                 isH5
@@ -181,32 +180,30 @@ export default class MatericalItem extends Component<Partial<IMaterialItemProps>
                   : action.shareBtn(matterItem);
               }}
             >
-              <Text className="text">分享赚{matterItem.goodsInfo.distributionCommission}元</Text>
+              <Text className='text'>分享赚{matterItem.goodsInfo.distributionCommission}元</Text>
             </View>
           </View>
         ) : null}
-        <View className="bottom">
+        <View className='bottom'>
           <View
-            className="left"
+            className='left'
             onClick={() => (Taro.getEnv() === 'WEAPP' ? this._click(0, matterItem) : this._click1(0, matterItem))}
           >
-            <Image src={save} className="save" />
-            <Text className="fs24 c333">保存图片</Text>
+            <Image src={save} className='save' />
+            <Text className='fs24 c333'>保存图片</Text>
           </View>
           {isH5 && (
             <View
-              className="left"
+              className='left'
               onClick={() => {
-                copy(matterItem.recommend); //'我是要复制的内容'
-                Taro.showToast({
-                  title: '内容已复制',
-                  icon: 'success',
-                });
+                Taro.setClipboardData({
+                  data: matterItem.recommend,
+                })
               }}
               style={{marginLeft: '10px'}}
             >
-              <Image src={copytext} className="save" />
-              <Text className="fs24 c333">复制文案</Text>
+              <Image src={copytext} className='save' />
+              <Text className='fs24 c333'>复制文案</Text>
             </View>
           )}
         </View>

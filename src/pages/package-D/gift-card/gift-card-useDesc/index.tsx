@@ -11,7 +11,7 @@ import {View, Text, Image, Input, RichText} from '@tarojs/components';
 import React, {Component, Fragment, useEffect, useState} from 'react';
 import {getHashParam} from '@/utils/common-functions';
 
-import {WMLoading} from '@/pages/common';
+import WMLoading from '@/pages/common/loading';
 import {_} from 'wmkit';
 
 import {getUserGiftCardDetail} from 'api/GiftCardController';

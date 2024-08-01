@@ -38,59 +38,59 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
     // let {flag} = this.state;
 
     return (
-      <View className="loginLogin-loginForm">
+      <View className='loginLogin-loginForm'>
         {/* 关闭按钮 */}
         {/* <View className="close">
           <Image className="close-icon" src={closeIcon} />
         </View> */}
         {/* logo */}
-        <View className="logo-box">
+        <View className='logo-box'>
           {/* 兼容小程序多加一层view */}
-          <View className="logo-panel">
-            <Image className="logo" mode="aspectFit" src={main?.pcLogo?.length > 0 && main?.pcLogo[0].url} />
+          <View className='logo-panel'>
+            <Image className='logo' mode='aspectFit' src={main?.pcLogo?.length > 0 && main?.pcLogo[0].url} />
           </View>
         </View>
 
-        <View className="login-info">
+        <View className='login-info'>
           {/* 手机号 */}
-          <View className="form-input">
-            <Image className="l-icon" src={phoneIcon} />
+          <View className='form-input'>
+            <Image className='l-icon' src={phoneIcon} />
             <Input
-              className="int"
+              className='int'
               value={main.phone}
-              placeholder="请输入您的手机号"
-              onBlur={(e) => {
+              placeholder='请输入您的手机号2'
+              onInput={(e) => {
                 action.commonChange('main.phone', e.detail.value);
               }}
               maxlength={11}
-              type="number"
+              type='number'
             />
           </View>
           {main?.switchLogin ? (
             // 密码
-            <View className="form-input">
-              <Image className="l-icon" src={passIcon} />
+            <View className='form-input'>
+              <Image className='l-icon' src={passIcon} />
               <Input
-                className="int"
+                className='int'
                 value={main.password}
-                placeholder="请输入密码"
+                placeholder='请输入密码'
                 onInput={(e) => {
                   action.commonChange('main.password', e.detail.value);
                 }}
                 maxlength={16}
-                type="text"
+                type='text'
                 password={main?.flag}
               />
               <View
-                className="r-btn"
+                className='r-btn'
                 onClick={() => {
                   action.commonChange('main.flag', !main?.flag);
                 }}
               >
-                <Image className="icon" src={main?.flag ? closeEyesIcon : openEyesIcon} />
+                <Image className='icon' src={main?.flag ? closeEyesIcon : openEyesIcon} />
               </View>
               <View
-                className="forget-password"
+                className='forget-password'
                 onClick={() =>
                   Taro.navigateTo({
                     url: '/pages/package-A/customer/user-pw/index',
@@ -102,18 +102,18 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
             </View>
           ) : (
             // 验证码
-            <View className="form-input">
-              <Image className="l-icon" src={codeIcon} />
+            <View className='form-input'>
+              <Image className='l-icon' src={codeIcon} />
               <Input
-                className="int"
+                className='int'
                 value={main.verifiCode}
-                placeholder="请输入验证码"
+                placeholder='请输入验证码'
                 onInput={(e) => {
                   action.commonChange('main.verifiCode', e.detail.value);
                 }}
-                  password={false}
+                password={false}
                 maxlength={6}
-                type="text"
+                type='text'
               />
               <SendCode
                 onClick={async (e) => {
@@ -123,7 +123,7 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
             </View>
           )}
           {!main.mode && 
-           <View className="regis-word">
+           <View className='regis-word'>
             <Checkbox
               isCheckbox
               checked={main?.isAgree || false}
@@ -131,7 +131,7 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
                 action.commonChange('main.isAgree', checked);
               }}
             />
-            <View className="regis-word-text">
+            <View className='regis-word-text'>
               我已阅读并同意
               <View
                 onClick={() => {
@@ -139,7 +139,7 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
                     url: '/pages/package-A/login/vip-agreement/index?type=0',
                   });
                 }}
-                className="change-color"
+                className='change-color'
               >
                 《用户协议》
               </View>
@@ -150,7 +150,7 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
                     url: '/pages/package-A/login/vip-agreement/index?type=2',
                   });
                 }}
-                className="change-color"
+                className='change-color'
               >
                 《隐私政策》
               </View>
@@ -159,17 +159,17 @@ export default class LoginForm extends Component<Partial<ILoginFormProps>, T.ILo
         </View>
 
         {/* 登录按钮 */}
-        <View className="submit-btn" onClick={() => action.login(main?.switchLogin)}>
+        <View className='submit-btn' onClick={() => action.login(main?.switchLogin)}>
           登录
         </View>
         {/* 切换登录方式 注册样式 */}
         {!main.mode && 
-        <View className="switch-login">
-          <View className="l-login" onClick={() => this._changeLogin(!main?.switchLogin)}>
+        <View className='switch-login'>
+          <View className='l-login' onClick={() => this._changeLogin(!main?.switchLogin)}>
             {main?.switchLogin ? '短信验证码登录' : '账号密码登录'}
           </View>
           <View
-            className="r-register"
+            className='r-register'
             onClick={() => {
               Taro.navigateTo({
                 url: '/pages/package-A/login/register/index',

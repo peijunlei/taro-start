@@ -1014,3 +1014,8 @@ export function isSafari() {
     return false;
   }
 }
+
+export function isPhoneNumber (phone:string) {
+  // 1开头后面跟10位数字
+  return /^1[3456789]\d{9}$/.test(phone);
+}

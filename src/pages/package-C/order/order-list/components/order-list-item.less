@@ -1,7 +1,7 @@
 @import '../css/style.less';
 
-@import url('assets/style/theme.less');
-@import url('assets/style/mixin.less');
+@import url('@/assets/style/theme.less');
+@import url('@/assets/style/mixin.less');
 
 .taro-modal__foot {
   display: -webkit-box !important;
@@ -214,15 +214,12 @@
 
             .name {
               font-size: 24px;
-              // width: 85%;
               overflow: hidden;
-              // width: 85%;
-              display: -webkit-box;
-              /*! autoprefixer: off */
-              -webkit-box-orient: vertical;
-              /*! autoprefixer: on */
               word-break: break-all;
               overflow: hidden;
+              /*! autoprefixer: off */
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
               -webkit-line-clamp: 2;
             }
 

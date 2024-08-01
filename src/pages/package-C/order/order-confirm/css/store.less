@@ -49,14 +49,13 @@
     width: 600px;
     font-weight: 600;
     padding-left: 8px;
-    /*! autoprefixer: off */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    /*! autoprefixer: off */
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-    /*! autoprefixer: on */
   }
 
   &-arrow {
@@ -122,7 +121,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: start;
+        align-items: flex-start;
         margin-bottom: 24px;
 
         .item-name {
@@ -386,7 +385,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     margin-bottom: 24px;
     .item-namexx {
       width: 80vw;

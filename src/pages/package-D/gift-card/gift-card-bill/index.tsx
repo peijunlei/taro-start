@@ -15,7 +15,7 @@ import {connect} from 'react-redux';
 import * as T from './types';
 import actions from './actions';
 import {store2Props} from './selectors';
-import {WMLoading} from '@/pages/common';
+import WMLoading from '@/pages/common/loading';
 import {fetchMock} from 'wmkit';
 
 import {BackgroundType, CardStatus, InvalidStatus} from 'api/GiftCardController';
