@@ -41,22 +41,21 @@ export default defineConfig(async (merge, { command, mode }) => {
       type: "webpack5",
       prebundle:{
         cacheDir: path.resolve(__dirname, '..', 'cache'),
-        exclude:['@wanmi/ui-taro']
+        exclude:['@wanmi/ui-taro','taro-ui'],
       }
     },
     cache: {
       enable: true, // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
     },
     sass: {
-      // OR
-      // resource: [
-      //   path.resolve(__dirname, '..', 'src/pages/common/style/swipe.scss'),
-      //   path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/modal.scss'),
-      //   path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/switch.scss'),
-      //   path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/tab-bar.scss'),
-      //   path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/badge.scss'),
-      // ],
-      // projectDirectory: path.resolve(__dirname, '..'),
+      resource: [
+        path.resolve(__dirname, '..', 'src/pages/common/style/swipe.scss'),
+        path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/modal.scss'),
+        path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/switch.scss'),
+        path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/tab-bar.scss'),
+        path.resolve(__dirname, '..', 'node_modules/taro-ui/dist/style/components/badge.scss'),
+      ],
+      projectDirectory: path.resolve(__dirname, '..'),
       data: '$nav-height: 48px;',
     },
     mini: {
@@ -97,17 +96,17 @@ export default defineConfig(async (merge, { command, mode }) => {
       },
     },
     h5: {
-      // lessLoaderOption: {
-      //   lessOptions: {
-      //     paths: [
-      //       // path.resolve(__dirname, "node_modules"),
-      //       path.resolve(__dirname, "..", "src"),
-      //     ],
-      //   },
-      // },
+      lessLoaderOption: {
+        lessOptions: {
+          paths: [
+            path.resolve(__dirname, "node_modules"),
+            path.resolve(__dirname, "..", "src"),
+          ],
+        },
+      },
 
       devServer: {
-        // proxy: config.proxy,
+        proxy: config.proxy,
         hot: true,
       },
       router: {
@@ -116,15 +115,15 @@ export default defineConfig(async (merge, { command, mode }) => {
       },
       publicPath: WEB_SITE,
       staticDirectory: "static",
-      esnextModules: ['@wanmi/ui-taro'],
+      esnextModules: ['@wanmi/ui-taro','taro-ui'],
       output: {
-        filename: "js/[name].[contenthash:8].js", // contenthash
-        chunkFilename: "js/[name].[contenthash:8].js",
+        filename: "js/[name].[hash:8].js",
+        chunkFilename: "js/[name].[hash:8].js",
       },
       miniCssExtractPluginOption: {
         ignoreOrder: true,
-        filename: "css/[name].[contenthash].css",
-        chunkFilename: "css/[name].[contenthash].css",
+        filename: "css/[name].[hash:8].css",
+        chunkFilename: "css/[name].[hash:8].css",
       },
       postcss: {
         autoprefixer: {
